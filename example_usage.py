@@ -18,8 +18,6 @@ def example_1_simple_office_visit():
 
     claim = Claim(
         claim_id="CLM001",
-        patient_id="PAT001",
-        diagnosis_codes=["I10", "E11.9"],  # Hypertension, Type 2 diabetes
         lines=[
             ClaimLine(
                 line_number=1,
@@ -43,8 +41,6 @@ def example_1_simple_office_visit():
     repriced = repricer.reprice_claim(claim)
 
     print(f"\nClaim ID: {repriced.claim_id}")
-    print(f"Patient ID: {repriced.patient_id}")
-    print(f"Diagnosis Codes: {', '.join(repriced.diagnosis_codes)}")
     print(f"\nLine Items:")
     print(f"{'Line':<6} {'Procedure':<12} {'Description':<40} {'Allowed':<12}")
     print("-" * 80)
@@ -76,8 +72,6 @@ def example_2_geographic_variation():
     # New York (Manhattan) - High cost area
     claim_ny = Claim(
         claim_id="CLM002-NY",
-        patient_id="PAT002",
-        diagnosis_codes=["M25.511"],  # Pain in right shoulder
         lines=[
             ClaimLine(
                 line_number=1,
@@ -93,8 +87,6 @@ def example_2_geographic_variation():
     # Texas (Dallas) - Lower cost area
     claim_tx = Claim(
         claim_id="CLM002-TX",
-        patient_id="PAT002",
-        diagnosis_codes=["M25.511"],
         lines=[
             ClaimLine(
                 line_number=1,
@@ -139,8 +131,6 @@ def example_3_facility_vs_non_facility():
     # Non-facility (Office)
     claim_office = Claim(
         claim_id="CLM003-OFFICE",
-        patient_id="PAT003",
-        diagnosis_codes=["Z00.00"],  # General health examination
         lines=[
             ClaimLine(
                 line_number=1,
@@ -156,8 +146,6 @@ def example_3_facility_vs_non_facility():
     # Facility (Hospital Outpatient)
     claim_hospital = Claim(
         claim_id="CLM003-HOSPITAL",
-        patient_id="PAT003",
-        diagnosis_codes=["Z00.00"],
         lines=[
             ClaimLine(
                 line_number=1,
@@ -201,8 +189,6 @@ def example_4_modifiers():
 
     claim = Claim(
         claim_id="CLM004",
-        patient_id="PAT004",
-        diagnosis_codes=["R05.9"],  # Cough
         lines=[
             ClaimLine(
                 line_number=1,
@@ -262,8 +248,6 @@ def example_5_multiple_procedures():
 
     claim = Claim(
         claim_id="CLM005",
-        patient_id="PAT005",
-        diagnosis_codes=["S61.001A"],  # Laceration of finger
         lines=[
             ClaimLine(
                 line_number=1,
