@@ -1,0 +1,7 @@
+# Requirements for CMS data download and processing scripts
+# Install with: pip install -r requirements-data.txt
+
+pandas>=2.0.0
+openpyxl>=3.1.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
