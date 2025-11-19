@@ -92,12 +92,15 @@ class MedicareRepricer:
                 is_multiple = len(mppr_procedures) > 1 and line.procedure_code in mppr_procedures
                 procedure_rank = mppr_procedures.index(line.procedure_code) + 1 if is_multiple else 1
 
+                # Determine locality (from locality field or zip code)
+                locality = self._get_locality(line)
+
                 # Calculate Medicare allowed amount
                 allowed_amount, details = self.calculator.calculate_allowed_amount(
                     procedure_code=line.procedure_code,
                     place_of_service=line.place_of_service,
-                    locality=line.locality,
-                    modifier=line.modifier,
+                    locality=locality,
+                    modifiers=line.modifiers,
                     units=line.units,
                     is_multiple_procedure=is_multiple,
                     procedure_rank=procedure_rank
@@ -107,9 +110,10 @@ class MedicareRepricer:
                 repriced_line = RepricedClaimLine(
                     line_number=line.line_number,
                     procedure_code=line.procedure_code,
-                    modifier=line.modifier,
+                    modifiers=line.modifiers,
                     place_of_service=line.place_of_service,
-                    locality=line.locality,
+                    locality=locality,
+                    zip_code=line.zip_code,
                     units=line.units,
                     work_rvu=details["work_rvu"],
                     pe_rvu=details["pe_rvu"],
@@ -126,12 +130,14 @@ class MedicareRepricer:
 
             except ValueError as e:
                 # Create a repriced line with error information
+                locality = self._get_locality(line) if hasattr(line, 'locality') or hasattr(line, 'zip_code') else "00"
                 repriced_line = RepricedClaimLine(
                     line_number=line.line_number,
                     procedure_code=line.procedure_code,
-                    modifier=line.modifier,
+                    modifiers=line.modifiers,
                     place_of_service=line.place_of_service,
-                    locality=line.locality,
+                    locality=locality,
+                    zip_code=line.zip_code,
                     units=line.units,
                     work_rvu=0.0,
                     pe_rvu=0.0,
@@ -196,6 +202,34 @@ class MedicareRepricer:
         if len(line_numbers) != len(set(line_numbers)):
             raise ValueError("Claim line numbers must be unique")
 
+    def _get_locality(self, line) -> str:
+        """
+        Get locality code from claim line.
+
+        If locality is provided, use it directly.
+        If zip_code is provided, map it to a locality.
+
+        Args:
+            line: Claim line with locality or zip_code
+
+        Returns:
+            Locality code
+
+        Raises:
+            ValueError: If neither locality nor zip_code is provided
+        """
+        if line.locality:
+            return line.locality
+        elif line.zip_code:
+            # Use zip code to locality mapping
+            from .zip_to_locality import get_locality_from_zip
+            locality = get_locality_from_zip(line.zip_code)
+            if not locality:
+                raise ValueError(f"Unable to map zip code {line.zip_code} to locality")
+            return locality
+        else:
+            raise ValueError("Either locality or zip_code must be provided")
+
     def _identify_mppr_procedures(self, lines: List) -> List[str]:
         """
         Identify procedures subject to Multiple Procedure Payment Reduction.
@@ -219,7 +253,9 @@ class MedicareRepricer:
         # Get unique procedure codes
         procedures = []
         for line in lines:
-            rvu = self.fee_schedule.get_rvu(line.procedure_code, line.modifier)
+            # Use first modifier for RVU lookup if available
+            first_modifier = line.modifiers[0] if line.modifiers and len(line.modifiers) > 0 else None
+            rvu = self.fee_schedule.get_rvu(line.procedure_code, first_modifier)
             if rvu and rvu.mp_indicator == 2:  # Subject to MPPR
                 # Calculate total RVU for ranking
                 is_facility = self.calculator._is_facility_setting(line.place_of_service)
@@ -235,24 +271,27 @@ class MedicareRepricer:
 
         return [code for code, _ in procedures]
 
-    def get_procedure_info(self, procedure_code: str, modifier: Optional[str] = None) -> Optional[dict]:
+    def get_procedure_info(self, procedure_code: str, modifiers: Optional[List[str]] = None) -> Optional[dict]:
         """
         Get detailed information about a procedure code.
 
         Args:
             procedure_code: CPT or HCPCS code
-            modifier: Optional modifier
+            modifiers: Optional list of modifiers
 
         Returns:
             Dictionary with procedure information, or None if not found
         """
-        rvu = self.fee_schedule.get_rvu(procedure_code, modifier)
+        # Use first modifier for lookup if available
+        first_modifier = modifiers[0] if modifiers and len(modifiers) > 0 else None
+        rvu = self.fee_schedule.get_rvu(procedure_code, first_modifier)
         if not rvu:
             return None
 
         return {
             "procedure_code": rvu.procedure_code,
             "modifier": rvu.modifier,
+            "modifiers": modifiers,
             "description": rvu.description,
             "work_rvu_non_facility": rvu.work_rvu_nf,
             "pe_rvu_non_facility": rvu.pe_rvu_nf,

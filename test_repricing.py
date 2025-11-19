@@ -21,7 +21,7 @@ class TestBasicRepricing:
                 ClaimLine(
                     line_number=1,
                     procedure_code="99213",
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="11",
                     locality="00",
                     units=1
@@ -46,7 +46,7 @@ class TestBasicRepricing:
                 ClaimLine(
                     line_number=1,
                     procedure_code="99213",
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="11",
                     locality="00",
                     units=1
@@ -54,7 +54,7 @@ class TestBasicRepricing:
                 ClaimLine(
                     line_number=2,
                     procedure_code="80053",
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="11",
                     locality="00",
                     units=1
@@ -78,7 +78,7 @@ class TestBasicRepricing:
                 ClaimLine(
                     line_number=1,
                     procedure_code="99213",
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="11",
                     locality="00",
                     units=1
@@ -93,7 +93,7 @@ class TestBasicRepricing:
                 ClaimLine(
                     line_number=1,
                     procedure_code="99213",
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="11",
                     locality="00",
                     units=3
@@ -121,7 +121,7 @@ class TestGeographicAdjustment:
                 ClaimLine(
                     line_number=1,
                     procedure_code="99213",
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="11",
                     locality="00",  # National average
                     units=1
@@ -136,7 +136,7 @@ class TestGeographicAdjustment:
                 ClaimLine(
                     line_number=1,
                     procedure_code="99213",
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="11",
                     locality="01",  # Manhattan
                     units=1
@@ -164,7 +164,7 @@ class TestFacilityVsNonFacility:
                 ClaimLine(
                     line_number=1,
                     procedure_code="99213",
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="11",  # Office
                     locality="00",
                     units=1
@@ -178,7 +178,7 @@ class TestFacilityVsNonFacility:
                 ClaimLine(
                     line_number=1,
                     procedure_code="99213",
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="22",  # Outpatient hospital
                     locality="00",
                     units=1
@@ -206,7 +206,7 @@ class TestModifiers:
                 ClaimLine(
                     line_number=1,
                     procedure_code="71046",
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="22",
                     locality="00",
                     units=1
@@ -220,7 +220,7 @@ class TestModifiers:
                 ClaimLine(
                     line_number=1,
                     procedure_code="71046",
-                    modifier="26",
+                    modifiers=["26"],
                     place_of_service="22",
                     locality="00",
                     units=1
@@ -246,7 +246,7 @@ class TestModifiers:
                 ClaimLine(
                     line_number=1,
                     procedure_code="20610",
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="11",
                     locality="00",
                     units=1
@@ -260,7 +260,7 @@ class TestModifiers:
                 ClaimLine(
                     line_number=1,
                     procedure_code="20610",
-                    modifier="50",
+                    modifiers=["50"],
                     place_of_service="11",
                     locality="00",
                     units=1
@@ -288,7 +288,7 @@ class TestMPPR:
                 ClaimLine(
                     line_number=1,
                     procedure_code="12002",  # Higher RVU - should be first
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="11",
                     locality="00",
                     units=1
@@ -296,7 +296,7 @@ class TestMPPR:
                 ClaimLine(
                     line_number=2,
                     procedure_code="12001",  # Lower RVU - should be second with MPPR
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="11",
                     locality="00",
                     units=1
@@ -323,7 +323,7 @@ class TestValidation:
                 ClaimLine(
                     line_number=1,
                     procedure_code="99213",
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="11",
                     locality="00",
                     units=1
@@ -344,7 +344,7 @@ class TestValidation:
                 ClaimLine(
                     line_number=1,
                     procedure_code="99999",  # Unknown code
-                    modifier=None,
+                    modifiers=None,
                     place_of_service="11",
                     locality="00",
                     units=1
@@ -391,6 +391,203 @@ class TestFeeScheduleQuery:
         info = repricer.get_procedure_info("99999")
 
         assert info is None
+
+
+class TestMultipleModifiers:
+    """Test multiple modifier handling."""
+
+    def test_two_modifiers(self):
+        """Test that two modifiers can be applied to a single procedure."""
+        repricer = MedicareRepricer()
+
+        # Single modifier
+        claim_single_mod = Claim(
+            claim_id="TEST012A",
+            lines=[
+                ClaimLine(
+                    line_number=1,
+                    procedure_code="99214",
+                    modifiers=["50"],
+                    place_of_service="11",
+                    locality="00",
+                    units=1
+                )
+            ]
+        )
+
+        # Two modifiers
+        claim_two_mods = Claim(
+            claim_id="TEST012B",
+            lines=[
+                ClaimLine(
+                    line_number=1,
+                    procedure_code="99214",
+                    modifiers=["50", "59"],
+                    place_of_service="11",
+                    locality="00",
+                    units=1
+                )
+            ]
+        )
+
+        repriced_single = repricer.reprice_claim(claim_single_mod)
+        repriced_two = repricer.reprice_claim(claim_two_mods)
+
+        # Both should have modifiers applied
+        assert repriced_single.lines[0].modifiers == ["50"]
+        assert repriced_two.lines[0].modifiers == ["50", "59"]
+        # Both should have adjustment notes
+        assert repriced_single.lines[0].adjustment_reason is not None
+        assert repriced_two.lines[0].adjustment_reason is not None
+
+    def test_modifier_order_sequential(self):
+        """Test that modifiers are applied sequentially."""
+        repricer = MedicareRepricer()
+
+        # No modifiers
+        claim_none = Claim(
+            claim_id="TEST013A",
+            lines=[
+                ClaimLine(
+                    line_number=1,
+                    procedure_code="99214",
+                    modifiers=None,
+                    place_of_service="11",
+                    locality="00",
+                    units=1
+                )
+            ]
+        )
+
+        # Modifier 52 (50% reduction)
+        claim_mod = Claim(
+            claim_id="TEST013B",
+            lines=[
+                ClaimLine(
+                    line_number=1,
+                    procedure_code="99214",
+                    modifiers=["52"],
+                    place_of_service="11",
+                    locality="00",
+                    units=1
+                )
+            ]
+        )
+
+        repriced_none = repricer.reprice_claim(claim_none)
+        repriced_mod = repricer.reprice_claim(claim_mod)
+
+        # Modifier 52 should reduce payment by 50%
+        expected = repriced_none.total_allowed * 0.5
+        assert abs(repriced_mod.total_allowed - expected) < 0.01
+
+
+class TestZipCodeMapping:
+    """Test zip code to locality mapping."""
+
+    def test_zip_to_locality_mapping(self):
+        """Test that zip codes are correctly mapped to localities."""
+        repricer = MedicareRepricer()
+
+        claim = Claim(
+            claim_id="TEST014",
+            lines=[
+                ClaimLine(
+                    line_number=1,
+                    procedure_code="99214",
+                    modifiers=None,
+                    place_of_service="11",
+                    zip_code="10001",  # Manhattan - should map to locality 01
+                    units=1
+                )
+            ]
+        )
+
+        repriced = repricer.reprice_claim(claim)
+
+        # Check that locality was determined from zip code
+        assert repriced.lines[0].locality == "01"
+        assert repriced.lines[0].zip_code == "10001"
+
+    def test_zip_vs_locality_same_result(self):
+        """Test that using zip code or locality directly gives same result."""
+        repricer = MedicareRepricer()
+
+        # Using locality directly
+        claim_locality = Claim(
+            claim_id="TEST015A",
+            lines=[
+                ClaimLine(
+                    line_number=1,
+                    procedure_code="99214",
+                    modifiers=None,
+                    place_of_service="11",
+                    locality="01",
+                    units=1
+                )
+            ]
+        )
+
+        # Using zip code that maps to same locality
+        claim_zip = Claim(
+            claim_id="TEST015B",
+            lines=[
+                ClaimLine(
+                    line_number=1,
+                    procedure_code="99214",
+                    modifiers=None,
+                    place_of_service="11",
+                    zip_code="10001",  # Maps to locality 01
+                    units=1
+                )
+            ]
+        )
+
+        repriced_locality = repricer.reprice_claim(claim_locality)
+        repriced_zip = repricer.reprice_claim(claim_zip)
+
+        # Should produce same allowed amount
+        assert abs(repriced_locality.total_allowed - repriced_zip.total_allowed) < 0.01
+
+    def test_different_zip_codes_different_amounts(self):
+        """Test that different zip codes produce different allowed amounts."""
+        repricer = MedicareRepricer()
+
+        # Manhattan (high cost)
+        claim_manhattan = Claim(
+            claim_id="TEST016A",
+            lines=[
+                ClaimLine(
+                    line_number=1,
+                    procedure_code="99214",
+                    modifiers=None,
+                    place_of_service="11",
+                    zip_code="10001",  # Manhattan
+                    units=1
+                )
+            ]
+        )
+
+        # National average
+        claim_national = Claim(
+            claim_id="TEST016B",
+            lines=[
+                ClaimLine(
+                    line_number=1,
+                    procedure_code="99214",
+                    modifiers=None,
+                    place_of_service="11",
+                    locality="00",  # National average
+                    units=1
+                )
+            ]
+        )
+
+        repriced_manhattan = repricer.reprice_claim(claim_manhattan)
+        repriced_national = repricer.reprice_claim(claim_national)
+
+        # Manhattan should have different allowed amount
+        assert repriced_manhattan.total_allowed != repriced_national.total_allowed
 
 
 if __name__ == "__main__":

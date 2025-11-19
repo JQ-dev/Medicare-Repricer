@@ -22,7 +22,7 @@ def example_1_simple_office_visit():
             ClaimLine(
                 line_number=1,
                 procedure_code="99213",  # Office visit, established patient
-                modifier=None,
+                modifiers=None,
                 place_of_service="11",  # Office
                 locality="00",  # National average
                 units=1
@@ -30,7 +30,7 @@ def example_1_simple_office_visit():
             ClaimLine(
                 line_number=2,
                 procedure_code="80053",  # Comprehensive metabolic panel
-                modifier=None,
+                modifiers=None,
                 place_of_service="11",
                 locality="00",
                 units=1
@@ -76,7 +76,7 @@ def example_2_geographic_variation():
             ClaimLine(
                 line_number=1,
                 procedure_code="99214",
-                modifier=None,
+                modifiers=None,
                 place_of_service="11",
                 locality="01",  # Manhattan, NY
                 units=1
@@ -91,7 +91,7 @@ def example_2_geographic_variation():
             ClaimLine(
                 line_number=1,
                 procedure_code="99214",
-                modifier=None,
+                modifiers=None,
                 place_of_service="11",
                 locality="26",  # Dallas, TX
                 units=1
@@ -135,7 +135,7 @@ def example_3_facility_vs_non_facility():
             ClaimLine(
                 line_number=1,
                 procedure_code="99203",
-                modifier=None,
+                modifiers=None,
                 place_of_service="11",  # Office
                 locality="00",
                 units=1
@@ -150,7 +150,7 @@ def example_3_facility_vs_non_facility():
             ClaimLine(
                 line_number=1,
                 procedure_code="99203",
-                modifier=None,
+                modifiers=None,
                 place_of_service="22",  # Outpatient Hospital
                 locality="00",
                 units=1
@@ -193,7 +193,7 @@ def example_4_modifiers():
             ClaimLine(
                 line_number=1,
                 procedure_code="71046",  # Chest X-ray, 2 views
-                modifier=None,
+                modifiers=None,
                 place_of_service="22",  # Hospital outpatient
                 locality="00",
                 units=1
@@ -201,7 +201,7 @@ def example_4_modifiers():
             ClaimLine(
                 line_number=2,
                 procedure_code="71046",
-                modifier="26",  # Professional component only
+                modifiers=["26"],  # Professional component only
                 place_of_service="22",
                 locality="00",
                 units=1
@@ -209,7 +209,7 @@ def example_4_modifiers():
             ClaimLine(
                 line_number=3,
                 procedure_code="71046",
-                modifier="TC",  # Technical component only
+                modifiers=["TC"],  # Technical component only
                 place_of_service="22",
                 locality="00",
                 units=1
@@ -230,8 +230,9 @@ def example_4_modifiers():
     }
 
     for line in repriced.lines:
-        desc = descriptions.get(line.modifier, "")
-        modifier_display = line.modifier if line.modifier else "None"
+        modifier_key = line.modifiers[0] if line.modifiers and len(line.modifiers) > 0 else None
+        desc = descriptions.get(modifier_key, "")
+        modifier_display = modifier_key if modifier_key else "None"
         print(f"{modifier_display:<15} {desc:<40} ${line.medicare_allowed:>10.2f}")
 
     print(f"\nNote: Global = Professional + Technical")
@@ -252,7 +253,7 @@ def example_5_multiple_procedures():
             ClaimLine(
                 line_number=1,
                 procedure_code="12001",  # Simple repair, 2.5 cm or less
-                modifier=None,
+                modifiers=None,
                 place_of_service="11",
                 locality="00",
                 units=1
@@ -260,7 +261,7 @@ def example_5_multiple_procedures():
             ClaimLine(
                 line_number=2,
                 procedure_code="12002",  # Simple repair, 2.6 to 7.5 cm
-                modifier=None,
+                modifiers=None,
                 place_of_service="11",
                 locality="00",
                 units=1
@@ -328,6 +329,120 @@ def example_6_query_fee_schedule():
     print()
 
 
+def example_7_two_modifiers():
+    """Example 7: Using two modifiers on a single procedure."""
+    print("=" * 80)
+    print("Example 7: Multiple Modifiers (Two Modifiers on One Line)")
+    print("=" * 80)
+
+    repricer = MedicareRepricer()
+
+    claim = Claim(
+        claim_id="CLM007",
+        lines=[
+            ClaimLine(
+                line_number=1,
+                procedure_code="99214",  # Office visit
+                modifiers=None,
+                place_of_service="11",
+                locality="00",
+                units=1
+            ),
+            ClaimLine(
+                line_number=2,
+                procedure_code="99214",  # Office visit with modifiers
+                modifiers=["50", "59"],  # Bilateral + Distinct procedural service
+                place_of_service="11",
+                locality="00",
+                units=1
+            ),
+        ]
+    )
+
+    repriced = repricer.reprice_claim(claim)
+
+    print(f"\nProcedure: 99214 (Office visit, established patient)")
+    print(f"\n{'Line':<6} {'Modifiers':<20} {'Description':<35} {'Allowed':<12}")
+    print("-" * 80)
+
+    descriptions = {
+        1: "No modifiers (standard payment)",
+        2: "Modifiers 50 + 59 (bilateral + distinct)"
+    }
+
+    for line in repriced.lines:
+        modifiers_str = ", ".join(line.modifiers) if line.modifiers else "None"
+        desc = descriptions.get(line.line_number, "")
+        print(f"{line.line_number:<6} {modifiers_str:<20} {desc:<35} ${line.medicare_allowed:>10.2f}")
+        if line.adjustment_reason:
+            print(f"       Adjustments: {line.adjustment_reason}")
+
+    print(f"\n{'Total Medicare Allowed:':<65} ${repriced.total_allowed:>10.2f}")
+    print(f"\nNote: Modifiers are applied sequentially")
+    print()
+
+
+def example_8_zip_code_to_locality():
+    """Example 8: Using zip code instead of locality."""
+    print("=" * 80)
+    print("Example 8: Zip Code to Locality Mapping")
+    print("=" * 80)
+
+    repricer = MedicareRepricer()
+
+    claim = Claim(
+        claim_id="CLM008",
+        lines=[
+            ClaimLine(
+                line_number=1,
+                procedure_code="99214",
+                modifiers=None,
+                place_of_service="11",
+                zip_code="10001",  # Manhattan, NY - maps to locality 01
+                units=1
+            ),
+            ClaimLine(
+                line_number=2,
+                procedure_code="99214",
+                modifiers=None,
+                place_of_service="11",
+                zip_code="90210",  # Beverly Hills, CA - maps to locality 18
+                units=1
+            ),
+            ClaimLine(
+                line_number=3,
+                procedure_code="99214",
+                modifiers=None,
+                place_of_service="11",
+                zip_code="60601",  # Chicago, IL - maps to locality 16
+                units=1
+            ),
+        ]
+    )
+
+    repriced = repricer.reprice_claim(claim)
+
+    print(f"\nProcedure: 99214 (Office visit, established patient)")
+    print(f"Demonstrating automatic zip code to locality mapping\n")
+    print(f"{'Line':<6} {'Zip Code':<12} {'Locality':<12} {'Location':<20} {'Allowed':<12}")
+    print("-" * 80)
+
+    locations = {
+        "10001": "Manhattan, NY",
+        "90210": "Beverly Hills, CA",
+        "60601": "Chicago, IL"
+    }
+
+    for line in repriced.lines:
+        location = locations.get(line.zip_code, "")
+        print(f"{line.line_number:<6} {line.zip_code:<12} {line.locality:<12} {location:<20} ${line.medicare_allowed:>10.2f}")
+
+    print(f"\n{'Total Medicare Allowed:':<65} ${repriced.total_allowed:>10.2f}")
+    print(f"\nNote: Zip codes are automatically mapped to Medicare locality codes")
+    print(f"      Different localities have different GPCI values, affecting payment")
+    print()
+
+
 def main():
     """Run all examples."""
     print("\n")
@@ -342,6 +457,8 @@ def main():
     example_4_modifiers()
     example_5_multiple_procedures()
     example_6_query_fee_schedule()
+    example_7_two_modifiers()
+    example_8_zip_code_to_locality()
 
     print("=" * 80)
     print("All examples completed successfully!")

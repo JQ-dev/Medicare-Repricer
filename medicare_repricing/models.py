@@ -11,9 +11,10 @@ class ClaimLine(BaseModel):
 
     line_number: int = Field(..., description="Sequential line number", ge=1)
     procedure_code: str = Field(..., description="CPT or HCPCS procedure code")
-    modifier: Optional[str] = Field(None, description="Procedure modifier (e.g., 26, TC, 50)")
+    modifiers: Optional[List[str]] = Field(None, description="Procedure modifiers (up to 2, e.g., ['26', 'TC'])", max_length=2)
     place_of_service: str = Field(..., description="Two-digit place of service code")
-    locality: str = Field(..., description="Medicare locality code for GPCI")
+    locality: Optional[str] = Field(None, description="Medicare locality code for GPCI")
+    zip_code: Optional[str] = Field(None, description="Zip code (will be mapped to locality if locality not provided)")
     units: int = Field(1, description="Number of units", ge=1)
     diagnosis_pointers: Optional[List[int]] = Field(
         None,
@@ -37,6 +38,17 @@ class ClaimLine(BaseModel):
             raise ValueError("Place of service must be a 2-digit code")
         return v
 
+    @field_validator('modifiers')
+    @classmethod
+    def validate_modifiers(cls, v: Optional[List[str]]) -> Optional[List[str]]:
+        """Validate and normalize modifiers."""
+        if v is None:
+            return None
+        if len(v) > 2:
+            raise ValueError("Maximum of 2 modifiers allowed")
+        # Normalize to uppercase and strip whitespace
+        return [m.strip().upper() for m in v if m and m.strip()]
+
 
 class Claim(BaseModel):
     """Represents a complete medical claim."""
@@ -54,9 +66,10 @@ class RepricedClaimLine(BaseModel):
 
     line_number: int
     procedure_code: str
-    modifier: Optional[str]
+    modifiers: Optional[List[str]]
     place_of_service: str
     locality: str
+    zip_code: Optional[str] = None
     units: int
 
     # Original billed amount (if provided)
