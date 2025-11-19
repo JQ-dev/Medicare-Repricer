@@ -1,623 +1,791 @@
 [
   {
     "locality": "00",
-    "locality_name": "National Average",
+    "locality_name": "ALABAMA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.869,
+    "mp_gpci": 0.575
+  },
+  {
+    "locality": "01",
+    "locality_name": "ALASKA*",
+    "work_gpci": 1.5,
+    "pe_gpci": 1.081,
+    "mp_gpci": 0.592
+  },
+  {
+    "locality": "00",
+    "locality_name": "ARIZONA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.975,
+    "mp_gpci": 0.854
+  },
+  {
+    "locality": "13",
+    "locality_name": "ARKANSAS",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.86,
+    "mp_gpci": 0.518
+  },
+  {
+    "locality": "54",
+    "locality_name": "BAKERSFIELD",
+    "work_gpci": 1.017,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.662
+  },
+  {
+    "locality": "55",
+    "locality_name": "CHICO",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "71",
+    "locality_name": "EL CENTRO",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.57
+  },
+  {
+    "locality": "56",
+    "locality_name": "FRESNO",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "57",
+    "locality_name": "HANFORD-CORCORAN",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "18",
+    "locality_name": "LOS ANGELES-LONG BEACH-ANAHEIM (LOS ANGELES/ORANGE CNTY)",
+    "work_gpci": 1.042,
+    "pe_gpci": 1.194,
+    "mp_gpci": 0.69
+  },
+  {
+    "locality": "58",
+    "locality_name": "MADERA",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "59",
+    "locality_name": "MERCED",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "60",
+    "locality_name": "MODESTO",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "51",
+    "locality_name": "NAPA",
+    "work_gpci": 1.058,
+    "pe_gpci": 1.31,
+    "mp_gpci": 0.521
+  },
+  {
+    "locality": "17",
+    "locality_name": "OXNARD-THOUSAND OAKS-VENTURA",
+    "work_gpci": 1.026,
+    "pe_gpci": 1.183,
+    "mp_gpci": 0.651
+  },
+  {
+    "locality": "61",
+    "locality_name": "REDDING",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "62",
+    "locality_name": "RIVERSIDE-SAN BERNARDINO-ONTARIO",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.892
+  },
+  {
+    "locality": "63",
+    "locality_name": "SACRAMENTO-ROSEVILLE-FOLSOM",
+    "work_gpci": 1.034,
+    "pe_gpci": 1.156,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "64",
+    "locality_name": "SALINAS",
+    "work_gpci": 1.035,
+    "pe_gpci": 1.165,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "72",
+    "locality_name": "SAN DIEGO-CHULA VISTA-CARLSBAD",
+    "work_gpci": 1.028,
+    "pe_gpci": 1.191,
+    "mp_gpci": 0.572
+  },
+  {
+    "locality": "05",
+    "locality_name": "SAN FRANCISCO-OAKLAND-BERKELEY (SAN FRANCISCO/SAN MATEO/ALAMEDA/CONTRA COSTA CNTY)",
+    "work_gpci": 1.088,
+    "pe_gpci": 1.419,
+    "mp_gpci": 0.445
+  },
+  {
+    "locality": "52",
+    "locality_name": "SAN FRANCISCO-OAKLAND-BERKELEY (MARIN CNTY)",
+    "work_gpci": 1.088,
+    "pe_gpci": 1.419,
+    "mp_gpci": 0.47
+  },
+  {
+    "locality": "65",
+    "locality_name": "SAN JOSE-SUNNYVALE-SANTA CLARA (SAN BENITO CNTY)",
+    "work_gpci": 1.1,
+    "pe_gpci": 1.435,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "73",
+    "locality_name": "SAN LUIS OBISPO-PASO ROBLES",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.132,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "09",
+    "locality_name": "SAN JOSE-SUNNYVALE-SANTA CLARA (SANTA CLARA CNTY)",
+    "work_gpci": 1.1,
+    "pe_gpci": 1.435,
+    "mp_gpci": 0.42
+  },
+  {
+    "locality": "66",
+    "locality_name": "SANTA CRUZ-WATSONVILLE",
+    "work_gpci": 1.017,
+    "pe_gpci": 1.209,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "74",
+    "locality_name": "SANTA MARIA-SANTA BARBARA",
+    "work_gpci": 1.022,
+    "pe_gpci": 1.175,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "67",
+    "locality_name": "SANTA ROSA-PETALUMA",
+    "work_gpci": 1.027,
+    "pe_gpci": 1.232,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "68",
+    "locality_name": "STOCKTON",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "53",
+    "locality_name": "VALLEJO",
+    "work_gpci": 1.058,
+    "pe_gpci": 1.31,
+    "mp_gpci": 0.47
+  },
+  {
+    "locality": "69",
+    "locality_name": "VISALIA",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "70",
+    "locality_name": "YUBA CITY",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "75",
+    "locality_name": "REST OF CALIFORNIA",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.093,
+    "mp_gpci": 0.56
+  },
+  {
+    "locality": "01",
+    "locality_name": "COLORADO",
+    "work_gpci": 1.008,
+    "pe_gpci": 1.053,
+    "mp_gpci": 0.827
+  },
+  {
+    "locality": "00",
+    "locality_name": "CONNECTICUT",
+    "work_gpci": 1.022,
+    "pe_gpci": 1.091,
+    "mp_gpci": 1.207
+  },
+  {
+    "locality": "01",
+    "locality_name": "DC + MD/VA SUBURBS",
+    "work_gpci": 1.057,
+    "pe_gpci": 1.192,
+    "mp_gpci": 1.168
+  },
+  {
+    "locality": "01",
+    "locality_name": "DELAWARE",
+    "work_gpci": 1.009,
+    "pe_gpci": 0.992,
+    "mp_gpci": 0.949
+  },
+  {
+    "locality": "03",
+    "locality_name": "FORT LAUDERDALE",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.998,
+    "mp_gpci": 1.77
+  },
+  {
+    "locality": "04",
+    "locality_name": "MIAMI",
+    "work_gpci": 1.0,
+    "pe_gpci": 1.027,
+    "mp_gpci": 2.5
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF FLORIDA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.94,
+    "mp_gpci": 1.467
+  },
+  {
+    "locality": "01",
+    "locality_name": "ATLANTA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.997,
+    "mp_gpci": 1.128
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF GEORGIA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.883,
+    "mp_gpci": 1.125
+  },
+  {
+    "locality": "01",
+    "locality_name": "HAWAII, GUAM",
+    "work_gpci": 1.0,
+    "pe_gpci": 1.149,
+    "mp_gpci": 0.561
+  },
+  {
+    "locality": "00",
+    "locality_name": "IDAHO",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.908,
+    "mp_gpci": 0.461
+  },
+  {
+    "locality": "16",
+    "locality_name": "CHICAGO",
+    "work_gpci": 1.007,
+    "pe_gpci": 1.023,
+    "mp_gpci": 2.018
+  },
+  {
+    "locality": "12",
+    "locality_name": "EAST ST. LOUIS",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.918,
+    "mp_gpci": 1.784
+  },
+  {
+    "locality": "15",
+    "locality_name": "SUBURBAN CHICAGO",
+    "work_gpci": 1.007,
+    "pe_gpci": 1.048,
+    "mp_gpci": 1.556
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF ILLINOIS",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.912,
+    "mp_gpci": 1.381
+  },
+  {
+    "locality": "00",
+    "locality_name": "INDIANA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.922,
+    "mp_gpci": 0.485
+  },
+  {
+    "locality": "00",
+    "locality_name": "IOWA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.913,
+    "mp_gpci": 0.457
+  },
+  {
+    "locality": "00",
+    "locality_name": "KANSAS",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.906,
+    "mp_gpci": 0.54
+  },
+  {
+    "locality": "00",
+    "locality_name": "KENTUCKY",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.877,
+    "mp_gpci": 0.913
+  },
+  {
+    "locality": "01",
+    "locality_name": "NEW ORLEANS",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.935,
+    "mp_gpci": 1.156
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF LOUISIANA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.881,
+    "mp_gpci": 0.982
+  },
+  {
+    "locality": "03",
+    "locality_name": "SOUTHERN MAINE",
+    "work_gpci": 1.0,
+    "pe_gpci": 1.012,
+    "mp_gpci": 0.656
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF MAINE",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.913,
+    "mp_gpci": 0.65
+  },
+  {
+    "locality": "01",
+    "locality_name": "BALTIMORE/SURR. CNTYS",
+    "work_gpci": 1.02,
+    "pe_gpci": 1.078,
+    "mp_gpci": 1.309
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF MARYLAND",
+    "work_gpci": 1.012,
+    "pe_gpci": 1.016,
+    "mp_gpci": 0.973
+  },
+  {
+    "locality": "01",
+    "locality_name": "METROPOLITAN BOSTON",
+    "work_gpci": 1.042,
+    "pe_gpci": 1.197,
+    "mp_gpci": 0.894
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF MASSACHUSETTS",
+    "work_gpci": 1.017,
+    "pe_gpci": 1.061,
+    "mp_gpci": 0.796
+  },
+  {
+    "locality": "01",
+    "locality_name": "DETROIT",
+    "work_gpci": 1.003,
+    "pe_gpci": 0.986,
+    "mp_gpci": 1.718
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF MICHIGAN",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.911,
+    "mp_gpci": 1.173
+  },
+  {
+    "locality": "00",
+    "locality_name": "MINNESOTA",
+    "work_gpci": 1.0,
+    "pe_gpci": 1.025,
+    "mp_gpci": 0.3
+  },
+  {
+    "locality": "00",
+    "locality_name": "MISSISSIPPI",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.852,
+    "mp_gpci": 0.768
+  },
+  {
+    "locality": "02",
+    "locality_name": "METROPOLITAN KANSAS CITY",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.948,
+    "mp_gpci": 0.992
+  },
+  {
+    "locality": "01",
+    "locality_name": "METROPOLITAN ST. LOUIS",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.952,
+    "mp_gpci": 0.994
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF MISSOURI",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.859,
+    "mp_gpci": 0.974
+  },
+  {
+    "locality": "01",
+    "locality_name": "MONTANA**",
+    "work_gpci": 1.0,
+    "pe_gpci": 1.0,
+    "mp_gpci": 0.978
+  },
+  {
+    "locality": "00",
+    "locality_name": "NEBRASKA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.917,
+    "mp_gpci": 0.304
+  },
+  {
+    "locality": "00",
+    "locality_name": "NEVADA**",
+    "work_gpci": 1.0,
+    "pe_gpci": 1.0,
+    "mp_gpci": 0.844
+  },
+  {
+    "locality": "40",
+    "locality_name": "NEW HAMPSHIRE",
+    "work_gpci": 1.0,
+    "pe_gpci": 1.034,
+    "mp_gpci": 0.898
+  },
+  {
+    "locality": "01",
+    "locality_name": "NORTHERN NJ",
+    "work_gpci": 1.064,
+    "pe_gpci": 1.172,
+    "mp_gpci": 1.032
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF NEW JERSEY",
+    "work_gpci": 1.042,
+    "pe_gpci": 1.106,
+    "mp_gpci": 1.069
+  },
+  {
+    "locality": "05",
+    "locality_name": "NEW MEXICO",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.908,
+    "mp_gpci": 1.172
+  },
+  {
+    "locality": "01",
+    "locality_name": "MANHATTAN",
+    "work_gpci": 1.065,
+    "pe_gpci": 1.166,
+    "mp_gpci": 1.656
+  },
+  {
+    "locality": "02",
+    "locality_name": "NYC SUBURBS/LONG ISLAND",
+    "work_gpci": 1.065,
+    "pe_gpci": 1.2,
+    "mp_gpci": 1.911
+  },
+  {
+    "locality": "03",
+    "locality_name": "POUGHKPSIE/N NYC SUBURBS",
+    "work_gpci": 1.046,
+    "pe_gpci": 1.106,
+    "mp_gpci": 1.269
+  },
+  {
+    "locality": "04",
+    "locality_name": "QUEENS",
+    "work_gpci": 1.065,
+    "pe_gpci": 1.195,
+    "mp_gpci": 1.462
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF NEW YORK",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.949,
+    "mp_gpci": 0.732
+  },
+  {
+    "locality": "00",
+    "locality_name": "NORTH CAROLINA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.926,
+    "mp_gpci": 0.665
+  },
+  {
+    "locality": "01",
+    "locality_name": "NORTH DAKOTA**",
+    "work_gpci": 1.0,
+    "pe_gpci": 1.0,
+    "mp_gpci": 0.517
+  },
+  {
+    "locality": "00",
+    "locality_name": "OHIO",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.911,
+    "mp_gpci": 1.033
+  },
+  {
+    "locality": "00",
+    "locality_name": "OKLAHOMA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.891,
+    "mp_gpci": 0.813
+  },
+  {
+    "locality": "01",
+    "locality_name": "PORTLAND",
+    "work_gpci": 1.013,
+    "pe_gpci": 1.103,
+    "mp_gpci": 0.688
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF OREGON",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.986,
+    "mp_gpci": 0.643
+  },
+  {
+    "locality": "01",
+    "locality_name": "METROPOLITAN PHILADELPHIA",
+    "work_gpci": 1.024,
+    "pe_gpci": 1.053,
+    "mp_gpci": 1.177
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF PENNSYLVANIA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.927,
+    "mp_gpci": 0.925
+  },
+  {
+    "locality": "20",
+    "locality_name": "PUERTO RICO",
+    "work_gpci": 1.0,
+    "pe_gpci": 1.007,
+    "mp_gpci": 0.982
+  },
+  {
+    "locality": "01",
+    "locality_name": "RHODE ISLAND",
+    "work_gpci": 1.025,
+    "pe_gpci": 1.039,
+    "mp_gpci": 0.849
+  },
+  {
+    "locality": "01",
+    "locality_name": "SOUTH CAROLINA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.913,
+    "mp_gpci": 0.817
+  },
+  {
+    "locality": "02",
+    "locality_name": "SOUTH DAKOTA**",
+    "work_gpci": 1.0,
+    "pe_gpci": 1.0,
+    "mp_gpci": 0.382
+  },
+  {
+    "locality": "35",
+    "locality_name": "TENNESSEE",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.896,
+    "mp_gpci": 0.544
+  },
+  {
+    "locality": "31",
+    "locality_name": "AUSTIN",
+    "work_gpci": 1.0,
+    "pe_gpci": 1.046,
+    "mp_gpci": 0.914
+  },
+  {
+    "locality": "20",
+    "locality_name": "BEAUMONT",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.903,
+    "mp_gpci": 0.947
+  },
+  {
+    "locality": "09",
+    "locality_name": "BRAZORIA",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.006,
+    "mp_gpci": 0.795
+  },
+  {
+    "locality": "11",
+    "locality_name": "DALLAS",
+    "work_gpci": 1.011,
+    "pe_gpci": 1.007,
+    "mp_gpci": 0.877
+  },
+  {
+    "locality": "28",
+    "locality_name": "FORT WORTH",
+    "work_gpci": 1.011,
+    "pe_gpci": 0.998,
+    "mp_gpci": 0.902
+  },
+  {
+    "locality": "15",
+    "locality_name": "GALVESTON",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.0,
+    "mp_gpci": 0.855
+  },
+  {
+    "locality": "18",
+    "locality_name": "HOUSTON",
+    "work_gpci": 1.014,
+    "pe_gpci": 1.003,
+    "mp_gpci": 1.409
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF TEXAS",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.945,
+    "mp_gpci": 0.934
+  },
+  {
+    "locality": "09",
+    "locality_name": "UTAH",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.933,
+    "mp_gpci": 0.93
+  },
+  {
+    "locality": "50",
+    "locality_name": "VERMONT",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.993,
+    "mp_gpci": 0.518
+  },
+  {
+    "locality": "00",
+    "locality_name": "VIRGINIA",
+    "work_gpci": 1.002,
+    "pe_gpci": 0.984,
+    "mp_gpci": 0.755
+  },
+  {
+    "locality": "50",
+    "locality_name": "VIRGIN ISLANDS",
+    "work_gpci": 1.0,
+    "pe_gpci": 1.007,
+    "mp_gpci": 0.982
+  },
+  {
+    "locality": "02",
+    "locality_name": "SEATTLE (KING CNTY)",
+    "work_gpci": 1.043,
+    "pe_gpci": 1.22,
+    "mp_gpci": 0.853
+  },
+  {
+    "locality": "99",
+    "locality_name": "REST OF WASHINGTON",
+    "work_gpci": 1.007,
+    "pe_gpci": 1.04,
+    "mp_gpci": 0.803
+  },
+  {
+    "locality": "16",
+    "locality_name": "WEST VIRGINIA",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.862,
+    "mp_gpci": 1.333
+  },
+  {
+    "locality": "00",
+    "locality_name": "WISCONSIN",
+    "work_gpci": 1.0,
+    "pe_gpci": 0.957,
+    "mp_gpci": 0.331
+  },
+  {
+    "locality": "21",
+    "locality_name": "WYOMING**",
+    "work_gpci": 1.0,
+    "pe_gpci": 1.0,
+    "mp_gpci": 0.739
+  },
+  {
+    "locality": "",
+    "locality_name": "",
     "work_gpci": 1.0,
     "pe_gpci": 1.0,
     "mp_gpci": 1.0
   },
   {
-    "locality": "01",
-    "locality_name": "Manhattan, NY",
-    "work_gpci": 1.094,
-    "pe_gpci": 1.385,
-    "mp_gpci": 1.797
-  },
-  {
-    "locality": "02",
-    "locality_name": "New York City Suburbs, NY",
-    "work_gpci": 1.066,
-    "pe_gpci": 1.293,
-    "mp_gpci": 1.797
-  },
-  {
-    "locality": "03",
-    "locality_name": "Nassau County, NY",
-    "work_gpci": 1.068,
-    "pe_gpci": 1.337,
-    "mp_gpci": 1.797
-  },
-  {
-    "locality": "04",
-    "locality_name": "Queens, NY",
-    "work_gpci": 1.058,
-    "pe_gpci": 1.261,
-    "mp_gpci": 1.797
-  },
-  {
-    "locality": "05",
-    "locality_name": "Rest of New York",
-    "work_gpci": 0.986,
-    "pe_gpci": 0.944,
-    "mp_gpci": 0.798
-  },
-  {
-    "locality": "06",
-    "locality_name": "Poughkeepsie, NY",
-    "work_gpci": 1.017,
-    "pe_gpci": 1.093,
-    "mp_gpci": 1.158
-  },
-  {
-    "locality": "07",
-    "locality_name": "Philadelphia, PA",
-    "work_gpci": 1.025,
-    "pe_gpci": 1.113,
-    "mp_gpci": 1.471
-  },
-  {
-    "locality": "08",
-    "locality_name": "Southeast Pennsylvania",
-    "work_gpci": 1.008,
-    "pe_gpci": 1.031,
-    "mp_gpci": 1.104
-  },
-  {
-    "locality": "09",
-    "locality_name": "Rest of Pennsylvania",
-    "work_gpci": 0.982,
-    "pe_gpci": 0.929,
-    "mp_gpci": 0.962
-  },
-  {
-    "locality": "10",
-    "locality_name": "New Jersey",
-    "work_gpci": 1.046,
-    "pe_gpci": 1.191,
-    "mp_gpci": 1.327
-  },
-  {
-    "locality": "11",
-    "locality_name": "Washington DC, MD/VA",
-    "work_gpci": 1.067,
-    "pe_gpci": 1.185,
-    "mp_gpci": 1.085
-  },
-  {
-    "locality": "12",
-    "locality_name": "Baltimore, MD",
-    "work_gpci": 1.033,
-    "pe_gpci": 1.078,
-    "mp_gpci": 1.093
-  },
-  {
-    "locality": "13",
-    "locality_name": "Rest of Maryland",
-    "work_gpci": 1.003,
-    "pe_gpci": 1.017,
-    "mp_gpci": 0.892
-  },
-  {
-    "locality": "14",
-    "locality_name": "Delaware",
-    "work_gpci": 1.013,
-    "pe_gpci": 1.043,
-    "mp_gpci": 1.039
-  },
-  {
-    "locality": "15",
-    "locality_name": "Northern Virginia",
-    "work_gpci": 1.067,
-    "pe_gpci": 1.185,
-    "mp_gpci": 0.802
-  },
-  {
-    "locality": "16",
-    "locality_name": "Rest of Virginia",
-    "work_gpci": 0.992,
-    "pe_gpci": 0.942,
-    "mp_gpci": 0.664
-  },
-  {
-    "locality": "17",
-    "locality_name": "West Virginia",
-    "work_gpci": 0.969,
-    "pe_gpci": 0.863,
-    "mp_gpci": 0.786
-  },
-  {
-    "locality": "18",
-    "locality_name": "North Carolina",
-    "work_gpci": 0.995,
-    "pe_gpci": 0.976,
-    "mp_gpci": 0.859
-  },
-  {
-    "locality": "19",
-    "locality_name": "South Carolina",
-    "work_gpci": 0.987,
-    "pe_gpci": 0.928,
-    "mp_gpci": 0.957
-  },
-  {
-    "locality": "20",
-    "locality_name": "Georgia",
-    "work_gpci": 0.997,
-    "pe_gpci": 0.979,
-    "mp_gpci": 1.059
-  },
-  {
-    "locality": "21",
-    "locality_name": "Florida",
+    "locality": "",
+    "locality_name": "",
     "work_gpci": 1.0,
-    "pe_gpci": 1.038,
-    "mp_gpci": 2.168
+    "pe_gpci": 1.0,
+    "mp_gpci": 1.0
   },
   {
-    "locality": "22",
-    "locality_name": "Fort Lauderdale, FL",
-    "work_gpci": 1.012,
-    "pe_gpci": 1.074,
-    "mp_gpci": 2.168
-  },
-  {
-    "locality": "23",
-    "locality_name": "Miami, FL",
-    "work_gpci": 1.023,
-    "pe_gpci": 1.125,
-    "mp_gpci": 2.168
-  },
-  {
-    "locality": "24",
-    "locality_name": "Kentucky",
-    "work_gpci": 0.975,
-    "pe_gpci": 0.899,
-    "mp_gpci": 0.787
-  },
-  {
-    "locality": "25",
-    "locality_name": "Ohio",
-    "work_gpci": 0.989,
-    "pe_gpci": 0.936,
-    "mp_gpci": 0.963
-  },
-  {
-    "locality": "26",
-    "locality_name": "Cleveland, OH",
-    "work_gpci": 1.002,
-    "pe_gpci": 0.998,
-    "mp_gpci": 1.145
-  },
-  {
-    "locality": "27",
-    "locality_name": "Columbus, OH",
-    "work_gpci": 0.998,
-    "pe_gpci": 0.97,
-    "mp_gpci": 1.008
-  },
-  {
-    "locality": "28",
-    "locality_name": "Indiana",
-    "work_gpci": 0.984,
-    "pe_gpci": 0.924,
-    "mp_gpci": 0.738
-  },
-  {
-    "locality": "29",
-    "locality_name": "Illinois",
-    "work_gpci": 0.997,
-    "pe_gpci": 0.968,
-    "mp_gpci": 1.129
-  },
-  {
-    "locality": "30",
-    "locality_name": "Chicago, IL",
-    "work_gpci": 1.004,
-    "pe_gpci": 1.041,
-    "mp_gpci": 1.306
-  },
-  {
-    "locality": "31",
-    "locality_name": "Michigan",
-    "work_gpci": 0.997,
-    "pe_gpci": 0.963,
-    "mp_gpci": 1.586
-  },
-  {
-    "locality": "32",
-    "locality_name": "Detroit, MI",
-    "work_gpci": 1.012,
-    "pe_gpci": 1.024,
-    "mp_gpci": 2.068
-  },
-  {
-    "locality": "33",
-    "locality_name": "Wisconsin",
-    "work_gpci": 0.987,
-    "pe_gpci": 0.946,
-    "mp_gpci": 0.883
-  },
-  {
-    "locality": "34",
-    "locality_name": "Minnesota",
-    "work_gpci": 0.997,
-    "pe_gpci": 0.982,
-    "mp_gpci": 0.67
-  },
-  {
-    "locality": "35",
-    "locality_name": "Iowa",
-    "work_gpci": 0.973,
-    "pe_gpci": 0.893,
-    "mp_gpci": 0.608
-  },
-  {
-    "locality": "36",
-    "locality_name": "North Dakota",
-    "work_gpci": 0.969,
-    "pe_gpci": 0.892,
-    "mp_gpci": 0.548
-  },
-  {
-    "locality": "37",
-    "locality_name": "South Dakota",
-    "work_gpci": 0.967,
-    "pe_gpci": 0.858,
-    "mp_gpci": 0.584
-  },
-  {
-    "locality": "38",
-    "locality_name": "Nebraska",
-    "work_gpci": 0.975,
-    "pe_gpci": 0.904,
-    "mp_gpci": 0.649
-  },
-  {
-    "locality": "39",
-    "locality_name": "Kansas",
-    "work_gpci": 0.977,
-    "pe_gpci": 0.913,
-    "mp_gpci": 0.755
-  },
-  {
-    "locality": "40",
-    "locality_name": "Missouri",
-    "work_gpci": 0.984,
-    "pe_gpci": 0.928,
-    "mp_gpci": 0.835
-  },
-  {
-    "locality": "41",
-    "locality_name": "St. Louis, MO",
-    "work_gpci": 0.998,
-    "pe_gpci": 0.973,
-    "mp_gpci": 0.946
-  },
-  {
-    "locality": "42",
-    "locality_name": "Tennessee",
-    "work_gpci": 0.983,
-    "pe_gpci": 0.925,
-    "mp_gpci": 0.795
-  },
-  {
-    "locality": "43",
-    "locality_name": "Mississippi",
-    "work_gpci": 0.969,
-    "pe_gpci": 0.869,
-    "mp_gpci": 1.054
-  },
-  {
-    "locality": "44",
-    "locality_name": "Louisiana",
-    "work_gpci": 0.981,
-    "pe_gpci": 0.934,
-    "mp_gpci": 1.156
-  },
-  {
-    "locality": "45",
-    "locality_name": "New Orleans, LA",
-    "work_gpci": 0.99,
-    "pe_gpci": 0.963,
-    "mp_gpci": 1.288
-  },
-  {
-    "locality": "46",
-    "locality_name": "Arkansas",
-    "work_gpci": 0.967,
-    "pe_gpci": 0.869,
-    "mp_gpci": 0.813
-  },
-  {
-    "locality": "47",
-    "locality_name": "Oklahoma",
-    "work_gpci": 0.976,
-    "pe_gpci": 0.903,
-    "mp_gpci": 0.711
-  },
-  {
-    "locality": "48",
-    "locality_name": "Texas",
-    "work_gpci": 0.994,
-    "pe_gpci": 0.966,
-    "mp_gpci": 0.933
-  },
-  {
-    "locality": "49",
-    "locality_name": "Dallas, TX",
-    "work_gpci": 1.003,
-    "pe_gpci": 0.987,
-    "mp_gpci": 0.917
-  },
-  {
-    "locality": "50",
-    "locality_name": "Houston, TX",
-    "work_gpci": 1.005,
-    "pe_gpci": 1.004,
-    "mp_gpci": 1.026
-  },
-  {
-    "locality": "51",
-    "locality_name": "Austin, TX",
-    "work_gpci": 0.998,
-    "pe_gpci": 0.983,
-    "mp_gpci": 0.828
-  },
-  {
-    "locality": "52",
-    "locality_name": "Fort Worth, TX",
-    "work_gpci": 0.998,
-    "pe_gpci": 0.965,
-    "mp_gpci": 0.886
-  },
-  {
-    "locality": "53",
-    "locality_name": "Montana",
-    "work_gpci": 0.969,
-    "pe_gpci": 0.904,
-    "mp_gpci": 0.557
-  },
-  {
-    "locality": "54",
-    "locality_name": "Idaho",
-    "work_gpci": 0.969,
-    "pe_gpci": 0.905,
-    "mp_gpci": 0.62
-  },
-  {
-    "locality": "55",
-    "locality_name": "Wyoming",
-    "work_gpci": 0.972,
-    "pe_gpci": 0.903,
-    "mp_gpci": 0.62
-  },
-  {
-    "locality": "56",
-    "locality_name": "Colorado",
-    "work_gpci": 0.998,
-    "pe_gpci": 0.992,
-    "mp_gpci": 0.696
-  },
-  {
-    "locality": "57",
-    "locality_name": "Denver, CO",
-    "work_gpci": 1.006,
-    "pe_gpci": 1.013,
-    "mp_gpci": 0.762
-  },
-  {
-    "locality": "58",
-    "locality_name": "New Mexico",
-    "work_gpci": 0.978,
-    "pe_gpci": 0.925,
-    "mp_gpci": 0.782
-  },
-  {
-    "locality": "59",
-    "locality_name": "Arizona",
-    "work_gpci": 0.995,
-    "pe_gpci": 0.989,
-    "mp_gpci": 0.776
-  },
-  {
-    "locality": "60",
-    "locality_name": "Phoenix, AZ",
+    "locality": "",
+    "locality_name": "",
     "work_gpci": 1.0,
-    "pe_gpci": 1.003,
-    "mp_gpci": 0.836
+    "pe_gpci": 1.0,
+    "mp_gpci": 1.0
   },
   {
-    "locality": "61",
-    "locality_name": "Utah",
-    "work_gpci": 0.983,
-    "pe_gpci": 0.953,
-    "mp_gpci": 0.587
-  },
-  {
-    "locality": "62",
-    "locality_name": "Nevada",
-    "work_gpci": 1.007,
-    "pe_gpci": 1.047,
-    "mp_gpci": 1.003
-  },
-  {
-    "locality": "63",
-    "locality_name": "Las Vegas, NV",
-    "work_gpci": 1.01,
-    "pe_gpci": 1.055,
-    "mp_gpci": 1.055
-  },
-  {
-    "locality": "64",
-    "locality_name": "California",
-    "work_gpci": 1.017,
-    "pe_gpci": 1.105,
-    "mp_gpci": 0.556
-  },
-  {
-    "locality": "65",
-    "locality_name": "Los Angeles, CA",
-    "work_gpci": 1.037,
-    "pe_gpci": 1.189,
-    "mp_gpci": 0.681
-  },
-  {
-    "locality": "66",
-    "locality_name": "Anaheim, CA",
-    "work_gpci": 1.028,
-    "pe_gpci": 1.167,
-    "mp_gpci": 0.663
-  },
-  {
-    "locality": "67",
-    "locality_name": "San Francisco, CA",
-    "work_gpci": 1.088,
-    "pe_gpci": 1.419,
-    "mp_gpci": 0.682
-  },
-  {
-    "locality": "68",
-    "locality_name": "Oakland, CA",
-    "work_gpci": 1.069,
-    "pe_gpci": 1.354,
-    "mp_gpci": 0.682
-  },
-  {
-    "locality": "69",
-    "locality_name": "San Jose, CA",
-    "work_gpci": 1.08,
-    "pe_gpci": 1.421,
-    "mp_gpci": 0.682
-  },
-  {
-    "locality": "70",
-    "locality_name": "San Diego, CA",
-    "work_gpci": 1.026,
-    "pe_gpci": 1.158,
-    "mp_gpci": 0.682
-  },
-  {
-    "locality": "71",
-    "locality_name": "Ventura, CA",
-    "work_gpci": 1.025,
-    "pe_gpci": 1.153,
-    "mp_gpci": 0.649
-  },
-  {
-    "locality": "72",
-    "locality_name": "Riverside, CA",
-    "work_gpci": 1.014,
-    "pe_gpci": 1.092,
-    "mp_gpci": 0.599
-  },
-  {
-    "locality": "73",
-    "locality_name": "Sacramento, CA",
-    "work_gpci": 1.019,
-    "pe_gpci": 1.117,
-    "mp_gpci": 0.555
-  },
-  {
-    "locality": "74",
-    "locality_name": "Hawaii",
-    "work_gpci": 1.014,
-    "pe_gpci": 1.107,
-    "mp_gpci": 0.606
-  },
-  {
-    "locality": "75",
-    "locality_name": "Oregon",
-    "work_gpci": 0.998,
-    "pe_gpci": 1.006,
-    "mp_gpci": 0.598
-  },
-  {
-    "locality": "76",
-    "locality_name": "Portland, OR",
-    "work_gpci": 1.009,
-    "pe_gpci": 1.042,
-    "mp_gpci": 0.691
-  },
-  {
-    "locality": "77",
-    "locality_name": "Washington",
-    "work_gpci": 1.011,
-    "pe_gpci": 1.051,
-    "mp_gpci": 0.632
-  },
-  {
-    "locality": "78",
-    "locality_name": "Seattle, WA",
-    "work_gpci": 1.027,
-    "pe_gpci": 1.125,
-    "mp_gpci": 0.697
-  },
-  {
-    "locality": "79",
-    "locality_name": "Alaska",
-    "work_gpci": 1.03,
-    "pe_gpci": 1.166,
-    "mp_gpci": 0.787
-  },
-  {
-    "locality": "80",
-    "locality_name": "Alabama",
-    "work_gpci": 0.976,
-    "pe_gpci": 0.901,
-    "mp_gpci": 1.01
-  },
-  {
-    "locality": "81",
-    "locality_name": "Connecticut",
-    "work_gpci": 1.044,
-    "pe_gpci": 1.152,
-    "mp_gpci": 0.783
-  },
-  {
-    "locality": "82",
-    "locality_name": "Maine",
-    "work_gpci": 0.984,
-    "pe_gpci": 0.958,
-    "mp_gpci": 0.675
-  },
-  {
-    "locality": "83",
-    "locality_name": "Massachusetts",
-    "work_gpci": 1.031,
-    "pe_gpci": 1.142,
-    "mp_gpci": 0.686
-  },
-  {
-    "locality": "84",
-    "locality_name": "Boston, MA",
-    "work_gpci": 1.039,
-    "pe_gpci": 1.179,
-    "mp_gpci": 0.741
-  },
-  {
-    "locality": "85",
-    "locality_name": "New Hampshire",
-    "work_gpci": 0.999,
-    "pe_gpci": 1.037,
-    "mp_gpci": 0.567
-  },
-  {
-    "locality": "86",
-    "locality_name": "Rhode Island",
-    "work_gpci": 1.015,
-    "pe_gpci": 1.068,
-    "mp_gpci": 0.746
-  },
-  {
-    "locality": "87",
-    "locality_name": "Vermont",
-    "work_gpci": 0.983,
-    "pe_gpci": 0.978,
-    "mp_gpci": 0.571
-  },
-  {
-    "locality": "99",
-    "locality_name": "Default/Office",
+    "locality": "",
+    "locality_name": "",
     "work_gpci": 1.0,
     "pe_gpci": 1.0,
     "mp_gpci": 1.0
