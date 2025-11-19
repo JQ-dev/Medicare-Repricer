@@ -67,7 +67,7 @@ class MedicareRepricer:
         5. Returns a detailed repriced claim
 
         Args:
-            claim: Input claim with diagnosis codes and procedure lines
+            claim: Input claim with procedure lines
 
         Returns:
             RepricedClaim with Medicare allowed amounts and calculation details
@@ -151,8 +151,6 @@ class MedicareRepricer:
         # Create repriced claim
         repriced_claim = RepricedClaim(
             claim_id=claim.claim_id,
-            patient_id=claim.patient_id,
-            diagnosis_codes=claim.diagnosis_codes,
             lines=repriced_lines,
             total_allowed=total_allowed,
             repricing_date=datetime.now().isoformat()
@@ -189,9 +187,6 @@ class MedicareRepricer:
         """
         if not claim.claim_id or not claim.claim_id.strip():
             raise ValueError("Claim ID is required")
-
-        if not claim.diagnosis_codes:
-            raise ValueError("At least one diagnosis code is required")
 
         if not claim.lines:
             raise ValueError("At least one claim line is required")

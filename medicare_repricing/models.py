@@ -42,25 +42,11 @@ class Claim(BaseModel):
     """Represents a complete medical claim."""
 
     claim_id: str = Field(..., description="Unique claim identifier")
-    patient_id: str = Field(..., description="Patient identifier")
-    diagnosis_codes: List[str] = Field(
-        ...,
-        description="List of ICD-10 diagnosis codes",
-        min_length=1
-    )
     lines: List[ClaimLine] = Field(
         ...,
         description="List of claim line items",
         min_length=1
     )
-
-    @field_validator('diagnosis_codes')
-    @classmethod
-    def validate_diagnosis_codes(cls, v: List[str]) -> List[str]:
-        """Validate and normalize diagnosis codes."""
-        if not v:
-            raise ValueError("At least one diagnosis code is required")
-        return [code.strip().upper() for code in v]
 
 
 class RepricedClaimLine(BaseModel):
@@ -99,8 +85,6 @@ class RepricedClaim(BaseModel):
     """Represents a fully repriced claim."""
 
     claim_id: str
-    patient_id: str
-    diagnosis_codes: List[str]
     lines: List[RepricedClaimLine]
 
     # Calculated totals

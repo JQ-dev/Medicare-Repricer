@@ -17,8 +17,6 @@ class TestBasicRepricing:
 
         claim = Claim(
             claim_id="TEST001",
-            patient_id="PAT001",
-            diagnosis_codes=["I10"],
             lines=[
                 ClaimLine(
                     line_number=1,
@@ -44,8 +42,6 @@ class TestBasicRepricing:
 
         claim = Claim(
             claim_id="TEST002",
-            patient_id="PAT002",
-            diagnosis_codes=["I10", "E11.9"],
             lines=[
                 ClaimLine(
                     line_number=1,
@@ -78,8 +74,6 @@ class TestBasicRepricing:
         # Single unit
         claim_single = Claim(
             claim_id="TEST003A",
-            patient_id="PAT003",
-            diagnosis_codes=["I10"],
             lines=[
                 ClaimLine(
                     line_number=1,
@@ -95,8 +89,6 @@ class TestBasicRepricing:
         # Three units
         claim_triple = Claim(
             claim_id="TEST003B",
-            patient_id="PAT003",
-            diagnosis_codes=["I10"],
             lines=[
                 ClaimLine(
                     line_number=1,
@@ -125,8 +117,6 @@ class TestGeographicAdjustment:
         # National average
         claim_national = Claim(
             claim_id="TEST004A",
-            patient_id="PAT004",
-            diagnosis_codes=["I10"],
             lines=[
                 ClaimLine(
                     line_number=1,
@@ -142,8 +132,6 @@ class TestGeographicAdjustment:
         # Manhattan (higher cost)
         claim_manhattan = Claim(
             claim_id="TEST004B",
-            patient_id="PAT004",
-            diagnosis_codes=["I10"],
             lines=[
                 ClaimLine(
                     line_number=1,
@@ -172,10 +160,7 @@ class TestFacilityVsNonFacility:
 
         # Office (non-facility)
         claim_office = Claim(
-            claim_id="TEST005A",
-            patient_id="PAT005",
-            diagnosis_codes=["I10"],
-            lines=[
+            claim_id="TEST005A",            lines=[
                 ClaimLine(
                     line_number=1,
                     procedure_code="99213",
@@ -189,10 +174,7 @@ class TestFacilityVsNonFacility:
 
         # Hospital outpatient (facility)
         claim_hospital = Claim(
-            claim_id="TEST005B",
-            patient_id="PAT005",
-            diagnosis_codes=["I10"],
-            lines=[
+            claim_id="TEST005B",            lines=[
                 ClaimLine(
                     line_number=1,
                     procedure_code="99213",
@@ -220,10 +202,7 @@ class TestModifiers:
 
         # Global
         claim_global = Claim(
-            claim_id="TEST006A",
-            patient_id="PAT006",
-            diagnosis_codes=["R05.9"],
-            lines=[
+            claim_id="TEST006A",            lines=[
                 ClaimLine(
                     line_number=1,
                     procedure_code="71046",
@@ -237,10 +216,7 @@ class TestModifiers:
 
         # Professional component only
         claim_prof = Claim(
-            claim_id="TEST006B",
-            patient_id="PAT006",
-            diagnosis_codes=["R05.9"],
-            lines=[
+            claim_id="TEST006B",            lines=[
                 ClaimLine(
                     line_number=1,
                     procedure_code="71046",
@@ -266,10 +242,7 @@ class TestModifiers:
 
         # Single procedure
         claim_single = Claim(
-            claim_id="TEST007A",
-            patient_id="PAT007",
-            diagnosis_codes=["M25.511"],
-            lines=[
+            claim_id="TEST007A",            lines=[
                 ClaimLine(
                     line_number=1,
                     procedure_code="20610",
@@ -283,10 +256,7 @@ class TestModifiers:
 
         # Bilateral procedure
         claim_bilateral = Claim(
-            claim_id="TEST007B",
-            patient_id="PAT007",
-            diagnosis_codes=["M25.511", "M25.512"],
-            lines=[
+            claim_id="TEST007B",            lines=[
                 ClaimLine(
                     line_number=1,
                     procedure_code="20610",
@@ -314,10 +284,7 @@ class TestMPPR:
         repricer = MedicareRepricer()
 
         claim = Claim(
-            claim_id="TEST008",
-            patient_id="PAT008",
-            diagnosis_codes=["S61.001A"],
-            lines=[
+            claim_id="TEST008",            lines=[
                 ClaimLine(
                     line_number=1,
                     procedure_code="12002",  # Higher RVU - should be first
@@ -352,8 +319,6 @@ class TestValidation:
 
         claim = Claim(
             claim_id="",
-            patient_id="PAT009",
-            diagnosis_codes=["I10"],
             lines=[
                 ClaimLine(
                     line_number=1,
@@ -369,33 +334,12 @@ class TestValidation:
         with pytest.raises(ValueError, match="Claim ID"):
             repricer.reprice_claim(claim)
 
-    def test_missing_diagnosis_codes(self):
-        """Test that missing diagnosis codes raises error."""
-        with pytest.raises(ValueError):
-            claim = Claim(
-                claim_id="TEST010",
-                patient_id="PAT010",
-                diagnosis_codes=[],
-                lines=[
-                    ClaimLine(
-                        line_number=1,
-                        procedure_code="99213",
-                        modifier=None,
-                        place_of_service="11",
-                        locality="00",
-                        units=1
-                    )
-                ]
-            )
-
     def test_invalid_procedure_code(self):
         """Test handling of unknown procedure code."""
         repricer = MedicareRepricer()
 
         claim = Claim(
             claim_id="TEST011",
-            patient_id="PAT011",
-            diagnosis_codes=["I10"],
             lines=[
                 ClaimLine(
                     line_number=1,
