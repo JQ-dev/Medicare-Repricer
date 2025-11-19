@@ -49,12 +49,13 @@ class MedicareFeeSchedule:
     Manages RVU data and GPCI data for Medicare pricing calculations.
     """
 
-    def __init__(self, conversion_factor: float = 33.2875):
+    def __init__(self, conversion_factor: float = 32.35):
         """
         Initialize the fee schedule.
 
         Args:
-            conversion_factor: Medicare conversion factor (2024 value is $33.2875)
+            conversion_factor: Medicare conversion factor (2025 value is $32.35)
+                              Previous years: 2024=$33.2875, 2023=$33.8872
         """
         self.conversion_factor = conversion_factor
         self.rvu_data: Dict[str, RVUData] = {}
@@ -146,11 +147,12 @@ def create_default_fee_schedule() -> MedicareFeeSchedule:
     Create a fee schedule with default sample data.
 
     This includes commonly used CPT codes with realistic RVU values.
+    Uses 2025 Medicare conversion factor.
 
     Returns:
         MedicareFeeSchedule with sample data loaded
     """
-    fee_schedule = MedicareFeeSchedule(conversion_factor=33.2875)
+    fee_schedule = MedicareFeeSchedule(conversion_factor=32.35)
 
     # Add sample RVU data for common procedures
     sample_rvus = [
