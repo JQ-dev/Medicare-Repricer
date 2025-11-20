@@ -8,7 +8,7 @@ Implements official Medicare payment formulas including:
 - Modifier adjustments
 """
 
-from typing import Optional, Tuple
+from typing import Optional, Tuple, List
 from .fee_schedule import MedicareFeeSchedule, RVUData, GPCIData
 
 
@@ -41,7 +41,7 @@ class MedicareCalculator:
         procedure_code: str,
         place_of_service: str,
         locality: str,
-        modifier: Optional[str] = None,
+        modifiers: Optional[List[str]] = None,
         units: int = 1,
         is_multiple_procedure: bool = False,
         procedure_rank: int = 1,
@@ -53,7 +53,7 @@ class MedicareCalculator:
             procedure_code: CPT or HCPCS code
             place_of_service: Two-digit POS code (11=Office, 22=Outpatient, etc.)
             locality: Medicare locality code
-            modifier: Optional procedure modifier
+            modifiers: Optional list of procedure modifiers (up to 2)
             units: Number of units
             is_multiple_procedure: Whether this is part of multiple procedures
             procedure_rank: Rank when multiple procedures (1=highest, 2=second, etc.)
@@ -64,8 +64,9 @@ class MedicareCalculator:
         Raises:
             ValueError: If procedure code or locality not found
         """
-        # Get RVU data
-        rvu = self.fee_schedule.get_rvu(procedure_code, modifier)
+        # Get RVU data - use first modifier for lookup if available
+        first_modifier = modifiers[0] if modifiers and len(modifiers) > 0 else None
+        rvu = self.fee_schedule.get_rvu(procedure_code, first_modifier)
         if not rvu:
             raise ValueError(f"Procedure code {procedure_code} not found in fee schedule")
 
@@ -85,9 +86,9 @@ class MedicareCalculator:
         pe_rvu = rvu.pe_rvu_f if is_facility else rvu.pe_rvu_nf
         mp_rvu = rvu.mp_rvu_f if is_facility else rvu.mp_rvu_nf
 
-        # Apply modifier adjustments
-        work_rvu, pe_rvu, mp_rvu, modifier_note = self._apply_modifier_adjustments(
-            work_rvu, pe_rvu, mp_rvu, modifier
+        # Apply modifier adjustments (sequentially for multiple modifiers)
+        work_rvu, pe_rvu, mp_rvu, modifier_notes = self._apply_modifier_adjustments(
+            work_rvu, pe_rvu, mp_rvu, modifiers
         )
 
         # Calculate base payment
@@ -112,7 +113,7 @@ class MedicareCalculator:
         # Build calculation details
         details = {
             "procedure_code": procedure_code,
-            "modifier": modifier,
+            "modifiers": modifiers,
             "work_rvu": work_rvu,
             "pe_rvu": pe_rvu,
             "mp_rvu": mp_rvu,
@@ -130,8 +131,9 @@ class MedicareCalculator:
             "notes": []
         }
 
-        if modifier_note:
-            details["notes"].append(modifier_note)
+        # Add modifier notes
+        if modifier_notes:
+            details["notes"].extend(modifier_notes)
         if mppr_note:
             details["notes"].append(mppr_note)
 
@@ -177,8 +179,8 @@ class MedicareCalculator:
         work_rvu: float,
         pe_rvu: float,
         mp_rvu: float,
-        modifier: Optional[str]
-    ) -> Tuple[float, float, float, Optional[str]]:
+        modifiers: Optional[List[str]]
+    ) -> Tuple[float, float, float, List[str]]:
         """
         Apply RVU adjustments based on modifiers.
 
@@ -194,56 +196,61 @@ class MedicareCalculator:
             work_rvu: Work RVU
             pe_rvu: Practice Expense RVU
             mp_rvu: Malpractice RVU
-            modifier: Procedure modifier
+            modifiers: List of procedure modifiers (up to 2)
 
         Returns:
-            Tuple of (adjusted_work_rvu, adjusted_pe_rvu, adjusted_mp_rvu, note)
+            Tuple of (adjusted_work_rvu, adjusted_pe_rvu, adjusted_mp_rvu, notes_list)
         """
-        note = None
+        notes = []
 
-        if not modifier:
-            return work_rvu, pe_rvu, mp_rvu, note
+        if not modifiers:
+            return work_rvu, pe_rvu, mp_rvu, notes
 
-        modifier = modifier.upper()
+        # Apply modifiers sequentially
+        for modifier in modifiers:
+            if not modifier:
+                continue
 
-        if modifier == "26":
-            # Professional component only - no practice expense
-            pe_rvu = 0.0
-            note = "Professional component only (modifier 26)"
+            modifier = modifier.upper()
 
-        elif modifier == "TC":
-            # Technical component only - no work or malpractice
-            work_rvu = 0.0
-            mp_rvu = 0.0
-            note = "Technical component only (modifier TC)"
+            if modifier == "26":
+                # Professional component only - no practice expense
+                pe_rvu = 0.0
+                notes.append("Professional component only (modifier 26)")
 
-        elif modifier == "50":
-            # Bilateral procedure - 150% payment
-            work_rvu *= 1.5
-            pe_rvu *= 1.5
-            mp_rvu *= 1.5
-            note = "Bilateral procedure (modifier 50) - 150% payment"
+            elif modifier == "TC":
+                # Technical component only - no work or malpractice
+                work_rvu = 0.0
+                mp_rvu = 0.0
+                notes.append("Technical component only (modifier TC)")
 
-        elif modifier == "52":
-            # Reduced services - 50% reduction (approximate)
-            work_rvu *= 0.5
-            pe_rvu *= 0.5
-            mp_rvu *= 0.5
-            note = "Reduced services (modifier 52) - 50% reduction"
+            elif modifier == "50":
+                # Bilateral procedure - 150% payment
+                work_rvu *= 1.5
+                pe_rvu *= 1.5
+                mp_rvu *= 1.5
+                notes.append("Bilateral procedure (modifier 50) - 150% payment")
 
-        elif modifier == "53":
-            # Discontinued procedure - typically 50% reduction
-            work_rvu *= 0.5
-            pe_rvu *= 0.5
-            mp_rvu *= 0.5
-            note = "Discontinued procedure (modifier 53) - 50% reduction"
+            elif modifier == "52":
+                # Reduced services - 50% reduction (approximate)
+                work_rvu *= 0.5
+                pe_rvu *= 0.5
+                mp_rvu *= 0.5
+                notes.append("Reduced services (modifier 52) - 50% reduction")
 
-        elif modifier == "76" or modifier == "77":
-            # Repeat procedure - full payment (no adjustment)
-            note = f"Repeat procedure (modifier {modifier}) - full payment"
+            elif modifier == "53":
+                # Discontinued procedure - typically 50% reduction
+                work_rvu *= 0.5
+                pe_rvu *= 0.5
+                mp_rvu *= 0.5
+                notes.append("Discontinued procedure (modifier 53) - 50% reduction")
 
-        elif modifier == "59" or modifier == "XS" or modifier == "XU" or modifier == "XP" or modifier == "XE":
-            # Distinct procedural service - no payment adjustment
-            note = f"Distinct procedural service (modifier {modifier})"
+            elif modifier == "76" or modifier == "77":
+                # Repeat procedure - full payment (no adjustment)
+                notes.append(f"Repeat procedure (modifier {modifier}) - full payment")
 
-        return work_rvu, pe_rvu, mp_rvu, note
+            elif modifier == "59" or modifier == "XS" or modifier == "XU" or modifier == "XP" or modifier == "XE":
+                # Distinct procedural service - no payment adjustment
+                notes.append(f"Distinct procedural service (modifier {modifier})")
+
+        return work_rvu, pe_rvu, mp_rvu, notes
