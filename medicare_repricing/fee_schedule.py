@@ -74,6 +74,51 @@ class AnesthesiaBaseUnitData:
     description: str
 
 
+@dataclass
+class MSDRGData:
+    """MS-DRG (Medicare Severity Diagnosis-Related Group) data."""
+
+    ms_drg: str  # MS-DRG code (e.g., "470", "871")
+    description: str
+    relative_weight: float
+    geometric_mean_los: float  # Geometric mean length of stay
+    arithmetic_mean_los: float  # Arithmetic mean length of stay
+
+
+@dataclass
+class WageIndexData:
+    """Hospital wage index data by CBSA or provider."""
+
+    cbsa_code: str  # Core Based Statistical Area code or provider number
+    area_name: str
+    wage_index: float  # Operating wage index
+    capital_wage_index: Optional[float] = None  # Capital geographic adjustment factor (GAF)
+
+
+@dataclass
+class HospitalData:
+    """Hospital-specific data for IPPS adjustments."""
+
+    provider_number: str
+    hospital_name: str
+    cbsa_code: str
+    wage_index: float
+
+    # Teaching hospital data
+    is_teaching_hospital: bool = False
+    intern_resident_to_bed_ratio: Optional[float] = None  # For IME calculation
+
+    # DSH data
+    is_dsh_hospital: bool = False
+    dsh_patient_percentage: Optional[float] = None  # DSH adjustment percentage
+
+    # Location
+    is_rural: bool = False
+
+    # Other
+    bed_count: Optional[int] = None
+
+
 class MedicareFeeSchedule:
     """
     Medicare Physician Fee Schedule database.
@@ -95,6 +140,19 @@ class MedicareFeeSchedule:
         self.opps_data: Dict[str, OPPSData] = {}
         self.anesthesia_data: Dict[str, AnesthesiaData] = {}
         self.anesthesia_base_units: Dict[str, AnesthesiaBaseUnitData] = {}
+
+        # IPPS (Inpatient) data
+        self.ms_drg_data: Dict[str, MSDRGData] = {}
+        self.wage_index_data: Dict[str, WageIndexData] = {}
+        self.hospital_data: Dict[str, HospitalData] = {}
+
+        # IPPS standardized amounts (FY 2026)
+        self.ipps_operating_standard_amount_high: float = 6690.00  # Wage index > 1
+        self.ipps_operating_standard_amount_low: float = 6690.00   # Wage index <= 1
+        self.ipps_capital_standard_amount: float = 488.59
+        self.ipps_labor_share: float = 0.676  # 67.6% labor-related
+        self.ipps_outlier_threshold: float = 46217.00  # Fixed-loss threshold
+        self.ipps_outlier_payment_rate: float = 0.80  # 80% of costs above threshold
 
     def add_rvu(self, rvu: RVUData) -> None:
         """Add RVU data for a procedure code."""
@@ -118,6 +176,18 @@ class MedicareFeeSchedule:
     def add_anesthesia_base_unit(self, base_unit: AnesthesiaBaseUnitData) -> None:
         """Add anesthesia base unit data for a procedure code."""
         self.anesthesia_base_units[base_unit.procedure_code] = base_unit
+
+    def add_ms_drg(self, ms_drg: MSDRGData) -> None:
+        """Add MS-DRG data."""
+        self.ms_drg_data[ms_drg.ms_drg] = ms_drg
+
+    def add_wage_index(self, wage_index: WageIndexData) -> None:
+        """Add wage index data for a CBSA."""
+        self.wage_index_data[wage_index.cbsa_code] = wage_index
+
+    def add_hospital(self, hospital: HospitalData) -> None:
+        """Add hospital-specific data."""
+        self.hospital_data[hospital.provider_number] = hospital
 
     def get_rvu(self, procedure_code: str, modifier: Optional[str] = None) -> Optional[RVUData]:
         """
@@ -206,6 +276,42 @@ class MedicareFeeSchedule:
         """
         return self.anesthesia_base_units.get(procedure_code)
 
+    def get_ms_drg(self, ms_drg: str) -> Optional[MSDRGData]:
+        """
+        Get MS-DRG data.
+
+        Args:
+            ms_drg: MS-DRG code
+
+        Returns:
+            MSDRGData if found, None otherwise
+        """
+        return self.ms_drg_data.get(ms_drg)
+
+    def get_wage_index(self, cbsa_code: str) -> Optional[WageIndexData]:
+        """
+        Get wage index data for a CBSA.
+
+        Args:
+            cbsa_code: CBSA code
+
+        Returns:
+            WageIndexData if found, None otherwise
+        """
+        return self.wage_index_data.get(cbsa_code)
+
+    def get_hospital(self, provider_number: str) -> Optional[HospitalData]:
+        """
+        Get hospital-specific data.
+
+        Args:
+            provider_number: Medicare provider number
+
+        Returns:
+            HospitalData if found, None otherwise
+        """
+        return self.hospital_data.get(provider_number)
+
     def load_from_directory(self, directory: Path) -> None:
         """
         Load fee schedule data from JSON files in a directory.
@@ -271,6 +377,33 @@ class MedicareFeeSchedule:
                             description=info["description"]
                         )
                         self.add_anesthesia_base_unit(base_unit)
+
+        # Load MS-DRG data
+        ms_drg_file = directory / "ms_drg_data.json"
+        if ms_drg_file.exists():
+            with open(ms_drg_file, 'r') as f:
+                ms_drg_list = json.load(f)
+                for ms_drg_dict in ms_drg_list:
+                    ms_drg = MSDRGData(**ms_drg_dict)
+                    self.add_ms_drg(ms_drg)
+
+        # Load Wage Index data
+        wage_index_file = directory / "wage_index_data.json"
+        if wage_index_file.exists():
+            with open(wage_index_file, 'r') as f:
+                wage_index_list = json.load(f)
+                for wi_dict in wage_index_list:
+                    wi = WageIndexData(**wi_dict)
+                    self.add_wage_index(wi)
+
+        # Load Hospital data
+        hospital_file = directory / "hospital_data.json"
+        if hospital_file.exists():
+            with open(hospital_file, 'r') as f:
+                hospital_list = json.load(f)
+                for hosp_dict in hospital_list:
+                    hosp = HospitalData(**hosp_dict)
+                    self.add_hospital(hosp)
 
     @staticmethod
     def _make_rvu_key(procedure_code: str, modifier: Optional[str]) -> str:
