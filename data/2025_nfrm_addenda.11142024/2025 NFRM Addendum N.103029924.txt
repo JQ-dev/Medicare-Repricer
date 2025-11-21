@@ -1,0 +1,176 @@
+   ADDENDUM N.?FINAL CY 2025 BYPASS CODES FOR CREATING ?PSEUDO? SINGLE PROCEDURE CLAIMS FOR CALCULATING GEOMETRIC MEAN COSTS FOR THE CY 2025 OPPS			
+"CPT codes and descriptions only are copyright 2024 American Medical Association.ÿ All Rights Reserved.ÿ Applicable FARS/DFARS Apply.  The existence or absence of a HCPCS code does not mean that an item or service is covered or non-covered. As a reminder, the fact that a drug, device, procedure, or service is assigned a HCPCS code and a payment rate under the OPPS does not imply coverage by the Medicare program, but indicates only how the product, procedure, or service may be paid if covered by the program. Medicare Administrative Contractors (MACs) determine whether a drug, device, procedure, or other service meets all program requirements for coverage. For example, MACs determine that it is reasonable and necessary to treat the beneficiary?s condition and whether it is excluded from payment."			
+CY 2025 HCPCS Code	CY 2025 HCPCS Descriptor	Overlap Bypass Codes	Additions
+C7900	"Hopd mntl hlt, 15-29 min"		*
+C7901	"Hopd mntl hlt, 30-60 min"		*
+G0008	Admin influenza virus vac		
+G0101	Ca screen;pelvic/breast exam		
+G0130	Single energy x-ray study		
+G0175	"Opps service,sched team conf"		
+G0238	"Oth resp proc, indiv"		
+G0248	Demonstrate use home inr mon		
+G0249	Provide inr test mater/equip		
+G0390	Trauma respons w/hosp criti		
+G0396	Alcohol/subs interv 15-30mn		
+G0397	Alcohol/subs interv >30 min		
+G0398	Home sleep test/type 2 porta		
+G0399	Home sleep test/type 3 porta		
+G0400	Home sleep test/type 4 porta		
+G0402	Initial preventive exam		
+G0422	Intens cardiac rehab w/exerc		
+G0447	Behavior counsel obesity 15m		
+G0473	Group behave couns 2-10		
+G2214	Init/sub psych care m 1st 30		
+0394T	Hdr elctrnc skn surf brchytx		
+11954	Tx contour defects >10.0 cc		
+17004	Destroy premal lesions 15/>		
+17281	Dstr mal ls f/e/e/n/l/m .6-1		
+17282	Dstr mal ls f/e/e/n/l/m1.1-2		
+20560	Ndl insj w/o njx 1 or 2 musc		
+20561	Ndl insj w/o njx 3+ musc		
+23600	Cltx prox humrl fx w/o mnpj		
+31231	Nasal endoscopy dx		
+31579	Laryngoscopy telescopic		
+56820	Exam of vulva w/scope		
+57180	Treat vaginal bleeding		
+57452	Exam of cervix w/scope		
+62252	Csf shunt reprogram		
+64566	Neuroeltrd stim post tibial		
+70336	Magnetic image jaw joint	*	
+70450	Ct head/brain w/o dye	*	
+70480	Ct orbit/ear/fossa w/o dye	*	
+70486	Ct maxillofacial w/o dye	*	
+70490	Ct soft tissue neck w/o dye	*	
+70544	Mr angiography head w/o dye	*	
+70547	Mr angiography neck w/o dye	*	
+70551	Mri brain stem w/o dye	*	
+71250	Ct thorax dx c-	*	
+71271	Ct thorax lung cancer scr c-		
+71550	Mri chest w/o dye	*	
+72125	Ct neck spine w/o dye	*	
+72128	Ct chest spine w/o dye	*	
+72131	Ct lumbar spine w/o dye	*	
+72141	Mri neck spine w/o dye	*	
+72146	Mri chest spine w/o dye	*	
+72148	Mri lumbar spine w/o dye	*	
+72192	Ct pelvis w/o dye	*	
+73200	Ct upper extremity w/o dye	*	
+73218	Mri upper extremity w/o dye	*	
+73221	Mri joint upr extrem w/o dye	*	
+73700	Ct lower extremity w/o dye	*	
+73718	Mri lower extremity w/o dye	*	
+73721	Mri jnt of lwr extre w/o dye	*	
+74150	Ct abdomen w/o dye	*	
+76700	Us exam abdom complete	*	
+76705	Echo exam of abdomen	*	
+76770	Us exam abdo back wall comp	*	
+76776	Us exam k transpl w/doppler	*	
+76801	Ob us < 14 wks single fetus		
+76805	Ob us >= 14 wks sngl fetus		
+76811	Ob us detailed sngl fetus		
+76830	Transvaginal us non-ob		
+76856	Us exam pelvic complete	*	
+76857	Us exam pelvic limited	*	
+76881	Us compl joint r-t w/img		
+77084	Magnetic image bone marrow		
+77280	Set radiation therapy field		
+77300	Radiation therapy dose plan		
+77301	Radiotherapy dose plan imrt		
+77307	Telethx isodose plan cplx		
+77316	Brachytx isodose plan simple		
+77318	Brachytx isodose complex		
+77321	Special teletx port plan		
+77331	Special radiation dosimetry		
+77336	Radiation physics consult		
+77338	Design mlc device for imrt		
+77370	Radiation physics consult		
+77373	Sbrt delivery		
+77385	Ntsty modul rad tx dlvr smpl		
+77401	Radiation treatment delivery		
+77520	Proton trmt simple w/o comp		
+77600	Hyperthermia treatment		
+77605	Hyperthermia treatment		
+77610	Hyperthermia treatment		
+77767	Hdr rdncl skn surf brachytx		
+77768	Hdr rdncl skn surf brachytx		
+90791	Psych diagnostic evaluation		
+90832	Psytx w pt 30 minutes		
+90834	Psytx w pt 45 minutes		
+90837	Psytx w pt 60 minutes		
+90846	Family psytx w/o pt 50 min		
+90847	Family psytx w/pt 50 min		
+90849	Multiple family group psytx		
+90853	Group psychotherapy		
+90867	Tcranial magn stim tx plan		
+90868	Tcranial magn stim tx deli		
+90869	Tcran magn stim redetemine		
+92002	Intrm oph exam new patient		
+92004	Compre oph exam new pt 1/>		
+92012	Intrm oph exam est patient		
+92014	Compre oph exam est pt 1/>		
+92584	Electrocochleography		
+93229	Remote 30 day ecg tech supp		
+93271	Ecg/monitoring and analysis		
+93306	Tte w/doppler complete		
+93668	Peripheral vascular rehab		
+93702	Bis xtracell fluid analysis		
+93797	Cardiac rehab		
+93798	Cardiac rehab/monitor		
+93880	Extracranial bilat study		
+93882	Extracranial uni/ltd study		
+93886	Intracranial complete study		
+93888	Intracranial limited study		
+93923	Upr/lxtr art stdy 3+ lvls		
+93924	Lwr xtr vasc stdy bilat		
+93925	Lower extremity study		
+93926	Lower extremity study		
+93930	Upper extremity study		
+93931	Upper extremity study		
+93970	Extremity study		
+93971	Extremity study		
+93975	Vascular study		
+93976	Vascular study		
+93978	Vascular study		
+93985	Dup-scan hemo compl bi std		*
+94625	Phy/qhp op pulm rhb w/o mntr		
+94626	Phy/qhp op pulm rhb w/mntr		
+95249	Cont gluc mntr pt prov eqp		
+95250	Cont gluc mntr phys/qhp eqp		
+95708	Eeg wo vid ea 12-26hr unmntr		
+95714	Veeg ea 12-26 hr unmntr		
+95783	Polysom <6 yrs cpap/bilvl		
+95800	Slp stdy unattended		
+95805	Multiple sleep latency test		
+95806	Sleep study unatt&resp efft		
+95807	Sleep study attended		
+95808	Polysom any age 1-3> param		
+95810	Polysom 6/> yrs 4/> param		
+95811	Polysom 6/>yrs cpap 4/> parm		
+95812	Eeg 41-60 minutes		
+95813	Eeg extnd mntr 61-119 min		
+95816	Eeg awake and drowsy		
+95819	Eeg awake and asleep		
+95822	Eeg coma or sleep only		
+95926	Somatosensory testing		
+95930	Visual ep test cns w/i&r		
+95972	Alys cplx sp/pn npgt w/prgrm		
+95976	Alys smpl cn npgt prgrmg		*
+95977	Alys cplx cn npgt prgrmg		*
+96000	Motion analysis video/3d		
+96116	Nubhvl xm phys/qhp 1st hr		
+96156	Hlth bhv assmt/reassessment		
+96361	Hydrate iv infusion add-on		
+96366	Ther/proph/diag iv inf addon		
+96367	Tx/proph/dg addl seq iv inf		
+96370	Sc ther infusion addl hr		
+96375	Tx/pro/dx inj new drug addon		
+96411	Chemo iv push addl drug		
+96415	Chemo iv infusion addl hr		
+96417	Chemo iv infus each addl seq		
+96423	Chemo ia infuse each addl hr		
+96913	Photochemotherapy uv-a or b		
+97155	Adapt behavior tx phys/qhp		
+99406	Behav chng smoking 3-10 min		
+99407	Behav chng smoking > 10 min		
+99484	Care mgmt svc bhvl hlth cond		
+99490	Chrnc care mgmt staff 1st 20		

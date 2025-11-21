@@ -1,0 +1,372 @@
+Addendum Q - CY 2025 Final Rule Payment Rates for Drugs Qualifying for Add-on Payment to IHS and Tribal Hospitals Based on CY 2024 AIR			
+"The HCPCS codes in Addendum Q represent drugs and biologicals with a per day cost (cost per unit * units per day) above our final threshold of two times the CY 2024 AIR ($1,334)."			
+*CPT codes and descriptions only are copyright 2023 American Medical Association.ÿ All Rights Reserved.ÿApplicable FARS/DFARS Apply. 			
+HCPCS	Short Descriptor	Payment Rate	
+90375	Rabies ig im/sc	$271.42	
+90376	Rabies ig heat treated	$452.57	
+90377	Rabies ig ht&sol human im/sc	$250.48	
+90396	Varicella-zoster ig im	"$2,123.31"	
+A9513	Lutetium lu 177 dotatat ther	$279.48	
+A9515	Choline c-11	"$1,946.17"	
+A9517	"I131 iodide cap, rx"	$21.82	
+A9530	"I131 iodide sol, rx"	$19.70	
+A9543	"Y90 ibritumomab, rx"	"$13,938.43"	
+A9572	Indium in-111 pentetreotide	"$1,806.24"	
+A9582	Iodine i-123 iobenguane	"$1,957.37"	
+A9586	Florbetapir f18	"$2,070.40"	
+A9587	Gallium ga-68	$48.20	
+A9588	Fluciclovine f-18	$253.23	
+A9591	Fluoroestradiol f 18	$470.44	
+A9592	Copper cu 64 dotatate diag	$561.42	
+A9593	Gallium ga-68 psma-11 ucsf	$504.63	
+A9594	"Gallium ga-68 psma-11, ucla"	$351.10	
+A9595	"Piflu f-18, dia 1 millicurie"	$313.62	
+A9596	Gallium illuccix 1 millicure	$967.97	
+A9600	Sr89 strontium	"$1,642.19"	
+A9601	Flortaucipir inj 1 millicuri	"$3,500.00"	
+A9602	Fluorodopa f-18 diag per mci	$470.40	
+A9604	Sm 153 lexidronam	"$4,070.67"	
+A9606	Radium ra223 dichloride ther	$155.90	
+A9607	Lutetium lu 177 vipivotide	$227.58	
+A9608	Flotufolastat f18 diag 1 mci	$614.78	
+A9615	"Inj, pegulicianine, 1 mg"	$35.38	
+A9800	Gallium locametz 1 millicuri	$824.00	
+C9067	Gallium ga-68 dotatoc	$3.82	
+C9257	Bevacizumab injection	$1.72	
+C9482	Sotalol hydrochloride iv	$21.53	
+J0129	Abatacept injection	$40.98	
+J0139	"Inj, adalimumab, 1 mg"	$86.53	
+J0172	"Inj, aducanumab-avwa, 2 mg"	$5.64	
+J0175	"Inj, donanemab-azbt, 2 mg"	$3.97	
+J0178	Aflibercept injection	$775.45	
+J0179	"Inj, brolucizumab-dbll, 1 mg"	$313.74	
+J0180	Agalsidase beta injection	$210.87	
+J0202	"Injection, alemtuzumab"	"$2,205.37"	
+J0206	Inj allopurinol sodium 1 mg	$4.72	
+J0208	Inj sodium thiosulfate 100mg	$90.64	
+J0217	Inj velmanase alfa-tycv 1 mg	$416.98	
+J0218	Inj olipudase alfa-rpcp 1mg	$360.91	
+J0219	Inj aval alfa-nqpt 4mg	$73.35	
+J0221	Lumizyme injection	$190.53	
+J0222	"Inj., patisiran, 0.1 mg"	$93.28	
+J0223	Inj givosiran 0.5 mg	$105.79	
+J0224	"Inj. lumasiran, 0.5 mg"	$299.88	
+J0225	"Inj, vutrisiran, 1 mg"	"$4,647.17"	
+J0256	Alpha 1 proteinase inhibitor	$4.66	
+J0257	Glassia injection	$5.26	
+J0349	"Inj, rezafungin, 1 mg"	$9.55	
+J0391	"Inj, artesunate, 1mg"	$48.90	
+J0401	"Inj, abilify maintena, 1 mg"	$6.67	
+J0402	"Inj, abilify asimtufii, 1 mg"	$5.61	
+J0480	Basiliximab	"$4,329.03"	
+J0485	Belatacept injection	$3.60	
+J0490	Belimumab injection	$51.08	
+J0491	Inj anifrolumab-fnia 1mg	$16.31	
+J0517	"Inj., benralizumab, 1 mg"	$157.83	
+J0565	"Inj, bezlotoxumab, 10 mg"	$37.61	
+J0578	"Inj brixadi, more than 7 day"	"$1,619.46"	
+J0584	"Injection, burosumab-twza 1m"	$443.00	
+J0586	Abobotulinumtoxina	$8.14	
+J0596	"Injection, ruconest"	$32.76	
+J0597	"C-1 esterase, berinert"	$64.49	
+J0598	"C-1 esterase, cinryze"	$60.58	
+J0600	Edetate calcium disodium inj	"$5,741.81"	
+J0630	Calcitonin salmon injection	"$1,106.66"	
+J0638	Canakinumab injection	$120.58	
+J0716	Centruroides immune f(ab)	"$4,532.30"	
+J0717	Certolizumab pegol inj 1mg	$4.39	
+J0739	"Hiv prep, inj, cabotegravir"	$0.00	
+J0741	"Inj, cabote rilpivir 2mg 3mg"	$21.60	
+J0775	"Collagenase, clost hist inj"	$67.13	
+J0791	Inj crizanlizumab-tmca 5mg	$121.26	
+J0840	Crotalidae poly immune fab	"$1,662.59"	
+J0841	Inj crotalidae im f(ab')2 eq	$981.24	
+J0850	Cytomegalovirus imm iv /vial	"$1,712.21"	
+J0870	"Injection, imetelstat, 1 mg"	$52.57	
+J0875	"Injection, dalbavancin"	$14.73	
+J0896	Inj luspatercept-aamt 0.25mg	$38.32	
+J0897	Denosumab injection	$25.43	
+J1162	Digoxin immune fab (ovine)	"$4,611.42"	
+J1203	"Inj, cipaglucosidase, 5 mg"	$83.07	
+J1290	Ecallantide injection	$533.80	
+J1300	Eculizumab injection	$211.92	
+J1302	"Inj, sutimlimab-jome, 10 mg"	$17.10	
+J1303	"Inj., ravulizumab-cwvz 10 mg"	$208.26	
+J1304	Inj tofersen intrathec 1 mg	$144.97	
+J1305	"Inj, evinacumab-dgnb, 5mg"	$175.76	
+J1306	"Injection, inclisiran, 1 mg"	$11.50	
+J1307	"Inj, crovalimab-akkz, 10 mg"	$520.29	
+J1322	"Elosulfase alfa, injection"	$277.28	
+J1323	"Inj, elranatamab-bcmm, 1 mg"	$168.72	
+J1411	"Inj, hemgenix, per tx dose"	"$3,465,000.00"	
+J1412	Inj roctavian ml 2x10^13vc g	"$11,328.13"	
+J1413	Inj delandistrogene mox rokl	"$3,137,221.47"	
+J1414	"Inj, beqvez, per tx dose"	"$3,400,943.40"	
+J1437	Inj. fe derisomaltose 10 mg	$19.86	
+J1438	Etanercept injection	$746.02	
+J1440	Fecal microbiota jslm 1 ml	$59.72	
+J1448	"Injection, trilaciclib, 1mg"	$5.06	
+J1449	Inj eflapegrastim-xnst 0.1mg	$21.47	
+J1459	Inj ivig privigen 500 mg	$45.83	
+J1555	"Inj cuvitru, 100 mg"	$15.87	
+J1557	Gammaplex injection	$54.65	
+J1558	"Inj. xembify, 100 mg"	$13.49	
+J1559	Hizentra injection	$12.48	
+J1561	Gamunex-c/gammaked	$46.04	
+J1566	"Immune globulin, powder"	$77.54	
+J1568	Octagam injection	$46.22	
+J1569	Gammagard liquid injection	$46.88	
+J1572	Flebogamma injection	$52.94	
+J1573	"Hepagam b intravenous, inj"	$64.77	
+J1575	Hyqvia 100mg immuneglobulin	$16.51	
+J1576	"Inj, panzyga, 500 mg"	$63.64	
+J1602	Golimumab for iv use 1mg	$10.47	
+J1628	"Inj., guselkumab, 1 mg"	$70.25	
+J1640	"Hemin, 1 mg"	$30.37	
+J1743	Idursulfase injection	$507.48	
+J1744	Icatibant injection	$143.06	
+J1745	Infliximab not biosimil 10mg	$30.40	
+J1746	"Inj., ibalizumab-uiyk, 10 mg"	$72.70	
+J1747	"Inj, spesolimab-sbzo, 1 mg"	$57.95	
+J1786	Imuglucerase injection	$41.15	
+J1823	"Inj. inebilizumab-cdon, 1 mg"	$456.98	
+J1826	Interferon beta-1a inj	"$2,078.43"	
+J1930	Lanreotide injection	$47.14	
+J1931	Laronidase injection	$36.51	
+J1932	"Inj, lanreotide, (cipla) 1mg"	$34.72	
+J1944	Aripiprazole lauroxil 1 mg	$3.04	
+J1950	Leuprolide acetate /3.75 mg	"$1,526.08"	
+J1951	Inj fensolvi 0.25 mg	$132.66	
+J1961	"Inj, lenacapavir, 1 mg"	$20.75	
+J2182	"Injection, mepolizumab, 1mg"	$28.71	
+J2267	"Inj, mirikizumab-mrkz, 1 mg"	$37.30	
+J2277	"Inj, motixafortide, 0.25 mg"	$23.79	
+J2278	Ziconotide injection	$9.10	
+J2315	"Naltrexone, depot form"	$3.88	
+J2323	Natalizumab injection	$22.79	
+J2326	"Inj, nusinersen, 0.1mg"	"$1,162.17"	
+J2327	Inj risankizumab-rzaa 1 mg	$13.80	
+J2329	"Inj ublituximab-xiiy, 1 mg"	$65.51	
+J2350	"Injection, ocrelizumab, 1 mg"	$56.41	
+J2353	"Octreotide injection, depot"	$202.72	
+J2356	"Inj tezepelumab-ekko, 1mg"	$17.08	
+J2357	Omalizumab injection	$36.13	
+J2406	"Injection, oritavancin 10 mg"	$40.10	
+J2407	"Injection, oritavancin"	$26.85	
+J2425	Palifermin injection	$32.07	
+J2426	"Inj, invega sustenna, 1 mg"	$13.93	
+J2427	"Inj, invega hafyera/trinza"	$11.94	
+J2502	"Inj, pasireotide long acting"	$452.68	
+J2507	Pegloticase injection	"$3,285.05"	
+J2508	Pegunigalsidase alfa-iwxj	$210.89	
+J2724	Protein c concentrate	$14.20	
+J2777	"Inj, faricimab-svoa, 0.1mg"	$32.31	
+J2779	"Inj, susvimo 0.1 mg"	$74.60	
+J2781	"Inj, pegcetacoplan, 1mg"	$139.02	
+J2782	Inj avacincaptad pegol 0.1mg	$103.33	
+J2783	Rasburicase	$350.28	
+J2786	"Injection, reslizumab, 1mg"	$9.73	
+J2792	"Rho(d) immune globulin h, sd"	$32.39	
+J2798	"Inj., perseris, 0.5 mg"	$11.50	
+J2802	"Inj, romiplostim 1 microgram"	$9.53	
+J2840	Inj sebelipase alfa 1 mg	$508.89	
+J2860	"Injection, siltuximab"	$148.18	
+J2993	Reteplase injection	"$2,619.94"	
+J2998	Inj plasminogen tvmh 1mg	$30.71	
+J3032	Inj. eptinezumab-jjmr 1 mg	$17.63	
+J3055	Inj talquetamab-tgvs 0.25 mg	$63.82	
+J3060	"Inj, taliglucerase alfa 10 u"	$40.17	
+J3101	Tenecteplase injection	$148.80	
+J3111	Inj. romosozumab-aqqg 1 mg	$10.54	
+J3145	Testosterone undecanoate 1mg	$1.84	
+J3240	Thyrotropin injection	"$1,955.98"	
+J3241	Inj. teprotumumab-trbw 10 mg	$324.42	
+J3245	"Inj., tildrakizumab, 1 mg"	$128.23	
+J3247	Inj secukinumab intrav 1mg	$16.55	
+J3262	Tocilizumab injection	$5.62	
+J3263	"Inj, toripalimab-tpzi, 1 mg"	$36.67	
+J3315	Triptorelin pamoate	$440.31	
+J3316	"Inj., triptorelin xr 3.75 mg"	"$3,224.99"	
+J3357	"Ustekinumab sub cu inj, 1 mg"	$150.86	
+J3358	"Ustekinumab, iv inject, 1 mg"	$12.23	
+J3380	"Injection, vedolizumab"	$21.00	
+J3385	Velaglucerase alfa	$349.25	
+J3392	"Inj, exagamglogene autotem"	"$2,200,000.00"	
+J3393	"Inj, betibeglogene autotemce"	"$2,800,000.00"	
+J3394	"Inj, lovotibeglogene autotem"	"$3,100,000.00"	
+J3396	Verteporfin injection	$10.88	
+J3398	Inj luxturna 1 billion vec g	"$2,909.87"	
+J3399	Inj onase abepar-xioi treat	"$2,253,409.65"	
+J3424	Inj hydroxocobalamin iv 25mg	$4.75	
+J7165	"Inj, human-lans, per i.u"	$1.88	
+J7168	Prothrombin complex kcentra	$2.12	
+J7169	"Inj andexxa, 10 mg"	$124.52	
+J7170	"Inj., emicizumab-kxwh 0.5 mg"	$49.84	
+J7171	"Inj, adzynma, 10 iu"	$32.64	
+J7175	"Inj, factor x, (human), 1iu"	$8.61	
+J7177	"Inj., fibryga, 1 mg"	$1.06	
+J7178	Inj human fibrinogen con nos	$1.38	
+J7179	Vonvendi inj 1 iu vwf:rco	$1.78	
+J7180	Factor xiii anti-hem factor	$9.60	
+J7182	Factor viii recomb novoeight	$1.31	
+J7183	Wilate injection	$1.22	
+J7185	Xyntha inj	$1.41	
+J7186	Antihemophilic viii/vwf comp	$1.17	
+J7187	"Humate-p, inj"	$1.33	
+J7188	Factor viii recomb obizur	$3.05	
+J7189	Factor viia recomb novoseven	$2.39	
+J7190	Factor viii	$1.12	
+J7192	Factor viii recombinant nos	$1.47	
+J7193	Factor ix non-recombinant	$1.34	
+J7194	Factor ix complex	$1.57	
+J7195	Factor ix recombinant nos	$1.76	
+J7197	Antithrombin iii injection	$3.63	
+J7198	Anti-inhibitor	$2.23	
+J7201	Factor ix alprolix recomb	$3.40	
+J7202	Factor ix idelvion inj	$4.78	
+J7203	Factor ix recomb gly rebinyn	$4.32	
+J7204	Inj recombin esperoct per iu	$2.06	
+J7205	Factor viii fc fusion recomb	$2.23	
+J7207	Factor viii pegylated recomb	$1.99	
+J7208	Inj. jivi 1 iu	$2.32	
+J7209	Factor viii nuwiq recomb 1iu	$1.19	
+J7210	"Inj, afstyla, 1 i.u."	$1.39	
+J7211	"Inj, kovaltry, 1 i.u."	$1.41	
+J7213	"Inj, ixinity, 1 i.u."	$1.72	
+J7214	Altuviiio per factor viii iu	$4.44	
+J7311	"Inj., retisert, 0.01 mg"	$314.60	
+J7312	Dexamethasone intra implant	$193.98	
+J7313	"Inj., iluvien, 0.01 mg"	$467.34	
+J7314	"Inj., yutiq, 0.01 mg"	$498.09	
+J7336	Capsaicin 8% patch	$3.14	
+J7351	Inj bimatoprost itc imp1mcg	$197.98	
+J7352	"Afamelanotide implant, 1 mg"	"$2,710.69"	
+J7355	Inj travoprost intra impl	$186.00	
+J7504	Lymphocyte immune globulin	"$3,743.82"	
+J7511	Antithymocyte globuln rabbit	$902.58	
+J8510	Oral busulfan	$79.44	
+J9015	Aldesleukin injection	"$5,001.19"	
+J9021	"Inj, aspara, rylaze, 0.1 mg"	$49.80	
+J9022	"Inj, atezolizumab,10 mg"	$81.36	
+J9023	"Injection, avelumab, 10 mg"	$89.79	
+J9026	"Inj, tarlatamab-dlle, 1 mg"	"$1,500.00"	
+J9028	"Inj, nogapendekin pmln, 1mcg"	$89.50	
+J9029	"Instill adstiladrin, tx dose"	"$59,768.65"	
+J9032	"Injection, belinostat, 10mg"	$47.25	
+J9034	"Inj., bendeka 1 mg"	$12.21	
+J9035	Bevacizumab injection	$68.59	
+J9036	Inj. belrapzo/bendamustine	$25.97	
+J9037	Inj belantamab mafodot blmf	$44.13	
+J9039	"Injection, blinatumomab"	$143.56	
+J9042	Brentuximab vedotin inj	$226.28	
+J9043	Cabazitaxel injection	$204.20	
+J9046	"Inj, bortezomib, dr. reddy's"	$45.80	
+J9047	"Injection, carfilzomib, 1 mg"	$46.77	
+J9055	Cetuximab injection	$71.21	
+J9056	"Inj, vivimusta, 1 mg"	$26.27	
+J9057	"Inj., copanlisib, 1 mg"	$87.56	
+J9061	"Inj, amivantamab-vmjw"	$19.50	
+J9063	"Inj, elahere, 1 mg"	$62.98	
+J9119	"Inj., cemiplimab-rwlc, 1 mg"	$26.64	
+J9144	"Daratumumab, hyaluronidase"	$48.50	
+J9145	"Injection, daratumumab 10 mg"	$61.43	
+J9153	"Inj daunorubicin, cytarabine"	$228.77	
+J9172	"Docetaxel (docivyx), 1 mg"	$49.50	
+J9173	"Inj., durvalumab, 10 mg"	$77.18	
+J9176	"Injection, elotuzumab, 1mg"	$7.15	
+J9177	Inj enfort vedo-ejfv 0.25mg	$34.66	
+J9179	Eribulin mesylate injection	$128.10	
+J9200	Floxuridine injection	"$3,639.65"	
+J9203	Gemtuzumab ozogamicin 0.1 mg	$216.67	
+J9204	"Inj mogamulizumab-kpkc, 1 mg"	$225.33	
+J9205	Inj irinotecan liposome 1 mg	$61.10	
+J9207	Ixabepilone injection	$126.47	
+J9210	"Inj., emapalumab-lzsg, 1 mg"	$356.63	
+J9223	"Inj. lurbinectedin, 0.1 mg"	$192.08	
+J9226	Supprelin la implant	"$42,783.22"	
+J9227	Inj. isatuximab-irfc 10 mg	$73.63	
+J9228	Ipilimumab injection	$166.87	
+J9229	Inj inotuzumab ozogam 0.1 mg	"$2,470.61"	
+J9246	"Inj., evomela, 1 mg"	$16.37	
+J9248	Inj melphalan (hepzato) 1 mg	$730.00	
+J9261	Nelarabine injection	$68.42	
+J9264	Paclitaxel protein bound	$12.59	
+J9266	Pegaspargase injection	"$25,538.24"	
+J9268	Pentostatin injection	"$2,397.90"	
+J9269	Inj. tagraxofusp-erzs 10 mcg	$319.84	
+J9271	Inj pembrolizumab	$54.92	
+J9272	"Inj, dostarlimab-gxly, 10 mg"	$223.02	
+J9273	"Inj tisotu vedotin-tftv, 1mg"	$171.32	
+J9274	"Inj, tebentafusp-tebn, 1 mcg"	$202.60	
+J9281	Mitomycin instillation	$289.95	
+J9286	"Inj glofitamab gxbm, 2.5 mg"	"$2,548.15"	
+J9295	"Injection, necitumumab, 1 mg"	$5.41	
+J9298	Inj nivol relatlimab 3mg/1mg	$179.68	
+J9299	"Injection, nivolumab"	$29.95	
+J9301	Obinutuzumab inj	$70.37	
+J9302	Ofatumumab injection	$60.34	
+J9303	Panitumumab injection	$150.31	
+J9304	"Inj. pemetrexed, 10 mg"	$47.95	
+J9306	"Injection, pertuzumab, 1 mg"	$15.21	
+J9307	Pralatrexate injection	$352.61	
+J9308	"Injection, ramucirumab"	$67.05	
+J9309	"Inj, polatuzumab vedotin 1mg"	$122.43	
+J9311	"Inj rituximab, hyaluronidase"	$34.85	
+J9312	"Inj., rituximab, 10 mg"	$72.94	
+J9313	"Inj., lumoxiti, 0.01 mg"	$22.07	
+J9316	"Pertuzu, trastuzu, 10 mg"	$60.92	
+J9317	Sacituzumab govitecan-hziy	$32.71	
+J9318	Inj romidepsin non-lyo 0.1mg	$31.99	
+J9319	Inj romidepsin lyophil 0.1mg	$28.17	
+J9321	Inj epcoritamab-bysp 0.16 mg	$51.10	
+J9324	"Inj, pemrydi rtu, 10 mg"	$79.90	
+J9325	Inj talimogene laherparepvec	$66.38	
+J9328	Temozolomide injection	$9.81	
+J9331	Inj sirolimus prot part 1 mg	$107.74	
+J9332	Inj efgartigimod 2mg	$30.73	
+J9333	Inj ronzanolixizum-noli 1 mg	$21.51	
+J9334	Inj efgart-alfa 2mg hya-qvfc	$31.25	
+J9345	"Inj, retifanlimab-dlwr, 1 mg"	$27.55	
+J9347	"Inj, tremelimumab-actl, 1 mg"	$127.78	
+J9348	"Inj. naxitamab-gqgk, 1 mg"	$605.80	
+J9349	"Inj., tafasitamab-cxix"	$12.93	
+J9350	"Inj mosunetuzumab-axgb, 1 mg"	$599.50	
+J9352	Injection trabectedin 0.1mg	$342.29	
+J9353	"Inj. margetuximab-cmkb, 5 mg"	$45.48	
+J9354	"Inj, ado-trastuzumab emt 1mg"	$38.16	
+J9355	Inj trastuzumab excl biosimi	$73.53	
+J9356	"Inj. herceptin hylecta, 10mg"	$60.18	
+J9357	Valrubicin injection	"$1,355.73"	
+J9358	Inj fam-trastu deru-nxki 1mg	$26.24	
+J9359	Inj lon tesirin-lpyl 0.075mg	$194.69	
+J9380	Inj teclistamab cqyv 0.5 mg	$30.17	
+J9381	Inj teplizumab mzwv 5 mcg	$34.82	
+J9400	"Inj, ziv-aflibercept, 1mg"	$6.14	
+J9600	Porfimer sodium injection	"$22,519.00"	
+Q2041	Axicabtagene ciloleucel car+	"$461,750.90"	
+Q2042	Tisagenlecleucel car-pos t	"$499,238.54"	
+Q2043	Sipuleucel-t auto cd54+	"$51,901.16"	
+Q2049	Imported lipodox inj	$498.92	
+Q2053	Brexucabtagene car pos t	"$434,462.64"	
+Q2054	Lisocabtagene mara car pos t	"$487,477.43"	
+Q2055	Idecabtagene vicleucel car	"$496,780.75"	
+Q2056	Ciltacabtagene car-pos t	"$497,286.26"	
+Q3027	Inj beta interferon im 1 mcg	$53.05	
+Q5107	Inj mvasi 10 mg	$21.10	
+Q5108	"Injection, fulphila"	$133.77	
+Q5111	"Injection, udenyca 0.5 mg"	$141.61	
+Q5113	Inj herzuma 10 mg	$54.55	
+Q5114	Inj ogivri 10 mg	$48.28	
+Q5115	Inj truxima 10 mg	$27.76	
+Q5120	Inj pegfilgrastim-bmez 0.5mg	$327.13	
+Q5123	"Inj. riabni, 10 mg"	$32.81	
+Q5126	Inj alymsys 10 mg	$51.37	
+Q5127	"Inj, stimufend, 0.5 mg"	$303.90	
+Q5129	"Inj, vegzelma, 10 mg"	$51.34	
+Q5130	"Inj, fylnetra, 0.5 mg"	$184.42	
+Q5140	"Inj adalimumab-fkjp, 1 mg"	$82.21	
+Q5141	"Inj adalimumab-aaty, 1 mg"	$41.10	
+Q5143	"Inj adalimumab-adbm, 1 mg"	$82.21	
+Q5145	"Inj, abrilada, 1 mg"	$93.99	
+Q9991	Buprenorph xr 100 mg or less	"$1,833.07"	
+Q9992	Buprenorphine xr over 100 mg	"$1,833.07"	

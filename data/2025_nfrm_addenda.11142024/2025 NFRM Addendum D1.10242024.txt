@@ -1,0 +1,62 @@
+	ADDENDUM D1.- OPPS PAYMENT STATUS INDICATORS FOR CY 2025	
+Status Indicator	Item/Code/Service	OPPS Payment Status
+A	"Services furnished to a hospital outpatient that are paid under a fee schedule or payment system other than OPPS,* for example:"	Not paid under OPPS.  Paid by MACs under a fee schedule or payment system other than OPPS.
+		Services are subject to deductible or coinsurance unless indicated otherwise. 
+		
+	?  Ambulance Services	
+		
+	?  Separately Payable Clinical Diagnostic Laboratory Services	Not subject to deductible or coinsurance.
+	?  Separately Payable Non-Implantable Prosthetics and Orthotics 	
+	"?  Physical, Occupational, and Speech Therapy"	
+	?  Diagnostic Mammography	
+		
+	?  Screening Mammography	Not subject to deductible or coinsurance.
+	Unclassified drugs and biologicals reportable under HCPCS code C9399 and not otherwise classified FDA-approved prescription drugs for HIV PrEP reported under HCPCS code J0799	Contractor priced at 95 percent of drug or biological?s average wholesale price (AWP) using Red Book or an equivalent recognized compendium and paid under OPPS.
+B	Codes that are not recognized by OPPS when submitted on an outpatient hospital Part B bill type (12x and 13x).	Not paid under OPPS.
+		
+		"?  May be paid by MACs when submitted on a different bill type, for example, 75x (CORF), but not paid under OPPS."
+		?  An alternate code that is recognized by OPPS when submitted on an outpatient hospital Part B bill type (12x and 13x) may be available.
+C	Inpatient Procedures	Not paid under OPPS.  Admit patient.  Bill as inpatient.
+D	Discontinued Codes	Not paid under OPPS or any other Medicare payment system.
+E1	"Items, Codes, and Services:"	Not paid by Medicare when submitted on outpatient claims (any outpatient bill type).
+	?  Not covered by any Medicare outpatient benefit category	
+	?  Statutorily excluded by Medicare    	
+	?  Not reasonable and necessary 	
+E2 	"Items, Codes, and Services:"	Not paid by Medicare when submitted on outpatient claims (any outpatient bill type).
+	For which pricing information and claims data are not available	
+F	Corneal Tissue Acquisition; Certain CRNA Services 	Not paid under OPPS.  Paid at reasonable cost.
+G	Pass-Through Drugs and Biologicals  	Paid under OPPS; separate APC payment.
+H	Pass-Through Device Categories	Separate cost-based pass?through payment; not subject to copayment.
+H1	Non-opioid Medical Devices For Post-Surgical Pain Relief	"Separate payment based on hospital?s charges adjusted to cost. Subject to criteria and payment limitation under Section 4135 of the CAA, 2023."
+J1	Hospital Part B Services Paid Through a Comprehensive APC	"Paid under OPPS; all covered Part B services on the claim are packaged with the primary ""J1"" service for the claim, except the Comprehensive APC payment policy exclusions found in the most recent Addendum J."
+J2	Hospital Part B Services That May Be Paid Through a Comprehensive APC	Paid under OPPS; Addendum B displays APC assignments when services are separately payable.
+		"(1)ÿ Comprehensive APC payment based on OPPS comprehensive-specific payment criteria.ÿ Payment for all covered Part B services on the claim is packaged into a single payment for specific combinations of services, except the Comprehensive APC payment policy exclusions found in the most recent Addendum J."
+		"(2)ÿ Packaged APC payment if billed on the same claim as a HCPCS code assigned status indicator ?J1""."
+		"(3)ÿ In other circumstances, payment is made through a separate APC payment or packaged into payment for other services."
+K	"Nonpass-Through Drugs and Nonimplantable Biologicals, Including  Radiopharmaceuticals"	Paid under OPPS; separate APC payment.
+K1	Non-Opioid Drugs and Biologicals For Post-Surgical Pain Relief	"Paid under OPPS; separate APC payment. Subject to criteria and payment limitation under Section 4135 of the CAA, 2023."
+L	Influenza Vaccine; Pneumococcal Pneumonia Vaccine;  Hepatitis B Vaccines; Covid-19 Vaccine; Monoclonal Antibody Therapy Product 	Not paid under OPPS.  Paid at reasonable cost; not subject to deductible or coinsurance.
+M	Items and Services Not Billable to the MAC	Not paid under OPPS.
+N	Items and Services Packaged into APC Rates	"Paid under OPPS; payment is packaged into payment for other services.  Therefore, there is no separate APC payment."
+P	Partial Hospitalization or Intensive Outpatient Program 	Paid under OPPS; per diem APC payment.
+Q1	STV-Packaged Codes 	Paid under OPPS; Addendum B displays APC assignments when services are separately payable.
+		"(1)  Packaged APC payment if billed on the same claim as a HCPCS code assigned status indicator ?S?, ?T?, or ?V""."
+		(2) Composite APC payment if billed with specific combinations of services based on OPPS composite-specific payment criteria. Payment is packaged into a single payment for specific combinations of services.
+		"(3) In other circumstances, payment is made through a separate APC payment."
+Q2	T-Packaged Codes 	Paid under OPPS; Addendum B displays APC assignments when services are separately payable.
+		(1)  Packaged APC payment if billed on the same claim as a HCPCS code assigned status indicator ?T?.
+		"(2)  In other circumstances, payment is made through a separate APC payment."
+Q3	Codes That May Be Paid Through a Composite APC	Paid under OPPS; Addendum B displays APC assignments when services are separately payable.
+		Addendum M displays composite APC assignments when codes are paid through a composite APC. 
+		(1)  Composite APC payment based on OPPS composite-specific payment criteria.  Payment is packaged into a single payment for specific combinations of services.
+		"(2)  In other circumstances, payment is made through a separate APC payment or packaged into payment for other services."
+Q4	Conditionally Packaged Laboratory Tests	Paid under OPPS or CLFS.
+		"(1)  Packaged APC payment if billed on the same claim as a HCPCS code assigned published status indicator ?J1"",?J2?, ?S?, ?T? ,?V?, ?Q1? ,?Q2?, or ?Q3?."
+		"(2)  In other circumstances, laboratory tests should have a status indicator of ""A"" and payment is made under the CLFS."
+R	Blood and Blood Products 	Paid under OPPS; separate APC payment.
+S	"Procedure or Service, Not Discounted When Multiple "	Paid under OPPS; separate APC payment.
+T	"Procedure or Service, Multiple Procedure Reduction Applies"	Paid under OPPS; separate APC payment.
+U	Brachytherapy Sources 	Paid under OPPS; separate APC payment.
+V	Clinic or Emergency Department Visit	Paid under OPPS; separate APC payment.
+Y	Non-Implantable Durable Medical Equipment	Not paid under OPPS.  All institutional providers other than home health agencies bill to a DME MAC.
+	"* Note -- Payments ""under a fee schedule or payment system other than OPPS"" may be contractor priced."	

@@ -1,0 +1,997 @@
+	Addendum A.- OPPS APCs for CY 2025									
+	Inflation-adjusted 3-digit coinsurance percentage may not precisely reflect the copayment amount due to rounding calculations.									
+APC 	Group Title	SI	Relative Weight 	Payment Rate 	National Unadjusted Copayment	Minimum Unadjusted Copayment	IRA Coinsurance percentage 	Adjusted Beneficiary Copayment	Drug and Device Pass-Through Expiration during Calendar Year	Note
+0701	Sr89 strontium	K		"$1,740.720"	.	$348.15	20.000%	$348.15		
+0702	"Inj, human-lans, per i.u"	G		$1.995	.	$0.40	20.000%	$0.40		
+0703	Inj daxibotulinumtoxina-lanm	G		$3.120	.	$0.63	20.000%	$0.63		
+0704	"Inj, aflibercept hd, 1 mg"	G		$333.696	.	$66.74	20.000%	$66.74		
+0705	Inj avacincaptad pegol 0.1mg	G		$109.528	.	$21.91	20.000%	$21.91		
+0706	Inj talquetamab-tgvs 0.25 mg	G		$67.652	.	$13.54	20.000%	$13.54		
+0707	"Cantharidin top, applicator"	G		$711.753	.	$142.36	20.000%	$142.36		
+0708	"Inj, elranatamab-bcmm, 1 mg"	G		$178.848	.	$35.77	20.000%	$35.77		
+0709	Flortaucipir inj 1 millicuri	G		"$3,710.000"	.	$0.00				
+0710	Inj velmanase alfa-tycv 1 mg	G		$442.004	.	$88.41	20.000%	$88.41		
+0711	"Inj, artesunate, 1mg"	K		$51.829	.	$10.37	20.000%	$10.37		
+0713	Inj roctavian ml 2x10^13vc g	G		"$12,007.813"	.	"$2,401.57"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+0714	Inj delandistrogene mox rokl	G		"$3,325,454.757"	.	"$665,090.96"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+0715	Pegunigalsidase alfa-iwxj	G		$223.547	.	$44.71	20.000%	$44.71		
+0716	"Vyjuvek 5x10^9pfu/ml, 0.1 ml"	G		$996.961	.	$199.40	20.000%	$199.40		
+0717	"Instill adstiladrin, tx dose"	G		"$63,354.773"	.	"$12,670.96"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+0718	"Inj, carmustine (accord)"	K		$259.700	.	$51.94	20.000%	$51.94		
+0720	"Inj glofitamab gxbm, 2.5 mg"	G		"$2,701.038"	.	$540.21	20.000%	$540.21		
+0721	Inj ronzanolixizum-noli 1 mg	G		$22.797	.	$4.56	20.000%	$4.56		
+0722	"Dexmedetomidine film, 1 mcg"	K		$0.779	.	$0.16	20.000%	$0.16		
+0723	Inj efgart-alfa 2mg hya-qvfc	K		$33.128	.	$6.63	20.000%	$6.63		
+0725	Inj secukinumab intrav 1mg	G		$17.541	.	$3.51	20.000%	$3.51		
+0726	Dexrazoxane HCl injection	K		$87.494	.	$17.50	20.000%	$17.50		
+0727	"Inj, adzynma, 10 iu"	G		$34.597	.	$6.92	20.000%	$6.92		
+0728	"Inj, mirikizumab-mrkz, 1 mg"	G		$39.542	.	$7.91	20.000%	$7.91		
+0729	"Inj, motixafortide, 0.25 mg"	G		$25.218	.	$5.05	20.000%	$5.05		
+0730	Inj melphalan (hepzato) 1 mg	G		$773.800	.	$154.76	20.000%	$154.76		
+0731	Sargramostim injection	K		$60.275	.	$12.06	19.692%	$11.87		Inflation-Adjusted Coinsurance
+0732	"Inj, brixadi, 7 days or less"	G		$429.156	.	$85.84	20.000%	$85.84		
+0733	"Inj brixadi, more than 7 day"	G		"$1,716.623"	.	$343.33	20.000%	$343.33		
+0734	"Inj, levothyroxine, freskabi"	K		$3.747	.	$0.75	20.000%	$0.75		
+0735	"Inj, levothyroxine, hikma"	K		$5.136	.	$1.03	20.000%	$1.03		
+0736	Amphotericin b liposome inj	K		$23.325	.	$4.67	20.000%	$4.67		
+0737	"Inj, cipaglucosidase, 5 mg"	G		$88.055	.	$17.62	20.000%	$17.62		
+0738	Rasburicase	K		$371.293	.	$74.26	20.000%	$74.26		
+0739	"Inj, rykindo, 0.5 mg"	K		$13.029	.	$2.61	20.000%	$2.61		
+0740	Inj hydroxocobalamin iv 25mg	K		$5.033	.	$1.01	20.000%	$1.01		
+0741	Inj cyclophosphamd (ingenus)	K		$0.925	.	$0.19	20.000%	$0.19		
+0742	Anacaulase-bcdb 8.8% gel 1 g	G		$58.339	.	$11.67	20.000%	$11.67		
+0743	"Inj, cyclophosphamide, nos"	K		$1.010	.	$0.21	20.000%	$0.21		
+0744	Inst tauro 1.35mg/hep 100u 	G		$8.583	.	$1.72	20.000%	$1.72		
+0745	"Inj, toripalimab-tpzi, 1 mg"	G		$38.867	.	$7.78	20.000%	$7.78		
+0746	"Inj, betibeglogene autotemce"	G		"$2,968,000.000"	.	"$593,600.00"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+0748	"Inj, lovotibeglogene autotem"	G		"$3,286,000.000"	.	"$657,200.00"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+0749	Inj travoprost intra impl	G		$197.160	.	$39.44	20.000%	$39.44		
+0750	"Inj, nithiodote, 3mg / 125mg"	K		$2.166	.	$0.44	20.000%	$0.44		
+0752	Dactinomycin injection	K		$282.133	.	$56.43	20.000%	$56.43		
+0753	Inj cefazolin (wg crit care)	K		$1.036	.	$0.21	20.000%	$0.21		
+0754	Daptomycin (xellia) unrefrig	K		$0.041	.	$0.01	20.000%	$0.01		
+0755	Oral methotrexate (jylamvo)	K		$19.355	.	$3.88	20.000%	$3.88		
+0756	Oral methotrexate (xatmep)	K		$20.709	.	$4.15	20.000%	$4.15		
+0757	"Docetaxel (docivyx), 1 mg"	G		$50.985	.	$10.20	20.000%	$10.20		
+0759	"Naltrexone, depot form"	K		$4.116	.	$0.83	20.000%	$0.83		
+0760	Tc-99m graphite crucible	G		$328.600	.	$0.00				
+0761	"Inj, focinvez, 1mg"	G		$3.142	.	$0.63	20.000%	$0.63		
+0762	"Bupivacaine implant, 1 mg"	K1		$0.853	.	$0.18	20.000%	$0.18		
+0763	"Inj, bupivacaine liposome"	K1		$1.451	.	$0.30	20.000%	$0.30		
+0764	Ketorolac tromethamine inj	K1		$0.682	.	$0.14	20.000%	$0.14		
+0765	"Inj, donanemab-azbt, 2 mg"	G		$4.094	.	$0.82	20.000%	$0.82		
+0766	Tc99m exametazime	K		$802.340		$160.47	20.000%	$160.47		
+0767	"Inj, nogapendekin pmln 1 mcg"	G		$92.185	.	$18.44	20.000%	$18.44		
+0768	"Inj, tarlatamab-dlle, 1 mg "	G		"$1,545.000"	.	$309.00	20.000%	$309.00		
+0769	"In111 ibritumomab, dx"	K		$798.020	.	$159.61	20.000%	$159.61		
+0770	In111 oxyquinoline	K		$772.640	.	$154.53	20.000%	$154.53		
+0771	In111 pentetate	K		$715.290	.	$143.06	20.000%	$143.06		
+0772	"Inj, pegulicianine, 1 mg "	G		$37.508	.	$0.00				
+0773	"Inj, beqvez, per tx dose"	G		"$3,605,000.000"	.	"$721,000.00"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+0774	Tc99m bicisate	K		$683.800	.	$136.76	20.000%	$136.76		
+0775	Technetium tc99m arcitumomab	K		$809.510	.	$161.91	20.000%	$161.91		
+0776	Technetium tc-99m auto wbc	K		"$1,040.320"	.	$208.07	20.000%	$208.07		
+0777	Indium in-111 auto wbc	K		"$1,031.390"	.	$206.28	20.000%	$206.28		
+0778	"Inj, vasopressin (baxter) "	G		$3.769	.	$0.76	20.000%	$0.76		
+0779	Indium in-111 pentetreotide	K		"$1,914.610"	.	$382.93	20.000%	$382.93		
+0780	Iodine i-123 iobenguane	K		"$2,074.810"	.	$414.97	20.000%	$414.97		
+0781	Iodine i-123 ioflupane	K		"$1,388.020"	.	$277.61	20.000%	$277.61		
+0782	"Inj, pemrydi rtu, 10 mg"	G		$82.297	.	$16.46	20.000%	$16.46		
+0784	"Inj, tyenne, 1 mg"	G		$5.043	.	$1.01	20.000%	$1.01		
+0785	"Inj, cyclophosphamd, sandoz"	K		$4.338	.	$0.87	20.000%	$0.87		
+0786	"Inj, tofidence, 1 mg"	G		$5.717	.	$1.15	20.000%	$1.15		
+0788	"Inj cefazolin sodium, hikma"	K		$0.984	.	$0.20	20.000%	$0.20		
+0789	Inj daptomycin (xellia)	K		$0.041	.	$0.01	20.000%	$0.01		
+0790	"Inj, methylpred acetate 1 mg"	K		$0.119	.	$0.03	20.000%	$0.03		
+0791	"Inj, hydromorphone, 0.1 mg"	K		$0.085	.	$0.02	20.000%	$0.02		
+0792	"Inj, glycopyrrolate, 0.1 mg"	K		$0.510	.	$0.11	20.000%	$0.11		
+0793	Inj glycopyrrolate fres kabi	K		$1.803	.	$0.37	20.000%	$0.37		
+0794	"Inj, bumetanide, 0.5 mg"	K		$0.620	.	$0.13	20.000%	$0.13		
+0795	"Inj, lidocaine in d5w, 1 mg"	K		$0.003	$0.00	$0.01	20.000%	$0.01		
+0796	Inj meropenem (wg crit care)	K		$1.617	.	$0.33	20.000%	$0.33		
+0797	"Inj, immphentiv, 20 mcg"	K		$0.153	.	$0.04	20.000%	$0.04		
+0798	"Inj, sezaby, 1 mg"	K		$1.414	.	$0.29	20.000%	$0.29		
+0799	Inj fluphenazine hcl 1.25 mg	K		$7.349	.	$1.47	20.000%	$1.47		
+0800	Leuprolide acetate	K		"$1,617.647"	.	$323.53	19.377%	$313.46		Inflation-Adjusted Coinsurance
+0801	"Inj, methylpred sod succ 5mg"	K		$0.304	.	$0.07	20.000%	$0.07		
+0803	Hydroxocobalamin im 10mcg	K		$0.008	$0.00	$0.01	20.000%	$0.01		
+0804	"Capecitabine, oral, 50 mg"	K		$0.064	.	$0.02	20.000%	$0.02		
+0805	"Hiv prep, inj, cabotegravir"	K		$6.809	.	$0.00				
+0806	"Hiv prep, ftc/tdf 200/300mg "	K		$4.870	.	$0.00				
+0807	Aldesleukin injection	K		"$5,301.260"	.	"$1,060.26"	20.000%	"$1,060.26"		
+0808	"Hiv prep, ftc/taf 200/25mg "	K		$77.815	.	$0.00				
+0810	Goserelin acetate implant	K		$674.772	.	$134.96	18.888%	$127.46		Inflation-Adjusted Coinsurance
+0811	"Inj, nypozi, 1 mcg"	G		$0.535	.	$0.11	20.000%	$0.11		
+0812	Carmustine injection	K		$330.871	.	$66.18	20.000%	$66.18		
+0813	"Injection, imetelstat, 1 mg"	G		$54.152	.	$10.84	20.000%	$10.84		
+0814	"Inj, magtrace per study dose"	G		"$1,137.959"	.	$227.60	20.000%	$227.60		
+0815	"Inj, palonosetron (posfrea)"	G		$59.740	.	$11.95	20.000%	$11.95		
+0816	"Inj, tislelizumab-jsgr"	G		$551.624	.	$110.33	20.000%	$110.33		
+0817	"Inj, adalimumab, 1 mg"	K		$91.725	.	$18.35	20.000%	$18.35		
+0818	"Inj, crovalimab-akkz, 10 mg"	K		$535.903	.	$107.19	20.000%	$107.19		
+0819	"Inj, alyglo, 500 mg"	K		$169.860	.	$33.98	20.000%	$33.98		
+0820	Daunorubicin injection	K		$24.436	.	$4.89	20.000%	$4.89		
+0822	"Inj, romiplostim 1 microgram"	K		$10.105	.	$2.03	20.000%	$2.03		
+0824	"Inj, exagamglogene autotem"	K		"$2,332,000.000"	.	"$466,400.00"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+0825	Nelarabine injection	K		$72.527	.	$14.51	20.000%	$14.51		
+0826	"Inj adalimumab-fkjp, 1 mg"	K		$87.138	.	$17.43	20.000%	$17.43		
+0827	Floxuridine injection	K		"$3,858.031"	.	$771.61	20.000%	$771.61		
+0828	"Inj adalimumab-aaty, 1 mg"	K		$43.569	.	$8.72	20.000%	$8.72		
+0829	"Inj adalimumab-ryvk, 1 mg"	K		$13.364	.	$2.68	20.000%	$2.68		
+0830	"Inj adalimumab-adbm, 1 mg"	K		$87.138	.	$17.43	20.000%	$17.43		
+0833	"Inj, idacio, 1 mg"	K		$14.628	.	$2.93	20.000%	$2.93		
+0834	"Inj, abrilada, 1 mg"	K		$99.628	.	$19.93	20.000%	$19.93		
+0840	Inj melpha hydroch nos 50 mg	K		$153.536	.	$30.71	20.000%	$30.71		
+0843	Pegaspargase injection	K		"$27,070.534"	.	"$5,414.11"	19.079%	"$1,632.00"		"Inflation-Adjusted Coinsurance. Copayments capped at inpatient deductible of $1,632.00."
+0844	Pentostatin injection	K		"$2,541.774"	.	$508.36	18.590%	$472.52		Inflation-Adjusted Coinsurance
+0851	Thiotepa injection	K		$209.016	.	$41.81	20.000%	$41.81		
+0856	Porfimer sodium injection	K		"$23,870.140"	.	"$4,774.03"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+0858	Inj cladribine	K		$14.245	.	$2.85	20.000%	$2.85		
+0864	Mitoxantrone hydrochl	K		$54.651	.	$10.94	20.000%	$10.94		
+0874	Synvisc or synvisc-one	K		$9.155	.	$1.84	20.000%	$1.84		
+0875	Euflexxa inj per dose	K		$121.312	.	$24.27	20.000%	$24.27		
+0877	Orthovisc inj per dose	K		$122.913	.	$24.59	20.000%	$24.59		
+0887	Azathioprine parenteral	K		$235.674	.	$47.14	20.000%	$47.14		
+0890	Lymphocyte immune globulin	K		"$3,968.446"	.	$793.69	14.270%	$566.30		Inflation-Adjusted Coinsurance
+0901	Alpha 1 proteinase inhibitor	K		$4.935	.	$0.99	20.000%	$0.99		
+0902	"Injection,onabotulinumtoxinA"	K		$6.406	.	$1.29	20.000%	$1.29		
+0903	Cytomegalovirus imm IV /vial	K		"$1,814.938"	.	$362.99	20.000%	$362.99		
+0925	Factor viii	K		$1.171	.	$0.24	20.000%	$0.24		
+0927	Factor viii recombinant	K		$1.548	.	$0.31	20.000%	$0.31		
+0928	Factor ix complex	K		$1.652	.	$0.34	20.000%	$0.34		
+0929	Anti-inhibitor	K		$2.344	.	$0.47	20.000%	$0.47		
+0931	Factor IX non-recombinant	K		$1.409	.	$0.29	20.000%	$0.29		
+0932	Factor ix recombinant nos	K		$1.852	.	$0.38	20.000%	$0.38		
+0943	Octagam injection	K		$48.995	.	$9.80	20.000%	$9.80		
+0944	Gammagard liquid injection	K		$49.692	.	$9.94	20.000%	$9.94		
+0946	Hepagam b im injection	K		$68.657	.	$13.74	20.000%	$13.74		
+0947	Flebogamma injection	K		$56.116	.	$11.23	20.000%	$11.23		
+0948	Gamunex-C/Gammaked	K		$48.805	.	$9.77	20.000%	$9.77		
+0963	"Albumin (human), 5%, 250 ml"	K		$53.077	.	$10.62	20.000%	$10.62		
+0964	"Albumin (human), 25%, 20 ml"	K		$21.231	.	$4.25	20.000%	$4.25		
+1015	Injection glatiramer acetate	K		$172.884	.	$34.58	20.000%	$34.58		
+1064	"I131 iodide cap, rx"	K		$23.130	.	$4.63	20.000%	$4.63		
+1138	"Hepagam b intravenous, inj"	K		$68.657	.	$13.74	20.000%	$13.74		
+1139	Protein c concentrate	K		$15.052	.	$3.02	20.000%	$3.02		
+1142	Supprelin LA implant	K		"$45,350.216"	.	"$9,070.05"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1150	"I131 iodide sol, rx"	K		$20.880	.	$4.18	20.000%	$4.18		
+1168	"Inj, temsirolimus"	K		$32.210	.	$6.45	20.000%	$6.45		
+1178	Busulfan injection	K		$1.270	.	$0.26	20.000%	$0.26		
+1203	Verteporfin injection	K		$11.534	.	$2.31	20.000%	$2.31		
+1207	"Octreotide injection, depot"	K		$214.884	.	$42.98	20.000%	$42.98		
+1213	Antihemophilic viii/vwf comp	K		$1.225	.	$0.25	20.000%	$0.25		
+1214	Inj IVIG privigen 500 mg	K		$48.579	.	$9.72	20.000%	$9.72		
+1232	Mitomycin injection	K		$42.505	.	$8.51	20.000%	$8.51		
+1235	Valrubicin injection	K		"$1,437.078"	.	$287.42	20.000%	$287.42		
+1237	Inj iron dextran	K		$17.669	.	$3.54	20.000%	$3.54		
+1263	Antithrombin iii injection	K		$3.853	.	$0.78	20.000%	$0.78		
+1268	Xyntha inj	K		$1.483	.	$0.30	20.000%	$0.30		
+1274	Edetate calcium disodium inj	K 		"$6,086.319"	.	"$1,217.27"	20.000%	"$1,217.27"		
+1281	Bevacizumab injection	K		$1.818	.	$0.37	20.000%	$0.37		
+1289	AbobotulinumtoxinA	K		$8.630	.	$1.73	20.000%	$1.73		
+1295	Sm 153 lexidronam	K		"$4,314.910"		$862.99	20.000%	$862.99		
+1296	Degarelix injection	K		$4.176	.	$0.84	20.000%	$0.84		
+1297	"Ferumoxytol, non-esrd"	K		$0.338	.	$0.07	20.000%	$0.07		
+1311	Canakinumab injection	K		$127.810	.	$25.57	20.000%	$25.57		
+1312	Hizentra injection	K		$13.232	.	$2.65	20.000%	$2.65		
+1327	Imiglucerase injection	K		$43.615	.	$8.73	20.000%	$8.73		
+1331	Olanzapine long-acting inj	K		$2.917	.	$0.59	20.000%	$0.59		
+1340	"Collagenase, clost hist inj"	K		$71.159	.	$14.24	18.328%	$13.05		Inflation-Adjusted Coinsurance
+1352	Wilate injection	K		$1.280	.	$0.26	20.000%	$0.26		
+1353	Belimumab injection	K		$54.149	.	$10.83	20.000%	$10.83		
+1413	Lumizyme injection	K		$201.965	.	$40.40	20.000%	$40.40		
+1415	Glassia injection	K		$5.576	.	$1.12	20.000%	$1.12		
+1416	Factor xiii anti-hem factor	K		$10.159	.	$2.04	20.000%	$2.04		
+1417	Gel-one	K		$534.483	.	$106.90	20.000%	$106.90		
+1420	Aflibercept injection	K		$821.980	.	$164.40	20.000%	$164.40		
+1421	Imported lipodox inj	K		$528.860	.	$105.78	20.000%	$105.78		
+1426	Eribulin mesylate injection	K		$135.785	.	$27.16	20.000%	$27.16		
+1431	Centruroides immune f(ab)	K		"$4,804.242"	.	$960.85	20.000%	$960.85		
+1433	Calcitonin salmon injection	K		"$1,173.059"	.	$234.62	20.000%	$234.62		
+1440	Inj desmopressin acetate	K		$5.420	.	$1.09	20.000%	$1.09		
+1442	Non-HEU TC-99M add-on/dose	K		$10.000	.	$2.00	20.000%	$2.00		
+1443	Icatibant injection	K		$151.642	.	$30.33	20.000%	$30.33		
+1446	Visualization adjunct	K		$8.534	.	$1.71	20.000%	$1.71		
+1458	Phentolaine mesylate inj	K		$367.121	.	$73.43	20.000%	$73.43		
+1468	"Inj, abilify maintena, 1 mg"	K		$7.074	.	$1.42	20.000%	$1.42		
+1469	Inj filgrastim excl biosimil	K		$0.995	.	$0.20	20.000%	$0.20		
+1471	"Injection, Pertuzumab, 1 mg"	K		$16.118	.	$3.23	20.000%	$3.23		
+1472	Inj beta interferon im 1 mcg	K		$56.230	.	$11.25	20.000%	$11.25		
+1474	Certolizumab pegol inj 1mg	K		$4.652	.	$0.94	20.000%	$0.94		
+1475	Golimumab for iv use 1mg	K		$11.100	.	$2.22	20.000%	$2.22		
+1476	Obinutuzumab inj	K		$74.588	.	$14.92	20.000%	$14.92		
+1478	Inj human fibrinogen con nos	K		$1.446	.	$0.29	20.000%	$0.29		
+1480	"Elosulfase alfa, injection"	K		$293.916	.	$58.79	20.000%	$58.79		
+1482	"	Darbepoetin alfa, esrd use"	K		$3.036	.	$0.61	20.000%	$0.61		
+1485	"	Ferumoxytol, esrd use"	K		$0.338	.	$0.07	20.000%	$0.07		
+1486	Factor ix fc fusion recomb	K		$3.591	.	$0.72	20.000%	$0.72		
+1488	"Injection, ramucirumab"	K		$71.071	.	$14.22	20.000%	$14.22		
+1489	Inj vedolizumab iv 1 mg	K		$22.260	.	$4.46	20.000%	$4.46		
+1490	Inj pembrolizumab	K		$58.216	.	$11.65	20.000%	$11.65		
+1491	New Technology  - Level 1A ($0-$10)	S		$5.00	.	$1.00				
+1492	New Technology  - Level 1B ($11-$20)	S		$15.50	.	$3.10				
+1493	New Technology  - Level 1C ($21-$30)	S		$25.50	.	$5.10				
+1494	New Technology  - Level 1D ($31-$40)	S		$35.50	.	$7.10				
+1495	New Technology  - Level 1E ($41-$50)	S		$45.50	.	$9.10				
+1496	New Technology  - Level 1A ($0-$10)	T		$5.00	.	$1.00				
+1497	New Technology  - Level 1B ($11-$20)	T		$15.50	.	$3.10				
+1498	New Technology  - Level 1C ($21-$30)	T		$25.50	.	$5.10				
+1499	New Technology  - Level 1D ($31-$40)	T		$35.50	.	$7.10				
+1500	New Technology  - Level 1E ($41-$50)	T		$45.50	.	$9.10				
+1502	New Technology - Level 2 ($51 - $100)	S		$75.50	.	$15.10				
+1503	New Technology - Level 3 ($101 - $200)	S		$150.50	.	$30.10				
+1504	New Technology - Level 4 ($201 - $300)	S		$250.50	.	$50.10				
+1505	New Technology - Level 5 ($301 - $400)	S		$350.50	.	$70.10				
+1506	New Technology - Level 6 ($401 - $500)	S		$450.50	.	$90.10				
+1507	New Technology - Level 7 ($501 - $600)	S		$550.50	.	$110.10				
+1508	New Technology - Level 8 ($601 - $700)	S		$650.50	.	$130.10				
+1509	New Technology - Level 9 ($701 - $800)	S		$750.50	.	$0.00				
+1510	New Technology - Level 10 ($801 - $900)	S		$850.50	.	$170.10				
+1511	New Technology - Level 11 ($901 - $1000)	S		$950.50	.	$190.10				
+1512	New Technology - Level 12 ($1001 - $1100)	S		"$1,050.50"	.	$210.10				
+1513	New Technology - Level 13 ($1101 - $1200)	S		"$1,150.50"	.	$230.10				
+1514	New Technology - Level 14 ($1201- $1300)	S		"$1,250.50"	.	$250.10				
+1515	New Technology - Level 15 ($1301 - $1400)	S		"$1,350.50"	.	$270.10				
+1516	New Technology - Level 16  ($1401 - $1500)	S		"$1,450.50"	.	$290.10				
+1517	New Technology - Level 17 ($1501-$1600)	S		"$1,550.50"	.	$310.10				
+1518	New Technology - Level 18 ($1601-$1700)	S		"$1,650.50"	.	$330.10				
+1519	New Technology - Level 19 ($1701-$1800)	S		"$1,750.50"	.	$350.10				
+1520	New Technology - Level 20 ($1801-$1900)	S		"$1,850.50"	.	$370.10				
+1521	New Technology - Level 21 ($1901-$2000)	S		"$1,950.50"	.	$390.10				
+1522	New Technology - Level 22 ($2001-$2500)	S		"$2,250.50"	.	$450.10				
+1523	New Technology - Level 23 ($2501-$3000)	S		"$2,750.50"	.	$550.10				
+1524	New Technology - Level 24 ($3001-$3500)	S		"$3,250.50"	.	$650.10				
+1525	New Technology - Level 25 ($3501-$4000)	S		"$3,750.50"	.	$750.10				
+1526	New Technology - Level 26 ($4001-$4500)	S		"$4,250.50"	.	$850.10				
+1527	New Technology - Level 27 ($4501-$5000)	S		"$4,750.50"	.	$950.10				
+1528	New Technology - Level 28 ($5001-$5500)	S		"$5,250.50"	.	"$1,050.10"				
+1529	New Technology - Level 29 ($5501-$6000)	S		"$5,750.50"	.	"$1,150.10"				
+1530	New Technology - Level 30 ($6001-$6500)	S		"$6,250.50"	.	"$1,250.10"				
+1531	New Technology - Level 31 ($6501-$7000)	S		"$6,750.50"	.	"$1,350.10"				
+1532	New Technology - Level 32 ($7001-$7500)	S		"$7,250.50"	.	"$1,450.10"				
+1533	New Technology - Level 33 ($7501-$8000)	S		"$7,750.50"	.	"$1,550.10"				
+1534	New Technology - Level 34 ($8001-$8500)	S		"$8,250.50"	.	"$1,650.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1535	New Technology - Level 35 ($8501-$9000)	S		"$8,750.50"	.	"$1,750.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1536	New Technology - Level 36 ($9001-$9500)	S		"$9,250.50"	.	"$1,850.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1537	New Technology - Level 37 ($9501-$10000)	S		"$9,750.50"	.	"$1,950.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1539	New Technology - Level 2 ($51 - $100)	T		$75.50	.	$15.10				
+1540	New Technology - Level 3 ($101 - $200)	T		$150.50	.	$30.10				
+1541	New Technology - Level 4 ($201 - $300)	T		$250.50	.	$50.10				
+1542	New Technology - Level 5 ($301 - $400)	T		$350.50	.	$70.10				
+1543	New Technology - Level 6 ($401 - $500)	T		$450.50	.	$90.10				
+1544	New Technology - Level 7 ($501 - $600)	T		$550.50	.	$110.10				
+1545	New Technology - Level 8 ($601 - $700)	T		$650.50	.	$130.10				
+1546	New Technology - Level 9 ($701 - $800)	T		$750.50	.	$150.10				
+1547	New Technology - Level 10 ($801 - $900)	T		$850.50	.	$170.10				
+1548	New Technology - Level 11 ($901 - $1000)	T		$950.50	.	$190.10				
+1549	New Technology - Level 12 ($1001 - $1100)	T		"$1,050.50"	.	$210.10				
+1550	New Technology - Level 13 ($1101 - $1200)	T		"$1,150.50"	.	$230.10				
+1551	New Technology - Level 14 ($1201- $1300)	T		"$1,250.50"	.	$250.10				
+1552	New Technology - Level 15 ($1301 - $1400)	T		"$1,350.50"	.	$270.10				
+1553	New Technology - Level 16 ($1401 - $1500)	T		"$1,450.50"	.	$290.10				
+1554	New Technology - Level 17 ($1501-$1600)	T		"$1,550.50"	.	$310.10				
+1555	New Technology - Level 18 ($1601-$1700)	T		"$1,650.50"	.	$330.10				
+1556	New Technology - Level 19 ($1701-$1800)	T		"$1,750.50"	.	$350.10				
+1557	New Technology - Level 20 ($1801-$1900)	T		"$1,850.50"	.	$370.10				
+1558	New Technology - Level 21 ($1901-$2000)	T		"$1,950.50"	.	$390.10				
+1559	New Technology - Level 22 ($2001-$2500)	T		"$2,250.50"	.	$450.10				
+1560	New Technology - Level 23 ($2501-$3000)	T		"$2,750.50"	.	$550.10				
+1561	New Technology - Level 24 ($3001-$3500)	T		"$3,250.50"	.	$650.10				
+1562	New Technology - Level 25 ($3501-$4000)	T		"$3,750.50"	.	$750.10				
+1563	New Technology - Level 26 ($4001-$4500)	T		"$4,250.50"	.	$850.10				
+1564	New Technology - Level 27 ($4501-$5000)	T		"$4,750.50"	.	$950.10				
+1565	New Technology - Level 28 ($5001-$5500)	T		"$5,250.50"	.	"$1,050.10"				
+1566	New Technology - Level 29 ($5501-$6000)	T		"$5,750.50"	.	"$1,150.10"				
+1567	New Technology - Level 30 ($6001-$6500)	T		"$6,250.50"	.	"$1,250.10"				
+1568	New Technology - Level 31 ($6501-$7000)	T		"$6,750.50"	.	"$1,350.10"				
+1569	New Technology - Level 32 ($7001-$7500)	T		"$7,250.50"	.	"$1,450.10"				
+1570	New Technology - Level 33 ($7501-$8000)	T		"$7,750.50"	.	"$1,550.10"				
+1571	New Technology - Level 34 ($8001-$8500)	T		"$8,250.50"	.	"$1,650.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1572	New Technology - Level 35 ($8501-$9000)	T		"$8,750.50"	.	"$1,750.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1573	New Technology - Level 36 ($9001-$9500)	T		"$9,250.50"	.	"$1,850.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1574	New Technology - Level 37 ($9501-$10000)	T		"$9,750.50"	.	"$1,950.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1575	"New Technology - Level 38 ($10,001-$15,000)"	S		"$12,500.50"	.	"$2,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1576	"New Technology - Level 39 ($15,001-$20,000)"	S		"$17,500.50"	.	"$3,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1577	"New Technology - Level 40 ($20,001-$25,000)"	S		"$22,500.50"	.	"$4,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1578	"New Technology - Level 41 ($25,001-$30,000)"	S		"$27,500.50"	.	"$5,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1579	"New Technology - Level 42 ($30,001-$40,000)"	S		"$35,000.50"	.	"$7,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1580	"New Technology - Level 43 ($40,001-$50,000)"	S		"$45,000.50"	.	"$9,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1581	"New Technology - Level 44 ($50,001-$60,000)"	S		"$55,000.50"	.	"$11,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1582	"New Technology - Level 45 ($60,001-$70,000)"	S		"$65,000.50"	.	"$13,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1583	"New Technology - Level 46 ($70,001-$80,000)"	S		"$75,000.50"	.	"$15,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1584	"New Technology - Level 47 ($80,001-$90,000)"	S		"$85,000.50"	.	"$17,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1585	"New Technology - Level 48 ($90,001-$100,000)"	S		"$95,000.50"	.	"$19,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1589	"New Technology - Level 38 ($10,001-$15,000)"	T		"$12,500.50"	.	"$2,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1590	"New Technology - Level 39 ($15,001-$20,000)"	T		"$17,500.50"	.	"$3,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1591	"New Technology - Level 40 ($20,001-$25,000)"	T		"$22,500.50"	.	"$4,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1592	"New Technology - Level 41 ($25,001-$30,000)"	T		"$27,500.50"	.	"$5,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1593	"New Technology - Level 42 ($30,001-$40,000)"	T		"$35,000.50"	.	"$7,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1594	"New Technology - Level 43 ($40,001-$50,000)"	T		"$45,000.50"	.	"$9,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1595	"New Technology - Level 44 ($50,001-$60,000)"	T		"$55,000.50"	.	"$11,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1596	"New Technology - Level 45 ($60,001-$70,000)"	T		"$65,000.50"	.	"$13,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1597	"New Technology - Level 46 ($70,001-$80,000)"	T		"$75,000.50"	.	"$15,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1598	"New Technology - Level 47 ($80,001-$90,000)"	T		"$85,000.50"	.	"$17,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1599	"New Technology - Level 48 ($90,001-$100,000)"	T		"$95,000.50"	.	"$19,000.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1608	Etanercept injection	K		$790.781	.	$158.16	20.000%	$158.16		
+1609	"Rho(D) immune globulin h, sd"	K		$34.336	.	$6.87	20.000%	$6.87		
+1613	Trastuzumab injection	K		$77.940	.	$15.59	20.000%	$15.59		
+1630	"Hep b ig, im"	K		$139.931	.	$27.99	20.000%	$27.99		
+1643	"Y90 ibritumomab, rx"	K		"$14,774.740"		"$2,954.95"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1656	Factor viii fc fusion recomb	K		$2.344	.	$0.47	20.000%	$0.47		
+1658	"Injection, belinostat, 10mg"	K		$50.088	.	$10.02	20.000%	$10.02		
+1660	"Injection, oritavancin"	K		$28.459	.	$5.70	20.000%	$5.70		
+1662	Inj tedizolid phosphate	K		$1.809	.	$0.37	20.000%	$0.37		
+1664	Florbetapir f18	K		"$2,194.620"	.	$438.93	20.000%	$438.93		
+1670	Tetanus immune globulin inj	K		$581.777	.	$116.36	19.940%	$116.01		Inflation-Adjusted Coinsurance
+1675	P32 na phosphate	K		$179.120	.	$35.83	20.000%	$35.83		
+1683	Basiliximab	K		"$4,588.770"	.	$917.76	20.000%	$917.76		
+1685	"Darbepoetin alfa, non-esrd"	K		$3.036	.	$0.61	20.000%	$0.61		
+1686	"Epoetin alfa, non-esrd"	K		$7.528	.	$1.51	20.000%	$1.51		
+1687	Digoxin immune fab (ovine)	K		"$4,888.104"	.	$977.63	20.000%	$977.63		
+1688	Ethanolamine oleate	K		$491.684	.	$98.34	20.000%	$98.34		
+1689	Fomepizole	K		$6.441	.	$1.29	20.000%	$1.29		
+1690	Hemin	K		$32.195	.	$6.44	19.690%	$6.34		Inflation-Adjusted Coinsurance
+1694	Ziconotide injection	K		$9.649	.	$1.93	20.000%	$1.93		
+1696	Palifermin injection	K		$33.991	.	$6.80	16.877%	$5.74		Inflation-Adjusted Coinsurance
+1700	Inj secretin synthetic human	K		$42.572	.	$8.52	19.586%	$8.34		Inflation-Adjusted Coinsurance
+1701	Treprostinil injection	K		$55.815	.	$11.17	20.000%	$11.17		
+1704	"Humate-P, inj"	K		$1.395	.	$0.28	20.000%	$0.28		
+1705	Factor viia recomb novoseven	K		$2.517	.	$0.51	20.000%	$0.51		
+1710	Clofarabine injection	K		$14.377	.	$2.88	20.000%	$2.88		
+1712	Paclitaxel protein bound	K		$13.344	.	$2.67	20.000%	$2.67		
+1745	Radium ra223 dichloride ther	K		$165.249	.	$33.05	20.000%	$33.05		
+1746	Factor xiii recomb a-subunit	K		$17.256	.	$3.46	20.000%	$3.46		
+1747	Monovisc inj per dose	K		$683.165	.	$136.64	20.000%	$136.64		
+1748	Inj tbo filgrastim 1 microg	K		$0.388	.	$0.08	20.000%	$0.08		
+1761	"Rolapitant, oral, 1mg"	K		$1.583	.	$0.32	20.000%	$0.32		
+1809	"Injection, alemtuzumab"	K		"$2,337.693"	.	$467.54	20.000%	$467.54		
+1822	"Injection, zarxio"	K		$0.362	.	$0.08	20.000%	$0.08		
+1823	"Injection, dalbavancin"	K		$15.612	.	$3.13	20.000%	$3.13		
+1824	"	Ceftaroline fosamil inj"	K		$3.935	.	$0.79	20.000%	$0.79		
+1825	Ceftazidime and avibactam	K		$100.582	.	$20.12	20.000%	$20.12		
+1826	Hyqvia 100mg immuneglobulin	K		$17.503	.	$3.51	20.000%	$3.51		
+1827	Factor viii recomb obizur	K		$3.221	.	$0.65	20.000%	$0.65		
+1829	"	Penicillin g benzathine inj"	K		$24.368	.	$4.88	14.948%	$3.65		Inflation-Adjusted Coinsurance
+1832	Dimethyl sulfoxide 50% 50 ml	K		$715.901	.	$143.19	20.000%	$143.19		
+1836	Penicillin g procaine inj	K		$40.941	.	$8.19	20.000%	$8.19		
+1844	Factor viii pegylated recomb	K		$2.095	.	$0.42	20.000%	$0.42		
+1846	Factor viii nuwiq recomb 1iu	K		$1.244	.	$0.25	20.000%	$0.25		
+1847	"Injection, inflectra"	K		$13.618	.	$2.73	20.000%	$2.73		
+1848	Artiss fibrin sealant	K		$138.347	.	$27.67	20.000%	$27.67		
+1849	Foscarnet sodium injection	K		$50.315	.	$10.07	20.000%	$10.07		
+1850	Gamma globulin 1 cc inj	K		$49.852	.	$9.98	20.000%	$9.98		
+1851	Gamma globulin > 10 cc inj	K		$498.522	.	$99.71	20.000%	$99.71		
+1852	Interferon beta-1a inj	K		"$2,203.140"	.	$440.63	20.000%	$440.63		
+1853	Minocycline hydrochloride	K		$2.587	.	$0.52	18.543%	$0.48		Inflation-Adjusted Coinsurance
+1856	Factor viii recomb novoeight	K		$1.378	.	$0.28	20.000%	$0.28		
+1857	"Inj, factor x, (human), 1iu"	K		$9.112	.	$1.83	20.000%	$1.83		
+1859	Argatroban nonesrd use 1mg	K		$1.257	.	$0.26	20.000%	$0.26		
+1861	"Inj., bendeka 1 mg"	K		$12.946	.	$2.59	20.000%	$2.59		
+1901	"New Technology - Level 49 ($100,001-$115,000)"	S		"$107,500.50"	.	"$21,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1902	"New Technology - Level 49 ($100,001-$115,000)"	T		"$107,500.50"	.	"$21,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1903	"New Technology - Level 50 ($115,001-$130,000)"	S		"$122,500.50"	.	"$24,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1904	"New Technology - Level 50 ($115,001-$130,000)"	T		"$122,500.50"	.	"$24,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1905	"New Technology - Level 51 ($130,001-$145,000)"	S		"$137,500.50"	.	"$27,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1906	"New Technology - Level 51 ($130,001-$145,000)"	T		"$137,500.50"	.	"$27,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1907	"New Technology - Level 52 ($145,001-$160,000)"	S		"$152,500.50"	.	"$30,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+1908	"New Technology - Level 52 ($145,001-$160,000)"	T		"$152,500.50"	.	"$30,500.10"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+2038	"Gen, neuro, clo loop, rechg"	H 			.	.			*	
+2039	"Gen, neuro, imp led, ex cntr"	H 			.	.			*	
+2040	"Endo, single, urinary tract"	H 			.	.			*	
+2041	"Cath, bladed, vasc prep"	H 			.	.				
+2042	"Endo, single, pulmonary"	H 			.	.				
+2043	Orth/matrx/bn fill drug-elut	H 			.	.				
+2044	"Ret dev, laser, ivc filter"	H 			.	.				
+2045	"Grft, trnsmurl/trnsvens byps"	H 			.	.				
+2046	"Pmkr, dual, leadless"	H 			.	.				
+2047	"Adapter, us to endoscope"	H 			.	.				
+2048	Pump elastomc non-opioid dev	H1			.	.				
+2049	"Suprt dev, a-v fistula, imp"	H 			.	.				
+2050	Cath coronary drug-delivery	H 			.	.				
+2051	Cath renal denerv radiofreq	H 			.	.				
+2052	Cath renal denerv ultrasnd	H 			.	.				
+2053	Si&pelvis fusn&fixn dev	H 			.	.				
+2054	Power endo us-guid bx dev	H 			.	.				
+2055	"Tissue marker, detectable"	H 			.	.				
+2056	Pump perist non-opioid dev	H1			.	.				
+2057	Nerve stim non-opioid dev	H1			.	.				
+2058	Cryo probe non-opioid dev	H1			.	.				
+2059	Cryo needle non-opioid dev	H1			.	.				
+2616	"Brachytx, non-str,Yttrium-90"	U	196.0895	"$17,485.10"	.	"$3,497.02"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+2632	Iodine I-125 sodium iodide	U	2.3391	$208.58	.	$41.72				
+2634	"Brachytx, non-str, HA, I-125"	U	1.8262	$162.84	.	$32.57				
+2635	"Brachytx, non-str, HA, P-103"	U	0.7781	$69.38	.	$13.88				
+2636	"Brachy linear, non-str,P-103"	U	0.5934	$52.91	.	$10.59				
+2638	"Brachytx, stranded, I-125"	U	0.4154	$37.04	.	$7.41				
+2639	"Brachytx, non-stranded,I-125"	U	0.3938	$35.11	.	$7.03				
+2640	"Brachytx, stranded, P-103"	U	0.7816	$69.69	.	$13.94				
+2641	"Brachytx, non-stranded,P-103"	U	0.8946	$79.77	.	$15.96				
+2642	"Brachytx, stranded, C-131"	U	1.2096	$107.86	.	$21.58				
+2643	"Brachytx, non-stranded,C-131"	U	1.0829	$96.56	.	$19.32				
+2645	"Brachytx, non-str, Gold-198"	U	9.7380	$868.33	.	$173.67				
+2646	"Brachytx, non-str, HDR Ir-192"	U	3.8398	$342.39	.	$68.48				
+2647	"Brachytx, NS, Non-HDRIr-192"	U	6.3307	$564.50	.	$112.90				
+2648	"Brachytx planar, p-103"	U	0.0526	$4.69	.	$0.94				
+2698	"Brachytx, stranded, NOS"	U	0.4154	$37.04	.	$7.41				
+2699	"Brachytx, non-stranded, NOS"	U	0.3938	$35.11	.	$7.03				
+2731	"Immune globulin, powder"	K		$82.192	.	$16.44	20.000%	$16.44		
+2770	Quinupristin/dalfopristin	K		$4.260	.	$0.86	20.000%	$0.86		
+4001	Echo guidance radiotherapy	S	1.5627	$139.34	.	$27.87				
+4002	Stereoscopic x-ray guidance 	S	0.5914	$52.73	.	$10.55				
+4003	"Radiation treatment delivery, MeV <= 5; simple "	S	1.6272	$145.10	.	$29.02				
+4004	"Radiation treatment delivery, 6-10 MeV; simple "	S	1.3190	$117.61	.	$23.53				
+4005	"Radiation treatment delivery, 11-19 MeV; simple "	S	1.3190	$117.61	.	$23.53				
+4006	"Radiation treatment delivery, MeV>=20; simple "	S	1.3118	$116.97	.	$23.40				
+4007	"Radiation treatment delivery, MeV<=5; intermediate"	S	2.3404	$208.69	.	$41.74				
+4008	"Radiation treatment delivery, 6-10 MeV; intermediate "	S	1.8172	$162.04	.	$32.41				
+4009	"Radiation treatment delivery, 11-19 MeV; intermediate"	S	1.8315	$163.31	.	$32.67				
+4010	"Radiation treatment delivery, MeV >=20; intermediate"	S	1.8027	$160.74	.	$32.15				
+4011	"Radiation treatment delivery, MeV<=5; complex"	S	2.3941	$213.48	.	$42.70				
+4012	"Radiation treatment delivery, 6-10 MeV; complex"	S	2.3977	$213.80	.	$42.76				
+4013	"Radiation treatment delivery, 11-19 MeV; complex"	S	2.4086	$214.77	.	$42.96				
+4014	"Radiation treatment delivery, MeV >=20; complex"	S	2.3941	$213.48	.	$42.70				
+4015	Radiation tx delivery imrt	S	3.7382	$333.33	.	$66.67				
+4016	Delivery comp imrt	S	3.7238	$332.05	.	$66.41				
+5012	Clinic Visits and Related Services	V	1.4452	$128.87	.	$25.78				
+5021	Level 1 Type A ED Visits	V	0.9875	$88.05	.	$17.61				
+5022	Level 2 Type A ED Visits	V	1.7759	$158.36	.	$31.68				
+5023	Level 3 Type A ED Visits	V	3.1052	$276.89	.	$55.38				
+5024	Level 4 Type A ED Visits	V	4.7754	$425.82	.	$85.17				
+5025	Level 5 Type A ED Visits	V	6.8757	$613.10	.	$122.62				
+5031	Level 1 Type B ED Visits	V	0.9428	$84.07	.	$16.82				
+5032	Level 2 Type B ED Visits	V	1.2410	$110.66	.	$22.14				
+5033	Level 3 Type B ED Visits	V	2.0925	$186.59	.	$37.32				
+5034	Level 4 Type B ED Visits	V	3.2023	$285.55	.	$57.11				
+5035	Level 5 Type B ED Visits	V	4.5295	$403.89	.	$80.78				
+5041	Critical Care	S	9.4496	$842.61	.	$168.53				
+5045	Trauma Response with Critical Care	S	14.8389	"$1,323.17"	.	$264.64				
+5051	Level 1 Skin Procedures	T	2.2284	$198.70	.	$39.74				
+5052	Level 2 Skin Procedures	T	4.4806	$399.53	.	$79.91				
+5053	Level 3 Skin Procedures	T	6.8648	$612.13	.	$122.43				
+5054	Level 4 Skin Procedures	T	20.5142	"$1,829.23"	.	$365.85				
+5055	Level 5 Skin Procedures	T	41.0565	"$3,660.97"	.	$732.20				
+5061	Hyperbaric Oxygen	S	1.5465	$137.90	.	$27.58				
+5071	Level 1 Excision/ Biopsy/ Incision and Drainage	T	7.8905	$703.59	.	$140.72				
+5072	Level 2 Excision/ Biopsy/ Incision and Drainage	J1	18.1704	"$1,620.24"	.	$324.05				
+5073	Level 3 Excision/ Biopsy/ Incision and Drainage	J1	32.0969	"$2,862.05"	.	$572.41				
+5091	Level 1 Breast/Lymphatic Surgery and Related Procedures	J1	42.9441	"$3,829.28"	.	$765.86				
+5092	Level 2 Breast/Lymphatic Surgery and Related Procedures	J1	73.1359	"$6,521.46"	.	"$1,304.30"				
+5093	Level 3 Breast/Lymphatic Surgery and Related Procedures	J1	107.3136	"$9,569.05"	.	"$1,913.81"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5094	Level 4 Breast/Lymphatic Surgery and Related Procedures	J1	195.1166	"$17,398.35"	.	"$3,479.67"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5101	Level 1 Strapping and Cast Application	T	1.7696	$157.79	.	$31.56				
+5102	Level 2 Strapping and Cast Application	T	2.9784	$265.58	.	$53.12				
+5111	Level 1 Musculoskeletal Procedures	T	2.6902	$239.88	.	$47.98				
+5112	Level 2 Musculoskeletal Procedures	J1	17.9481	"$1,600.41"	.	$320.09				
+5113	Level 3 Musculoskeletal Procedures	J1	36.3872	"$3,244.61"	.	$648.93				
+5114	Level 4 Musculoskeletal Procedures	J1	80.1145	"$7,143.73"	.	"$1,428.75"				
+5115	Level 5 Musculoskeletal Procedures	J1	144.2970	"$12,866.82"	.	"$2,573.37"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5116	Level 6 Musculoskeletal Procedures	J1	206.2381	"$18,390.05"	.	"$3,678.01"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5151	Level 1 Airway Endoscopy	T	2.1772	$194.14	.	$38.83				
+5152	Level 2 Airway Endoscopy	T	4.3548	$388.31	.	$77.67				
+5153	Level 3 Airway Endoscopy	J1	19.3394	"$1,724.47"	.	$344.90				
+5154	Level 4 Airway Endoscopy	J1	41.3479	"$3,686.95"	.	$737.39				
+5155	Level 5 Airway Endoscopy	J1	77.6331	"$6,922.47"	.	"$1,384.50"				
+5161	Level 1 ENT Procedures	T	2.6043	$232.22	.	$46.45				
+5162	Level 2 ENT Procedures	T	5.7111	$509.25	.	$101.85				
+5163	Level 3 ENT Procedures	J1	16.6121	"$1,481.28"	.	$296.26				
+5164	Level 4 ENT Procedures	J1	36.3699	"$3,243.07"	.	$648.62				
+5165	Level 5 ENT Procedures	J1	66.3421	"$5,915.66"	.	"$1,183.14"				
+5166	Cochlear Implant Procedure	J1	356.7139	"$31,807.82"	"$6,942.79"	"$6,361.57"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5181	Level 1 Vascular Procedures	T	6.9336	$618.26	.	$123.66				
+5182	Level 2 Vascular Procedures	J1	17.4213	"$1,553.44"	.	$310.69				
+5183	Level 3 Vascular Procedures	J1	35.2981	"$3,147.50"	.	$629.50				
+5184	Level 4 Vascular Procedures	J1	60.6231	"$5,405.70"	.	"$1,081.14"				
+5191	Level 1 Endovascular Procedures	J1	36.0710	"$3,216.41"	$863.75	$643.29				
+5192	Level 2 Endovascular Procedures	J1	63.9406	"$5,701.52"	.	"$1,140.31"				
+5193	Level 3 Endovascular Procedures	J1	127.1806	"$11,340.57"	.	"$2,268.12"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5194	Level 4 Endovascular Procedures	J1	201.3785	"$17,956.72"	.	"$3,591.35"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5200	Implantation Wireless PA Pressure Monitor	J1	318.8140	"$28,428.33"	.	"$5,685.67"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5211	Level 1 Electrophysiologic Procedures	J1	13.6145	"$1,213.99"	.	$242.80				
+5212	Level 2 Electrophysiologic Procedures	J1	85.0980	"$7,588.10"	.	"$1,517.62"				
+5213	Level 3 Electrophysiologic Procedures	J1	275.1214	"$24,532.30"	.	"$4,906.46"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5221	Level 1 Pacemaker and Similar Procedures	T	40.8135	"$3,639.30"	.	$727.86				
+5222	Level 2 Pacemaker and Similar Procedures	J1	92.8123	"$8,275.98"	.	"$1,655.20"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5223	Level 3 Pacemaker and Similar Procedures	J1	117.3651	"$10,465.33"	.	"$2,093.07"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5224	Level 4 Pacemaker and Similar Procedures	J1	213.8766	"$19,071.16"	.	"$3,814.24"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5231	Level 1 ICD and Similar Procedures	J1	251.7264	"$22,446.19"	.	"$4,489.24"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5232	Level 2 ICD and Similar Procedures	J1	359.5597	"$32,061.58"	.	"$6,412.32"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5241	Level 1 Blood Product Exchange and Related Services	S	4.9028	$437.18	.	$87.44				
+5242	Level 2 Blood Product Exchange and Related Services	S	18.3840	"$1,639.28"	.	$327.86				
+5243	Level 3 Blood Product Exchange and Related Services	S	52.5426	"$4,685.17"	.	$937.04				
+5244	Level 4 Blood Product Exchange and Related Services	J1	663.2611	"$59,142.33"	.	"$11,828.47"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5301	Level 1 Upper GI Procedures	T	10.5144	$937.56	.	$187.52				
+5302	Level 2 Upper GI Procedures 	J1	21.2741	"$1,896.99"	.	$379.40				
+5303	Level 3 Upper GI Procedures	J1	42.6665	"$3,804.53"	.	$760.91				
+5311	Level 1 Lower GI Procedures 	T	10.2245	$911.71	.	$182.35				
+5312	Level 2 Lower GI Procedures 	T	13.2230	"$1,179.08"	.	$235.82				
+5313	Level 3 Lower GI Procedures 	J1	30.7550	"$2,742.39"	.	$548.48				
+5331	Complex GI Procedures	J1	66.7587	"$5,952.81"	.	"$1,190.57"				
+5341	Level 1 Abdominal/Peritoneal/Biliary and Related Procedures	J1	39.5772	"$3,529.06"	.	$705.82				
+5342	Level 2 Abdominal/Peritoneal/Biliary and Related Procedures	J1	69.9767	"$6,239.75"	.	"$1,247.95"				
+5361	Level 1 Laparoscopy and Related Services	J1	65.4304	"$5,834.36"	.	"$1,166.88"				
+5362	Level 2 Laparoscopy and Related Services	J1	116.7583	"$10,411.22"	.	"$2,082.25"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5371	Level 1 Urology and Related Services	T	2.7275	$243.21	.	$48.65				
+5372	Level 2 Urology and Related Services	J1	7.4854	$667.47	.	$133.50				
+5373	Level 3 Urology and Related Services	J1	22.9733	"$2,048.51"	.	$409.71				
+5374	Level 4 Urology and Related Services	J1	38.6790	"$3,448.97"	.	$689.80				
+5375	Level 5 Urology and Related Services	J1	57.0111	"$5,083.62"	.	"$1,016.73"				
+5376	Level 6 Urology and Related Services	J1	103.7036	"$9,247.15"	.	"$1,849.43"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5377	Level 7 Urology and Related Services	J1	145.7056	"$12,992.42"	.	"$2,598.49"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5378	Level 8 Urology and Related Services	J1	225.7350	"$20,128.56"	.	"$4,025.72"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5401	Dialysis	S	7.8471	$699.72	.	$139.95				
+5411	Level 1 Gynecologic Procedures	T	2.2561	$201.17	.	$40.24				
+5412	Level 2 Gynecologic Procedures	T	3.4114	$304.19	.	$60.84				
+5413	Level 3 Gynecologic Procedures	T	9.7651	$870.74	.	$174.15				
+5414	Level 4 Gynecologic Procedures	J1	35.6573	"$3,179.53"	.	$635.91				
+5415	Level 5 Gynecologic Procedures	J1	55.3606	"$4,936.45"	.	$987.29				
+5416	Level 6 Gynecologic Procedures	J1	82.9303	"$7,394.81"	.	"$1,478.97"				
+5431	Level 1 Nerve Procedures	J1	21.8997	"$1,952.77"	.	$390.56				
+5432	Level 2 Nerve Procedures	J1	71.8195	"$6,404.07"	.	"$1,280.82"				
+5441	Level 1 Nerve Injections	T	3.3105	$295.19	.	$59.04				
+5442	Level 2 Nerve Injections	T	7.7664	$692.52	.	$138.51				
+5443	Level 3 Nerve Injections	T	9.9843	$890.29	.	$178.06				
+5461	Level 1 Neurostimulator and Related Procedures	J1	38.5673	"$3,439.01"	.	$687.81				
+5462	Level 2 Neurostimulator and Related Procedures	J1	73.6007	"$6,562.90"	.	"$1,312.58"				
+5463	Level 3 Neurostimulator and Related Procedures	J1	139.8503	"$12,470.31"	.	"$2,494.07"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5464	Level 4 Neurostimulator and Related Procedures	J1	240.4915	"$21,444.39"	.	"$4,288.88"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5465	Level 5 Neurostimulator and Related Procedures	J1	341.7509	"$30,473.59"	.	"$6,094.72"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5471	Implantation of Drug Infusion Device	J1	198.2092	"$17,674.12"	.	"$3,534.83"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5481	Laser Eye Procedures	T	6.1524	$548.60	.	$109.72				
+5491	Level 1 Intraocular Procedures	J1	25.5776	"$2,280.73"	.	$456.15				
+5492	Level 2 Intraocular Procedures	J1	45.1150	"$4,022.86"	.	$804.58				
+5493	Level 3 Intraocular Procedures	J1	57.8644	"$5,159.71"	.	"$1,031.95"				
+5494	Level 4 Intraocular Procedures	J1	160.2497	"$14,289.31"	.	"$2,857.87"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5495	Level 5 Intraocular Procedures	J1	172.3113	"$15,364.83"	.	"$3,072.97"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5496	Level 6 Intraocular Procedures	J1	184.1048	"$16,416.44"	.	"$3,283.29"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+5501	"Level 1 Extraocular, Repair, and Plastic Eye Procedures"	T	3.3524	$298.93	.	$59.79				
+5502	"Level 2 Extraocular, Repair, and Plastic Eye Procedures"	T	10.8618	$968.54	.	$193.71				
+5503	"Level 3 Extraocular, Repair, and Plastic Eye Procedures"	J1	26.1633	"$2,332.96"	.	$466.60				
+5504	"Level 4 Extraocular, Repair, and Plastic Eye Procedures"	J1	42.2905	"$3,771.00"	.	$754.20				
+5521	Level 1 Imaging without Contrast	S	0.9874	$88.05	.	$17.61				
+5522	Level 2 Imaging without Contrast	S	1.1926	$106.34	.	$21.27				
+5523	Level 3 Imaging without Contrast	S	2.7108	$241.72	.	$48.35				
+5524	Level 4 Imaging without Contrast	S	6.1490	$548.30	.	$109.66				
+5571	Level 1 Imaging with Contrast	S	1.9964	$178.02	.	$35.61				
+5572	Level 2 Imaging with Contrast	S	4.0051	$357.13	.	$71.43				
+5573	Level 3 Imaging with Contrast	S	8.8602	$790.06	.	$158.02				
+5591	Level 1 Nuclear Medicine and Related Services 	S	4.5064	$401.83	.	$80.37				
+5592	Level 2 Nuclear Medicine and Related Services	S	6.0365	$538.27	.	$107.66				
+5593	Level 3 Nuclear Medicine and Related Services 	S	14.6405	"$1,305.48"	.	$261.10				
+5594	Level 4 Nuclear Medicine and Related Services	S	16.3576	"$1,458.59"	.	$291.72				
+5611	Level 1 Therapeutic Radiation Treatment Preparation	S	1.4890	$132.77	$31.05	$26.56				
+5612	Level 2 Therapeutic Radiation Treatment Preparation	S	4.1054	$366.07	.	$73.22				
+5613	Level 3 Therapeutic Radiation Treatment Preparation	S	15.3446	"$1,368.26"	.	$273.66				
+5621	Level 1 Radiation Therapy	S	1.2280	$109.50	.	$21.90				
+5622	Level 2 Radiation Therapy	S	2.9492	$262.98	.	$52.60				
+5623	Level 3 Radiation Therapy	S	6.4874	$578.47	.	$115.70				
+5624	Level 4 Radiation Therapy	S	7.7808	$693.81	.	$138.77				
+5625	Level 5 Radiation Therapy	S	14.3044	"$1,275.51"	.	$255.11				
+5626	Level 6 Radiation Therapy	S 	19.6919	"$1,755.91"	.	$351.19				
+5627	Level 7 Radiation Therapy	J1	85.7304	"$7,644.49"	.	"$1,528.90"				
+5661	Therapeutic Nuclear Medicine	S	2.5135	$224.13	.	$44.83				
+5671	Level 1 Pathology	S	0.5992	$53.43	.	$10.69				
+5672	Level 2 Pathology	S	1.9218	$171.36	.	$34.28				
+5673	Level 3 Pathology	S	4.0341	$359.72	.	$71.95				
+5674	Level 4 Pathology	S	9.1613	$816.90	.	$163.38				
+5691	Level 1 Drug Administration	S	0.5174	$46.14	.	$9.23				
+5692	Level 2 Drug Administration	S	0.7982	$71.17	.	$14.24				
+5693	Level 3 Drug Administration	S	2.3628	$210.69	.	$42.14				
+5694	Level 4 Drug Administration	S	3.7198	$331.69	.	$66.34				
+5721	Level 1 Diagnostic Tests and Related Services	S	1.7546	$156.46	.	$31.30				
+5722	Level 2 Diagnostic Tests and Related Services	S	3.4922	$311.40	.	$62.28				
+5723	Level 3 Diagnostic Tests and Related Services	S	5.9505	$530.60	.	$106.12				
+5724	Level 4 Diagnostic Tests and Related Services	S	11.4097	"$1,017.39"	.	$203.48				
+5731	Level 1 Minor Procedures	S	0.2747	$24.49	.	$4.90				
+5732	Level 2 Minor Procedures	S	0.4402	$39.25	.	$7.85				
+5733	Level 3 Minor Procedures	S	0.6661	$59.40	.	$11.88				
+5734	Level 4 Minor Procedures	S	1.4456	$128.90	.	$25.78				
+5735	Level 5 Minor Procedures	S	4.4751	$399.04	.	$79.81				
+5741	Level 1 Electronic Analysis of Devices	S	0.4182	$37.29	.	$7.46				
+5742	Level 2 Electronic Analysis of Devices	S	1.0294	$91.79	.	$18.36				
+5743	Level 3 Electronic Analysis of Devices	S	3.3634	$299.91	.	$59.99				
+5771	Cardiac Rehabilitation	S	1.4120	$125.91	.	$25.19				
+5781	Resuscitation and Cardioversion	S	7.3387	$654.38	.	$130.88				
+5791	Pulmonary Treatment	S	2.2810	$203.39	.	$40.68				
+5801	Ventilation Initiation and Management	S	7.4140	$661.10	.	$132.22				
+5811	Manipulation Therapy	S	0.2837	$25.30	.	$5.06				
+5821	Level 1 Health and Behavior Services	S	0.3341	$29.79	.	$5.96				
+5822	Level 2 Health and Behavior Services	S	1.0374	$92.50	.	$18.50				
+5823	Level 3 Health and Behavior Services	S	1.8019	$160.67	.	$32.14				
+5851	Intensive Outpatient (3 services) for CMHCs	P	1.2475	$111.24	.	$22.25				
+5852	Intensive Outpatient (4 or more services) for CMHCs	P	1.8877	$168.32	.	$33.67				
+5853	Partial Hospitalization (3 services) for CMHCs	P	1.2475	$111.24	.	$22.25				
+5854	Partial Hospitalization (4 or more services) for CMHCs	P	1.8877	$168.32	.	$33.67				
+5861	Intensive Outpatient (3 services) for Hospital-based IOPs	P	3.0189	$269.19	.	$53.84				
+5862	Intensive Outpatient (4 or more services) for Hospital-based IOPs	P	4.5817	$408.55	.	$81.71				
+5863	Partial Hospitalization (3 services) for Hospital-based PHPs	P	3.0189	$269.19	.	$53.84				
+5864	Partial Hospitalization (4 or more services) for Hospital-based PHPs	P	4.5817	$408.55	.	$81.71				
+5871	Dental Procedures	T	18.6458	"$1,662.63"	.	$332.53				
+5881	Ancillary Outpatient Services When Patient Dies	J1	151.5414	"$13,512.80"	.	"$2,702.56"		"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+7043	Infliximab not biosimil 10mg	K		$32.223	.	$6.45	20.000%	$6.45		
+7046	Doxorubicin inj 10mg	K		$133.080	.	$26.62	20.000%	$26.62		
+7048	Alteplase recombinant	K		$91.470	.	$18.30	20.000%	$18.30		
+7308	Aminolevulinic acid hcl top	K		$396.972	.	$79.40	20.000%	$79.40		
+8004	Ultrasound Composite	S	3.4373	$306.50	.	$61.30				
+8005	CT and CTA without Contrast Composite	S	2.5183	$224.55	.	$44.91				
+8006	CT and CTA with Contrast Composite	S	4.8797	$435.12	.	$87.03				
+8007	MRI and MRA without Contrast Composite	S	6.0589	$540.27	.	$108.06				
+8008	MRI and MRA with Contrast Composite	S	9.5866	$854.83	.	$170.97				
+8010	Mental Health Services Composite	S	4.5817	$408.55	.	$81.71				
+8011	Comprehensive Observation Services	J2	29.6934	"$2,647.73"	.	$529.55				
+9002	Tenecteplase injection	K		$157.724	.	$31.55	20.000%	$31.55		
+9003	Rsv mab im 50mg	K		$719.870	.	$143.98	20.000%	$143.98		
+9004	"Injection, inclisiran, 1 mg"	G		$12.185	.	$2.44	20.000%	$2.44	*	
+9005	Reteplase injection	K		"$2,777.136"	.	$555.43	20.000%	$555.43		
+9006	Tacrolimus injection	K		$254.775	.	$50.96	20.000%	$50.96		
+9008	"Inj tezepelumab-ekko, 1mg"	G 		$18.109	.	$3.63	20.000%	$3.63	*	
+9009	"Inj, vutrisiran, 1 mg"	G 		"$4,926.002"	.	$985.21	20.000%	$985.21		
+9010	Inj efgartigimod 2mg	G		$32.569	.	$6.52	20.000%	$6.52	*	
+9012	Arsenic trioxide injection	K		$7.199	.	$1.44	20.000%	$1.44		
+9013	Inj risankizumab-rzaaÿ1 mg	G		$14.632	.	$2.93	20.000%	$2.93		
+9016	"Inj., triptorelin xr 3.75 mg"	K		"$3,418.492"	.	$683.70	20.000%	$683.70		
+9017	"Inj. byooviz, 0.1 mg"	G		$170.799	.	$34.16	20.000%	$34.16		
+9018	"Inj, rimabotulinumtoxinB"	K		$12.989	.	$2.60	20.000%	$2.60		
+9020	Argatroban nonesrd (accord)	K		$4.198	.	$0.84	20.000%	$0.84		
+9022	Argatroban nonesrd (auromed)	K		$1.488	.	$0.30	20.000%	$0.30		
+9024	Amphotericin b lipid complex	K		$11.130	.	$2.23	20.000%	$2.23		
+9025	"Inj glucagon hcl, fresenius"	K		$108.925	.	$21.79	20.000%	$21.79		
+9026	"Inj, bortezomib, dr. reddy?s"	K		$48.547	.	$9.71	20.000%	$9.71		
+9027	"Inj, bortezomib freseniuskab"	K		$16.500	.	$3.30	20.000%	$3.31		
+9028	Inj inotuzumab ozogam 0.1 mg	K		"$2,618.847"	.	$523.77	20.000%	$523.77		
+9029	"Inj., guselkumab, 1 mg"	K		$74.470	.	$14.90	20.000%	$14.90		
+9030	"Inj., copanlisib, 1 mg"	K 		$92.814	.	$18.57	20.000%	$18.57		
+9032	Baclofen 10 MG injection	K		$174.581	.	$34.92	20.000%	$34.92		
+9033	Cidofovir injection	K		$528.002	.	$105.61	20.000%	$105.61		
+9034	"Inj cuvitru, 100 mg"	K		$16.820	.	$3.37	20.000%	$3.37		
+9035	Axicabtagene ciloleucel car+ 	K		"$489,455.958"	.	"$97,891.20"	19.365%	"$1,632.00"		"Inflation-Adjusted Coinsurance. Copayments capped at inpatient deductible of $1,632.00."
+9036	"Injection, renflexis"	K		$27.182	.	$5.44	20.000%	$5.44		
+9038	Inj estrogen conjugate	K		$382.786	.	$76.56	20.000%	$76.56		
+9042	Glucagon hydrochloride	K		$192.303	.	$38.47	20.000%	$38.47		
+9043	"Inj, afstyla, 1 i.u."	K		$1.460	.	$0.30	20.000%	$0.30		
+9044	Ibutilide fumarate injection	K		$241.403	.	$48.29	20.000%	$48.29		
+9045	Idursulfase injection	K		$537.925	.	$107.59	20.000%	$107.59		
+9046	"Inj., fibryga, 1 mg"	K		$1.112	.	$0.23	20.000%	$0.23		
+9048	"Inj, alymsys, 10 mg"	G 		$56.856	.	$11.38	20.000%	$11.38	*	
+9049	"Inj, oliceridine 0.1 mg"	G 		$1.234	.	$0.00			*	
+9050	"Leuprolide inj, camcevi, 1mg"	G 		$54.999	.	$11.00	20.000%	$11.00	*	
+9051	"Inj, lanreotide, (cipla) 1mg"	G 		$36.803	.	$7.37	20.000%	$7.37		
+9052	Fluciclovine f-18	K		$268.420	.	$53.69	20.000%	$53.69		
+9053	Fluorodopa f-18 diag per mci	G 		$498.624	.	$99.73	20.000%	$99.73	*	
+9054	Lutetium lu 177 vipivotide	G 		$241.240	.	$48.25	20.000%	$48.25	*	
+9055	Gallium locametz 1 millicuri	G 		$873.440	.	$174.69	20.000%	$174.69	*	
+9056	Gallium ga-68	K		$51.090	.	$10.22	20.000%	$10.22		
+9057	Inj nivol relatlimab 3mg/1mg	G 		$190.461	.	$38.10	20.000%	$38.10	*	
+9059	Vonvendi inj 1 iu vwf:rco	K		$1.871	.	$0.38	20.000%	$0.38		
+9067	Lutetium lu 177 dotatat ther	K 		$296.249	.	$59.25	20.000%	$59.25		
+9068	Smallpox&monkeypox vac 0.5ml	K 		$0.010	.	$0.00				
+9070	Inj luxturna 1 billion vec g	K 		"$3,084.463"	.	$616.90	20.000%	$616.90		
+9071	Capsaicin 8% patch	K		$3.325	.	$0.67	20.000%	$0.67		
+9073	Buprenorph xr 100 mg or less	K 		"$1,943.058"	.	$388.62	20.000%	$388.62		
+9074	"Makena, 10 mg"	K		$14.455	.	$2.90	20.000%	$2.90		
+9075	"Inj, kovaltry, 1 i.u."	K		$1.477	.	$0.30	20.000%	$0.30		
+9077	Epoetin beta non esrd	K		$1.157	.	$0.24	20.000%	$0.24		
+9078	Testosterone undecanoate 1mg	K		$1.946	.	$0.39	19.304%	$0.38		Inflation-Adjusted Coinsurance
+9079	"Genvisc 850, inj, 1mg"	K		$5.896	.	$1.18	20.000%	$1.18		
+9080	Fludarabine phosphate inj	K		$134.154	.	$26.84	20.000%	$26.84		
+9087	"Inj, clevidipine butyrate"	K		$2.833	.	$0.57	20.000%	$0.57		
+9088	Peng benzathine/procaine inj	K		$19.523	.	$3.91	14.786%	$2.89		Inflation-Adjusted Coinsurance
+9094	Radiesse injection	K		$333.420	.	$66.69	20.000%	$66.69		
+9095	"Inj, sculptra, 0.5mg"	K		$1.000	.	$0.20	20.000%	$0.20		
+9096	Inj retacrit esrd on dialysi	K		$0.762	.	$0.16	20.000%	$0.16		
+9097	Inj retacrit non-esrd use	K		$7.618	.	$1.53	20.000%	$1.53		
+9099	"Inj fosnetupitant, palonoset"	K		$679.510	.	$135.91	20.000%	$135.91		
+9101	Vaccinia vrs vac 0.3 ml perq	K		$0.010	.	$0.00				
+9102	"Inj, fulvestrant (teva)"	K		$21.200	.	$4.24	20.000%	$4.24		
+9103	"Inj, fulvestrant (fresenius)"	K		$53.000	.	$10.60	12.482%	$6.62		Inflation-Adjusted Coinsurance
+9104	Antithymocyte globuln rabbit	K		$956.739	.	$191.35	20.000%	$191.35		
+9105	Inj pemetrexed (teva) 10mg	K		$5.519	.	$1.11	20.000%	$1.11		
+9106	"Inj, bupivacaine (posimir)"	G		$0.502	.	$0.11	20.000%	$0.11		
+9107	"Inj, aponvie, 1 mg"	G		$1.863	.	$0.00				
+9108	Thyrotropin injection	K		"$2,073.341"	.	$414.67	20.000%	$414.67		
+9109	"Inj, elahere, 1 mg"	G		$66.758	.	$13.36	20.000%	$13.36		
+9110	"Inj, tremelimumab-actl, 1 mg"	G		$135.448	.	$27.09	20.000%	$27.09		
+9111	Inj teclistamab cqyv 0.5 mg	G		$31.980	.	$6.40	20.000%	$6.40		
+9112	Inj teplizumab mzwv 5 mcg	G		$36.904	.	$7.39	20.000%	$7.39		
+9113	Inj olipudase alfa-rpcp 1mg	G		$382.560	.	$76.52	20.000%	$76.52		
+9114	Inj eflapegrastim-xnst 0.1mg	G		$22.754	.	$4.56	20.000%	$4.56		
+9115	"Inj, spesolimab-sbzo, 1 mg"	G		$61.428	.	$12.29	20.000%	$12.29		
+9116	"Chloroprocaine opht gel, 1mg"	G		$0.628	.	$0.00				
+9117	"Inj, cimerli, 0.1 mg"	G		$201.011	.	$40.21	20.000%	$40.21		
+9118	"Inj, fylnetra, 0.5 mg"	G		$186.186	.	$37.24	20.000%	$37.24		
+9119	"Inj, pedmark, 100 mg"	G		$96.080	.	$19.22	20.000%	$19.22		
+9120	"Injection, Fulvestrant"	K		$7.506	.	$1.51	20.000%	$1.51		
+9122	Triptorelin pamoate	K		$466.727	.	$93.35	20.000%	$93.35		
+9123	"Inj pemetrexed, hospira 10mg"	K		$0.618	.	$0.13	20.000%	$0.13		
+9125	"Risperidone, long acting"	K		$11.299	.	$2.26	20.000%	$2.26		
+9126	Natalizumab injection	K		$24.154	.	$4.84	20.000%	$4.84		
+9127	Inj pemetrexed (accord) 10mg	K		$9.656	.	$1.94	20.000%	$1.94		
+9129	"Inj, stimufend, 0.5 mg"	K		$305.659	.	$61.14	20.000%	$61.14		
+9131	"Inj, Ado-trastuzumab Emt 1mg"	K		$40.445	.	$8.09	20.000%	$8.09		
+9132	Prothrombin complex kcentra	K		$2.242	.	$0.45	20.000%	$0.45		
+9133	"Rabies ig, im/sc"	K		$287.708	.	$57.55	20.000%	$57.55		
+9134	"Rabies ig, heat treated"	K		$479.719	.	$95.95	20.000%	$95.95		
+9135	"Varicella-zoster ig, im"	K		"$2,250.706"	.	$450.15	20.000%	$450.15		
+9136	Leuprolide depot cipla 7.5mg	G 		$257.704	.	$51.55	20.000%	$51.55		
+9138	"Inj, hemgenix, per tx dose"	G 		"$3,672,900.000"	.	"$734,580.00"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+9139	"Rabies vaccine, im"	K		$350.140	.	$70.03	20.000%	$70.03		
+9140	"Rabies vaccine, id"	K		$264.470	.	$52.90	20.000%	$52.90		
+9141	Inj onase abepar-xioi treat	K		"$2,388,614.230"	.	"$477,722.85"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+9142	Fecalÿmicrobiota jslm 1 ml	G		$63.300	.	$12.66	20.000%	$12.66		
+9144	"Inj, panzyga, 500 mg"	K		$67.461	.	$13.50	20.000%	$13.50		
+9145	"Inj, invega hafyera/trinza"	K		$12.657	.	$2.54	20.000%	$2.54		
+9146	"Inj, ixinity, 1 i.u."	K		$1.809	.	$0.37	20.000%	$0.37		
+9149	"Inj ublituximab-xiiy, 1 mg"	G		$69.439	.	$13.89	19.969%	$13.87		Inflation-Adjusted Coinsurance
+9150	"Inj mosunetuzumab-axgb, 1 mg"	G		$635.465	.	$127.10	20.000%	$127.10		
+9154	"Inj, vivimusta, 1 mg"	G		$27.844	.	$5.57	20.000%	$5.57		
+9155	"Inj, lenacapavir, 1 mg"	G		$21.993	.	$4.40	20.000%	$4.40		
+9156	Inj pemetrexed ditromethamin	K		$10.554	.	$2.12	20.000%	$2.12		
+9157	"Inj, lecanemab-irmb, 1 mg"	G 		$1.336	.	$0.27	20.000%	$0.27		
+9158	"Inj, pegcetacoplan, 1mg"	G 		$147.356	.	$29.48	20.000%	$29.48		
+9159	"Inj, vegzelma, 10 mg"	G 		$56.824	.	$11.37	20.000%	$11.37		
+9166	"Inj, fosaprepitant (teva)"	K		$2.043	.	$0.41	3.896%	$0.08		Inflation-Adjusted Coinsurance
+9171	Factor ix idelvion inj	K		$5.053	.	$1.02	20.000%	$1.02		
+9173	"Injection, fulphila"	K 		$135.534	.	$27.11	20.000%	$27.11		
+9174	"Inj, durolane 1 mg"	K		$6.999	.	$1.40	20.000%	$1.40		
+9178	"Inj., meropenem, vaborbactam"	K		$2.094	.	$0.42	20.000%	$0.42		
+9179	"Inj., aristada initio, 1 mg"	K 		$3.191	.	$0.64	20.000%	$0.64		
+9180	"Inj., patisiran, 0.1 mg"	K 		$98.879	.	$19.78	20.000%	$19.78		
+9181	"Inj., perseris, 0.5 mg"	K 		$12.190	.	$2.44	20.000%	$2.44		
+9182	"Inj mogamulizumab-kpkc, 1 mg"	K 		$238.848	.	$47.77	20.000%	$47.77		
+9183	"Inj., plazomicin, 5 mg"	K 		$3.593	.	$0.72	20.000%	$0.72		
+9186	"Inj., rituximab, 10 mg"	K		$77.314	.	$15.47	20.000%	$15.47		
+9187	"Injection, burosumab-twza 1m"	K		$469.576	.	$93.92	18.840%	$88.47		Inflation-Adjusted Coinsurance
+9188	Inj crotalidae im f(ab')2 eq	K		"$1,040.114"	.	$208.03	20.000%	$208.03		
+9189	"Inj., ibalizumab-uiyk, 10 mg"	K		$77.064	.	$15.42	20.000%	$15.42		
+9193	Nivestym	K		$0.270	.	$0.06	20.000%	$0.06		
+9194	Tisagenlecleucel car-pos t	K		"$529,192.855"	.	"$105,838.58"	19.272%	"$1,632.00"		"Inflation-Adjusted Coinsurance. Copayments capped at inpatient deductible of $1,632.00."
+9195	"Injection, udenyca 0.5 mg"	K 		$143.377	.	$28.68	20.000%	$28.68		
+9196	"Inj, trivisc 1 mg"	K		$6.665	.	$1.34	20.000%	$1.34		
+9198	"Inj andexxa, 10 mg"	K 		$131.993	.	$26.40	20.000%	$26.40		
+9200	"Inj, remdesivir, 1 mg"	G		$6.354	.	$1.28	20.000%	$1.28	*	
+9201	Rabies ig ht&sol human im/sc	K		$265.505	.	$53.11	20.000%	$53.11		
+9202	"Difelikefalin, esrd on dialy"	K		$0.152	.	$0.04	20.000%	$0.04		
+9203	Inj cyclophosphamd auromedic	K 		$1.160	.	$0.24	20.000%	$0.24		
+9204	"Inj tisotu vedotin-tftv, 1mg"	G		$181.598	.	$36.32	19.471%	$35.36	*	Inflation-Adjusted Coinsurance
+9205	Inj lon tesirin-lpyl 0.075mg	K		$206.375	.	$41.28	20.000%	$41.28		
+9206	Inj plasminogen tvmh 1mg	G		$32.549	.	$6.51	20.000%	$6.51	*	
+9208	Agalsidase beta injection	K		$223.522	.	$44.71	20.000%	$44.71		
+9209	Laronidase injection	K		$38.698	.	$7.74	20.000%	$7.74		
+9213	Inj. pemetrexed nos 10mg	K		$4.184	.	$0.84	20.000%	$0.84		
+9214	Bevacizumab injection	K		$72.704	.	$14.55	20.000%	$14.55		
+9215	Cetuximab injection	K		$75.479	.	$15.10	20.000%	$15.10		
+9217	Leuprolide acetate suspnsion	K		$176.510	.	$35.31	20.000%	$35.31		
+9219	Procainamide hcl injection	K		$546.066	.	$109.22	20.000%	$109.22		
+9225	Fluocinolone acetonide implt	K		$333.480	.	$66.70	20.000%	$66.70		
+9230	Abatacept injection	K		$43.437	.	$8.69	20.000%	$8.69		
+9233	Ranibizumab injection	K		$137.136	.	$27.43	20.000%	$27.43		
+9235	Panitumumab injection	K		$159.326	.	$31.87	19.348%	$30.83		Inflation-Adjusted Coinsurance
+9236	Eculizumab injection	K		$224.633	.	$44.93	20.000%	$44.93		
+9237	"Inj, lanreotide acetate"	K		$49.971	.	$10.00	20.000%	$10.00		
+9239	Buprenorphine xr over 100 mg	K		"$1,943.058"	.	$388.62	20.000%	$388.62		
+9240	"Injection, ixabepilone"	K		$134.057	.	$26.82	20.000%	$26.82		
+9241	Inj sirolimus prot part 1 mg	G 		$114.205	.	$22.85	19.848%	$22.67	*	Inflation-Adjusted Coinsurance
+9243	"Inj, bendamustine hcl, 1mg"	K		$5.431	.	$1.09	20.000%	$1.09		
+9246	"Inj, abilify asimtufii, 1 mg"	G		$5.947	.	$1.19	20.000%	$1.19		
+9247	"Inj, amisulpride, 1 mg"	G		$9.056	.	$0.00				
+9250	Inj epcoritamab-bysp 0.16 mg	G		$54.169	.	$10.84	20.000%	$10.84		
+9251	C1 esterase inhibitor inj	K		$64.212	.	$12.85	20.000%	$12.85		
+9252	Plerixafor injection	K		$50.471	.	$10.10	20.000%	$10.10		
+9253	Temozolomide injection	K		$10.398	.	$2.08	20.000%	$2.08		
+9254	Flotufolastat f18 diag 1 mci	G		$651.668	.	$0.00				
+9255	"Inj, invega sustenna, 1 mg"	K		$14.762	.	$2.96	20.000%	$2.96		
+9256	Dexamethasone intra implant	K		$205.622	.	$41.13	20.000%	$41.13		
+9257	"Inj., emicizumab-kxwh 0.5 mg"	K		$52.820	.	$10.57	20.000%	$10.57		
+9258	Telavancin injection	K		$6.377	.	$1.28	20.000%	$1.28		
+9259	Pralatrexate injection	K		$373.768	.	$74.76	19.895%	$74.37		Inflation-Adjusted Coinsurance
+9260	Ofatumumab injection	K		$63.957	.	$12.80	20.000%	$12.80		
+9261	"Ustekinumab sub cu inj, 1 mg"	K		$159.913	.	$31.99	20.000%	$31.99		
+9262	Inj tofersen intrathec 1 mg	G		$153.664	.	$30.74	20.000%	$30.74		
+9263	Ecallantide injection	K		$565.826	.	$113.17	20.000%	$113.17		
+9264	Tocilizumab injection	K		$5.962	.	$1.20	20.000%	$1.20		
+9266	"Inj, uzedy, 1 mg"	G		$24.766	.	$4.96	20.000%	$4.96		
+9267	"Inj, rezafungin, 1 mg"	G		$10.121	.	$2.03	20.000%	$2.03		
+9269	"C-1 esterase, berinert"	K		$68.362	.	$13.68	20.000%	$13.68		
+9270	Gammaplex IVIG	K		$57.925	.	$11.59	20.000%	$11.59		
+9271	Velaglucerase alfa	K		$370.200	.	$74.04	20.000%	$74.04		
+9272	"Inj, denosumab"	K		$26.960	.	$5.40	18.649%	$5.03		Inflation-Adjusted Coinsurance
+9273	Sipuleucel-T auto CD54+	K		"$55,015.225"	.	"$11,003.05"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+9274	Crotalidae Poly Immune Fab	K		"$1,762.348"	.	$352.47	20.000%	$352.47		
+9276	Cabazitaxel injection	K		$216.455	.	$43.30	20.000%	$43.30		
+9277	Altuviiio per factor viii iu	G		$4.694	.	$0.94	20.000%	$0.94		
+9278	Incobotulinumtoxin A	K		$5.338	.	$1.07	20.000%	$1.07		
+9280	"Inj, retifanlimab-dlwr, 1 mg"	G		$29.199	.	$5.84	20.000%	$5.84		
+9281	"Injection, pegloticase"	K		"$3,482.154"	.	$696.44	19.968%	$695.32		Inflation-Adjusted Coinsurance
+9284	Ipilimumab injection	K		$176.884	.	$35.38	20.000%	$35.38		
+9285	Inj allopurinol sodium 1 mg	K		$5.003	.	$1.01	20.000%	$1.01		
+9286	Belatacept injection	K		$3.812	.	$0.77	20.000%	$0.77		
+9287	Brentuximab vedotin inj	K		$239.856	.	$47.98	18.907%	$45.35		Inflation-Adjusted Coinsurance
+9294	"Inj, taliglucerase alfa 10 u"	K		$42.581	.	$8.52	20.000%	$8.52		
+9295	"Injection, Carfilzomib, 1 mg"	K		$49.577	.	$9.92	19.575%	$9.71		Inflation-Adjusted Coinsurance
+9296	"Inj, ziv-aflibercept, 1mg"	K		$6.504	.	$1.31	20.000%	$1.31		
+9297	"Inj, Omacetaxine Mep, 0.01mg"	K		$4.031	.	$0.81	20.000%	$0.81		
+9299	Inj. jivi 1 iu	K		$2.440	.	$0.49	20.000%	$0.49		
+9300	Omalizumab injection	K		$38.293	.	$7.66	20.000%	$7.66		
+9301	"Aminolevulinic acid, 10% gel"	K		$1.724	.	$0.35	20.000%	$0.35		
+9302	"Inj daunorubicin, cytarabine"	K		$242.495	.	$48.50	20.000%	$48.50		
+9304	"Inj., cemiplimab-rwlc, 1 mg"	K		$28.240	.	$5.65	20.000%	$5.65		
+9305	"Inj., lumoxiti, 0.01 mg"	K		$23.394	.	$4.68	20.000%	$4.68		
+9306	"Inj., tildrakizumab, 1 mg"	K 		$135.923	.	$27.19	20.000%	$27.19		
+9308	Dexametha opth insert 0.1 mg	K1 		$117.141	.	$23.43	20.000%	$23.43		
+9309	Inj. tagraxofusp-erzs 10 mcg	K		$339.034	.	$67.81	20.000%	$67.81		
+9310	"Inj., emapalumab-lzsg, 1 mg"	K		$378.029	.	$75.61	20.000%	$75.61		
+9311	"Inj., omadacycline, 1 mg"	K 		$3.802	.	$0.77	20.000%	$0.77		
+9312	"Inj., ravulizumab-cwvz 10 mg"	K 		$220.752	.	$44.16	20.000%	$44.16		
+9313	Inj. belrapzo/bendamustine	K 		$27.533	.	$5.51	20.000%	$5.51		
+9314	"Inj. herceptin hylecta, 10mg"	K 		$63.787	.	$12.76	20.000%	$12.76		
+9319	Somatropin injection	K  		$48.920	.	$9.79	20.000%	$9.79		
+9320	Carbidopa levodopa ent 100ml	K		$235.060	.	$47.02	20.000%	$47.02		
+9323	Gallium ga-68 dotatoc	K		$4.050	.	$0.81	20.000%	$0.81		
+9324	Phenylep ketorolac opth soln	K1 		$96.588	.	$19.32	20.000%	$19.32		
+9327	Inj. romosozumab-aqqg 1 mg	K 		$11.170	.	$2.24	19.973%	$2.24		Inflation-Adjusted Coinsurance
+9328	"Inj., yutiq, 0.01 mg"	K		$527.972	.	$105.60	20.000%	$105.60		
+9329	Inj mvasi 10 mg	K		$26.585	.	$5.32	20.000%	$5.32		
+9330	"Inj., kanjinti, 10 mg"	K		$24.332	.	$4.87	20.000%	$4.87		
+9331	"Inj, polatuzumab vedotin 1mg"	K 		$129.781	.	$25.96	20.000%	$25.96		
+9335	Oral busulfan	K 		$84.210	.	$16.85	20.000%	$16.85		
+9336	Inj truxima 10 mg	K 		$33.594	.	$6.72	20.000%	$6.72		
+9338	"Inj., triluron, 1 mg"	K 		$10.356	.	$2.08	20.000%	$2.08		
+9340	"Inj, brolucizumab-dbll, 1 mg"	K 		$332.565	.	$66.52	20.000%	$66.52		
+9341	Inj  ogivri 10 mg	K 		$54.158	.	$10.84	20.000%	$10.84		
+9343	Inj givosiran 0.5 mg	K 		$112.135	.	$22.43	20.000%	$22.43		
+9345	Inj pegfilgrastim-bmez 0.5mg	K 		$346.755	.	$69.36	20.000%	$69.36		
+9346	Mometasone sinus sinuva	K 		$11.345	.	$2.27	20.000%	$2.27		
+9347	Inj luspatercept-aamt 0.25mg	K 		$40.615	.	$8.13	20.000%	$8.13		
+9348	"Inj., zirabev, 10 mg"	K 		$23.586	.	$4.72	20.000%	$4.72		
+9349	Inj herzuma 10 mg	K		$60.437	.	$12.09	20.000%	$12.09		
+9350	"Inj., trazimera, 10 mg"	K		$19.170	.	$3.84	20.000%	$3.84		
+9351	Inj bimatoprost itc imp 1mcg	K 		$209.861	.	$41.98	20.000%	$41.98		
+9353	Inj fam-trastu deru-nxki 1mg	K 		$27.811	.	$5.57	20.000%	$5.57		
+9354	Inj recombin esperoct per iu	K 		$2.168	.	$0.44	20.000%	$0.44		
+9355	Inj. teprotumumab-trbw 10 mg	K 		$343.885	.	$68.78	20.000%	$68.78		
+9357	Inj. eptinezumab-jjmr 1 mg	K 		$18.693	.	$3.74	20.000%	$3.74		
+9358	Inj xipere 1 mg	G		$48.399	.	$9.68	20.000%	$9.68	*	
+9359	Inj crizanlizumab-tmca 5mg	K 		$128.538	.	$25.71	20.000%	$25.71		
+9361	Inj. cetirizine hcl 0.5mg	K 		$14.874	.	$2.98	20.000%	$2.98		
+9362	Inj imip 4 cilas 4 releb 2mg	K 		$2.512	.	$0.51	20.000%	$0.51		
+9364	Inj enfort vedo-ejfv 0.25mg	K		$36.741	.	$7.35	18.963%	$6.97		Inflation-Adjusted Coinsurance
+9366	Fiasp for insulin pump use	K		$7.413	.	$1.49	20.000%	$1.49		
+9367	"Inj ruxience, 10 mg"	K		$22.437	.	$4.49	20.000%	$4.49		
+9370	Fluoroestradiol F 18	K		$498.670		$99.74	20.000%	$99.74		
+9372	"Inj. xembify, 100 mg"	K 		$14.295	.	$2.86	20.000%	$2.86		
+9374	Mitomycin instillation	K		$307.342	.	$61.47	20.000%	$61.47		
+9375	"Inj., evomela, 1 mg"	K		$17.351	.	$3.48	20.000%	$3.48		
+9376	Sacituzumab govitecan-hziy	K		$34.668	.	$6.94	20.000%	$6.94		
+9377	Inj. isatuximab-irfc 10 mg	K		$78.049	.	$15.61	20.000%	$15.61		
+9378	"Daratumumab, hyaluronidase"	K		$51.411	.	$10.29	20.000%	$10.29		
+9381	"Inj. avsola, 10 mg"	K		$21.290	.	$4.26	20.000%	$4.26		
+9382	Inj ontruzant 10 mg	K		$34.165	.	$6.84	20.000%	$6.84		
+9383	Copper cu 64 dotatate diag	K		$595.100		$119.02	20.000%	$119.02		
+9384	Inj belantamab mafodot blmf	K 		$46.780	.	$9.36	20.000%	$9.36		
+9385	"Inj., tafasitamab-cxix"	K 		$13.709	.	$2.75	20.000%	$2.75		
+9387	"Inj. infugem, 100 mg"	K 		$40.280	.	$8.06	20.000%	$8.06		
+9388	Inj. fe derisomaltose 10 mg	K 		$21.052	.	$4.22	20.000%	$4.22		
+9389	"Inj. lurbinectedin, 0.1 mg"	K 		$203.604	.	$40.73	20.000%	$40.73		
+9390	"Pertuzu, trastuzu, 10 mg"	K 		$64.576	.	$12.92	20.000%	$12.92		
+9391	Brexucabtagene car pos t	K 		"$460,530.402"	.	"$92,106.09"	20.000%	"$1,632.00"		"Copayments capped at inpatient deductible of $1,632.00."
+9392	Inj. asceniv	K		$491.404	.	$98.29	20.000%	$98.29		
+9394	"Inj. inebilizumab-cdon, 1 mg"	K 		$484.403	.	$96.89	20.000%	$96.89		
+9396	"Afamelanotide implant, 1 mg"	K		"$2,873.329"	.	$574.67	20.000%	$574.67		
+9398	"Covid-19 Vaccine Admin Dose 2 of 2, Single Dose Product or Additional Dose"	S	0.4656	$41.52	.	$0.00				
+9399	"Pneumococcal, Influenza, Hepatitis B, and/or Covid-19 Vaccine Home Administration"	S	0.4133	$36.85	.	$0.00				
+9406	"Inj, nyvepria"	K 		$96.548	.	$19.31	20.000%	$19.31		
+9407	"Inj. lumasiran, 0.5 mg"	K 		$317.878	.	$63.58	20.000%	$63.58		
+9408	"Inj. naxitamab-gqgk, 1 mg"	K 		$642.146	.	$128.43	19.580%	$125.74		Inflation-Adjusted Coinsurance
+9409	Gallium ga-68 psma-11 ucsf	K		$534.910		$106.99	20.000%	$106.99		
+9410	"Gallium ga-68 psma-11, ucla"	K		$372.170		$74.44	20.000%	$74.44		
+9411	"Inj. riabni, 10 mg"	K 		$38.645	.	$7.73	20.000%	$7.73		
+9413	lisocabtagene car pos t	K		"$516,726.076"	.	"$103,345.22"	19.334%	"$1,632.00"		"Inflation-Adjusted Coinsurance. Copayments capped at inpatient deductible of $1,632.00."
+9414	"Inj, cabote rilpivir 2mg 3mg"	K		$22.901	.	$4.59	20.000%	$4.59		
+9415	"Injection, trilaciclib, 1mg"	K		$5.362	.	$1.08	20.000%	$1.08		
+9416	"Inj, evinacumab-dgnb, 5 mg"	K		$186.306	.	$37.27	20.000%	$37.27		
+9418	"Inj. margetuximab-cmkb, 5 mg"	K		$48.208	.	$9.65	20.000%	$9.65		
+9419	Inj fensolvi 0.25 mg	K		$140.623	.	$28.13	20.000%	$28.13		
+9421	"Inj, granisetron, xr, 0.1 mg"	K		$5.705	.	$1.15	20.000%	$1.15		
+9422	Idecabtagene vicleucel car	K		"$526,587.593"	.	"$105,317.52"	19.397%	"$1,632.00"		"Inflation-Adjusted Coinsurance. Copayments capped at inpatient deductible of $1,632.00."
+9426	"Inj, cefiderocol, 10 mg"	K		$2.282	.	$0.46	20.000%	$0.46		
+9427	"Injection, oritavancin 10 mg"	K		$42.503	.	$8.51	20.000%	$8.51		
+9428	Inj romidepsin non-lyo 0.1mg	K		$33.905	.	$6.79	20.000%	$6.79		
+9429	Inj romidepsin lyophil 0.1mg	K		$29.863	.	$5.98	20.000%	$5.98		
+9430	"Piflu f-18, dia 1 millicurie"	K		$332.440		$66.49	20.000%	$66.49		
+9431	"Inj, dostarlimab-gxly, 10 mg"	K		$236.402	.	$47.29	20.000%	$47.29		
+9432	"Inj, amivantamab-vmjw"	K		$20.673	.	$4.14	19.895%	$4.12		Inflation-Adjusted Coinsurance
+9433	Inj aval alfa-nqpt 4mg	K		$77.752	.	$15.56	20.000%	$15.56		
+9434	Inj anifrolumab-fnia 1mg	K		$17.291	.	$3.46	20.000%	$3.46		
+9436	Inj pegfilgrast ex bio 0.5mg	K		$31.144	.	$6.23	20.000%	$6.23		
+9437	"Inj, aspara, rylaze, 0.1 mg"	K		$52.788	.	$10.56	19.986%	$10.56		Inflation-Adjusted Coinsurance
+9438	"Injection, aducanumab-avwa, 2 mg"	K		$5.978	.	$1.20	20.000%	$1.20		
+9439	"Inj, susvimo 0.1 mg"	G		$79.080	.	$15.82	20.000%	$15.82	*	
+9440	"Instill, bupivac and meloxic"	G		$0.769	.	$0.16	20.000%	$0.16	*	
+9441	Inj ferric carboxymaltos 1mg	K		$1.101	.	$0.23	20.000%	$0.23		
+9442	"Inj. pemetrexed, 10 mg"	G		$50.830	.	$10.17	20.000%	$10.17	*	
+9443	Gallium illuccix 1 millicure	G		"$1,026.047"	.	$205.21	20.000%	$205.21	*	
+9444	"Inj, sutimlimab-jome, 10 mg"	G		$18.129	.	$3.63	20.000%	$3.63	*	
+9445	"Injection, ruconest"	K		$34.724	.	$6.95	20.000%	$6.95		
+9446	"Inj, tebentafusp-tebn, 1 mcg"	G		$214.756	.	$42.96	20.000%	$42.96	*	
+9447	"Inj, releuko 1 mcg"	G		$0.472	.	$0.10	20.000%	$0.10	*	
+9448	"Oral netupitant, palonosetro"	K		$400.242	.	$80.05	18.953%	$75.86		Inflation-Adjusted Coinsurance
+9449	"Injection, blinatumomab"	K		$152.178	.	$30.44	19.262%	$29.32		Inflation-Adjusted Coinsurance
+9450	Fluocinol acet intravit imp	K		$495.384	.	$99.08	20.000%	$99.08		
+9451	"Injection, peramivir"	K		$1.678	.	$0.34	20.000%	$0.34		
+9452	Inj ceftolozane tazobactam	K		$8.230	.	$1.65	19.333%	$1.60		Inflation-Adjusted Coinsurance
+9453	"Injection, nivolumab"	K		$31.750	.	$6.35	20.000%	$6.36		
+9454	"Inj, pasireotide long acting"	K		$479.843	.	$95.97	17.556%	$84.25		Inflation-Adjusted Coinsurance
+9455	"Injection, siltuximab"	K		$157.072	.	$31.42	18.608%	$29.23		Inflation-Adjusted Coinsurance
+9456	"Injection, isavuconazonium"	K		$0.980	.	$0.20	19.888%	$0.20		Inflation-Adjusted Coinsurance
+9458	Florbetaben f18 diagnostic	K		"$1,273.760"	.	$254.76	20.000%	$254.76		
+9459	Flutemetamol f18 diagnostic	K		$874.400	.	$174.88	20.000%	$174.88		
+9460	"Injection, cangrelor"	K		$18.824	.	$3.77	20.000%	$3.77		
+9461	Choline c-11	K		"$2,062.940"	.	$412.59	20.000%	$412.59		
+9463	"Inj., aprepitant, 1 mg"	K		$1.765	.	$0.36	20.000%	$0.36		
+9466	"Inj., benralizumab, 1 mg"	K		$167.297	.	$33.46	20.000%	$33.46		
+9467	"Inj rituximab, hyaluronidase"	K		$36.942	.	$7.39	20.000%	$7.39		
+9468	Factor ix recomb gly rebinyn	K		$4.565	.	$0.92	20.000%	$0.92		
+9469	Inj triamcinolone ace xr 1mg	K		$17.746	.	$3.55	20.000%	$3.55		
+9470	Aripirazole lauroxil 1 mg	K		$3.227	.	$0.65	20.000%	$0.65		
+9471	Hymovis injection 1 mg	K		$17.448	.	$3.49	20.000%	$3.49		
+9472	Inj talimogene laherparepvec	K		$70.361	.	$14.08	19.255%	$13.55		Inflation-Adjusted Coinsurance
+9473	"Injection, mepolizumab, 1mg"	K		$30.435	.	$6.09	20.000%	$6.09		
+9474	Inj irinotecan liposome 1 mg	K		$64.765	.	$12.96	20.000%	$12.96		
+9475	"Injection, necitumumab, 1 mg"	K		$5.731	.	$1.15	20.000%	$1.15		
+9476	"Injection, daratumumab 10 mg"	K		$65.117	.	$13.03	20.000%	$13.03		
+9477	"Injection, elotuzumab, 1mg"	K		$7.578	.	$1.52	20.000%	$1.52		
+9478	Inj sebelipase alfa 1 mg	K		$539.421	.	$107.89	20.000%	$107.89		
+9480	Injection trabectedin 0.1mg	K		$362.824	.	$72.57	20.000%	$72.57		
+9481	"Injection, reslizumab"	K		$10.311	.	$2.07	20.000%	$2.07		
+9482	Sotalol hydrochloride IV	K		$22.826	.	$4.57	18.466%	$4.22		Inflation-Adjusted Coinsurance
+9483	"Inj, atezolizumab,10 mg"	K		$86.242	.	$17.25	20.000%	$17.25		
+9487	"Ustekinumab, iv inject,1 mg"	K 		$12.967	.	$2.60	20.000%	$2.60		
+9489	"Inj, nusinersen, 0.1mg"	K 		"$1,231.902"	.	$246.39	20.000%	$246.39		
+9490	"Inj, bezlotoxumab, 10 mg"	K 		$39.863	.	$7.98	20.000%	$7.98		
+9491	"Injection, avelumab, 10 mg"	K 		$95.176	.	$19.04	20.000%	$19.04		
+9492	"Inj., durvalumab, 10 mg"	K 		$81.815	.	$16.37	20.000%	$16.37		
+9493	"Injection, edaravone, 1 mg"	K 		$22.139	.	$4.43	20.000%	$4.43		
+9494	"Injection, ocrelizumab"	K 		$59.798	.	$11.96	20.000%	$11.96		
+9495	Gemtuzumab ozogamicin inj	K 		$229.674	.	$45.94	20.000%	$45.94		
+9496	"Inj, faricimab-svoa, 0.1mg"	G		$34.247	.	$6.85	20.000%	$6.85	*	
+9498	Ciltacabtagene car-pos t	G		"$527,123.433"	.	"$105,424.69"	19.792%	"$1,632.00"	*	"Inflation-Adjusted Coinsurance. Copayments capped at inpatient deductible of $1,632.00."
+9500	"Platelets, irradiated"	R	1.5227	$135.78	.	$27.16				
+9501	Platelet pheres leukoreduced	R	5.4627	$487.10	.	$97.42				
+9502	Platelet pheresis irradiated	R	6.5903	$587.65	.	$117.53				
+9503	Fr frz plasma donor retested	R	0.5487	$48.93	.	$9.79				
+9504	RBC deglycerolized	R	7.3315	$653.74	.	$130.75				
+9505	RBC irradiated	R	1.6734	$149.22	.	$29.85				
+9507	"Platelets, pheresis"	R	4.4537	$397.13	.	$79.43				
+9508	Plasma 1 donor frz w/in 8 hr	R	0.9453	$84.29	.	$16.86				
+9509	"Frozen plasma, pooled, sd"	R	0.6988	$62.31	.	$12.47				
+9510	Whole blood for transfusion	R	2.5246	$225.12	.	$45.03				
+9511	Cryoprecipitate each unit	R	0.7129	$63.57	.	$12.72				
+9512	RBC leukocytes reduced	R	2.0411	$182.00	.	$36.40				
+9513	"Plasma, frz between 8-24hour"	R	0.7973	$71.09	.	$14.22				
+9514	"Plasma protein fract,5%,50ml"	R	0.0905	$8.07	.	$1.62				
+9515	"Platelets, each unit"	R	0.8519	$75.96	.	$15.20				
+9516	Plaelet rich plasma unit	R	6.2502	$557.32	.	$111.47				
+9517	Red blood cells unit	R	1.6185	$144.32	.	$28.87				
+9518	Washed red blood cells unit	R	4.4508	$396.87	.	$79.38				
+9519	"Plasmaprotein fract,5%,250ml"	R	0.8267	$73.72	.	$14.75				
+9520	Blood split unit	R	1.5902	$141.80	.	$28.36				
+9521	Platelets leukoreduced irrad	R	2.3034	$205.39	.	$41.08				
+9522	RBC leukoreduced irradiated	R	2.8687	$255.80	.	$51.16				
+9523	Cryoprecipitatereducedplasma	R	1.6519	$147.30	.	$29.46				
+9524	"Blood, l/r, cmv-neg"	R	1.9312	$172.20	.	$34.44				
+9525	"Platelets, hla-m, l/r, unit"	R	8.7193	$777.49	.	$155.50				
+9526	Platelets leukocytes reduced	R	1.4105	$125.77	.	$25.16				
+9527	"Blood, l/r, froz/degly/wash"	R	2.7189	$242.44	.	$48.49				
+9528	"Plt, aph/pher, l/r, cmv-neg"	R	2.5485	$227.25	.	$45.45				
+9529	"Blood, l/r, irradiated"	R	0.9439	$84.17	.	$16.84				
+9530	Plate pheres leukoredu irrad	R	7.5773	$675.66	.	$135.14				
+9531	"Plt, pher, l/r cmv-neg, irr"	R	5.1501	$459.23	.	$91.85				
+9532	"RBC, frz/deg/wsh, l/r, irrad"	R	5.4433	$485.37	.	$97.08				
+9533	"RBC, l/r, cmv-neg, irrad"	R	2.4993	$222.86	.	$44.58				
+9534	Pathogen reduced plasma pool	R	0.6292	$56.11	.	$11.23				
+9535	Pathogen reduced plasma sing	R	3.2806	$292.53	.	$58.51				
+9536	Platelets pheresis path redu	R	6.5861	$587.28	.	$117.46				
+9537	Blood component/product noc	R	0.5487	$48.93	.	$9.79				
+9538	Plasma cryo redu path each	R	1.5157	$135.15	.	$27.03				
+9539	Cryo fib comp path redu each	R	3.5188	$313.77	.	$62.76				
+9540	Covid-19 convalescent plasma	R	4.7732	$425.62	.	$85.13				
+9541	Rbc o2 co2 reduced	R	5.4627	$487.10	.	$97.42				

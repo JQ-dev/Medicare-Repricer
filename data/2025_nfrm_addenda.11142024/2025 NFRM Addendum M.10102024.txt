@@ -1,0 +1,186 @@
+	Addendum M.-- HCPCS Codes for Assignment to Composite APCs for CY 2025				
+	CPT codes and descriptions only are copyright 2024 American Medical Association.ÿ All Rights Reserved.ÿ Applicable FARS/DFARS Apply. 				
+HCPCS Code	Short Descriptor	 CI	 SI	Single Code APC Assignment 	Composite APC Assignment 
+71045	X-ray exam chest 1 view		Q3	5521	"5041, 5045"
+71046	X-ray exam chest 2 views		Q3	5521	"5041, 5045"
+92953	Temporary external pacing		Q3	5781	"5041, 5045"
+94002	Vent mgmt inpat init day		Q3	5801	"5041, 5045"
+94003	Vent mgmt inpat subq day		Q3	5801	"5041, 5045"
+94662	Neg press ventilation cnp		Q3	5801	"5041, 5045"
+94762	Measure blood oxygen level		Q3	5721	"5041, 5045"
+76700	Us exam abdom complete		Q3	5522	8004
+76705	Echo exam of abdomen		Q3	5522	8004
+76770	Us exam abdo back wall comp		Q3	5522	8004
+76776	Us exam k transpl w/doppler		Q3	5522	8004
+76831	Echo exam uterus		Q3	5523	8004
+76856	Us exam pelvic complete		Q3	5522	8004
+76857	Us exam pelvic limited		Q3	5522	8004
+76981	Use parenchyma		Q3	5522	8004
+76982	Use 1st target lesion		Q3	5522	8004
+0633T	Ct breast w/3d uni c-		Q3	5522	8005
+0636T	Ct breast w/3d bi c-		Q3	5523	8005
+70450	Ct head/brain w/o dye		Q3	5522	8005 or 8006
+70480	Ct orbit/ear/fossa w/o dye		Q3	5522	8005 or 8006
+70486	Ct maxillofacial w/o dye		Q3	5522	8005 or 8006
+70490	Ct soft tissue neck w/o dye		Q3	5522	8005 or 8006
+71250	Ct thorax dx c-		Q3	5522	8005 or 8006
+72125	Ct neck spine w/o dye		Q3	5522	8005 or 8006
+72128	Ct chest spine w/o dye		Q3	5522	8005 or 8006
+72131	Ct lumbar spine w/o dye		Q3	5522	8005 or 8006
+72192	Ct pelvis w/o dye		Q3	5522	8005 or 8006
+73200	Ct upper extremity w/o dye		Q3	5522	8005 or 8006
+73700	Ct lower extremity w/o dye		Q3	5522	8005 or 8006
+74150	Ct abdomen w/o contrast		Q3	5522	8005 or 8006
+74176	Ct abd & pelvis w/o contrast		Q3	5523	8005 or 8006
+74261	Ct colonography dx		Q3	5522	8005 or 8006
+0634T	Ct breast w/3d uni c+		Q3	5571	8006
+0635T	Ct breast w/3d uni c-/c+		Q3	5571	8006
+0637T	Ct breast w/3d bi c+		Q3	5572	8006
+0638T	Ct breast w/3d bi c-/c+		Q3	5572	8006
+70460	Ct head/brain w/dye		Q3	5571	8006
+70470	Ct head/brain w/o & w/dye		Q3	5571	8006
+70481	Ct orbit/ear/fossa w/dye		Q3	5571	8006
+70482	Ct orbit/ear/fossa w/o&w/dye		Q3	5571	8006
+70487	Ct maxillofacial w/dye		Q3	5571	8006
+70488	Ct maxillofacial w/o & w/dye		Q3	5571	8006
+70491	Ct soft tissue neck w/dye		Q3	5571	8006
+70492	Ct sft tsue nck w/o & w/dye		Q3	5571	8006
+70496	Ct angiography head		Q3	5571	8006
+70498	Ct angiography neck		Q3	5571	8006
+71260	Ct thorax dx c+		Q3	5571	8006
+71270	Ct thorax dx c-/c+		Q3	5571	8006
+71275	Ct angiography chest		Q3	5571	8006
+72126	Ct neck spine w/dye		Q3	5572	8006
+72127	Ct neck spine w/o & w/dye		Q3	5571	8006
+72129	Ct chest spine w/dye		Q3	5571	8006
+72130	Ct chest spine w/o & w/dye		Q3	5571	8006
+72132	Ct lumbar spine w/dye		Q3	5572	8006
+72133	Ct lumbar spine w/o & w/dye		Q3	5571	8006
+72191	Ct angiograph pelv w/o&w/dye		Q3	5571	8006
+72193	Ct pelvis w/dye		Q3	5571	8006
+72194	Ct pelvis w/o & w/dye		Q3	5571	8006
+73201	Ct upper extremity w/dye		Q3	5572	8006
+73202	Ct uppr extremity w/o&w/dye		Q3	5571	8006
+73206	Ct angio upr extrm w/o&w/dye		Q3	5571	8006
+73701	Ct lower extremity w/dye		Q3	5571	8006
+73702	Ct lwr extremity w/o&w/dye		Q3	5571	8006
+73706	Ct angio lwr extr w/o&w/dye		Q3	5571	8006
+74160	Ct abdomen w/contrast		Q3	5571	8006
+74170	Ct abd wo cntrst flwd cntrst		Q3	5571	8006
+74175	Cta abdomen w/contrast		Q3	5571	8006
+74177	Ct abd & pelvis w/contrast		Q3	5572	8006
+74178	Ct abd&plv wo cntr flwd cntr		Q3	5572	8006
+74262	Ct colonography dx w/dye		Q3	5571	8006
+75635	Ct angio abdominal arteries		Q3	5571	8006
+0609T	Mrs disc pain acquisj data		Q3	5523	8007
+76391	Mr elastography		Q3	5523	8007
+77046	Mri breast c- unilateral		Q3	5523	8007
+77047	Mri breast c- bilateral		Q3	5523	8007
+C9762	Cardiac mri seg dys strain		Q3	5524	8007
+C9763	Cardiac mri seg dys stress		Q3	5524	8007
+70336	Magnetic image jaw joint		Q3	5523	8007 or 8008
+70540	Mri orbit/face/neck w/o dye		Q3	5523	8007 or 8008
+70544	Mr angiography head w/o dye		Q3	5523	8007 or 8008
+70547	Mr angiography neck w/o dye		Q3	5523	8007 or 8008
+70551	Mri brain stem w/o dye		Q3	5523	8007 or 8008
+70554	Fmri brain by tech		Q3	5523	8007 or 8008
+71550	Mri chest w/o dye		Q3	5523	8007 or 8008
+72141	Mri neck spine w/o dye		Q3	5523	8007 or 8008
+72146	Mri chest spine w/o dye		Q3	5523	8007 or 8008
+72148	Mri lumbar spine w/o dye		Q3	5523	8007 or 8008
+72195	Mri pelvis w/o dye		Q3	5523	8007 or 8008
+73218	Mri upper extremity w/o dye		Q3	5523	8007 or 8008
+73221	Mri joint upr extrem w/o dye		Q3	5523	8007 or 8008
+73718	Mri lower extremity w/o dye		Q3	5523	8007 or 8008
+73721	Mri jnt of lwr extre w/o dye		Q3	5523	8007 or 8008
+74181	Mri abdomen w/o contrast		Q3	5523	8007 or 8008
+75557	Cardiac mri for morph		Q3	5523	8007 or 8008
+75559	Cardiac mri w/stress img		Q3	5524	8007 or 8008
+C8901	"Mra w/o cont, abd"		Q3	5523	8007 or 8008
+C8910	"Mra w/o cont, chest"		Q3	5523	8007 or 8008
+C8913	"Mra w/o cont, lwr ext"		Q3	5523	8007 or 8008
+C8919	"Mra w/o cont, pelvis"		Q3	5523	8007 or 8008
+C8932	"Mra, w/o dye, spinal canal"		Q3	5523	8007 or 8008
+C8935	"Mra, w/o dye, upper extr"		Q3	5523	8007 or 8008
+70542	Mri orbit/face/neck w/dye		Q3	5572	8008
+70543	Mri orbt/fac/nck w/o &w/dye		Q3	5572	8008
+70545	Mr angiography head w/dye		Q3	5572	8008
+70546	Mr angiograph head w/o&w/dye		Q3	5572	8008
+70548	Mr angiography neck w/dye		Q3	5572	8008
+70549	Mr angiograph neck w/o&w/dye		Q3	5572	8008
+70552	Mri brain stem w/dye		Q3	5572	8008
+70553	Mri brain stem w/o & w/dye		Q3	5572	8008
+71551	Mri chest w/dye		Q3	5573	8008
+71552	Mri chest w/o & w/dye		Q3	5572	8008
+72142	Mri neck spine w/dye		Q3	5572	8008
+72147	Mri chest spine w/dye		Q3	5572	8008
+72149	Mri lumbar spine w/dye		Q3	5572	8008
+72156	Mri neck spine w/o & w/dye		Q3	5572	8008
+72157	Mri chest spine w/o & w/dye		Q3	5572	8008
+72158	Mri lumbar spine w/o & w/dye		Q3	5572	8008
+72196	Mri pelvis w/dye		Q3	5572	8008
+72197	Mri pelvis w/o & w/dye		Q3	5572	8008
+73219	Mri upper extremity w/dye		Q3	5572	8008
+73220	Mri uppr extremity w/o&w/dye		Q3	5572	8008
+73222	Mri joint upr extrem w/dye		Q3	5573	8008
+73223	Mri joint upr extr w/o&w/dye		Q3	5572	8008
+73719	Mri lower extremity w/dye		Q3	5572	8008
+73720	Mri lwr extremity w/o&w/dye		Q3	5572	8008
+73722	Mri joint of lwr extr w/dye		Q3	5573	8008
+73723	Mri joint lwr extr w/o&w/dye		Q3	5572	8008
+74182	Mri abdomen w/contrast		Q3	5572	8008
+74183	Mri abd w/o cntr flwd cntr		Q3	5572	8008
+75561	Cardiac mri for morph w/dye		Q3	5572	8008
+75563	Card mri w/stress img & dye		Q3	5573	8008
+C8900	"Mra w/cont, abd"		Q3	5572	8008
+C8902	"Mra w/o fol w/cont, abd"		Q3	5572	8008
+C8903	"Mri w/cont, breast,  uni"		Q3	5571	8008
+C8905	"Mri w/o fol w/cont, brst, un"		Q3	5572	8008
+C8906	"Mri w/cont, breast,  bi"		Q3	5572	8008
+C8908	"Mri w/o fol w/cont, breast,"		Q3	5572	8008
+C8909	"Mra w/cont, chest"		Q3	5572	8008
+C8911	"Mra w/o fol w/cont, chest"		Q3	5572	8008
+C8912	"Mra w/cont, lwr ext"		Q3	5572	8008
+C8914	"Mra w/o fol w/cont, lwr ext"		Q3	5572	8008
+C8918	"Mra w/cont, pelvis"		Q3	5572	8008
+C8920	"Mra w/o fol w/cont, pelvis"		Q3	5572	8008
+C8931	"Mra, w/dye, spinal canal"		Q3	5572	8008
+C8933	"Mra, w/o&w/dye, spinal canal"		Q3	5572	8008
+C8934	"Mra, w/dye, upper extremity"		Q3	5572	8008
+C8936	"Mra, w/o&w/dye, upper extr"		Q3	5572	8008
+0362T	Bhv id suprt assmt ea 15 min		Q3	5821 	8010
+0373T	Adapt bhv tx ea 15 min		Q3	5821 	8010
+90791	Psych diagnostic evaluation		Q3	5823	8010
+90792	Psych diag eval w/med srvcs		Q3	5823	8010
+90832	Psytx w pt 30 minutes		Q3	5823	8010
+90834	Psytx w pt 45 minutes		Q3	5823	8010
+90837	Psytx w pt 60 minutes		Q3	5823	8010
+90839	Psytx crisis initial 60 min		Q3	5823	8010
+90845	Psychoanalysis		Q3	5823	8010
+90846	Family psytx w/o pt 50 min		Q3	5823	8010
+90847	Family psytx w/pt 50 min		Q3	5823	8010
+90849	Multiple family group psytx		Q3	5823	8010
+90853	Group psychotherapy		Q3	5822	8010
+90865	Narcosynthesis		Q3	5823	8010
+90880	Hypnotherapy		Q3	5822	8010
+90899	Unlisted psyc svc/therapy		Q3	5821	8010
+96112	Devel tst phys/qhp 1st hr		Q3	5721	8010
+96116	Nubhvl xm phys/qhp 1st hr		Q3	5722	8010
+96130	Psycl tst eval phys/qhp 1st		Q3	5722	8010
+96132	Nrpsyc tst eval phys/qhp 1st		Q3	5723	8010
+96136	Psycl/nrpsyc tst phy/qhp 1st		Q3	5734	8010
+96138	Psycl/nrpsyc tech 1st		Q3	5735	8010
+96146	Psycl/nrpsyc tst auto result		Q3	5731	8010
+96156	Hlth bhv assmt/reassessment		Q3	5822	8010
+96158	Hlth bhv ivntj indiv 1st 30		Q3	5823	8010
+96164	Hlth bhv ivntj grp 1st 30		Q3	5821	8010
+96167	Hlth bhv ivntj fam 1st 30		Q3	5821	8010
+97151	Bhv id assmt by phys/qhp		Q3	5822	8010
+97152	Bhv id suprt assmt by 1 tech		Q3	5822	8010
+97153	Adaptive behavior tx by tech		Q3	5822	8010
+97154	Grp adapt bhv tx by tech		Q3	5821	8010
+97155	Adapt behavior tx phys/qhp		Q3	5823	8010
+97156	Fam adapt bhv tx gdn phy/qhp		Q3	5821	8010
+97157	Mult fam adapt bhv tx gdn		Q3	5821	8010
+97158	Grp adapt bhv tx by phy/qhp		Q3	5821	8010
+G0451	Devlopment test interpt&rep		Q3	5822	8010

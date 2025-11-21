@@ -1,0 +1,15 @@
+CY 2025 Comprehensive APC Payment Policy Exclusions
+Ambulance services
+Brachytherapy
+Diagnostic and mammography screenings
+"Physical therapy, speech-language pathology and occupational therapy services reported on a separate facility claim for recurring services"
+"Pass-through drugs, biologicals, and devices"
+Preventive services defined in 42 CFR 410.2
+Self-administered drugs (SADs) - Drugs that are usually self-administered and do not function as supplies in the provision of the comprehensive service
+"Services assigned to OPPS status indicator ?F? (certain CRNA services, Hepatitis B vaccines and corneal tissue acquisition)"
+"Services assigned to OPPS status indicator ?L? (influenza, pneumococcal pneumonia, and COVID-19 vaccines)"
+"Certain Part B inpatient services ? Ancillary Part B inpatient services payable under Part B when the primary ?J1? service for the claim is not a payable Medicare Part B inpatient service (for example, exhausted Medicare Part A benefits, beneficiaries with Part B only)"
+Services assigned to a New Technology APC 
+Any drug or biological described by HCPCS code C9399
+"Non-opioid products qualifying under section 4135 of the Consolidated Appropriations Act (CAA), 2023 "
+Cell and gene therapies

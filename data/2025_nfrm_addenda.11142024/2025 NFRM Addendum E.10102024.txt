@@ -1,0 +1,1734 @@
+	Addendum E.-- HCPCS Codes That Would Be Paid Only as Inpatient Procedures for CY 2025		
+	CPT codes and descriptions only are copyright 2024 American Medical Association.ÿ All Rights Reserved.ÿ Applicable FARS/DFARS Apply. Dental codes (D codes) are copyright 2024 American Dental Association.ÿ All Rights Reserved.		
+HCPCS Code	Short Descriptor	 CI	 SI
+00176	Anesth pharyngeal surgery		C
+00192	Anesth facial bone surgery		C
+00211	Anesth cran surg hemotoma		C
+00214	Anesth skull drainage		C
+00215	Anesth skull repair/fract		C
+00474	Anesth surgery of rib		C
+00524	Anesth chest drainage		C
+00540	Anesth chest surgery		C
+00542	Anesthesia removal pleura		C
+00546	Anesth lung chest wall surg		C
+00560	Anesth heart surg w/o pump		C
+00561	Anesth heart surg <1 yr		C
+00562	Anesth hrt surg w/pmp age 1+		C
+00567	Anesth cabg w/pump		C
+00580	Anesth heart/lung transplnt		C
+00604	Anesth sitting procedure		C
+00632	Anesth removal of nerves		C
+0075T	Perq stent/chest vert art		C
+0076T	S&i stent/chest vert art		C
+00792	Anes iper upr abd prtl hptc		C
+00794	Anes iper upr abd pncrtect		C
+00796	Anes iper upr abd lvr trnspl		C
+00844	Anesth pelvis surgery		C
+00846	Anesth hysterectomy		C
+00848	Anesth pelvic organ surg		C
+00864	Anesth removal of bladder		C
+00866	Anesth removal of adrenal		C
+00868	Anesth kidney transplant		C
+00882	Anesth major vein ligation		C
+00904	Anesth perineal surgery		C
+00908	Anesth removal of prostate		C
+00932	Anesth amputation of penis		C
+00934	Anesth penis nodes removal		C
+00936	Anesth penis nodes removal		C
+0095T	Rmvl artific disc addl crvcl		C
+0098T	Rev artific disc addl		C
+01140	Anesth amputation at pelvis		C
+01150	Anesth pelvic tumor surgery		C
+01212	Anesth hip disarticulation		C
+01232	Anesth amputation of femur		C
+01234	Anesth radical femur surg		C
+01272	Anesth femoral artery surg		C
+01274	Anesth femoral embolectomy		C
+01404	Anesth amputation at knee		C
+01442	Anesth knee artery surg		C
+01444	Anesth knee artery repair		C
+01502	Anesth lwr leg embolectomy		C
+01634	Anesth shoulder joint amput		C
+01636	Anesth forequarter amput		C
+0164T	Remove lumb artif disc addl		C
+01652	Anesth shoulder vessel surg		C
+01654	Anesth shoulder vessel surg		C
+01656	Anesth arm-leg vessel surg		C
+0165T	Revise lumb artif disc addl		C
+01756	Anesth radical humerus surg		C
+01990	Support for organ donor		C
+0202T	Post vert arthrplst 1 lumbar		C
+0219T	Plmt post facet implt cerv		C
+0220T	Plmt post facet implt thor		C
+0235T	Trluml perip athrc visceral		C
+0345T	Transcath mtral vlve repair		C
+0483T	Tmvi percutaneous approach		C
+0484T	Tmvi transthoracic exposure		C
+0494T	Prep & cannulj cdvr don lung		C
+0495T	Mntr cdvr don lng 1st 2 hrs		C
+0496T	Mntr cdvr don lng ea addl hr		C
+0543T	Ta mv rpr w/artif chord tend		C
+0544T	Tcat mv annulus rcnstj		C
+0545T	Tcat tv annulus rcnstj		C
+0569T	Ttvr perq appr 1st prosth		C
+0570T	Ttvr perq ea addl prosth		C
+0584T	Perq islet cell transplant		C
+0585T	Laps islet cell transplant		C
+0586T	Open islet cell transplant		C
+0643T	Tcat l ventr rstrj dev implt		C
+0646T	Ttvi/rplcmt w/prstc vlv perq		C
+0656T	Ant lmbr vrt bdy teth <7 seg		C 
+0657T	Ant lmbr vrt bdy teth 8+ seg		C 
+0659T	Tcat intra-c nfs supersat o2		C 
+0790T	Revj rplcmt/rmvl vrt tethrg		C
+0805T	Tcat s&ivc prstc vl impl prq		C
+0806T	Tcat s&ivc prstc vl impl opn		C
+0894T	Cannulation liver allograft	NC	C
+0895T	Connj lvr algrft prfu dev 1	NC	C
+0896T	Connj lvr algrft prfu dev ea	NC	C
+11004	Dbrdmt skin xtrnl gent&per		C
+11005	Dbrdmt skin abdominal wall		C
+11006	Dbrdmt skin xtrnl gent per		C
+11008	Rmv prstc mtrl/mesh abd wall		C
+15756	Free myo/skin flap microvasc		C
+15757	Free skin flap microvasc		C
+15758	Free fascial flap microvasc		C
+15778	Impl absrb msh/prsth dly cls		C 
+16036	Escharotomy addl incision		C
+19305	Mast radical		C
+19306	Mast rad urban type		C
+19361	Brst rcnstj latsms drsi flap		C
+19364	Brst rcnstj free flap		C
+19367	Brst rcnstj 1 pdcl tram flap		C
+19368	Brst rcnstj 1pdcl tram anast		C
+19369	Brst rcnstj 2 pdcl tram flap		C
+20661	Application halo cranial		C
+20664	Appl halo cranial 6+pins		C
+20802	Replantation arm complete		C
+20805	Replant forearm complete		C
+20808	Replantation hand complete		C
+20816	Replantation digit complete		C
+20824	Replantation thumb complete		C
+20827	Replantation thumb complete		C
+20838	Replantation foot complete		C
+20955	Fibula bone graft microvasc		C
+20956	Iliac bone graft microvasc		C
+20957	Mt bone graft microvasc		C
+20962	Other bone graft microvasc		C
+20969	Bone/skin graft microvasc		C
+20970	Bone/skin graft iliac crest		C
+21045	Extensive jaw surgery		C
+21145	Lefort i-1 piece w/ graft		C
+21146	Lefort i-2 piece w/ graft		C
+21147	Lefort i-3/> piece w/ graft		C
+21151	Lefort ii w/bone grafts		C
+21154	Lefort iii w/o lefort i		C
+21155	Lefort iii w/ lefort i		C
+21159	Lefort iii w/fhdw/o lefort i		C
+21160	Lefort iii w/fhd w/ lefort i		C
+21179	Reconstruct entire forehead		C
+21180	Reconstruct entire forehead		C
+21182	Reconstruct cranial bone		C
+21183	Reconstruct cranial bone		C
+21184	Reconstruct cranial bone		C
+21188	Reconstruction of midface		C
+21247	Reconstruct lower jaw bone		C
+21268	Revise eye sockets		C
+21343	Open tx dprsd front sinus fx		C
+21344	Open tx compl front sinus fx		C
+21348	Opn tx nasomax fx w/graft		C
+21423	Optx palatal/max fx comp		C
+21431	Cltx craniofacial separation		C
+21432	Optx cranfcl sep w/wiring		C
+21433	Optx cranfcl sep comp mlt		C
+21435	Optx crnfc sep comp int&/xtr		C
+21436	Optx crnfcl sep comp mlt int		C
+21510	Inc deep opng b1 crtx thorax		C
+21602	Exc ch wal tum w/o lymphadec		C
+21603	Exc ch wal tum w/lymphadec		C
+21615	Removal of rib		C
+21616	Removal of rib and nerves		C
+21620	Partial removal of sternum		C
+21627	Sternal debridement		C
+21630	Radical resection sternum		C
+21705	Revision of neck muscle/rib		C
+21740	Reconstruction of sternum		C
+21750	Repair of sternum separation		C
+21825	Treat sternum fracture		C
+22010	I&d p-spine c/t/cerv-thor		C
+22015	I&d abscess p-spine l/s/ls		C
+22110	Remove part of neck vertebra		C
+22112	Remove part thorax vertebra		C
+22114	Remove part lumbar vertebra		C
+22116	Remove extra spine segment		C
+22206	Incis spine 3 column thorac		C
+22207	Incis spine 3 column lumbar		C
+22208	Incis spine 3 column adl seg		C
+22210	Incis 1 vertebral seg cerv		C
+22212	Incis 1 vertebral seg thorac		C
+22214	Incis 1 vertebral seg lumbar		C
+22216	Incis addl spine segment		C
+22220	Osteot dsc ant 1 vrt sgm crv		C
+22222	Osteot dsc ant 1vrt sgm thrc		C
+22224	Osteot dsc ant 1vrt sgm lmbr		C
+22226	Osteot dsc ant 1vrt sgm ea		C
+22318	Treat odontoid fx w/o graft		C
+22319	Treat odontoid fx w/graft		C
+22325	Treat spine fracture		C
+22326	Treat neck spine fracture		C
+22327	Treat thorax spine fracture		C
+22328	Treat each add spine fx		C
+22532	Arthrd lat xtrcvtry tq thrc		C
+22533	Arthrd lat xtrcvtry tq lmbr		C
+22534	Arthrd lat xtrcvtry tq ea ad		C
+22548	Arthrd ant toral/xoral c1-c2		C
+22556	Arthrd ant ntrbd min dsc thc		C
+22558	Arthrd ant ntrbd min dsc lum		C
+22586	Arthrd pre-sac ntrbdy l5-s1		C
+22590	Arthrd pst tq craniocervical		C
+22595	Arthrd pst tq atlas-axis		C
+22600	Arthrd pst tq 1ntrspc crv		C
+22610	Arthrd pst tq 1ntrspc thrc		C
+22800	Arthrd pst dfrm<6 vrt sgm		C
+22802	Arthrd pst dfrm 7-12 vrt sgm		C
+22804	Arthrd pst dfrm 13+ vrt sgm		C
+22808	Arthrd ant dfrm 2-3 vrt sgm		C
+22810	Arthrd ant dfrm 4-7 vrt sgm		C
+22812	Arthrd ant dfrm 8+ vrt sgm		C
+22818	Kyphectomy 1-2 segments		C
+22819	Kyphectomy 3 or more		C
+22830	Exploration of spinal fusion		C
+22836	Ant thrc vrt body tethrg <7		C
+22837	Ant thrc vrt body tethrg 8+		C
+22838	Rev rplc/rmv thrc vrt tethrg		C
+22841	Insert spine fixation device		C
+22843	Insert spine fixation device		C
+22844	Insert spine fixation device		C
+22846	Insert spine fixation device		C
+22847	Insert spine fixation device		C
+22849	Reinsert spinal fixation		C
+22850	Remove spine fixation device		C
+22852	Remove spine fixation device		C
+22855	Removal anterior instrmj		C
+22857	Tot disc arthrp 1ntrspc lmbr		C
+22860	Tot disc arthrp 2ntrspc lmbr		C 
+22861	Rev rplcm arthrp 1ntrspc crv		C
+22862	Rev rplcm rthrp 1ntrspc lmbr		C
+22864	Rmvl tot arthrp 1ntrspc crv		C
+22865	Rmvl tot arthrp 1ntrspc lmbr		C
+23200	Resect clavicle tumor		C
+23210	Resect scapula tumor		C
+23220	Resect prox humerus tumor		C
+23335	Shoulder prosthesis removal		C
+23474	Revis reconst shoulder joint		C
+23900	Interthoracoscplr amputation		C
+23920	Disarticulation shoulder		C
+24900	Amputation of upper arm		C
+24920	Amputation of upper arm		C
+24930	Amputation follow-up surgery		C
+24931	Amputate upper arm & implant		C
+24940	Revision of upper arm		C
+25900	Amputation of forearm		C
+25905	Amputation of forearm		C
+25915	Amputation of forearm		C
+25920	Amputate hand at wrist		C
+25924	Amputation follow-up surgery		C
+25927	Amputation of hand		C
+26551	Great toe-hand transfer		C
+26553	Single transfer toe-hand		C
+26554	Double transfer toe-hand		C
+26556	Toe joint transfer		C
+26992	Drainage of bone lesion		C
+27005	Incision of hip tendon		C
+27025	Incision of hip/thigh fascia		C
+27030	Drainage of hip joint		C
+27036	Excision of hip joint/muscle		C
+27054	Removal of hip joint lining		C
+27070	Part remove hip bone super		C
+27071	Part removal hip bone deep		C
+27075	Resect hip tumor		C
+27076	Resect hip tum incl acetabul		C
+27077	Resect hip tum w/innom bone		C
+27078	Rsect hip tum incl femur		C
+27090	Removal of hip prosthesis		C
+27091	Removal of hip prosthesis		C
+27120	Reconstruction of hip socket		C
+27122	Reconstruction of hip socket		C
+27125	Partial hip replacement		C
+27132	Total hip arthroplasty		C
+27134	Revise hip joint replacement		C
+27137	Revise hip joint replacement		C
+27138	Revise hip joint replacement		C
+27140	Transplant femur ridge		C
+27146	Incision of hip bone		C
+27147	Revision of hip bone		C
+27151	Incision of hip bones		C
+27156	Revision of hip bones		C
+27158	Revision of pelvis		C
+27161	Incision of neck of femur		C
+27165	Incision/fixation of femur		C
+27170	Repair/graft femur head/neck		C
+27175	Treat slipped epiphysis		C
+27176	Treat slipped epiphysis		C
+27177	Treat slipped epiphysis		C
+27178	Treat slipped epiphysis		C
+27181	Treat slipped epiphysis		C
+27185	Revision of femur epiphysis		C
+27187	Reinforce hip bones		C
+27222	Treat hip socket fracture		C
+27226	Treat hip wall fracture		C
+27227	Treat hip fracture(s)		C
+27228	Treat hip fracture(s)		C
+27232	Treat thigh fracture		C
+27236	Treat thigh fracture		C
+27240	Treat thigh fracture		C
+27244	Treat thigh fracture		C
+27245	Treat thigh fracture		C
+27248	Treat thigh fracture		C
+27253	Treat hip dislocation		C
+27254	Treat hip dislocation		C
+27258	Treat hip dislocation		C
+27259	Treat hip dislocation		C
+27268	Cltx thigh fx w/mnpj		C
+27269	Optx thigh fx		C
+27280	Arthr si jt opn b1grf instrm		C
+27282	Arthrodesis symphysis pubis		C
+27284	Arthrodesis hip joint		C
+27286	Arthrd hip jt sbtrchc osteot		C
+27290	Amputation of leg at hip		C
+27295	Amputation of leg at hip		C
+27303	Drainage of bone lesion		C
+27365	Resect femur/knee tumor		C
+27445	Revision of knee joint		C
+27448	Incision of thigh		C
+27450	Incision of thigh		C
+27454	Realignment of thigh bone		C
+27455	Realignment of knee		C
+27457	Realignment of knee		C
+27465	Shortening of thigh bone		C
+27466	Lengthening of thigh bone		C
+27468	Shorten/lengthen thighs		C
+27470	Repair of thigh		C
+27472	Repair/graft of thigh		C
+27486	Revise/replace knee joint		C
+27487	Revise/replace knee joint		C
+27488	Removal of knee prosthesis		C
+27495	Reinforce thigh		C
+27506	Treatment of thigh fracture		C
+27507	Treatment of thigh fracture		C
+27511	Treatment of thigh fracture		C
+27513	Treatment of thigh fracture		C
+27514	Treatment of thigh fracture		C
+27519	Treat thigh fx growth plate		C
+27535	Treat knee fracture		C
+27536	Treat knee fracture		C
+27540	Treat knee fracture		C
+27556	Treat knee dislocation		C
+27557	Treat knee dislocation		C
+27558	Treat knee dislocation		C
+27580	Fusion of knee		C
+27590	Amputate leg at thigh		C
+27591	Amputate leg at thigh		C
+27592	Amputate leg at thigh		C
+27596	Amputation follow-up surgery		C
+27598	Amputate lower leg at knee		C
+27645	Resect tibia tumor		C
+27646	Resect fibula tumor		C
+27703	Reconstruction ankle joint		C
+27712	Osteot mlt relignmt imed rod		C
+27715	Ostpl tibfib lngth/shrt		C
+27724	Repair/graft of tibia		C
+27725	Repair of lower leg		C
+27727	Repair of lower leg		C
+27880	Amputation of lower leg		C
+27881	Amputation of lower leg		C
+27882	Amputation of lower leg		C
+27886	Amputation follow-up surgery		C
+27888	Amputation of foot at ankle		C
+28800	Amputation of midfoot		C
+31225	Removal of upper jaw		C
+31230	Removal of upper jaw		C
+31290	Nasal/sinus endoscopy surg		C
+31291	Nasal/sinus endoscopy surg		C
+31360	Removal of larynx		C
+31365	Removal of larynx		C
+31367	Partial removal of larynx		C
+31368	Partial removal of larynx		C
+31370	Partial removal of larynx		C
+31375	Partial removal of larynx		C
+31380	Partial removal of larynx		C
+31382	Partial removal of larynx		C
+31390	Removal of larynx & pharynx		C
+31395	Reconstruct larynx & pharynx		C
+31725	Clearance of airways		C
+31760	Tracheoplasty intrathoracic		C
+31766	Carinal reconstruction		C
+31770	Repair/graft of bronchus		C
+31775	Reconstruct bronchus		C
+31780	Reconstruct windpipe		C
+31781	Reconstruct windpipe		C
+31786	Remove windpipe lesion		C
+31800	Repair of windpipe injury		C
+31805	Repair of windpipe injury		C
+32035	Thoracostomy w/rib resection		C
+32036	Thoracostomy w/flap drainage		C
+32096	Open wedge/bx lung infiltr		C
+32097	Open wedge/bx lung nodule		C
+32098	Open biopsy of lung pleura		C
+32100	Exploration of chest		C
+32110	Explore/repair chest		C
+32120	Re-exploration of chest		C
+32124	Explore chest free adhesions		C
+32140	Removal of lung lesion(s)		C
+32141	Remove/treat lung lesions		C
+32150	Removal of lung lesion(s)		C
+32151	Remove lung foreign body		C
+32160	Open chest heart massage		C
+32200	Drain open lung lesion		C
+32215	Treat chest lining		C
+32220	Release of lung		C
+32225	Partial release of lung		C
+32310	Removal of chest lining		C
+32320	Free/remove chest lining		C
+32440	Remove lung pneumonectomy		C
+32442	Sleeve pneumonectomy		C
+32445	Removal of lung extrapleural		C
+32480	Partial removal of lung		C
+32482	Bilobectomy		C
+32484	Segmentectomy		C
+32486	Sleeve lobectomy		C
+32488	Completion pneumonectomy		C
+32491	Lung volume reduction		C
+32501	Repair bronchus add-on		C
+32503	Resect apical lung tumor		C
+32504	Resect apical lung tum/chest		C
+32505	Wedge resect of lung initial		C
+32506	Wedge resect of lung add-on		C
+32507	Wedge resect of lung diag		C
+32540	Removal of lung lesion		C
+32650	Thoracoscopy w/pleurodesis		C
+32651	Thoracoscopy remove cortex		C
+32652	Thoracoscopy rem totl cortex		C
+32653	Thoracoscopy remov fb/fibrin		C
+32654	Thoracoscopy contrl bleeding		C
+32655	Thoracoscopy resect bullae		C
+32656	Thoracoscopy w/pleurectomy		C
+32658	Thoracoscopy w/sac fb remove		C
+32659	Thoracoscopy w/sac drainage		C
+32661	Thoracoscopy w/pericard exc		C
+32662	Thoracoscopy w/mediast exc		C
+32663	Thoracoscopy w/lobectomy		C
+32664	Thoracoscopy w/ th nrv exc		C
+32665	Thoracoscop w/esoph musc exc		C
+32666	Thoracoscopy w/wedge resect		C
+32667	Thoracoscopy w/w resect addl		C
+32668	Thoracoscopy w/w resect diag		C
+32669	Thoracoscopy remove segment		C
+32670	Thoracoscopy bilobectomy		C
+32671	Thoracoscopy pneumonectomy		C
+32672	Thoracoscopy for lvrs		C
+32673	Thoracoscopy w/thymus resect		C
+32674	Thoracoscopy lymph node exc		C
+32800	Repair lung hernia		C
+32810	Close chest after drainage		C
+32815	Close bronchial fistula		C
+32820	Reconstruct injured chest		C
+32850	Donor pneumonectomy		C
+32851	Lung transplant single		C
+32852	Lung transplant with bypass		C
+32853	Lung transplant double		C
+32854	Lung transplant with bypass		C
+32855	Prepare donor lung single		C
+32856	Prepare donor lung double		C
+32900	Removal of rib(s)		C
+32905	Revise & repair chest wall		C
+32906	Revise & repair chest wall		C
+32940	Revision of lung		C
+32997	Total lung lavage		C
+33017	Prcrd drg 6yr+ w/o cgen car		C
+33018	Prcrd drg 0-5yr or w/anomly		C
+33019	Perq prcrd drg insj cath ct		C
+33020	Incision of heart sac		C
+33025	Incision of heart sac		C
+33030	Partial removal of heart sac		C
+33031	Partial removal of heart sac		C
+33050	Resect heart sac lesion		C
+33120	Exc icar tum resc w/card byp		C
+33130	Rescj external cardiac tumor		C
+33140	Heart revascularize (tmr)		C
+33141	Heart tmr w/other procedure		C
+33202	Insert epicard eltrd open		C
+33203	Insert epicard eltrd endo		C
+33236	Remove electrode/thoracotomy		C
+33237	Remove electrode/thoracotomy		C
+33238	Remove electrode/thoracotomy		C
+33243	Remove eltrd/thoracotomy		C
+33250	Ablate heart dysrhythm focus		C
+33251	Ablate heart dysrhythm focus		C
+33254	Ablate atria lmtd		C
+33255	Ablate atria w/o bypass ext		C
+33256	Ablate atria w/bypass exten		C
+33257	Ablate atria lmtd add-on		C
+33258	Ablate atria x10sv add-on		C
+33259	Ablate atria w/bypass add-on		C
+33261	Ablate heart dysrhythm focus		C
+33265	Ablate atria lmtd endo		C
+33266	Ablate atria x10sv endo		C
+33267	Excl laa open any method		C
+33268	Excl laa opn oth px any meth		C
+33269	Excl laa thrscp any method		C
+33300	Repair of heart wound		C
+33305	Repair of heart wound		C
+33310	Exploratory heart surgery		C
+33315	Exploratory heart surgery		C
+33320	Repair major blood vessel(s)		C
+33321	Repair major vessel		C
+33322	Repair major blood vessel(s)		C
+33330	Insert major vessel graft		C
+33335	Insert major vessel graft		C
+33340	Perq clsr tcat l atr apndge		C
+33361	Replace aortic valve perq		C
+33362	Replace aortic valve open		C
+33363	Replace aortic valve open		C
+33364	Replace aortic valve open		C
+33365	Replace aortic valve open		C
+33366	Trcath replace aortic valve		C
+33367	Replace aortic valve w/byp		C
+33368	Replace aortic valve w/byp		C
+33369	Replace aortic valve w/byp		C
+33390	Valvuloplasty aortic valve		C
+33391	Valvuloplasty aortic valve		C
+33404	Prepare heart-aorta conduit		C
+33405	Replacement aortic valve opn		C
+33406	Replacement aortic valve opn		C
+33410	Replacement aortic valve opn		C
+33411	Replacement of aortic valve		C
+33412	Replacement of aortic valve		C
+33413	Replacement of aortic valve		C
+33414	Repair of aortic valve		C
+33415	Revision subvalvular tissue		C
+33416	Revise ventricle muscle		C
+33417	Repair of aortic valve		C
+33418	Repair tcat mitral valve		C
+33420	Revision of mitral valve		C
+33422	Revision of mitral valve		C
+33425	Repair of mitral valve		C
+33426	Repair of mitral valve		C
+33427	Repair of mitral valve		C
+33430	Replacement of mitral valve		C
+33440	Rplcmt a-valve tlcj autol pv		C
+33460	Revision of tricuspid valve		C
+33463	Valvuloplasty tricuspid		C
+33464	Valvuloplasty tricuspid		C
+33465	Replace tricuspid valve		C
+33468	Revision of tricuspid valve		C
+33474	Revision of pulmonary valve		C
+33475	Replacement pulmonary valve		C
+33476	Revision of heart chamber		C
+33477	Implant tcat pulm vlv perq		C
+33478	Revision of heart chamber		C
+33496	Repair prosth valve clot		C
+33500	Repair heart vessel fistula		C
+33501	Repair heart vessel fistula		C
+33502	Coronary artery correction		C
+33503	Coronary artery graft		C
+33504	Coronary artery graft		C
+33505	Repair artery w/tunnel		C
+33506	Repair artery translocation		C
+33507	Repair art intramural		C
+33509	Ndsc hrv uxtr art 1 sgm cab		C
+33510	Cabg vein single		C
+33511	Cabg vein two		C
+33512	Cabg vein three		C
+33513	Cabg vein four		C
+33514	Cabg vein five		C
+33516	Cabg vein six or more		C
+33517	Cabg artery-vein single		C
+33518	Cabg artery-vein two		C
+33519	Cabg artery-vein three		C
+33521	Cabg artery-vein four		C
+33522	Cabg artery-vein five		C
+33523	Cabg art-vein six or more		C
+33530	Coronary artery bypass/reop		C
+33533	Cabg arterial single		C
+33534	Cabg arterial two		C
+33535	Cabg arterial three		C
+33536	Cabg arterial four or more		C
+33542	Removal of heart lesion		C
+33545	Repair of heart damage		C
+33548	Restore/remodel ventricle		C
+33572	Open coronary endarterectomy		C
+33600	Closure of valve		C
+33602	Closure of valve		C
+33606	Anastomosis/artery-aorta		C
+33608	Repair anomaly w/conduit		C
+33610	Repair by enlargement		C
+33611	Repair double ventricle		C
+33612	Repair double ventricle		C
+33615	Repair modified fontan		C
+33617	Repair single ventricle		C
+33619	Repair single ventricle		C
+33620	Apply r&l pulm art bands		C
+33621	Transthor cath for stent		C
+33622	Redo compl cardiac anomaly		C
+33641	Repair heart septum defect		C
+33645	Revision of heart veins		C
+33647	Repair heart septum defects		C
+33660	Repair of heart defects		C
+33665	Repair of heart defects		C
+33670	Repair of heart chambers		C
+33675	Close mult vsd		C
+33676	Close mult vsd w/resection		C
+33677	Cl mult vsd w/rem pul band		C
+33681	Closure 1 vsd w/wo patch		C
+33684	Clsr 1 vsd w/wo patch w/vlvt		C
+33688	Clsr 1vsd w/wo ptch rmvl bnd		C
+33690	Banding pulmonary artery		C
+33692	Comp rpr tof wo pulm atresia		C
+33694	Cmp rpr tof wo plm atrs ptch		C
+33697	Compl rpr tof w/pulm atresia		C
+33702	Repair of heart defects		C
+33710	Repair of heart defects		C
+33720	Repair of heart defect		C
+33724	Repair venous anomaly		C
+33726	Repair pul venous stenosis		C
+33730	Repair heart-vein defect(s)		C
+33732	Repair heart-vein defect		C
+33735	Revision of heart chamber		C
+33736	Revision of heart chamber		C
+33741	Tas congenital car anomal		C
+33745	Tis cgen car anomal 1st shnt		C
+33746	Tis cgen car anomal ea addl		C
+33750	Shunt subclavian to pulm art		C
+33755	Shunt as-aort to pulm art		C
+33762	Shunt desc aorta to pulm art		C
+33764	Shunt central w/prostc graft		C
+33766	Shunt supr v/c p-art 1 lung		C
+33767	Shunt supr v/c p-art bth lng		C
+33768	Anast cavopulm sec sup v/c		C
+33770	Rpr tga w/o surg enlgmnt vsd		C
+33771	Rpr tga w/surg enlgmnt vsd		C
+33774	Rpr tga atrial baffle px		C
+33775	Rpr tga atr bfl rmvl plm bnd		C
+33776	Rpr tga atr bfl clsr vsd		C
+33777	Rpr tga bfl rpr sbpulm obstr		C
+33778	Rpr tga aortic pulm art rcns		C
+33779	Rpr tga rcnstj rmvl plm bnd		C
+33780	Rpr tga rcnstj clsr vsd		C
+33781	Rpr tga rcnstj rpr sbpl obst		C
+33782	Nikaidoh proc		C
+33783	Nikaidoh proc w/ostia implt		C
+33786	Repair arterial trunk		C
+33788	Revision of pulmonary artery		C
+33800	Aortic suspension		C
+33802	Division aberrant vessel		C
+33803	Div aberrant vsl w/reanast		C
+33814	Obltrj a-pulm sep def w/byp		C
+33820	Repair pda by ligation		C
+33822	Repair pda div<18 years		C
+33824	Repair pda div 18 yrs&older		C
+33840	Exc coa w/direct anastomosis		C
+33845	Excision coa w/graft		C
+33851	Exc coa rpr l subcl art/prst		C
+33852	Rpr hypopl a-arch wo byp		C
+33853	Rpr hypopl a-arch w/byp		C
+33858	As-aort grf f/aortic dsj		C
+33859	As-aort grf f/ds oth/thn dsj		C
+33863	Ascending aortic graft		C
+33864	Ascending aortic graft		C
+33871	Transvrs a-arch grf hypthrm		C
+33875	Thoracic aortic graft		C
+33877	Thoracoabdominal graft		C
+33880	Endovasc taa repr incl subcl		C
+33881	Endovasc taa repr w/o subcl		C
+33883	Insert endovasc prosth taa		C
+33884	Endovasc prosth taa add-on		C
+33886	Endovasc prosth delayed		C
+33889	Artery transpose/endovas taa		C
+33891	Car-car bp grft/endovas taa		C
+33894	Evasc st rpr thrc/aa acrs br		C
+33895	Evasc st rpr thrc/aa x crsg		C
+33897	Perq trluml angp nt/recr coa		C
+33910	Remove lung artery emboli		C
+33915	Remove lung artery emboli		C
+33916	Surgery of great vessel		C
+33917	Repair pulmonary artery		C
+33920	Repair pulmonary atresia		C
+33922	Transect pulmonary artery		C
+33924	Remove pulmonary shunt		C
+33925	Rpr pul art unifocal w/o cpb		C
+33926	Repr pul art unifocal w/cpb		C
+33927	Impltj tot rplcmt hrt sys		C
+33928	Rmvl & rplcmt tot hrt sys		C
+33929	Rmvl rplcmt hrt sys f/trnspl		C
+33930	Removal of donor heart/lung		C
+33933	Prepare donor heart/lung		C
+33935	Transplantation heart/lung		C
+33940	Removal of donor heart		C
+33944	Prepare donor heart		C
+33945	Transplantation of heart		C
+33946	Ecmo/ecls initiation venous		C
+33947	Ecmo/ecls initiation artery		C
+33948	Ecmo/ecls daily mgmt-venous		C
+33949	Ecmo/ecls daily mgmt artery		C
+33951	Ecmo/ecls insj prph cannula		C
+33952	Ecmo/ecls insj prph cannula		C
+33953	Ecmo/ecls insj prph cannula		C
+33954	Ecmo/ecls insj prph cannula		C
+33955	Ecmo/ecls insj ctr cannula		C
+33956	Ecmo/ecls insj ctr cannula		C
+33957	Ecmo/ecls repos perph cnula		C
+33958	Ecmo/ecls repos perph cnula		C
+33959	Ecmo/ecls repos perph cnula		C
+33962	Ecmo/ecls repos perph cnula		C
+33963	Ecmo/ecls repos perph cnula		C
+33964	Ecmo/ecls repos perph cnula		C
+33965	Ecmo/ecls rmvl perph cannula		C
+33966	Ecmo/ecls rmvl prph cannula		C
+33967	Insert i-aort percut device		C
+33968	Remove aortic assist device		C
+33969	Ecmo/ecls rmvl perph cannula		C
+33970	Aortic circulation assist		C
+33971	Aortic circulation assist		C
+33973	Insert balloon device		C
+33974	Remove intra-aortic balloon		C
+33975	Implant ventricular device		C
+33976	Implant ventricular device		C
+33977	Remove ventricular device		C
+33978	Remove ventricular device		C
+33979	Insert intracorporeal device		C
+33980	Remove intracorporeal device		C
+33981	Replace vad pump ext		C
+33982	Replace vad intra w/o bp		C
+33983	Replace vad intra w/bp		C
+33984	Ecmo/ecls rmvl prph cannula		C
+33985	Ecmo/ecls rmvl ctr cannula		C
+33986	Ecmo/ecls rmvl ctr cannula		C
+33987	Artery expos/graft artery		C
+33988	Insertion of left heart vent		C
+33989	Removal of left heart vent		C
+33990	Insj perq vad l hrt arterial		C
+33991	Insj perq vad l hrt artl&ven		C
+33992	Rmvl perq left heart vad		C
+33993	Reposg perq r/l hrt vad		C
+33995	Insj perq vad r hrt venous		C
+33997	Rmvl perq right heart vad		C
+34001	Removal of artery clot		C
+34051	Removal of artery clot		C
+34151	Removal of artery clot		C
+34401	Removal of vein clot		C
+34451	Removal of vein clot		C
+34502	Reconstruct vena cava		C
+34701	Evasc rpr a-ao ndgft		C
+34702	Evasc rpr a-ao ndgft rpt		C
+34703	Evasc rpr a-unilac ndgft		C
+34704	Evasc rpr a-unilac ndgft rpt		C
+34705	Evac rpr a-biiliac ndgft		C
+34706	Evasc rpr a-biiliac rpt		C
+34707	Evasc rpr ilio-iliac ndgft		C
+34708	Evasc rpr ilio-iliac rpt		C
+34709	Plmt xtn prosth evasc rpr		C
+34710	Dlyd plmt xtn prosth 1st vsl		C
+34711	Dlyd plmt xtn prosth ea addl		C
+34712	Tcat dlvr enhncd fixj dev		C
+34717	Evasc rpr a-iliac ndgft		C
+34718	Evasc rpr n/a a-iliac ndgft		C
+34808	Endovas iliac a device addon		C
+34812	Opn fem art expos		C
+34813	Femoral endovas graft add-on		C
+34820	Opn iliac art expos		C
+34830	Open aortic tube prosth repr		C
+34831	Open aortoiliac prosth repr		C
+34832	Open aortofemor prosth repr		C
+34833	Opn ilac art expos cndt crtj		C
+34834	Opn brach art expos		C
+34841	Endovasc visc aorta 1 graft		C
+34842	Endovasc visc aorta 2 graft		C
+34843	Endovasc visc aorta 3 graft		C
+34844	Endovasc visc aorta 4 graft		C
+34845	Visc & infraren abd 1 prosth		C
+34846	Visc & infraren abd 2 prosth		C
+34847	Visc & infraren abd 3 prosth		C
+34848	Visc & infraren abd 4+ prost		C
+35001	Repair defect of artery		C
+35002	Repair artery rupture neck		C
+35005	Repair defect of artery		C
+35013	Repair artery rupture arm		C
+35021	Repair defect of artery		C
+35022	Repair artery rupture chest		C
+35081	Repair defect of artery		C
+35082	Repair artery rupture aorta		C
+35091	Repair defect of artery		C
+35092	Repair artery rupture aorta		C
+35102	Repair defect of artery		C
+35103	Repair artery rupture aorta		C
+35111	Repair defect of artery		C
+35112	Repair artery rupture spleen		C
+35121	Repair defect of artery		C
+35122	Repair artery rupture belly		C
+35131	Repair defect of artery		C
+35132	Repair artery rupture groin		C
+35141	Repair defect of artery		C
+35142	Repair artery rupture thigh		C
+35151	Repair defect of artery		C
+35152	Repair ruptd popliteal art		C
+35182	Rpr cgen av fistula thrx&abd		C
+35189	Rpr acq av fistula thrx&abd		C
+35211	Rpr blvsl dir ntrathrc w/byp		C
+35216	Rpr blvsl dir ntrthrc wo byp		C
+35221	Rpr bld vsl dir intra-abdl		C
+35241	Rpr blvsl vn grf ntrthrc w/b		C
+35246	Rpr blvsl vn grf ntrthrc w/o		C
+35251	Rpr blvsl vn grf intra-abdl		C
+35271	Rpr blvs gr ot/th vn ntrth w		C
+35276	Rpr blvs gr ot/t vn ntrth wo		C
+35281	Rpr blvsl gr ot/th vn ntr-ab		C
+35301	Rechanneling of artery		C
+35302	Rechanneling of artery		C
+35303	Rechanneling of artery		C
+35304	Rechanneling of artery		C
+35305	Rechanneling of artery		C
+35306	Rechanneling of artery		C
+35311	Rechanneling of artery		C
+35331	Rechanneling of artery		C
+35341	Rechanneling of artery		C
+35351	Rechanneling of artery		C
+35355	Rechanneling of artery		C
+35361	Rechanneling of artery		C
+35363	Rechanneling of artery		C
+35371	Rechanneling of artery		C
+35372	Rechanneling of artery		C
+35390	Reoperation carotid add-on		C
+35400	Angioscopy		C
+35501	Art byp grft ipsilat carotid		C
+35506	Art byp grft subclav-carotid		C
+35508	Art byp grft carotid-vertbrl		C
+35509	Art byp grft contral carotid		C
+35510	Art byp grft carotid-brchial		C
+35511	Art byp grft subclav-subclav		C
+35512	Art byp grft subclav-brchial		C
+35515	Art byp grft subclav-vertbrl		C
+35516	Art byp grft subclav-axilary		C
+35518	Art byp grft axillary-axilry		C
+35521	Art byp grft axill-femoral		C
+35522	Art byp grft axill-brachial		C
+35523	Art byp grft brchl-ulnr-rdl		C
+35525	Art byp grft brachial-brchl		C
+35526	Art byp grft aor/carot/innom		C
+35531	Art byp grft aorcel/aormesen		C
+35533	Art byp grft axill/fem/fem		C
+35535	Art byp grft hepatorenal		C
+35536	Art byp grft splenorenal		C
+35537	Art byp grft aortoiliac		C
+35538	Art byp grft aortobi-iliac		C
+35539	Art byp grft aortofemoral		C
+35540	Art byp grft aortbifemoral		C
+35556	Art byp grft fem-popliteal		C
+35558	Art byp grft fem-femoral		C
+35560	Art byp grft aortorenal		C
+35563	Art byp grft ilioiliac		C
+35565	Art byp grft iliofemoral		C
+35566	Art byp fem-ant-post tib/prl		C
+35570	Art byp tibial-tib/peroneal		C
+35571	Art byp pop-tibl-prl-other		C
+35583	Vein byp grft fem-popliteal		C
+35585	Vein byp fem-tibial peroneal		C
+35587	Vein byp pop-tibl peroneal		C
+35600	Open hrv uxtr art 1 sgm cab		C
+35601	Art byp common ipsi carotid		C
+35606	Art byp carotid-subclavian		C
+35612	Art byp subclav-subclavian		C
+35616	Art byp subclav-axillary		C
+35621	Art byp axillary-femoral		C
+35623	Art byp axillary-pop-tibial		C
+35626	Art byp aorsubcl/carot/innom		C
+35631	Art byp aor-celiac-msn-renal		C
+35632	Art byp ilio-celiac		C
+35633	Art byp ilio-mesenteric		C
+35634	Art byp iliorenal		C
+35636	Art byp spenorenal		C
+35637	Art byp aortoiliac		C
+35638	Art byp aortobi-iliac		C
+35642	Art byp carotid-vertebral		C
+35645	Art byp subclav-vertebrl		C
+35646	Art byp aortobifemoral		C
+35647	Art byp aortofemoral		C
+35650	Art byp axillary-axillary		C
+35654	Art byp axill-fem-femoral		C
+35656	Art byp femoral-popliteal		C
+35661	Art byp femoral-femoral		C
+35663	Art byp ilioiliac		C
+35665	Art byp iliofemoral		C
+35666	Art byp fem-ant-post tib/prl		C
+35671	Art byp pop-tibl-prl-other		C
+35681	Composite byp grft pros&vein		C
+35682	Composite byp grft 2 veins		C
+35683	Composite byp grft 3/> segmt		C
+35691	Art trnsposj vertbrl carotid		C
+35693	Art trnsposj subclavian		C
+35694	Art trnsposj subclav carotid		C
+35695	Art trnsposj carotid subclav		C
+35697	Reimplant artery each		C
+35700	Reoperation bypass graft		C
+35701	Expl n/flwd surg neck art		C
+35702	Expl n/flwd surg uxtr art		C
+35703	Expl n/flwd surg lxtr art		C
+35800	Explore neck vessels		C
+35820	Explore chest vessels		C
+35840	Explore abdominal vessels		C
+35870	Repair vessel graft defect		C
+35901	Excision graft neck		C
+35905	Excision graft thorax		C
+35907	Excision graft abdomen		C
+36660	Insertion catheter artery		C
+36823	Insertion of cannula(s)		C
+37140	Revision of circulation		C
+37145	Revision of circulation		C
+37160	Revision of circulation		C
+37180	Revision of circulation		C
+37181	Splice spleen/kidney veins		C
+37182	Insert hepatic shunt (tips)		C
+37215	Transcath stent cca w/eps		C
+37217	Stent placemt retro carotid		C
+37218	Stent placemt ante carotid		C
+37616	Ligation major artery chest		C
+37617	Ligation major artery abd		C
+37618	Ligation major artery xtr		C
+37660	Ligation common iliac vein		C
+37788	Revascularization penis		C
+38100	Removal of spleen total		C
+38101	Removal of spleen partial		C
+38102	Removal of spleen total		C
+38115	Repair of ruptured spleen		C
+38380	Thoracic duct procedure		C
+38381	Thoracic duct procedure		C
+38382	Thoracic duct procedure		C
+38562	Removal pelvic lymph nodes		C
+38564	Removal abdomen lymph nodes		C
+38724	Removal of lymph nodes neck		C
+38746	Remove thoracic lymph nodes		C
+38747	Remove abdominal lymph nodes		C
+38765	Remove groin lymph nodes		C
+38770	Remove pelvis lymph nodes		C
+38780	Remove abdomen lymph nodes		C
+39000	Exploration of chest		C
+39010	Exploration of chest		C
+39200	Resect mediastinal cyst		C
+39220	Resect mediastinal tumor		C
+39499	Unlisted px mediastinum		C
+39501	Repair diaphragm laceration		C
+39503	Repair of diaphragm hernia		C
+39540	Repair of diaphragm hernia		C
+39541	Repair of diaphragm hernia		C
+39545	Revision of diaphragm		C
+39560	Resect diaphragm simple		C
+39561	Resect diaphragm complex		C
+39599	Unlisted px diaphragm		C
+41130	Partial removal of tongue		C
+41135	Tongue and neck surgery		C
+41140	Removal of tongue		C
+41145	Tongue removal neck surgery		C
+41150	Tongue mouth jaw surgery		C
+41153	Tongue mouth neck surgery		C
+41155	Tongue jaw & neck surgery		C
+42426	Excise parotid gland/lesion		C
+42845	Extensive surgery of throat		C
+42894	Revision of pharyngeal walls		C
+42953	Repair throat esophagus		C
+42961	Control throat bleeding		C
+42971	Control nose/throat bleeding		C
+43045	Esophagotomy thrc rmvl fb		C
+43100	Excision of esophagus lesion		C
+43101	Excision of esophagus lesion		C
+43107	Removal of esophagus		C
+43108	Removal of esophagus		C
+43112	Esphg tot w/thrcm		C
+43113	Removal of esophagus		C
+43116	Partial removal of esophagus		C
+43117	Partial removal of esophagus		C
+43118	Partial removal of esophagus		C
+43121	Partial removal of esophagus		C
+43122	Partial removal of esophagus		C
+43123	Partial removal of esophagus		C
+43124	Removal of esophagus		C
+43135	Removal of esophagus pouch		C
+43279	Lap myotomy heller		C
+43283	Lap esoph lengthening		C
+43286	Esphg tot w/laps moblj		C
+43287	Esphg dstl 2/3 w/laps moblj		C
+43288	Esphg thrsc moblj		C
+43300	Repair of esophagus		C
+43305	Repair esophagus and fistula		C
+43310	Repair of esophagus		C
+43312	Repair esophagus and fistula		C
+43313	Esophagoplasty congenital		C
+43314	Tracheo-esophagoplasty cong		C
+43320	Fuse esophagus & stomach		C
+43325	Revise esophagus & stomach		C
+43327	Esoph fundoplasty lap		C
+43328	Esoph fundoplasty thor		C
+43330	Esophagomyotomy abdominal		C
+43331	Esophagomyotomy thoracic		C
+43332	Transab esoph hiat hern rpr		C
+43333	Transab esoph hiat hern rpr		C
+43334	Transthor diaphrag hern rpr		C
+43335	Transthor diaphrag hern rpr		C
+43336	Thorabd diaphr hern repair		C
+43337	Thorabd diaphr hern repair		C
+43338	Esoph lengthening		C
+43340	Fuse esophagus & intestine		C
+43341	Fuse esophagus & intestine		C
+43351	Surgical opening esophagus		C
+43352	Surgical opening esophagus		C
+43360	Gastrointestinal repair		C
+43361	Gastrointestinal repair		C
+43400	Ligate esophagus veins		C
+43405	Ligate/staple esophagus		C
+43410	Repair esophagus wound		C
+43415	Repair esophagus wound		C
+43425	Repair esophagus opening		C
+43460	Pressure treatment esophagus		C
+43496	Free jejunum flap microvasc		C
+43500	Surgical opening of stomach		C
+43501	Surgical repair of stomach		C
+43502	Surgical repair of stomach		C
+43520	Incision of pyloric muscle		C
+43605	Biopsy of stomach		C
+43610	Excision of stomach lesion		C
+43611	Excision of stomach lesion		C
+43620	Removal of stomach		C
+43621	Removal of stomach		C
+43622	Removal of stomach		C
+43631	Removal of stomach partial		C
+43632	Removal of stomach partial		C
+43633	Removal of stomach partial		C
+43634	Removal of stomach partial		C
+43635	Removal of stomach partial		C
+43640	Vagotomy & pylorus repair		C
+43641	Vagotomy & pylorus repair		C
+43644	Lap gastric bypass/roux-en-y		C
+43645	Lap gastr bypass incl smll i		C
+43771	Lap revise gastr adj device		C
+43775	Lap sleeve gastrectomy		C
+43800	Pyloroplasty		C
+43810	Gastroduodenostomy		C
+43820	Gastrojejunostomy wo vagotmy		C
+43825	Gastrojejunostomy w/vagotomy		C
+43832	Gstrst open w/constj tube		C
+43840	Repair of stomach lesion		C
+43843	Gastroplasty w/o v-band		C
+43845	Gastroplasty duodenal switch		C
+43846	Gastric bypass for obesity		C
+43847	Gastric bypass incl small i		C
+43848	Revision gastroplasty		C
+43860	Revise stomach-bowel fusion		C
+43865	Revise stomach-bowel fusion		C
+43880	Repair stomach-bowel fistula		C
+43881	Impl/redo electrd antrum		C
+43882	Revise/remove electrd antrum		C
+44005	Freeing of bowel adhesion		C
+44010	Incision of small bowel		C
+44015	Insert needle cath bowel		C
+44020	Explore small intestine		C
+44021	Decompress small bowel		C
+44025	Incision of large bowel		C
+44050	Reduce bowel obstruction		C
+44055	Correct malrotation of bowel		C
+44110	Excise intestine lesion(s)		C
+44111	Excision of bowel lesion(s)		C
+44120	Removal of small intestine		C
+44121	Removal of small intestine		C
+44125	Removal of small intestine		C
+44126	Enterectomy w/o taper cong		C
+44127	Enterectomy w/taper cong		C
+44128	Enterectomy cong add-on		C
+44130	Bowel to bowel fusion		C
+44132	Enterectomy cadaver donor		C
+44133	Enterectomy live donor		C
+44135	Intestine transplnt cadaver		C
+44136	Intestine transplant live		C
+44137	Remove intestinal allograft		C
+44139	Mobilization of colon		C
+44140	Partial removal of colon		C
+44141	Partial removal of colon		C
+44143	Partial removal of colon		C
+44144	Partial removal of colon		C
+44145	Partial removal of colon		C
+44146	Partial removal of colon		C
+44147	Partial removal of colon		C
+44150	Removal of colon		C
+44151	Removal of colon/ileostomy		C
+44155	Removal of colon/ileostomy		C
+44156	Removal of colon/ileostomy		C
+44157	Colectomy w/ileoanal anast		C
+44158	Colectomy w/neo-rectum pouch		C
+44160	Removal of colon		C
+44187	Lap ileo/jejuno-stomy		C
+44188	Lap colostomy		C
+44202	Lap enterectomy		C
+44203	Lap resect s/intestine addl		C
+44204	Laparo partial colectomy		C
+44205	Lap colectomy part w/ileum		C
+44206	Lap part colectomy w/stoma		C
+44207	L colectomy/coloproctostomy		C
+44208	L colectomy/coloproctostomy		C
+44210	Laparo total proctocolectomy		C
+44211	Lap colectomy w/proctectomy		C
+44212	Laparo total proctocolectomy		C
+44213	Lap mobil splenic fl add-on		C
+44227	Lap close enterostomy		C
+44300	Open bowel to skin		C
+44310	Ileostomy/jejunostomy		C
+44314	Revision of ileostomy		C
+44316	Devise bowel pouch		C
+44320	Colostomy		C
+44322	Colostomy with biopsies		C
+44345	Revision of colostomy		C
+44346	Revision of colostomy		C
+44602	Suture small intestine		C
+44603	Suture small intestine		C
+44604	Suture large intestine		C
+44605	Repair of bowel lesion		C
+44615	Intestinal stricturoplasty		C
+44620	Repair bowel opening		C
+44625	Repair bowel opening		C
+44626	Repair bowel opening		C
+44640	Repair bowel-skin fistula		C
+44650	Repair bowel fistula		C
+44660	Repair bowel-bladder fistula		C
+44661	Repair bowel-bladder fistula		C
+44680	Surgical revision intestine		C
+44700	Suspend bowel w/prosthesis		C
+44715	Prepare donor intestine		C
+44720	Prep donor intestine/venous		C
+44721	Prep donor intestine/artery		C
+44800	Excision of bowel pouch		C
+44820	Excision of mesentery lesion		C
+44850	Repair of mesentery		C
+44899	Unlisted px meckel's dvrtclm		C
+44900	Drain appendix abscess open		C
+44960	Appendectomy		C
+45110	Removal of rectum		C
+45111	Partial removal of rectum		C
+45112	Removal of rectum		C
+45113	Partial proctectomy		C
+45114	Partial removal of rectum		C
+45116	Partial removal of rectum		C
+45119	Remove rectum w/reservoir		C
+45120	Removal of rectum		C
+45121	Removal of rectum and colon		C
+45123	Partial proctectomy		C
+45126	Pelvic exenteration		C
+45130	Excision of rectal prolapse		C
+45135	Excision of rectal prolapse		C
+45136	Excise ileoanal reservior		C
+45395	Lap removal of rectum		C
+45397	Lap remove rectum w/pouch		C
+45400	Laparoscopic proc		C
+45402	Lap proctopexy w/sig resect		C
+45540	Correct rectal prolapse		C
+45550	Repair rectum/remove sigmoid		C
+45562	Exploration/repair of rectum		C
+45563	Exploration/repair of rectum		C
+45800	Repair rect/bladder fistula		C
+45805	Repair fistula w/colostomy		C
+45820	Repair rectourethral fistula		C
+45825	Repair fistula w/colostomy		C
+46705	Repair of anal stricture		C
+46710	Repr per/vag pouch sngl proc		C
+46712	Repr per/vag pouch dbl proc		C
+46715	Rep perf anoper fistu		C
+46716	Rep perf anoper/vestib fistu		C
+46730	Construction of absent anus		C
+46735	Construction of absent anus		C
+46740	Construction of absent anus		C
+46742	Repair of imperforated anus		C
+46744	Repair of cloacal anomaly		C
+46746	Repair of cloacal anomaly		C
+46748	Repair of cloacal anomaly		C
+46751	Repair of anal sphincter		C
+47010	Hepatot opn drg absc/cst 1/2		C
+47015	Lapt aspir&/njx hep prst cst		C
+47100	Wedge biopsy of liver		C
+47120	Partial removal of liver		C
+47122	Extensive removal of liver		C
+47125	Partial removal of liver		C
+47130	Partial removal of liver		C
+47133	Removal of donor liver		C
+47135	Transplantation of liver		C
+47140	Partial removal donor liver		C
+47141	Partial removal donor liver		C
+47142	Partial removal donor liver		C
+47143	Prep donor liver whole		C
+47144	Prep donor liver 3-segment		C
+47145	Prep donor liver lobe split		C
+47146	Prep donor liver/venous		C
+47147	Prep donor liver/arterial		C
+47300	Surgery for liver lesion		C
+47350	Repair liver wound		C
+47360	Repair liver wound		C
+47361	Repair liver wound		C
+47362	Repair liver wound		C
+47380	Open ablate liver tumor rf		C
+47381	Open ablate liver tumor cryo		C
+47400	Incision of liver duct		C
+47420	Incision of bile duct		C
+47425	Incision of bile duct		C
+47460	Incise bile duct sphincter		C
+47480	Incision of gallbladder		C
+47570	Laparo cholecystoenterostomy		C
+47600	Cholecystectomy		C
+47605	Cholecystectomy w/cholang		C
+47610	Removal of gallbladder		C
+47612	Removal of gallbladder		C
+47620	Removal of gallbladder		C
+47700	Exploration of bile ducts		C
+47701	Bile duct revision		C
+47711	Excision of bile duct tumor		C
+47712	Excision of bile duct tumor		C
+47715	Excision of bile duct cyst		C
+47720	Fuse gallbladder & bowel		C
+47721	Fuse upper gi structures		C
+47740	Fuse gallbladder & bowel		C
+47741	Fuse gallbladder & bowel		C
+47760	Fuse bile ducts and bowel		C
+47765	Fuse liver ducts & bowel		C
+47780	Fuse bile ducts and bowel		C
+47785	Fuse bile ducts and bowel		C
+47800	Reconstruction of bile ducts		C
+47801	Placement bile duct support		C
+47900	Suture bile duct injury		C
+48000	Drainage of abdomen		C
+48001	Placement of drain pancreas		C
+48020	Removal of pancreatic stone		C
+48100	Biopsy of pancreas open		C
+48105	Resect/debride pancreas		C
+48120	Removal of pancreas lesion		C
+48140	Partial removal of pancreas		C
+48145	Partial removal of pancreas		C
+48146	Pancreatectomy		C
+48148	Removal of pancreatic duct		C
+48150	Partial removal of pancreas		C
+48152	Pancreatectomy		C
+48153	Pancreatectomy		C
+48154	Pancreatectomy		C
+48155	Removal of pancreas		C
+48400	Injection intraop add-on		C
+48500	Surgery of pancreatic cyst		C
+48510	Drain pancreatic pseudocyst		C
+48520	Fuse pancreas cyst and bowel		C
+48540	Fuse pancreas cyst and bowel		C
+48545	Pancreatorrhaphy		C
+48547	Duodenal exclusion		C
+48548	Fuse pancreas and bowel		C
+48551	Prep donor pancreas		C
+48552	Prep donor pancreas/venous		C
+48554	Transpl allograft pancreas		C
+48556	Removal allograft pancreas		C
+49000	Exploration of abdomen		C
+49002	Reopening of abdomen		C
+49010	Exploration behind abdomen		C
+49013	Prpertl pel pack hemrrg trma		C
+49014	Reexploration pelvic wound		C
+49020	Drainage abdom abscess open		C
+49040	Drain open abdom abscess		C
+49060	Drain open retroperi abscess		C
+49062	Drain to peritoneal cavity		C
+49186	Opn exc/dstr ntra-abd 5 cm/<	NC	C
+49187	Opn exc/dstr ntra-abd 5.1-10	NC	C
+49188	Opn exc/dst ntra-abd 10.1-20	NC	C
+49189	Opn exc/dst ntra-abd 20.1-30	NC	C
+49190	Opn exc/dstr ntra-abd >30 cm	NC	C
+49215	Excise sacral spine tumor		C
+49255	Removal of omentum		C
+49412	Ins device for rt guide open		C
+49425	Insert abdomen-venous drain		C
+49428	Ligation of shunt		C
+49596	Rpr aa hrn 1st > 10 ncr/strn		C 
+49605	Repair umbilical lesion		C
+49606	Repair umbilical lesion		C
+49610	Repair umbilical lesion		C
+49611	Repair umbilical lesion		C
+49616	Rpr aa hrn rcr 3-10 ncr/strn		C 
+49617	Rpr aa hrn rcr > 10 rdc		C 
+49618	Rpr aa hrn rcr > 10 ncr/strn		C 
+49621	Rpr parastomal hernia rdc		C 
+49622	Rpr parastomal hrna ncr/strn		C 
+49900	Repair of abdominal wall		C
+49904	Omental flap extra-abdom		C
+49905	Omental flap intra-abdom		C
+49906	Free omental flap microvasc		C
+50010	Renal exploration		C
+50040	Nfros nfrot w/drg		C
+50045	Nephrotomy w/exploration		C
+50060	Nl removal calculus		C
+50065	Nl sec surg operj calculus		C
+50070	Nl comp cgen kdn abnormality		C
+50075	Nl rmvl lg staghorn calculus		C
+50100	Trnsxj/repos abrrnt rnl vsls		C
+50120	Pyelotomy w/exploration		C
+50125	Pyelotomy w/drg pyelostomy		C
+50130	Pyelotomy w/removal calculus		C
+50205	Renal bx surg exposure kdn		C
+50220	Remove kidney open		C
+50225	Removal kidney open complex		C
+50230	Removal kidney open radical		C
+50234	Removal of kidney & ureter		C
+50236	Removal of kidney & ureter		C
+50240	Nephrectomy partial		C
+50250	Opn abltj 1/> rnl mas crysrg		C
+50280	Exc/unroofing cyst kidney		C
+50290	Excision perinephric cyst		C
+50300	Remove cadaver donor kidney		C
+50320	Remove kidney living donor		C
+50323	Prep cadaver renal allograft		C
+50325	Prep donor renal graft		C
+50327	Prep renal graft/venous		C
+50328	Prep renal graft/arterial		C
+50329	Prep renal graft/ureteral		C
+50340	Recipient nephrectomy		C
+50360	Rnl altrnsplj w/o rcp nfrct		C
+50365	Rnl altrnsplj w/rcp nfrct		C
+50370	Rmvl transplanted rnl algrft		C
+50380	Rnl autotrnsplj rimpltj kdn		C
+50400	Revision of kidney/ureter		C
+50405	Revision of kidney/ureter		C
+50500	Repair of kidney wound		C
+50520	Close kidney-skin fistula		C
+50525	Close nephrovisceral fistula		C
+50526	Close nephrovisceral fistula		C
+50540	Revision of horseshoe kidney		C
+50545	Laparo radical nephrectomy		C
+50546	Laparoscopic nephrectomy		C
+50547	Laparo removal donor kidney		C
+50548	Laparo remove w/ureter		C
+50600	Exploration of ureter		C
+50605	Insert ureteral support		C
+50610	Removal of ureter stone		C
+50620	Removal of ureter stone		C
+50630	Removal of ureter stone		C
+50650	Removal of ureter		C
+50660	Removal of ureter		C
+50700	Revision of ureter		C
+50715	Release of ureter		C
+50722	Release of ureter		C
+50725	Release/revise ureter		C
+50728	Revise ureter		C
+50740	Fusion of ureter & kidney		C
+50750	Fusion of ureter & kidney		C
+50760	Ureteroureterostomy		C
+50770	Splicing of ureters		C
+50780	Reimplant ureter in bladder		C
+50782	Reimplant ureter in bladder		C
+50783	Reimplant ureter in bladder		C
+50785	Reimplant ureter in bladder		C
+50800	Implant ureter in bowel		C
+50810	Fusion of ureter & bowel		C
+50815	Urine shunt to intestine		C
+50820	Construct bowel bladder		C
+50825	Construct bowel bladder		C
+50830	Revise urine flow		C
+50840	Replace ureter by bowel		C
+50845	Appendico-vesicostomy		C
+50860	Transplant ureter to skin		C
+50900	Repair of ureter		C
+50920	Closure ureter/skin fistula		C
+50930	Closure ureter/bowel fistula		C
+50940	Release of ureter		C
+51525	Removal of bladder lesion		C
+51530	Removal of bladder lesion		C
+51550	Partial removal of bladder		C
+51555	Partial removal of bladder		C
+51565	Revise bladder & ureter(s)		C
+51570	Removal of bladder		C
+51575	Removal of bladder & nodes		C
+51580	Remove bladder/revise tract		C
+51585	Removal of bladder & nodes		C
+51590	Remove bladder/revise tract		C
+51595	Remove bladder/revise tract		C
+51596	Remove bladder/create pouch		C
+51597	Removal of pelvic structures		C
+51800	Revision of bladder/urethra		C
+51820	Revision of urinary tract		C
+51840	Attach bladder/urethra		C
+51841	Attach bladder/urethra		C
+51865	Repair of bladder wound		C
+51900	Repair bladder/vagina lesion		C
+51920	Close bladder-uterus fistula		C
+51925	Hysterectomy/bladder repair		C
+51940	Correction of bladder defect		C
+51960	Revision of bladder & bowel		C
+51980	Construct bladder opening		C
+53415	Reconstruction of urethra		C
+53448	Remov/replc ur sphinctr comp		C
+54125	Removal of penis		C
+54130	Remove penis & nodes		C
+54135	Remove penis & nodes		C
+54390	Repair penis and bladder		C
+54430	Revision of penis		C
+55605	Vesiculotomy complicated		C
+55650	Remove sperm duct pouch		C
+55801	Removal of prostate		C
+55810	Extensive prostate surgery		C
+55812	Extensive prostate surgery		C
+55815	Extensive prostate surgery		C
+55821	Removal of prostate		C
+55831	Removal of prostate		C
+55840	Extensive prostate surgery		C
+55842	Extensive prostate surgery		C
+55845	Extensive prostate surgery		C
+55862	Extensive prostate surgery		C
+55865	Extensive prostate surgery		C
+56630	Vulvectomy radical partial		C
+56631	Vlvctmy rad prtl uni lymphad		C
+56632	Vlvctmy rad prtl bi lymphad		C
+56633	Vulvectomy radical complete		C
+56634	Vlvctmy rad comp uni lymphad		C
+56637	Vlvctmy rad comp bi lymphad		C
+56640	Vlvctmy rad comp w/lymphadec		C
+57110	Vagnc compl rmvl vag wall		C
+57111	Vagnc compl rmvl paravag tis		C
+57270	Repair of bowel pouch		C
+57280	Suspension of vagina		C
+57296	Revise vag graft open abd		C
+57305	Repair rectum-vagina fistula		C
+57307	Fistula repair & colostomy		C
+57308	Fistula repair transperine		C
+57311	Repair urethrovaginal lesion		C
+57531	Removal of cervix radical		C
+57540	Removal of residual cervix		C
+57545	Remove cervix/repair pelvis		C
+58140	Myomectomy abdom method		C
+58146	Myomectomy abdom complex		C
+58150	Total hysterectomy		C
+58152	Total hysterectomy		C
+58180	Partial hysterectomy		C
+58200	Extensive hysterectomy		C
+58210	Extensive hysterectomy		C
+58240	Removal of pelvis contents		C
+58267	Vag hyst w/urinary repair		C
+58275	Hysterectomy/revise vagina		C
+58280	Hysterectomy/revise vagina		C
+58285	Extensive hysterectomy		C
+58400	Suspension of uterus		C
+58410	Suspension of uterus		C
+58520	Repair of ruptured uterus		C
+58540	Revision of uterus		C
+58548	Lap radical hyst		C
+58575	Laps tot hyst resj mal		C
+58605	Division of fallopian tube		C
+58611	Ligate oviduct(s) add-on		C
+58700	Removal of fallopian tube		C
+58720	Removal of ovary/tube(s)		C
+58740	Adhesiolysis tube ovary		C
+58750	Repair oviduct		C
+58752	Revise ovarian tube(s)		C
+58760	Fimbrioplasty		C
+58822	Drain ovary abscess percut		C
+58825	Transposition ovary(s)		C
+58940	Removal of ovary(s)		C
+58943	Removal of ovary(s)		C
+58950	Resect ovarian malignancy		C
+58951	Resect ovarian malignancy		C
+58952	Resect ovarian malignancy		C
+58953	Tah rad dissect for debulk		C
+58954	Tah rad debulk/lymph remove		C
+58956	Bso omentectomy w/tah		C
+58958	Resc recr ovr tbl pp utr mal		C
+58960	Exploration of abdomen		C
+59120	Treat ectopic pregnancy		C
+59121	Treat ectopic pregnancy		C
+59130	Treat ectopic pregnancy		C
+59136	Treat ectopic pregnancy		C
+59140	Treat ectopic pregnancy		C
+59325	Revision of cervix		C
+59350	Repair of uterus		C
+59514	Cesarean delivery only		C
+59525	Remove uterus after cesarean		C
+59620	Attempted vbac delivery only		C
+59830	Treat uterus infection		C
+59850	Induced abortion 1+ njx		C
+59851	Induced abortion 1+njx d&c		C
+59852	Induced abortion 1+njx hyst		C
+59855	Induced abortion 1+vag supp		C
+59856	Induced ab 1+vag supp d&c		C
+59857	Induced ab 1+vag supp hyst		C
+60254	Extensive thyroid surgery		C
+60270	Removal of thyroid		C
+60505	Explore parathyroid glands		C
+60521	Removal of thymus gland		C
+60522	Removal of thymus gland		C
+60540	Explore adrenal gland		C
+60545	Explore adrenal gland		C
+60600	Remove carotid body lesion		C
+60605	Remove carotid body lesion		C
+60650	Laparoscopy adrenalectomy		C
+61105	Tdh sdrl/ventr pnxr		C
+61107	Tdh pnxr implt ventr cath		C
+61108	Tdh pnxr evac&/drg sdrl hmta		C
+61120	Burr hole for ventr puncture		C
+61140	Burr hole/treph bx brain/les		C
+61150	Bur hol/trph drg brn abs/cst		C
+61151	Burr hole/treph sbsq tapping		C
+61154	Burr hole w/evac&/drg hmtma		C
+61156	Burr hol aspir hmtm/cst icer		C
+61210	Burr hole implt ventr cath		C
+61250	Burr hole/treph sttl expl		C
+61253	Burr hole treph ittl uni/bi		C
+61304	Crnec/crnot expl supratntorl		C
+61305	Crnec/crnot expl infratntorl		C
+61312	Crnec/crnot sttl xdrl/sdrl		C
+61313	Crnec/crnot sttl icere		C
+61314	Crnec/crnot ittl xdrl/sdrl		C
+61315	Crnec/crnot ittl ntracereblr		C
+61316	Inc&subq plmt crnl bone grf		C
+61320	Crnec/crnot drg icr abs sttl		C
+61321	Crnec/crnot drg icr abs ittl		C
+61322	Crnec/crnot dcmprv w/o lobec		C
+61323	Crnec/crnot dcmprv w/lobec		C
+61333	Expl orbit w/removal lesion		C
+61340	Subtemporal cranial dcmprn		C
+61343	Crnec sopl crv lam dcmprn		C
+61345	Oth cranial dcmprn pst fossa		C
+61450	Crnec stpl sctj cmprn/dcmprn		C
+61458	Crnec sopl xpl/dcmpr crl nrv		C
+61460	Crnec sopl sctj 1+crnl nrv		C
+61500	Crnec exc tum/bone les skull		C
+61501	Craniectomy f/osteomyelitis		C
+61510	Crnec treph exc brn tum sttl		C
+61512	Crnec treph exc mngioma sttl		C
+61514	Crnec treph exc brn abs sttl		C
+61516	Crnec treph exc cyst sttl		C
+61517	Implt brn intrcv chemotx agt		C
+61518	Removal of brain lesion		C
+61519	Remove brain lining lesion		C
+61520	Removal of brain lesion		C
+61521	Removal of brain lesion		C
+61522	Removal of brain abscess		C
+61524	Removal of brain lesion		C
+61526	Removal of brain lesion		C
+61530	Removal of brain lesion		C
+61531	Implant brain electrodes		C
+61533	Implant brain electrodes		C
+61534	Removal of brain lesion		C
+61535	Remove brain electrodes		C
+61536	Removal of brain lesion		C
+61537	Removal of brain tissue		C
+61538	Removal of brain tissue		C
+61539	Removal of brain tissue		C
+61540	Removal of brain tissue		C
+61541	Incision of brain tissue		C
+61543	Removal of brain tissue		C
+61544	Remove & treat brain lesion		C
+61545	Excision of brain tumor		C
+61546	Removal of pituitary gland		C
+61548	Removal of pituitary gland		C
+61550	Release of skull seams		C
+61552	Release of skull seams		C
+61556	Incise skull/sutures		C
+61557	Incise skull/sutures		C
+61558	Excision of skull/sutures		C
+61559	Excision of skull/sutures		C
+61563	Excision of skull tumor		C
+61564	Excision of skull tumor		C
+61566	Removal of brain tissue		C
+61567	Incision of brain tissue		C
+61570	Remove foreign body brain		C
+61571	Incise skull for brain wound		C
+61575	Skull base/brainstem surgery		C
+61576	Skull base/brainstem surgery		C
+61580	Craniofacial approach skull		C
+61581	Craniofacial approach skull		C
+61582	Craniofacial approach skull		C
+61583	Craniofacial approach skull		C
+61584	Orbitocranial approach/skull		C
+61585	Orbitocranial approach/skull		C
+61586	Resect nasopharynx skull		C
+61590	Infratemporal approach/skull		C
+61591	Infratemporal approach/skull		C
+61592	Orbitocranial approach/skull		C
+61595	Transtemporal approach/skull		C
+61596	Transcochlear approach/skull		C
+61597	Transcondylar approach/skull		C
+61598	Transpetrosal approach/skull		C
+61600	Resect/excise cranial lesion		C
+61601	Resect/excise cranial lesion		C
+61605	Resect/excise cranial lesion		C
+61606	Resect/excise cranial lesion		C
+61607	Resect/excise cranial lesion		C
+61608	Resect/excise cranial lesion		C
+61611	Transect artery sinus		C
+61613	Remove aneurysm sinus		C
+61615	Resect/excise lesion skull		C
+61616	Resect/excise lesion skull		C
+61618	Repair dura		C
+61619	Repair dura		C
+61624	Transcath occlusion cns		C
+61630	Intracranial angioplasty		C
+61635	Intracran angioplsty w/stent		C
+61645	Perq art m-thrombect &/nfs		C
+61650	Evasc prlng admn rx agnt 1st		C
+61651	Evasc prlng admn rx agnt add		C
+61680	Intracranial vessel surgery		C
+61682	Intracranial vessel surgery		C
+61684	Intracranial vessel surgery		C
+61686	Intracranial vessel surgery		C
+61690	Intracranial vessel surgery		C
+61692	Intracranial vessel surgery		C
+61697	Brain aneurysm repr complx		C
+61698	Brain aneurysm repr complx		C
+61700	Brain aneurysm repr simple		C
+61702	Inner skull vessel surgery		C
+61703	Clamp neck artery		C
+61705	Revise circulation to head		C
+61708	Revise circulation to head		C
+61710	Revise circulation to head		C
+61711	Fusion of skull arteries		C
+61735	Incise skull/brain surgery		C
+61736	Litt icr 1 traj 1 smpl les		C 
+61737	Litt icr mlt trj mlt/cplx ls		C
+61750	Incise skull/brain biopsy		C
+61751	Brain biopsy w/ct/mr guide		C
+61760	Implant brain electrodes		C
+61850	Implant neuroelectrodes		C
+61860	Implant neuroelectrodes		C
+61863	Implant neuroelectrode		C
+61864	Implant neuroelectrde addl		C
+61867	Implant neuroelectrode		C
+61868	Implant neuroelectrde addl		C
+61889	Ins sk-mnt crnl nstm pg/rcvr		C
+62005	Treat skull fracture		C
+62010	Treatment of head injury		C
+62100	Repair brain fluid leakage		C
+62115	Reduction of skull defect		C
+62117	Reduction of skull defect		C
+62120	Repair skull cavity lesion		C
+62121	Incise skull repair		C
+62140	Crnop skull defect<5 cm diam		C
+62141	Crnop skull defect>5 cm diam		C
+62142	Rmvl b1 flp/prostc plate skl		C
+62143	Rpl b1 flp/prostc plate skl		C
+62145	Repair of skull & brain		C
+62146	Crnop w/autograft<5 cm diam		C
+62147	Crnop w/autograft>5 cm diam		C
+62148	Retr bone flap to fix skull		C
+62161	Dissect brain w/scope		C
+62162	Remove colloid cyst w/scope		C
+62164	Remove brain tumor w/scope		C
+62165	Remove pituit tumor w/scope		C
+62180	Establish brain cavity shunt		C
+62190	Establish brain cavity shunt		C
+62192	Establish brain cavity shunt		C
+62200	Establish brain cavity shunt		C
+62201	Brain cavity shunt w/scope		C
+62220	Establish brain cavity shunt		C
+62223	Establish brain cavity shunt		C
+62256	Remove brain cavity shunt		C
+62258	Replace brain cavity shunt		C
+63050	Cervical laminoplsty 2/> seg		C
+63051	C-laminoplasty w/graft/plate		C
+63077	Spine disk surgery thorax		C
+63078	Spine disk surgery thorax		C
+63081	Remove vert body dcmprn crvl		C
+63082	Remove vertebral body add-on		C
+63085	Remove vert body dcmprn thrc		C
+63086	Remove vertebral body add-on		C
+63087	Remov vertbr dcmprn thrclmbr		C
+63088	Remove vertebral body add-on		C
+63090	Remove vert body dcmprn lmbr		C
+63091	Remove vertebral body add-on		C
+63101	Remove vert body dcmprn thrc		C
+63102	Remove vert body dcmprn lmbr		C
+63103	Remove vertebral body add-on		C
+63170	Incise spinal cord tract(s)		C
+63172	Drainage of spinal cyst		C
+63173	Drainage of spinal cyst		C
+63185	Incise spine nrv half segmnt		C
+63190	Incise spine nrv >2 segmnts		C
+63191	Incise spine accessory nerve		C
+63197	Lam w/cordotomy 1stg thrc		C
+63200	Release spinal cord lumbar		C
+63250	Revise spinal cord vsls crvl		C
+63251	Revise spinal cord vsls thrc		C
+63252	Revise spine cord vsl thrlmb		C
+63270	Excise intrspinl lesion crvl		C
+63271	Excise intrspinl lesion thrc		C
+63272	Excise intrspinl lesion lmbr		C
+63273	Excise intrspinl lesion scrl		C
+63275	Bx/exc xdrl spine lesn crvl		C
+63276	Bx/exc xdrl spine lesn thrc		C
+63277	Bx/exc xdrl spine lesn lmbr		C
+63278	Bx/exc xdrl spine lesn scrl		C
+63280	Bx/exc idrl spine lesn crvl		C
+63281	Bx/exc idrl spine lesn thrc		C
+63282	Bx/exc idrl spine lesn lmbr		C
+63283	Bx/exc idrl spine lesn scrl		C
+63285	Bx/exc idrl imed lesn cervl		C
+63286	Bx/exc idrl imed lesn thrc		C
+63287	Bx/exc idrl imed lesn thrlmb		C
+63290	Bx/exc xdrl/idrl lsn any lvl		C
+63295	Repair laminectomy defect		C
+63300	Remove vert xdrl body crvcl		C
+63301	Remove vert xdrl body thrc		C
+63302	Remove vert xdrl body thrlmb		C
+63303	Remov vert xdrl bdy lmbr/sac		C
+63304	Remove vert idrl body crvcl		C
+63305	Remove vert idrl body thrc		C
+63306	Remov vert idrl bdy thrclmbr		C
+63307	Remov vert idrl bdy lmbr/sac		C
+63308	Remove vertebral body add-on		C
+63700	Repair of spinal herniation		C
+63702	Repair of spinal herniation		C
+63704	Repair of spinal herniation		C
+63706	Repair of spinal herniation		C
+63707	Repair spinal fluid leakage		C
+63709	Repair spinal fluid leakage		C
+63710	Graft repair of spine defect		C
+63740	Install spinal shunt		C
+64755	Incision of stomach nerves		C
+64760	Incision of vagus nerve		C
+64809	Sympathectomy thoracolumbar		C
+64818	Sympathectomy lumbar		C
+64866	Fusion of facial/other nerve		C
+64868	Fusion of facial/other nerve		C
+65273	Repair of eye wound		C
+69155	Extensive ear/neck surgery		C
+69535	Remove part of temporal bone		C
+69554	Exc aurl glomus tum extended		C
+69950	Incise inner ear nerve		C
+75956	Xray endovasc thor ao repr		C
+75957	Xray endovasc thor ao repr		C
+75958	Xray place prox ext thor ao		C
+75959	Xray place dist ext thor ao		C
+76984	Dx intraop thoracic aorta us		C
+76987	Dx intraop epicar car us chd		C
+76988	Dx ntrop epcr us chd img acq		C
+76989	Dx intraop epcar us chd i&r		C
+92941	Prq card revasc mi 1 vsl		C
+92970	Cardioassist internal		C
+92971	Cardioassist external		C
+92975	Dissolve clot heart vessel		C
+93583	Perq transcath septal reduxn		C
+99184	Hypothermia ill neonate		C
+99190	Special pump services		C
+99191	Special pump services		C
+99192	Special pump services		C
+99418	Prolng ip/obs e/m ea 15 min		C
+99462	Sbsq nb em per day hosp		C
+99468	Neonate crit care initial		C
+99469	Neonate crit care subsq		C
+99471	Ped critical care initial		C
+99472	Ped critical care subsq		C
+99475	Ped crit care age 2-5 init		C
+99476	Ped crit care age 2-5 subsq		C
+99477	Init day hosp neonate care		C
+99478	Ic lbw inf < 1500 gm subsq		C
+99479	Ic lbw inf 1500-2500 g subsq		C
+99480	Ic inf pbw 2501-5000 g subsq		C
+C9606	Perc d-e cor revasc w ami s		C
+G0341	Percutaneous islet celltrans		C
+G0342	Laparoscopy islet cell trans		C
+G0343	Laparotomy islet cell transp		C
+G0412	Open tx iliac spine uni/bil		C
+G0414	Pelvic ring fx treat int fix		C
+G0415	Open tx post pelvic fxcture		C
