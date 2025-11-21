@@ -1,0 +1,656 @@
+[
+  {
+    "contractor": "10112",
+    "locality": "00",
+    "locality_name": "ALABAMA",
+    "conversion_factor": 19.31
+  },
+  {
+    "contractor": "02102",
+    "locality": "01",
+    "locality_name": "ALASKA*",
+    "conversion_factor": 27.86
+  },
+  {
+    "contractor": "03102",
+    "locality": "00",
+    "locality_name": "ARIZONA",
+    "conversion_factor": 20.04
+  },
+  {
+    "contractor": "07102",
+    "locality": "13",
+    "locality_name": "ARKANSAS",
+    "conversion_factor": 19.21
+  },
+  {
+    "contractor": "01112",
+    "locality": "54",
+    "locality_name": "BAKERSFIELD",
+    "conversion_factor": 20.45
+  },
+  {
+    "contractor": "01112",
+    "locality": "55",
+    "locality_name": "CHICO",
+    "conversion_factor": 20.27
+  },
+  {
+    "contractor": "01182",
+    "locality": "71",
+    "locality_name": "EL CENTRO",
+    "conversion_factor": 20.28
+  },
+  {
+    "contractor": "01112",
+    "locality": "56",
+    "locality_name": "FRESNO",
+    "conversion_factor": 20.27
+  },
+  {
+    "contractor": "01112",
+    "locality": "57",
+    "locality_name": "HANFORD-CORCORAN",
+    "conversion_factor": 20.27
+  },
+  {
+    "contractor": "01182",
+    "locality": "18",
+    "locality_name": "LOS ANGELES-LONG BEACH-ANAHEIM (LOS ANGELES/ORANGE CNTY)",
+    "conversion_factor": 21.22
+  },
+  {
+    "contractor": "01112",
+    "locality": "58",
+    "locality_name": "MADERA",
+    "conversion_factor": 20.27
+  },
+  {
+    "contractor": "01112",
+    "locality": "59",
+    "locality_name": "MERCED",
+    "conversion_factor": 20.27
+  },
+  {
+    "contractor": "01112",
+    "locality": "60",
+    "locality_name": "MODESTO",
+    "conversion_factor": 20.27
+  },
+  {
+    "contractor": "01112",
+    "locality": "51",
+    "locality_name": "NAPA",
+    "conversion_factor": 21.64
+  },
+  {
+    "contractor": "01182",
+    "locality": "17",
+    "locality_name": "OXNARD-THOUSAND OAKS-VENTURA",
+    "conversion_factor": 20.88
+  },
+  {
+    "contractor": "01112",
+    "locality": "61",
+    "locality_name": "REDDING",
+    "conversion_factor": 20.27
+  },
+  {
+    "contractor": "01112",
+    "locality": "62",
+    "locality_name": "RIVERSIDE-SAN BERNARDINO-ONTARIO",
+    "conversion_factor": 20.71
+  },
+  {
+    "contractor": "01112",
+    "locality": "63",
+    "locality_name": "SACRAMENTO-ROSEVILLE-FOLSOM",
+    "conversion_factor": 20.79
+  },
+  {
+    "contractor": "01112",
+    "locality": "64",
+    "locality_name": "SALINAS",
+    "conversion_factor": 20.84
+  },
+  {
+    "contractor": "01182",
+    "locality": "72",
+    "locality_name": "SAN DIEGO-CHULA VISTA-CARLSBAD",
+    "conversion_factor": 20.83
+  },
+  {
+    "contractor": "01112",
+    "locality": "05",
+    "locality_name": "SAN FRANCISCO-OAKLAND-BERKELEY (SAN FRANCISCO/SAN MATEO/ALAMEDA/CONTRA COSTA CNTY)",
+    "conversion_factor": 22.37
+  },
+  {
+    "contractor": "01112",
+    "locality": "52",
+    "locality_name": "SAN FRANCISCO-OAKLAND-BERKELEY (MARIN CNTY)",
+    "conversion_factor": 22.41
+  },
+  {
+    "contractor": "01112",
+    "locality": "65",
+    "locality_name": "SAN JOSE-SUNNYVALE-SANTA CLARA (SAN BENITO CNTY)",
+    "conversion_factor": 22.77
+  },
+  {
+    "contractor": "01182",
+    "locality": "73",
+    "locality_name": "SAN LUIS OBISPO-PASO ROBLES",
+    "conversion_factor": 20.4
+  },
+  {
+    "contractor": "01112",
+    "locality": "09",
+    "locality_name": "SAN JOSE-SUNNYVALE-SANTA CLARA (SANTA CLARA CNTY)",
+    "conversion_factor": 22.58
+  },
+  {
+    "contractor": "01112",
+    "locality": "66",
+    "locality_name": "SANTA CRUZ-WATSONVILLE",
+    "conversion_factor": 20.71
+  },
+  {
+    "contractor": "01182",
+    "locality": "74",
+    "locality_name": "SANTA MARIA-SANTA BARBARA",
+    "conversion_factor": 20.67
+  },
+  {
+    "contractor": "01112",
+    "locality": "67",
+    "locality_name": "SANTA ROSA-PETALUMA",
+    "conversion_factor": 20.94
+  },
+  {
+    "contractor": "01112",
+    "locality": "68",
+    "locality_name": "STOCKTON",
+    "conversion_factor": 20.27
+  },
+  {
+    "contractor": "01112",
+    "locality": "53",
+    "locality_name": "VALLEJO",
+    "conversion_factor": 21.57
+  },
+  {
+    "contractor": "01112",
+    "locality": "69",
+    "locality_name": "VISALIA",
+    "conversion_factor": 20.27
+  },
+  {
+    "contractor": "01112",
+    "locality": "70",
+    "locality_name": "YUBA CITY",
+    "conversion_factor": 20.27
+  },
+  {
+    "contractor": "01112",
+    "locality": "75",
+    "locality_name": "REST OF CALIFORNIA",
+    "conversion_factor": 20.27
+  },
+  {
+    "contractor": "04112",
+    "locality": "01",
+    "locality_name": "COLORADO",
+    "conversion_factor": 20.39
+  },
+  {
+    "contractor": "13102",
+    "locality": "00",
+    "locality_name": "CONNECTICUT",
+    "conversion_factor": 21.24
+  },
+  {
+    "contractor": "12202",
+    "locality": "01",
+    "locality_name": "DC + MD/VA SUBURBS",
+    "conversion_factor": 22.08
+  },
+  {
+    "contractor": "12102",
+    "locality": "01",
+    "locality_name": "DELAWARE",
+    "conversion_factor": 20.36
+  },
+  {
+    "contractor": "09102",
+    "locality": "03",
+    "locality_name": "FORT LAUDERDALE",
+    "conversion_factor": 21.33
+  },
+  {
+    "contractor": "09102",
+    "locality": "04",
+    "locality_name": "MIAMI",
+    "conversion_factor": 22.39
+  },
+  {
+    "contractor": "09102",
+    "locality": "99",
+    "locality_name": "REST OF FLORIDA",
+    "conversion_factor": 20.73
+  },
+  {
+    "contractor": "10212",
+    "locality": "01",
+    "locality_name": "ATLANTA",
+    "conversion_factor": 20.48
+  },
+  {
+    "contractor": "10212",
+    "locality": "99",
+    "locality_name": "REST OF GEORGIA",
+    "conversion_factor": 20.09
+  },
+  {
+    "contractor": "01212",
+    "locality": "01",
+    "locality_name": "HAWAII, GUAM",
+    "conversion_factor": 20.24
+  },
+  {
+    "contractor": "02202",
+    "locality": "00",
+    "locality_name": "IDAHO",
+    "conversion_factor": 19.3
+  },
+  {
+    "contractor": "06102",
+    "locality": "16",
+    "locality_name": "CHICAGO",
+    "conversion_factor": 21.85
+  },
+  {
+    "contractor": "06102",
+    "locality": "12",
+    "locality_name": "EAST ST. LOUIS",
+    "conversion_factor": 21.08
+  },
+  {
+    "contractor": "06102",
+    "locality": "15",
+    "locality_name": "SUBURBAN CHICAGO",
+    "conversion_factor": 21.32
+  },
+  {
+    "contractor": "06102",
+    "locality": "99",
+    "locality_name": "REST OF ILLINOIS",
+    "conversion_factor": 20.52
+  },
+  {
+    "contractor": "08102",
+    "locality": "00",
+    "locality_name": "INDIANA",
+    "conversion_factor": 19.37
+  },
+  {
+    "contractor": "05102",
+    "locality": "00",
+    "locality_name": "IOWA",
+    "conversion_factor": 19.31
+  },
+  {
+    "contractor": "05202",
+    "locality": "00",
+    "locality_name": "KANSAS",
+    "conversion_factor": 19.39
+  },
+  {
+    "contractor": "15102",
+    "locality": "00",
+    "locality_name": "KENTUCKY",
+    "conversion_factor": 19.79
+  },
+  {
+    "contractor": "07202",
+    "locality": "01",
+    "locality_name": "NEW ORLEANS",
+    "conversion_factor": 20.3
+  },
+  {
+    "contractor": "07202",
+    "locality": "99",
+    "locality_name": "REST OF LOUISIANA",
+    "conversion_factor": 19.89
+  },
+  {
+    "contractor": "14112",
+    "locality": "03",
+    "locality_name": "SOUTHERN MAINE",
+    "conversion_factor": 19.9
+  },
+  {
+    "contractor": "14112",
+    "locality": "99",
+    "locality_name": "REST OF MAINE",
+    "conversion_factor": 19.56
+  },
+  {
+    "contractor": "12302",
+    "locality": "01",
+    "locality_name": "BALTIMORE/SURR. CNTYS",
+    "conversion_factor": 21.3
+  },
+  {
+    "contractor": "12302",
+    "locality": "99",
+    "locality_name": "REST OF MARYLAND",
+    "conversion_factor": 20.52
+  },
+  {
+    "contractor": "14212",
+    "locality": "01",
+    "locality_name": "METROPOLITAN BOSTON",
+    "conversion_factor": 21.5
+  },
+  {
+    "contractor": "14212",
+    "locality": "99",
+    "locality_name": "REST OF MASSACHUSETTS",
+    "conversion_factor": 20.52
+  },
+  {
+    "contractor": "08202",
+    "locality": "01",
+    "locality_name": "DETROIT",
+    "conversion_factor": 21.27
+  },
+  {
+    "contractor": "08202",
+    "locality": "99",
+    "locality_name": "REST OF MICHIGAN",
+    "conversion_factor": 20.25
+  },
+  {
+    "contractor": "06202",
+    "locality": "00",
+    "locality_name": "MINNESOTA",
+    "conversion_factor": 19.48
+  },
+  {
+    "contractor": "07302",
+    "locality": "00",
+    "locality_name": "MISSISSIPPI",
+    "conversion_factor": 19.51
+  },
+  {
+    "contractor": "05302",
+    "locality": "02",
+    "locality_name": "METROPOLITAN KANSAS CITY",
+    "conversion_factor": 20.13
+  },
+  {
+    "contractor": "05302",
+    "locality": "01",
+    "locality_name": "METROPOLITAN ST. LOUIS",
+    "conversion_factor": 20.15
+  },
+  {
+    "contractor": "05302",
+    "locality": "99",
+    "locality_name": "REST OF MISSOURI",
+    "conversion_factor": 19.81
+  },
+  {
+    "contractor": "03202",
+    "locality": "01",
+    "locality_name": "MONTANA**",
+    "conversion_factor": 20.29
+  },
+  {
+    "contractor": "05402",
+    "locality": "00",
+    "locality_name": "NEBRASKA",
+    "conversion_factor": 19.12
+  },
+  {
+    "contractor": "01312",
+    "locality": "00",
+    "locality_name": "NEVADA**",
+    "conversion_factor": 20.11
+  },
+  {
+    "contractor": "14312",
+    "locality": "40",
+    "locality_name": "NEW HAMPSHIRE",
+    "conversion_factor": 20.3
+  },
+  {
+    "contractor": "12402",
+    "locality": "01",
+    "locality_name": "NORTHERN NJ",
+    "conversion_factor": 21.94
+  },
+  {
+    "contractor": "12402",
+    "locality": "99",
+    "locality_name": "REST OF NEW JERSEY",
+    "conversion_factor": 21.42
+  },
+  {
+    "contractor": "04212",
+    "locality": "05",
+    "locality_name": "NEW MEXICO",
+    "conversion_factor": 20.23
+  },
+  {
+    "contractor": "13202",
+    "locality": "01",
+    "locality_name": "MANHATTAN",
+    "conversion_factor": 22.76
+  },
+  {
+    "contractor": "13202",
+    "locality": "02",
+    "locality_name": "NYC SUBURBS/LONG ISLAND",
+    "conversion_factor": 23.21
+  },
+  {
+    "contractor": "13202",
+    "locality": "03",
+    "locality_name": "POUGHKPSIE/N NYC SUBURBS",
+    "conversion_factor": 21.75
+  },
+  {
+    "contractor": "13292",
+    "locality": "04",
+    "locality_name": "QUEENS",
+    "conversion_factor": 22.6
+  },
+  {
+    "contractor": "13282",
+    "locality": "99",
+    "locality_name": "REST OF NEW YORK",
+    "conversion_factor": 19.79
+  },
+  {
+    "contractor": "11502",
+    "locality": "00",
+    "locality_name": "NORTH CAROLINA",
+    "conversion_factor": 19.63
+  },
+  {
+    "contractor": "03302",
+    "locality": "01",
+    "locality_name": "NORTH DAKOTA**",
+    "conversion_factor": 19.68
+  },
+  {
+    "contractor": "15202",
+    "locality": "00",
+    "locality_name": "OHIO",
+    "conversion_factor": 20.06
+  },
+  {
+    "contractor": "04312",
+    "locality": "00",
+    "locality_name": "OKLAHOMA",
+    "conversion_factor": 19.7
+  },
+  {
+    "contractor": "02302",
+    "locality": "01",
+    "locality_name": "PORTLAND",
+    "conversion_factor": 20.46
+  },
+  {
+    "contractor": "02302",
+    "locality": "99",
+    "locality_name": "REST OF OREGON",
+    "conversion_factor": 19.8
+  },
+  {
+    "contractor": "12502",
+    "locality": "01",
+    "locality_name": "METROPOLITAN PHILADELPHIA",
+    "conversion_factor": 21.11
+  },
+  {
+    "contractor": "12502",
+    "locality": "99",
+    "locality_name": "REST OF PENNSYLVANIA",
+    "conversion_factor": 19.97
+  },
+  {
+    "contractor": "09202",
+    "locality": "20",
+    "locality_name": "PUERTO RICO",
+    "conversion_factor": 20.32
+  },
+  {
+    "contractor": "14412",
+    "locality": "01",
+    "locality_name": "RHODE ISLAND",
+    "conversion_factor": 20.64
+  },
+  {
+    "contractor": "11202",
+    "locality": "01",
+    "locality_name": "SOUTH CAROLINA",
+    "conversion_factor": 19.78
+  },
+  {
+    "contractor": "03402",
+    "locality": "02",
+    "locality_name": "SOUTH DAKOTA**",
+    "conversion_factor": 19.5
+  },
+  {
+    "contractor": "10312",
+    "locality": "35",
+    "locality_name": "TENNESSEE",
+    "conversion_factor": 19.36
+  },
+  {
+    "contractor": "04412",
+    "locality": "31",
+    "locality_name": "AUSTIN",
+    "conversion_factor": 20.36
+  },
+  {
+    "contractor": "04412",
+    "locality": "20",
+    "locality_name": "BEAUMONT",
+    "conversion_factor": 19.92
+  },
+  {
+    "contractor": "04412",
+    "locality": "09",
+    "locality_name": "BRAZORIA",
+    "conversion_factor": 20.29
+  },
+  {
+    "contractor": "04412",
+    "locality": "11",
+    "locality_name": "DALLAS",
+    "conversion_factor": 20.35
+  },
+  {
+    "contractor": "04412",
+    "locality": "28",
+    "locality_name": "FORT WORTH",
+    "conversion_factor": 20.35
+  },
+  {
+    "contractor": "04412",
+    "locality": "15",
+    "locality_name": "GALVESTON",
+    "conversion_factor": 20.35
+  },
+  {
+    "contractor": "04412",
+    "locality": "18",
+    "locality_name": "HOUSTON",
+    "conversion_factor": 21.09
+  },
+  {
+    "contractor": "04412",
+    "locality": "99",
+    "locality_name": "REST OF TEXAS",
+    "conversion_factor": 20.05
+  },
+  {
+    "contractor": "03502",
+    "locality": "09",
+    "locality_name": "UTAH",
+    "conversion_factor": 20.0
+  },
+  {
+    "contractor": "14512",
+    "locality": "50",
+    "locality_name": "VERMONT",
+    "conversion_factor": 19.66
+  },
+  {
+    "contractor": "11302",
+    "locality": "00",
+    "locality_name": "VIRGINIA",
+    "conversion_factor": 19.97
+  },
+  {
+    "contractor": "09202",
+    "locality": "50",
+    "locality_name": "VIRGIN ISLANDS",
+    "conversion_factor": 20.32
+  },
+  {
+    "contractor": "02402",
+    "locality": "02",
+    "locality_name": "SEATTLE (KING CNTY)",
+    "conversion_factor": 21.54
+  },
+  {
+    "contractor": "02402",
+    "locality": "99",
+    "locality_name": "REST OF WASHINGTON",
+    "conversion_factor": 20.3
+  },
+  {
+    "contractor": "11402",
+    "locality": "16",
+    "locality_name": "WEST VIRGINIA",
+    "conversion_factor": 20.29
+  },
+  {
+    "contractor": "06302",
+    "locality": "00",
+    "locality_name": "WISCONSIN",
+    "conversion_factor": 19.29
+  },
+  {
+    "contractor": "03602",
+    "locality": "21",
+    "locality_name": "WYOMING**",
+    "conversion_factor": 19.97
+  }
+]
