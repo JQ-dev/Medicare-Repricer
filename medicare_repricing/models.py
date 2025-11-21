@@ -21,6 +21,22 @@ class ClaimLine(BaseModel):
         description="Pointers to diagnosis codes (1-based index)"
     )
 
+    # Anesthesia-specific fields
+    anesthesia_time_minutes: Optional[int] = Field(
+        None,
+        description="Total anesthesia time in minutes (for calculating time units)",
+        ge=0
+    )
+    physical_status_modifier: Optional[str] = Field(
+        None,
+        description="Physical status modifier (P1-P6) for anesthesia complexity"
+    )
+    anesthesia_modifying_units: Optional[int] = Field(
+        None,
+        description="Additional modifying units (e.g., for qualifying circumstances, age extremes)",
+        ge=0
+    )
+
     @field_validator('procedure_code')
     @classmethod
     def validate_procedure_code(cls, v: str) -> str:
@@ -75,16 +91,25 @@ class RepricedClaimLine(BaseModel):
     # Original billed amount (if provided)
     billed_amount: Optional[float] = None
 
-    # Medicare pricing components
-    work_rvu: float = Field(..., description="Work Relative Value Unit")
-    pe_rvu: float = Field(..., description="Practice Expense RVU")
-    mp_rvu: float = Field(..., description="Malpractice RVU")
+    # Service type
+    service_type: str = Field(default="PFS", description="Service type: PFS, ANESTHESIA, or OPPS")
 
-    work_gpci: float = Field(..., description="Work GPCI")
-    pe_gpci: float = Field(..., description="Practice Expense GPCI")
-    mp_gpci: float = Field(..., description="Malpractice GPCI")
+    # Standard Medicare pricing components (for PFS/OPPS)
+    work_rvu: Optional[float] = Field(None, description="Work Relative Value Unit")
+    pe_rvu: Optional[float] = Field(None, description="Practice Expense RVU")
+    mp_rvu: Optional[float] = Field(None, description="Malpractice RVU")
+
+    work_gpci: Optional[float] = Field(None, description="Work GPCI")
+    pe_gpci: Optional[float] = Field(None, description="Practice Expense GPCI")
+    mp_gpci: Optional[float] = Field(None, description="Malpractice GPCI")
 
     conversion_factor: float = Field(..., description="Medicare conversion factor")
+
+    # Anesthesia-specific pricing components
+    anesthesia_base_units: Optional[int] = Field(None, description="Anesthesia base units")
+    anesthesia_time_units: Optional[float] = Field(None, description="Anesthesia time units")
+    anesthesia_modifying_units: Optional[int] = Field(None, description="Anesthesia modifying units")
+    anesthesia_total_units: Optional[float] = Field(None, description="Total anesthesia units")
 
     # Calculated amounts
     medicare_allowed: float = Field(..., description="Total Medicare allowed amount")

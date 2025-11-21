@@ -5,6 +5,7 @@ This script demonstrates how to use the Medicare repricing system
 with various scenarios.
 """
 
+from pathlib import Path
 from medicare_repricing import MedicareRepricer, Claim, ClaimLine
 
 
@@ -443,6 +444,257 @@ def example_8_zip_code_to_locality():
     print()
 
 
+def example_9_anesthesia_basic():
+    """Example 9: Basic anesthesia claim."""
+    print("=" * 80)
+    print("Example 9: Basic Anesthesia Claim")
+    print("=" * 80)
+
+    # Load repricer with full data including anesthesia
+    data_dir = Path(__file__).parent / "data"
+    repricer = MedicareRepricer(data_directory=data_dir)
+
+    claim = Claim(
+        claim_id="ANES001",
+        lines=[
+            ClaimLine(
+                line_number=1,
+                procedure_code="00100",  # Anesthesia for salivary gland surgery
+                modifiers=["AA"],  # Anesthesiologist
+                place_of_service="22",  # Outpatient hospital
+                locality="00",  # Alabama
+                units=1,
+                anesthesia_time_minutes=90,  # 1.5 hours
+                physical_status_modifier=None,
+                anesthesia_modifying_units=None
+            )
+        ]
+    )
+
+    repriced = repricer.reprice_claim(claim)
+    line = repriced.lines[0]
+
+    print(f"\nClaim ID: {repriced.claim_id}")
+    print(f"\nAnesthesia Procedure: {line.procedure_code}")
+    print(f"Description: Anesthesia for salivary gland surgery")
+    print(f"\nPricing Calculation:")
+    print(f"  Base Units:      {line.anesthesia_base_units} units")
+    print(f"  Time Units:      {line.anesthesia_time_units} units (90 min ÷ 15)")
+    print(f"  Modifying Units: {line.anesthesia_modifying_units} units")
+    print(f"  Total Units:     {line.anesthesia_total_units} units")
+    print(f"  Conversion Factor: ${line.conversion_factor:.2f}")
+    print(f"\nMedicare Allowed: ${line.medicare_allowed:.2f}")
+    print(f"Calculation: {line.anesthesia_total_units} units × ${line.conversion_factor:.2f} = ${line.medicare_allowed:.2f}")
+
+    if line.adjustment_reason:
+        print(f"\nNotes: {line.adjustment_reason}")
+    print()
+
+
+def example_10_anesthesia_complex():
+    """Example 10: Complex cardiac anesthesia with physical status."""
+    print("=" * 80)
+    print("Example 10: Complex Cardiac Anesthesia (CABG)")
+    print("=" * 80)
+
+    data_dir = Path(__file__).parent / "data"
+    repricer = MedicareRepricer(data_directory=data_dir)
+
+    claim = Claim(
+        claim_id="CABG001",
+        lines=[
+            ClaimLine(
+                line_number=1,
+                procedure_code="00562",  # Anesthesia for heart surgery with pump
+                modifiers=["AA"],  # Anesthesiologist
+                place_of_service="22",
+                locality="18",  # Los Angeles
+                units=1,
+                anesthesia_time_minutes=240,  # 4 hours
+                physical_status_modifier="P3",  # Severe systemic disease
+                anesthesia_modifying_units=None
+            )
+        ]
+    )
+
+    repriced = repricer.reprice_claim(claim)
+    line = repriced.lines[0]
+
+    print(f"\nClaim ID: {repriced.claim_id}")
+    print(f"\nAnesthesia Procedure: {line.procedure_code}")
+    print(f"Description: Anesthesia for CABG with cardiopulmonary bypass")
+    print(f"Physical Status: P3 (Patient with severe systemic disease)")
+    print(f"\nPricing Calculation:")
+    print(f"  Base Units:      {line.anesthesia_base_units} units (complex cardiac surgery)")
+    print(f"  Time Units:      {line.anesthesia_time_units} units (240 min ÷ 15)")
+    print(f"  Modifying Units: {line.anesthesia_modifying_units} units (P3 adds 1 unit)")
+    print(f"  Total Units:     {line.anesthesia_total_units} units")
+    print(f"  Conversion Factor: ${line.conversion_factor:.2f} (Los Angeles)")
+    print(f"\nMedicare Allowed: ${line.medicare_allowed:.2f}")
+
+    if line.adjustment_reason:
+        print(f"\nNotes:")
+        for note in line.adjustment_reason.split("; "):
+            print(f"  - {note}")
+    print()
+
+
+def example_11_anesthesia_emergency():
+    """Example 11: Emergency pediatric anesthesia with qualifying circumstances."""
+    print("=" * 80)
+    print("Example 11: Emergency Pediatric Anesthesia")
+    print("=" * 80)
+
+    data_dir = Path(__file__).parent / "data"
+    repricer = MedicareRepricer(data_directory=data_dir)
+
+    claim = Claim(
+        claim_id="PED_EMERG001",
+        lines=[
+            ClaimLine(
+                line_number=1,
+                procedure_code="00326",  # Anesthesia larynx/trach < 1 yr
+                modifiers=["99100", "99140"],  # Extreme age + Emergency
+                place_of_service="23",  # Emergency room
+                locality="00",
+                units=1,
+                anesthesia_time_minutes=45,
+                physical_status_modifier="P4",  # Life-threatening condition
+                anesthesia_modifying_units=None
+            )
+        ]
+    )
+
+    repriced = repricer.reprice_claim(claim)
+    line = repriced.lines[0]
+
+    print(f"\nClaim ID: {repriced.claim_id}")
+    print(f"\nAnesthesia Procedure: {line.procedure_code}")
+    print(f"Description: Emergency pediatric airway surgery")
+    print(f"Physical Status: P4 (Life-threatening systemic disease)")
+    print(f"Qualifying Circumstances:")
+    print(f"  - 99100: Patient under 1 year of age (+1 unit)")
+    print(f"  - 99140: Emergency conditions (+2 units)")
+    print(f"\nPricing Calculation:")
+    print(f"  Base Units:      {line.anesthesia_base_units} units")
+    print(f"  Time Units:      {line.anesthesia_time_units} units (45 min ÷ 15)")
+    print(f"  Modifying Units: {line.anesthesia_modifying_units} units")
+    print(f"    • P4 physical status: +2 units")
+    print(f"    • 99100 (age):        +1 unit")
+    print(f"    • 99140 (emergency):  +2 units")
+    print(f"  Total Units:     {line.anesthesia_total_units} units")
+    print(f"  Conversion Factor: ${line.conversion_factor:.2f}")
+    print(f"\nMedicare Allowed: ${line.medicare_allowed:.2f}")
+    print()
+
+
+def example_12_anesthesia_geographic_variation():
+    """Example 12: Same anesthesia service in different localities."""
+    print("=" * 80)
+    print("Example 12: Anesthesia Geographic Variation")
+    print("=" * 80)
+
+    data_dir = Path(__file__).parent / "data"
+    repricer = MedicareRepricer(data_directory=data_dir)
+
+    # Same procedure in three different locations
+    locations = [
+        ("10112", "00", "Alabama", 19.31),
+        ("01112", "05", "San Francisco", 22.37),
+        ("02102", "01", "Alaska", 27.86)
+    ]
+
+    print(f"\nProcedure: 01200 (Hip replacement anesthesia)")
+    print(f"Time: 120 minutes, P2 physical status\n")
+    print(f"{'Locality':<20} {'Conversion Factor':<20} {'Medicare Allowed':<20}")
+    print("-" * 80)
+
+    for contractor, locality, name, cf in locations:
+        claim = Claim(
+            claim_id=f"HIP_{locality}",
+            lines=[
+                ClaimLine(
+                    line_number=1,
+                    procedure_code="01200",
+                    modifiers=["AA"],
+                    place_of_service="22",
+                    locality=locality,
+                    units=1,
+                    anesthesia_time_minutes=120,
+                    physical_status_modifier="P2",
+                    anesthesia_modifying_units=None
+                )
+            ]
+        )
+
+        repriced = repricer.reprice_claim(claim)
+        line = repriced.lines[0]
+
+        print(f"{name:<20} ${line.conversion_factor:<19.2f} ${line.medicare_allowed:>18.2f}")
+
+    print(f"\nNote: Same procedure, same time, but payment varies by locality")
+    print(f"      Alaska has highest conversion factor, Alabama has lowest")
+    print()
+
+
+def example_13_mixed_claim():
+    """Example 13: Claim with both anesthesia and regular procedures."""
+    print("=" * 80)
+    print("Example 13: Mixed Claim (Anesthesia + Surgery)")
+    print("=" * 80)
+
+    data_dir = Path(__file__).parent / "data"
+    repricer = MedicareRepricer(data_directory=data_dir)
+
+    claim = Claim(
+        claim_id="MIXED001",
+        lines=[
+            ClaimLine(
+                line_number=1,
+                procedure_code="00562",  # Anesthesia for heart surgery
+                modifiers=["AA"],
+                place_of_service="22",
+                locality="00",
+                units=1,
+                anesthesia_time_minutes=180,
+                physical_status_modifier="P3",
+                anesthesia_modifying_units=None
+            ),
+            ClaimLine(
+                line_number=2,
+                procedure_code="99213",  # Post-op office visit
+                modifiers=None,
+                place_of_service="11",
+                locality="00",
+                units=1
+            )
+        ]
+    )
+
+    repriced = repricer.reprice_claim(claim)
+
+    print(f"\nClaim ID: {repriced.claim_id}")
+    print(f"\n{'Line':<6} {'Code':<10} {'Type':<15} {'Description':<35} {'Allowed':<12}")
+    print("-" * 80)
+
+    descriptions = {
+        "00562": "Anesthesia for heart surgery with pump",
+        "99213": "Office visit, established patient"
+    }
+
+    for line in repriced.lines:
+        desc = descriptions.get(line.procedure_code, "")
+        print(f"{line.line_number:<6} {line.procedure_code:<10} {line.service_type:<15} {desc:<35} ${line.medicare_allowed:>10.2f}")
+
+        if line.service_type == "ANESTHESIA":
+            print(f"       Anesthesia details: {line.anesthesia_base_units} base + {line.anesthesia_time_units} time + {line.anesthesia_modifying_units} modifying = {line.anesthesia_total_units} units")
+
+    print(f"\n{'Total Medicare Allowed:':<70} ${repriced.total_allowed:>10.2f}")
+    print(f"\nNote: System automatically routes anesthesia codes to anesthesia calculator")
+    print(f"      and regular procedure codes to the standard PFS calculator")
+    print()
+
+
 def main():
     """Run all examples."""
     print("\n")
@@ -451,6 +703,7 @@ def main():
     print("=" * 80)
     print()
 
+    # Standard PFS examples
     example_1_simple_office_visit()
     example_2_geographic_variation()
     example_3_facility_vs_non_facility()
@@ -459,6 +712,19 @@ def main():
     example_6_query_fee_schedule()
     example_7_two_modifiers()
     example_8_zip_code_to_locality()
+
+    # Anesthesia examples
+    print("\n")
+    print("=" * 80)
+    print("ANESTHESIA PRICING EXAMPLES")
+    print("=" * 80)
+    print()
+
+    example_9_anesthesia_basic()
+    example_10_anesthesia_complex()
+    example_11_anesthesia_emergency()
+    example_12_anesthesia_geographic_variation()
+    example_13_mixed_claim()
 
     print("=" * 80)
     print("All examples completed successfully!")

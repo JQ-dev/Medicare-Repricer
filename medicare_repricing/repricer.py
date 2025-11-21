@@ -10,7 +10,7 @@ from pathlib import Path
 
 from .models import Claim, RepricedClaim, RepricedClaimLine
 from .fee_schedule import MedicareFeeSchedule, create_default_fee_schedule
-from .calculator import MedicareCalculator
+from .calculator import MedicareCalculator, AnesthesiaCalculator
 
 
 class MedicareRepricer:
@@ -54,6 +54,7 @@ class MedicareRepricer:
             self.fee_schedule = create_default_fee_schedule()
 
         self.calculator = MedicareCalculator(self.fee_schedule)
+        self.anesthesia_calculator = AnesthesiaCalculator(self.fee_schedule)
 
     def reprice_claim(self, claim: Claim) -> RepricedClaim:
         """
@@ -88,49 +89,97 @@ class MedicareRepricer:
 
         for line in claim.lines:
             try:
-                # Determine if this is subject to MPPR
-                is_multiple = len(mppr_procedures) > 1 and line.procedure_code in mppr_procedures
-                procedure_rank = mppr_procedures.index(line.procedure_code) + 1 if is_multiple else 1
-
                 # Determine locality (from locality field or zip code)
                 locality = self._get_locality(line)
 
-                # Calculate Medicare allowed amount
-                allowed_amount, details = self.calculator.calculate_allowed_amount(
-                    procedure_code=line.procedure_code,
-                    place_of_service=line.place_of_service,
-                    locality=locality,
-                    modifiers=line.modifiers,
-                    units=line.units,
-                    is_multiple_procedure=is_multiple,
-                    procedure_rank=procedure_rank
-                )
+                # Check if this is an anesthesia code
+                if self._is_anesthesia_code(line.procedure_code):
+                    # Route to anesthesia calculator
+                    contractor = self._get_contractor_from_locality(locality)
 
-                # Create repriced line
-                repriced_line = RepricedClaimLine(
-                    line_number=line.line_number,
-                    procedure_code=line.procedure_code,
-                    modifiers=line.modifiers,
-                    place_of_service=line.place_of_service,
-                    locality=locality,
-                    zip_code=line.zip_code,
-                    units=line.units,
-                    work_rvu=details["work_rvu"],
-                    pe_rvu=details["pe_rvu"],
-                    mp_rvu=details["mp_rvu"],
-                    work_gpci=details["work_gpci"],
-                    pe_gpci=details["pe_gpci"],
-                    mp_gpci=details["mp_gpci"],
-                    conversion_factor=details["conversion_factor"],
-                    medicare_allowed=allowed_amount,
-                    adjustment_reason="; ".join(details["notes"]) if details["notes"] else None
-                )
+                    # Validate required anesthesia fields
+                    if line.anesthesia_time_minutes is None:
+                        raise ValueError(
+                            f"Anesthesia time in minutes is required for anesthesia code {line.procedure_code}"
+                        )
+
+                    # Calculate anesthesia allowed amount
+                    allowed_amount, details = self.anesthesia_calculator.calculate_allowed_amount(
+                        procedure_code=line.procedure_code,
+                        contractor=contractor,
+                        locality=locality,
+                        time_minutes=line.anesthesia_time_minutes,
+                        modifiers=line.modifiers,
+                        physical_status=line.physical_status_modifier,
+                        additional_modifying_units=line.anesthesia_modifying_units or 0
+                    )
+
+                    # Create repriced line for anesthesia
+                    repriced_line = RepricedClaimLine(
+                        line_number=line.line_number,
+                        procedure_code=line.procedure_code,
+                        modifiers=line.modifiers,
+                        place_of_service=line.place_of_service,
+                        locality=locality,
+                        zip_code=line.zip_code,
+                        units=line.units,
+                        service_type="ANESTHESIA",
+                        anesthesia_base_units=details["base_units"],
+                        anesthesia_time_units=details["time_units"],
+                        anesthesia_modifying_units=details["modifying_units"],
+                        anesthesia_total_units=details["total_units"],
+                        conversion_factor=details["conversion_factor"],
+                        medicare_allowed=allowed_amount * line.units,  # Apply units multiplier
+                        adjustment_reason="; ".join(details["notes"]) if details["notes"] else None
+                    )
+
+                else:
+                    # Route to standard PFS calculator
+                    # Determine if this is subject to MPPR
+                    is_multiple = len(mppr_procedures) > 1 and line.procedure_code in mppr_procedures
+                    procedure_rank = mppr_procedures.index(line.procedure_code) + 1 if is_multiple else 1
+
+                    # Calculate Medicare allowed amount
+                    allowed_amount, details = self.calculator.calculate_allowed_amount(
+                        procedure_code=line.procedure_code,
+                        place_of_service=line.place_of_service,
+                        locality=locality,
+                        modifiers=line.modifiers,
+                        units=line.units,
+                        is_multiple_procedure=is_multiple,
+                        procedure_rank=procedure_rank
+                    )
+
+                    # Create repriced line
+                    repriced_line = RepricedClaimLine(
+                        line_number=line.line_number,
+                        procedure_code=line.procedure_code,
+                        modifiers=line.modifiers,
+                        place_of_service=line.place_of_service,
+                        locality=locality,
+                        zip_code=line.zip_code,
+                        units=line.units,
+                        service_type="PFS",
+                        work_rvu=details["work_rvu"],
+                        pe_rvu=details["pe_rvu"],
+                        mp_rvu=details["mp_rvu"],
+                        work_gpci=details["work_gpci"],
+                        pe_gpci=details["pe_gpci"],
+                        mp_gpci=details["mp_gpci"],
+                        conversion_factor=details["conversion_factor"],
+                        medicare_allowed=allowed_amount,
+                        adjustment_reason="; ".join(details["notes"]) if details["notes"] else None
+                    )
 
                 repriced_lines.append(repriced_line)
 
             except ValueError as e:
                 # Create a repriced line with error information
                 locality = self._get_locality(line) if hasattr(line, 'locality') or hasattr(line, 'zip_code') else "00"
+
+                # Determine service type for error reporting
+                service_type = "ANESTHESIA" if self._is_anesthesia_code(line.procedure_code) else "PFS"
+
                 repriced_line = RepricedClaimLine(
                     line_number=line.line_number,
                     procedure_code=line.procedure_code,
@@ -139,12 +188,13 @@ class MedicareRepricer:
                     locality=locality,
                     zip_code=line.zip_code,
                     units=line.units,
-                    work_rvu=0.0,
-                    pe_rvu=0.0,
-                    mp_rvu=0.0,
-                    work_gpci=0.0,
-                    pe_gpci=0.0,
-                    mp_gpci=0.0,
+                    service_type=service_type,
+                    work_rvu=0.0 if service_type == "PFS" else None,
+                    pe_rvu=0.0 if service_type == "PFS" else None,
+                    mp_rvu=0.0 if service_type == "PFS" else None,
+                    work_gpci=0.0 if service_type == "PFS" else None,
+                    pe_gpci=0.0 if service_type == "PFS" else None,
+                    mp_gpci=0.0 if service_type == "PFS" else None,
                     conversion_factor=self.fee_schedule.conversion_factor,
                     medicare_allowed=0.0,
                     adjustment_reason=f"ERROR: {str(e)}"
@@ -201,6 +251,43 @@ class MedicareRepricer:
         line_numbers = [line.line_number for line in claim.lines]
         if len(line_numbers) != len(set(line_numbers)):
             raise ValueError("Claim line numbers must be unique")
+
+    def _is_anesthesia_code(self, procedure_code: str) -> bool:
+        """
+        Determine if a procedure code is an anesthesia code.
+
+        Anesthesia codes are in the 00100-01999 range.
+
+        Args:
+            procedure_code: CPT or HCPCS code
+
+        Returns:
+            True if anesthesia code, False otherwise
+        """
+        # Anesthesia codes start with 00 or 01
+        return procedure_code.startswith(('00', '01')) and len(procedure_code) == 5
+
+    def _get_contractor_from_locality(self, locality: str) -> str:
+        """
+        Get contractor code from locality.
+
+        This is a simplified mapping. In a production system, you would have
+        a complete mapping of localities to contractors.
+
+        Args:
+            locality: Medicare locality code
+
+        Returns:
+            Contractor code
+        """
+        # For now, we'll search through the anesthesia data to find a matching locality
+        # and return the first contractor that has data for this locality
+        for key, anes_data in self.fee_schedule.anesthesia_data.items():
+            if anes_data.locality == locality:
+                return anes_data.contractor
+
+        # Default to a common contractor if not found
+        return "01112"  # California contractor as default
 
     def _get_locality(self, line) -> str:
         """

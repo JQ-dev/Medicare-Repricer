@@ -65,6 +65,15 @@ class AnesthesiaData:
     conversion_factor: float
 
 
+@dataclass
+class AnesthesiaBaseUnitData:
+    """Anesthesia base unit data for a procedure code."""
+
+    procedure_code: str
+    base_units: int
+    description: str
+
+
 class MedicareFeeSchedule:
     """
     Medicare Physician Fee Schedule database.
@@ -85,6 +94,7 @@ class MedicareFeeSchedule:
         self.gpci_data: Dict[str, GPCIData] = {}
         self.opps_data: Dict[str, OPPSData] = {}
         self.anesthesia_data: Dict[str, AnesthesiaData] = {}
+        self.anesthesia_base_units: Dict[str, AnesthesiaBaseUnitData] = {}
 
     def add_rvu(self, rvu: RVUData) -> None:
         """Add RVU data for a procedure code."""
@@ -104,6 +114,10 @@ class MedicareFeeSchedule:
         """Add anesthesia conversion factor data for a locality."""
         key = f"{anes.contractor}:{anes.locality}"
         self.anesthesia_data[key] = anes
+
+    def add_anesthesia_base_unit(self, base_unit: AnesthesiaBaseUnitData) -> None:
+        """Add anesthesia base unit data for a procedure code."""
+        self.anesthesia_base_units[base_unit.procedure_code] = base_unit
 
     def get_rvu(self, procedure_code: str, modifier: Optional[str] = None) -> Optional[RVUData]:
         """
@@ -180,6 +194,18 @@ class MedicareFeeSchedule:
         key = f"{contractor}:{locality}"
         return self.anesthesia_data.get(key)
 
+    def get_anesthesia_base_unit(self, procedure_code: str) -> Optional[AnesthesiaBaseUnitData]:
+        """
+        Get anesthesia base unit data for a procedure code.
+
+        Args:
+            procedure_code: CPT anesthesia code
+
+        Returns:
+            AnesthesiaBaseUnitData if found, None otherwise
+        """
+        return self.anesthesia_base_units.get(procedure_code)
+
     def load_from_directory(self, directory: Path) -> None:
         """
         Load fee schedule data from JSON files in a directory.
@@ -230,6 +256,21 @@ class MedicareFeeSchedule:
                 for anes_dict in anes_list:
                     anes = AnesthesiaData(**anes_dict)
                     self.add_anesthesia(anes)
+
+        # Load Anesthesia Base Units
+        anes_base_file = directory / "anesthesia_base_units.json"
+        if anes_base_file.exists():
+            with open(anes_base_file, 'r') as f:
+                data = json.load(f)
+                # The file has a "base_units" key containing the actual data
+                if "base_units" in data:
+                    for code, info in data["base_units"].items():
+                        base_unit = AnesthesiaBaseUnitData(
+                            procedure_code=code,
+                            base_units=info["base_units"],
+                            description=info["description"]
+                        )
+                        self.add_anesthesia_base_unit(base_unit)
 
     @staticmethod
     def _make_rvu_key(procedure_code: str, modifier: Optional[str]) -> str:

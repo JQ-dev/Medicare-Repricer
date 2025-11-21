@@ -9,7 +9,8 @@ Implements official Medicare payment formulas including:
 """
 
 from typing import Optional, Tuple, List
-from .fee_schedule import MedicareFeeSchedule, RVUData, GPCIData
+from .fee_schedule import MedicareFeeSchedule, RVUData, GPCIData, AnesthesiaBaseUnitData, AnesthesiaData
+import math
 
 
 class MedicareCalculator:
@@ -254,3 +255,233 @@ class MedicareCalculator:
                 notes.append(f"Distinct procedural service (modifier {modifier})")
 
         return work_rvu, pe_rvu, mp_rvu, notes
+
+
+class AnesthesiaCalculator:
+    """
+    Calculates Medicare allowed amounts for anesthesia services.
+
+    Formula:
+    Payment = (Base Units + Time Units + Modifying Units) × Conversion Factor
+
+    Where:
+    - Base Units = Procedure complexity (from ASA/CMS crosswalk)
+    - Time Units = Anesthesia time in minutes ÷ 15 (rounded up)
+    - Modifying Units = Additional units for qualifying circumstances, physical status, etc.
+    - Conversion Factor = Locality-specific anesthesia conversion factor
+    """
+
+    def __init__(self, fee_schedule: MedicareFeeSchedule):
+        """
+        Initialize calculator with a fee schedule.
+
+        Args:
+            fee_schedule: MedicareFeeSchedule instance with anesthesia data
+        """
+        self.fee_schedule = fee_schedule
+
+    def calculate_allowed_amount(
+        self,
+        procedure_code: str,
+        contractor: str,
+        locality: str,
+        time_minutes: int,
+        modifiers: Optional[List[str]] = None,
+        physical_status: Optional[str] = None,
+        additional_modifying_units: int = 0,
+    ) -> Tuple[float, dict]:
+        """
+        Calculate Medicare allowed amount for an anesthesia service.
+
+        Args:
+            procedure_code: CPT anesthesia code (00xxx-01xxx)
+            contractor: Medicare contractor code
+            locality: Medicare locality code
+            time_minutes: Total anesthesia time in minutes
+            modifiers: Optional list of procedure modifiers
+            physical_status: Physical status modifier (P1-P6)
+            additional_modifying_units: Additional modifying units (e.g., qualifying circumstances)
+
+        Returns:
+            Tuple of (allowed_amount, calculation_details)
+
+        Raises:
+            ValueError: If procedure code or locality not found
+        """
+        # Get base unit data
+        base_unit_data = self.fee_schedule.get_anesthesia_base_unit(procedure_code)
+        if not base_unit_data:
+            raise ValueError(
+                f"Anesthesia procedure code {procedure_code} not found in base unit crosswalk. "
+                f"This may not be a valid anesthesia code or the code is not in the database."
+            )
+
+        # Get conversion factor for locality
+        anes_data = self.fee_schedule.get_anesthesia(contractor, locality)
+        if not anes_data:
+            raise ValueError(
+                f"Anesthesia conversion factor not found for contractor {contractor}, "
+                f"locality {locality}"
+            )
+
+        # Calculate time units (15-minute increments, rounded up)
+        time_units = math.ceil(time_minutes / 15.0)
+
+        # Calculate modifying units from various sources
+        modifying_units = additional_modifying_units
+
+        # Add physical status modifying units
+        if physical_status:
+            ps_units, ps_note = self._get_physical_status_units(physical_status)
+            modifying_units += ps_units
+        else:
+            ps_note = None
+
+        # Process anesthesia-specific modifiers
+        modifier_units, modifier_notes = self._process_anesthesia_modifiers(modifiers)
+        modifying_units += modifier_units
+
+        # Calculate total units
+        total_units = base_unit_data.base_units + time_units + modifying_units
+
+        # Calculate payment
+        allowed_amount = total_units * anes_data.conversion_factor
+
+        # Build calculation details
+        details = {
+            "procedure_code": procedure_code,
+            "description": base_unit_data.description,
+            "contractor": contractor,
+            "locality": locality,
+            "locality_name": anes_data.locality_name,
+            "base_units": base_unit_data.base_units,
+            "time_minutes": time_minutes,
+            "time_units": time_units,
+            "modifying_units": modifying_units,
+            "total_units": total_units,
+            "conversion_factor": anes_data.conversion_factor,
+            "allowed_amount": allowed_amount,
+            "notes": []
+        }
+
+        # Add notes
+        if ps_note:
+            details["notes"].append(ps_note)
+        if modifier_notes:
+            details["notes"].extend(modifier_notes)
+        if additional_modifying_units > 0:
+            details["notes"].append(f"Additional modifying units: {additional_modifying_units}")
+
+        return allowed_amount, details
+
+    def _get_physical_status_units(self, physical_status: str) -> Tuple[int, Optional[str]]:
+        """
+        Get modifying units for physical status.
+
+        Physical Status Modifiers:
+        - P1: Normal healthy patient (0 units)
+        - P2: Patient with mild systemic disease (0 units)
+        - P3: Patient with severe systemic disease (1 unit)
+        - P4: Patient with severe systemic disease that is a constant threat to life (2 units)
+        - P5: Moribund patient not expected to survive without operation (3 units)
+        - P6: Declared brain-dead patient whose organs are being removed for donor purposes (0 units)
+
+        Args:
+            physical_status: Physical status modifier (P1-P6)
+
+        Returns:
+            Tuple of (modifying_units, note)
+        """
+        ps = physical_status.upper()
+
+        physical_status_map = {
+            "P1": (0, "P1: Normal healthy patient"),
+            "P2": (0, "P2: Patient with mild systemic disease"),
+            "P3": (1, "P3: Patient with severe systemic disease (+1 unit)"),
+            "P4": (2, "P4: Patient with life-threatening systemic disease (+2 units)"),
+            "P5": (3, "P5: Moribund patient (+3 units)"),
+            "P6": (0, "P6: Brain-dead organ donor")
+        }
+
+        if ps in physical_status_map:
+            return physical_status_map[ps]
+
+        return 0, f"Unknown physical status: {physical_status}"
+
+    def _process_anesthesia_modifiers(
+        self,
+        modifiers: Optional[List[str]]
+    ) -> Tuple[int, List[str]]:
+        """
+        Process anesthesia-specific modifiers.
+
+        Common anesthesia modifiers:
+        - QK: Medical direction of 2-4 concurrent anesthesia services
+        - QX: CRNA service with medical direction by a physician
+        - QY: Medical direction of one CRNA by an anesthesiologist
+        - QZ: CRNA service without medical direction
+        - AA: Anesthesia services performed personally by anesthesiologist
+        - AD: Medical supervision by a physician: more than 4 concurrent anesthesia procedures
+        - QS: Monitored anesthesia care service
+        - 23: Unusual anesthesia (for procedures normally not requiring anesthesia)
+        - 47: Anesthesia by surgeon (not typically paid)
+
+        Qualifying Circumstances (add units):
+        - 99100: Anesthesia for patient of extreme age (under 1 year or over 70) (+1 unit)
+        - 99116: Anesthesia complicated by utilization of total body hypothermia (+5 units)
+        - 99135: Anesthesia complicated by utilization of controlled hypotension (+5 units)
+        - 99140: Anesthesia complicated by emergency conditions (+2 units)
+
+        Args:
+            modifiers: List of procedure modifiers
+
+        Returns:
+            Tuple of (additional_units, notes_list)
+        """
+        additional_units = 0
+        notes = []
+
+        if not modifiers:
+            return additional_units, notes
+
+        for modifier in modifiers:
+            if not modifier:
+                continue
+
+            modifier = modifier.upper()
+
+            # Qualifying circumstances that add units
+            if modifier == "99100":
+                additional_units += 1
+                notes.append("Qualifying circumstance: Extreme age (+1 unit)")
+            elif modifier == "99116":
+                additional_units += 5
+                notes.append("Qualifying circumstance: Total body hypothermia (+5 units)")
+            elif modifier == "99135":
+                additional_units += 5
+                notes.append("Qualifying circumstance: Controlled hypotension (+5 units)")
+            elif modifier == "99140":
+                additional_units += 2
+                notes.append("Qualifying circumstance: Emergency conditions (+2 units)")
+
+            # Provider-specific modifiers (payment methodology, not unit additions)
+            elif modifier == "AA":
+                notes.append("Anesthesia services performed personally by anesthesiologist")
+            elif modifier == "QK":
+                notes.append("Medical direction of 2-4 concurrent cases")
+            elif modifier == "QX":
+                notes.append("CRNA service with medical direction")
+            elif modifier == "QY":
+                notes.append("Medical direction of one CRNA")
+            elif modifier == "QZ":
+                notes.append("CRNA service without medical direction")
+            elif modifier == "AD":
+                notes.append("Medical supervision of >4 concurrent procedures")
+            elif modifier == "QS":
+                notes.append("Monitored anesthesia care service")
+            elif modifier == "23":
+                notes.append("Unusual anesthesia (procedure normally not requiring anesthesia)")
+            elif modifier == "47":
+                notes.append("Anesthesia by surgeon (typically not separately reimbursed)")
+
+        return additional_units, notes
