@@ -158,6 +158,129 @@ def parse_gpci_csv(csv_path: Path) -> List[Dict]:
     return gpci_data
 
 
+def parse_opps_csv(csv_path: Path) -> List[Dict]:
+    """
+    Parse the CMS OPPS CSV file.
+
+    Columns:
+    - HCPCS
+    - MOD (Modifier)
+    - PROCSTAT (Status)
+    - CARRIER
+    - LOCALITY
+    - FACILITY PRICE
+    - NON-FACILTY PRICE
+
+    Args:
+        csv_path: Path to OPPSCAP_Oct.csv file
+
+    Returns:
+        List of OPPS data dictionaries
+    """
+    opps_data = []
+
+    with open(csv_path, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+
+        for row in reader:
+            try:
+                hcpcs = row['HCPCS'].strip()
+                if not hcpcs:
+                    continue
+
+                modifier = row['MOD'].strip() if row['MOD'].strip() else None
+                status = row['PROCSTAT'].strip()
+                carrier = row['CARRIER'].strip()
+                locality = row['LOCALITY'].strip()
+
+                # Parse prices
+                def safe_float(value: str, default: float = 0.0) -> float:
+                    try:
+                        return float(value.strip())
+                    except (ValueError, AttributeError):
+                        return default
+
+                facility_price = safe_float(row['FACILITY PRICE'])
+                non_facility_price = safe_float(row['NON-FACILTY PRICE'])
+
+                opps_entry = {
+                    'hcpcs': hcpcs,
+                    'modifier': modifier,
+                    'status': status,
+                    'carrier': carrier,
+                    'locality': locality,
+                    'facility_price': facility_price,
+                    'non_facility_price': non_facility_price
+                }
+
+                opps_data.append(opps_entry)
+
+            except Exception as e:
+                print(f"Warning: Error parsing OPPS row: {e}", file=sys.stderr)
+                continue
+
+    print(f"Parsed {len(opps_data)} OPPS entries", file=sys.stderr)
+    return opps_data
+
+
+def parse_anesthesia_csv(csv_path: Path) -> List[Dict]:
+    """
+    Parse the CMS Anesthesia conversion factor CSV file.
+
+    Columns:
+    - Contractor
+    - Locality
+    - Locality Name
+    - National Anes CF of 20.3178
+
+    Args:
+        csv_path: Path to ANES2025.csv file
+
+    Returns:
+        List of anesthesia conversion factor dictionaries
+    """
+    anes_data = []
+
+    with open(csv_path, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+
+        for row in reader:
+            try:
+                contractor = row['Contractor'].strip()
+                locality = row['Locality'].strip()
+                locality_name = row['Locality Name'].strip()
+
+                if not contractor or not locality:
+                    continue
+
+                # Parse conversion factor
+                def safe_float(value: str, default: float = 20.3178) -> float:
+                    try:
+                        return float(value.strip())
+                    except (ValueError, AttributeError):
+                        return default
+
+                # The column name includes the national CF value
+                cf_column = 'National Anes CF of 20.3178'
+                conversion_factor = safe_float(row[cf_column])
+
+                anes_entry = {
+                    'contractor': contractor,
+                    'locality': locality,
+                    'locality_name': locality_name,
+                    'conversion_factor': conversion_factor
+                }
+
+                anes_data.append(anes_entry)
+
+            except Exception as e:
+                print(f"Warning: Error parsing anesthesia row: {e}", file=sys.stderr)
+                continue
+
+    print(f"Parsed {len(anes_data)} anesthesia entries", file=sys.stderr)
+    return anes_data
+
+
 def main():
     """Main entry point."""
     # Get data directory
@@ -168,6 +291,8 @@ def main():
     # Check if files exist
     rvu_file = data_dir / 'PPRRVU2025_Oct.csv'
     gpci_file = data_dir / 'GPCI2025.csv'
+    opps_file = data_dir / 'OPPSCAP_Oct.csv'
+    anes_file = data_dir / 'ANES2025.csv'
 
     if not rvu_file.exists():
         print(f"Error: RVU file not found: {rvu_file}", file=sys.stderr)
@@ -182,6 +307,22 @@ def main():
 
     print(f"Parsing GPCI data from {gpci_file}...")
     gpci_data = parse_gpci_csv(gpci_file)
+
+    # Parse OPPS data if available
+    opps_data = []
+    if opps_file.exists():
+        print(f"Parsing OPPS data from {opps_file}...")
+        opps_data = parse_opps_csv(opps_file)
+    else:
+        print(f"Warning: OPPS file not found: {opps_file}", file=sys.stderr)
+
+    # Parse anesthesia data if available
+    anes_data = []
+    if anes_file.exists():
+        print(f"Parsing anesthesia data from {anes_file}...")
+        anes_data = parse_anesthesia_csv(anes_file)
+    else:
+        print(f"Warning: Anesthesia file not found: {anes_file}", file=sys.stderr)
 
     # Add default entries to GPCI if not present
     locality_codes = {g['locality'] for g in gpci_data}
@@ -205,6 +346,8 @@ def main():
     # Save to JSON files
     rvu_output = output_dir / 'rvu_data.json'
     gpci_output = output_dir / 'gpci_data.json'
+    opps_output = output_dir / 'opps_data.json'
+    anes_output = output_dir / 'anesthesia_data.json'
 
     print(f"Writing RVU data to {rvu_output}...")
     with open(rvu_output, 'w') as f:
@@ -214,12 +357,30 @@ def main():
     with open(gpci_output, 'w') as f:
         json.dump(gpci_data, f, indent=2)
 
+    if opps_data:
+        print(f"Writing OPPS data to {opps_output}...")
+        with open(opps_output, 'w') as f:
+            json.dump(opps_data, f, indent=2)
+
+    if anes_data:
+        print(f"Writing anesthesia data to {anes_output}...")
+        with open(anes_output, 'w') as f:
+            json.dump(anes_data, f, indent=2)
+
     print(f"\nSuccess!")
     print(f"  RVU entries: {len(rvu_data)}")
     print(f"  GPCI entries: {len(gpci_data)}")
+    if opps_data:
+        print(f"  OPPS entries: {len(opps_data)}")
+    if anes_data:
+        print(f"  Anesthesia entries: {len(anes_data)}")
     print(f"\nFiles saved to:")
     print(f"  {rvu_output}")
     print(f"  {gpci_output}")
+    if opps_data:
+        print(f"  {opps_output}")
+    if anes_data:
+        print(f"  {anes_output}")
 
     return 0
 

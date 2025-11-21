@@ -42,6 +42,29 @@ class GPCIData:
     mp_gpci: float
 
 
+@dataclass
+class OPPSData:
+    """Outpatient Prospective Payment System (OPPS) pricing data."""
+
+    hcpcs: str
+    modifier: Optional[str]
+    status: str
+    carrier: str
+    locality: str
+    facility_price: float
+    non_facility_price: float
+
+
+@dataclass
+class AnesthesiaData:
+    """Anesthesia conversion factor data by locality."""
+
+    contractor: str
+    locality: str
+    locality_name: str
+    conversion_factor: float
+
+
 class MedicareFeeSchedule:
     """
     Medicare Physician Fee Schedule database.
@@ -60,6 +83,8 @@ class MedicareFeeSchedule:
         self.conversion_factor = conversion_factor
         self.rvu_data: Dict[str, RVUData] = {}
         self.gpci_data: Dict[str, GPCIData] = {}
+        self.opps_data: Dict[str, OPPSData] = {}
+        self.anesthesia_data: Dict[str, AnesthesiaData] = {}
 
     def add_rvu(self, rvu: RVUData) -> None:
         """Add RVU data for a procedure code."""
@@ -69,6 +94,16 @@ class MedicareFeeSchedule:
     def add_gpci(self, gpci: GPCIData) -> None:
         """Add GPCI data for a locality."""
         self.gpci_data[gpci.locality] = gpci
+
+    def add_opps(self, opps: OPPSData) -> None:
+        """Add OPPS data for a procedure code."""
+        key = self._make_opps_key(opps.hcpcs, opps.modifier, opps.carrier, opps.locality)
+        self.opps_data[key] = opps
+
+    def add_anesthesia(self, anes: AnesthesiaData) -> None:
+        """Add anesthesia conversion factor data for a locality."""
+        key = f"{anes.contractor}:{anes.locality}"
+        self.anesthesia_data[key] = anes
 
     def get_rvu(self, procedure_code: str, modifier: Optional[str] = None) -> Optional[RVUData]:
         """
@@ -103,6 +138,48 @@ class MedicareFeeSchedule:
         """
         return self.gpci_data.get(locality)
 
+    def get_opps(self, hcpcs: str, modifier: Optional[str] = None,
+                 carrier: Optional[str] = None, locality: Optional[str] = None) -> Optional[OPPSData]:
+        """
+        Get OPPS data for a procedure code.
+
+        Args:
+            hcpcs: HCPCS procedure code
+            modifier: Optional modifier
+            carrier: Optional carrier code
+            locality: Optional locality code
+
+        Returns:
+            OPPSData if found, None otherwise
+        """
+        # Try with all parameters
+        if carrier and locality:
+            key = self._make_opps_key(hcpcs, modifier, carrier, locality)
+            if key in self.opps_data:
+                return self.opps_data[key]
+
+        # Try without modifier
+        if carrier and locality:
+            key = self._make_opps_key(hcpcs, None, carrier, locality)
+            if key in self.opps_data:
+                return self.opps_data[key]
+
+        return None
+
+    def get_anesthesia(self, contractor: str, locality: str) -> Optional[AnesthesiaData]:
+        """
+        Get anesthesia conversion factor for a locality.
+
+        Args:
+            contractor: Contractor code
+            locality: Medicare locality code
+
+        Returns:
+            AnesthesiaData if found, None otherwise
+        """
+        key = f"{contractor}:{locality}"
+        return self.anesthesia_data.get(key)
+
     def load_from_directory(self, directory: Path) -> None:
         """
         Load fee schedule data from JSON files in a directory.
@@ -110,6 +187,8 @@ class MedicareFeeSchedule:
         Expected files:
         - rvu_data.json: RVU data
         - gpci_data.json: GPCI data
+        - opps_data.json: OPPS data
+        - anesthesia_data.json: Anesthesia conversion factors
 
         Args:
             directory: Path to directory containing data files
@@ -134,12 +213,38 @@ class MedicareFeeSchedule:
                     gpci = GPCIData(**gpci_dict)
                     self.add_gpci(gpci)
 
+        # Load OPPS data
+        opps_file = directory / "opps_data.json"
+        if opps_file.exists():
+            with open(opps_file, 'r') as f:
+                opps_list = json.load(f)
+                for opps_dict in opps_list:
+                    opps = OPPSData(**opps_dict)
+                    self.add_opps(opps)
+
+        # Load Anesthesia data
+        anes_file = directory / "anesthesia_data.json"
+        if anes_file.exists():
+            with open(anes_file, 'r') as f:
+                anes_list = json.load(f)
+                for anes_dict in anes_list:
+                    anes = AnesthesiaData(**anes_dict)
+                    self.add_anesthesia(anes)
+
     @staticmethod
     def _make_rvu_key(procedure_code: str, modifier: Optional[str]) -> str:
         """Create a unique key for RVU lookup."""
         if modifier:
             return f"{procedure_code}:{modifier}"
         return procedure_code
+
+    @staticmethod
+    def _make_opps_key(hcpcs: str, modifier: Optional[str],
+                       carrier: str, locality: str) -> str:
+        """Create a unique key for OPPS lookup."""
+        if modifier:
+            return f"{hcpcs}:{modifier}:{carrier}:{locality}"
+        return f"{hcpcs}::{carrier}:{locality}"
 
 
 def create_default_fee_schedule() -> MedicareFeeSchedule:
