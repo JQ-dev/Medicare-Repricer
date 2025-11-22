@@ -1,0 +1,104 @@
+{
+  "version": "FY2026_v43",
+  "description": "ICD-10-PCS procedure codes for MS-DRG grouping - OR and non-OR procedures",
+  "procedures": {
+    "_comment": "Common inpatient procedures organized by body system",
+
+    "CARDIOVASCULAR_PROCEDURES": {
+      "02100Z9": {"description": "Bypass Coronary Artery, One Artery from Left Internal Mammary, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "02100ZA": {"description": "Bypass Coronary Artery, One Artery from Thoracic Artery, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "02100ZB": {"description": "Bypass Coronary Artery, One Artery from Right Internal Mammary, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "021109W": {"description": "Bypass Coronary Artery, Two Arteries from Aorta, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "02110A4": {"description": "Bypass Coronary Artery, Two Arteries from Thoracic Artery, Percutaneous Endoscopic Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "02HV33Z": {"description": "Insertion of Infusion Device into Superior Vena Cava, Percutaneous Approach", "is_or_procedure": false, "is_non_or_procedure": true},
+      "027034Z": {"description": "Dilation of Coronary Artery, One Artery with Drug-eluting Intraluminal Device, Percutaneous Approach", "is_or_procedure": false, "is_non_or_procedure": true},
+      "027044Z": {"description": "Dilation of Coronary Artery, One Artery with Drug-eluting Intraluminal Device, Percutaneous Endoscopic Approach", "is_or_procedure": false, "is_non_or_procedure": true},
+      "02703DZ": {"description": "Dilation of Coronary Artery, One Artery with Intraluminal Device, Percutaneous Approach", "is_or_procedure": false, "is_non_or_procedure": true},
+      "02704DZ": {"description": "Dilation of Coronary Artery, One Artery with Intraluminal Device, Percutaneous Endoscopic Approach", "is_or_procedure": false, "is_non_or_procedure": true}
+    },
+
+    "ORTHOPEDIC_JOINT_REPLACEMENT": {
+      "0SR9019": {"description": "Replacement of Right Hip Joint with Metal Synthetic Substitute, Cemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SR901A": {"description": "Replacement of Right Hip Joint with Metal Synthetic Substitute, Uncemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SR901Z": {"description": "Replacement of Right Hip Joint with Metal Synthetic Substitute, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SR9029": {"description": "Replacement of Right Hip Joint with Metal on Polyethylene Synthetic Substitute, Cemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SR902A": {"description": "Replacement of Right Hip Joint with Metal on Polyethylene Synthetic Substitute, Uncemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SR9039": {"description": "Replacement of Right Hip Joint with Ceramic Synthetic Substitute, Cemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SR903A": {"description": "Replacement of Right Hip Joint with Ceramic Synthetic Substitute, Uncemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SR9069": {"description": "Replacement of Right Hip Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Cemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SR906A": {"description": "Replacement of Right Hip Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Uncemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SR90J9": {"description": "Replacement of Right Hip Joint with Synthetic Substitute, Cemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SR90JA": {"description": "Replacement of Right Hip Joint with Synthetic Substitute, Uncemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SR90JZ": {"description": "Replacement of Right Hip Joint with Synthetic Substitute, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRB019": {"description": "Replacement of Left Hip Joint with Metal Synthetic Substitute, Cemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRB01A": {"description": "Replacement of Left Hip Joint with Metal Synthetic Substitute, Uncemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRB029": {"description": "Replacement of Left Hip Joint with Metal on Polyethylene Synthetic Substitute, Cemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRB02A": {"description": "Replacement of Left Hip Joint with Metal on Polyethylene Synthetic Substitute, Uncemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRB0J9": {"description": "Replacement of Left Hip Joint with Synthetic Substitute, Cemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRB0JA": {"description": "Replacement of Left Hip Joint with Synthetic Substitute, Uncemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRB0JZ": {"description": "Replacement of Left Hip Joint with Synthetic Substitute, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRC019": {"description": "Replacement of Right Knee Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Cemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRC01A": {"description": "Replacement of Right Knee Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Uncemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRC069": {"description": "Replacement of Right Knee Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Cemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRC06A": {"description": "Replacement of Right Knee Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Uncemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRC0J9": {"description": "Replacement of Right Knee Joint with Synthetic Substitute, Cemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRC0JA": {"description": "Replacement of Right Knee Joint with Synthetic Substitute, Uncemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRC0JZ": {"description": "Replacement of Right Knee Joint with Synthetic Substitute, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRD019": {"description": "Replacement of Left Knee Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Cemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRD01A": {"description": "Replacement of Left Knee Joint with Oxidized Zirconium on Polyethylene Synthetic Substitute, Uncemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRD0J9": {"description": "Replacement of Left Knee Joint with Synthetic Substitute, Cemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRD0JA": {"description": "Replacement of Left Knee Joint with Synthetic Substitute, Uncemented, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SRD0JZ": {"description": "Replacement of Left Knee Joint with Synthetic Substitute, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false}
+    },
+
+    "SPINAL_FUSION": {
+      "0SG0070": {"description": "Fusion of Occipital-cervical Joint with Autologous Tissue Substitute, Anterior Approach, Anterior Column, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SG00A0": {"description": "Fusion of Occipital-cervical Joint with Interbody Fusion Device, Anterior Approach, Anterior Column, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SG00J0": {"description": "Fusion of Occipital-cervical Joint with Synthetic Substitute, Anterior Approach, Anterior Column, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SG1070": {"description": "Fusion of Cervical Vertebral Joint with Autologous Tissue Substitute, Anterior Approach, Anterior Column, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SG10A0": {"description": "Fusion of Cervical Vertebral Joint with Interbody Fusion Device, Anterior Approach, Anterior Column, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SG10J0": {"description": "Fusion of Cervical Vertebral Joint with Synthetic Substitute, Anterior Approach, Anterior Column, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SG7070": {"description": "Fusion of Thoracolumbar Vertebral Joint with Autologous Tissue Substitute, Anterior Approach, Anterior Column, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SG70A0": {"description": "Fusion of Thoracolumbar Vertebral Joint with Interbody Fusion Device, Anterior Approach, Anterior Column, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0SG70J0": {"description": "Fusion of Thoracolumbar Vertebral Joint with Synthetic Substitute, Anterior Approach, Anterior Column, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false}
+    },
+
+    "GASTROINTESTINAL_PROCEDURES": {
+      "0DT60ZZ": {"description": "Resection of Stomach, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0DT64ZZ": {"description": "Resection of Stomach, Percutaneous Endoscopic Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0DTB0ZZ": {"description": "Resection of Ileum, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0DTB4ZZ": {"description": "Resection of Ileum, Percutaneous Endoscopic Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0DTE0ZZ": {"description": "Resection of Large Intestine, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0DTE4ZZ": {"description": "Resection of Large Intestine, Percutaneous Endoscopic Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0FT40ZZ": {"description": "Resection of Gallbladder, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0FT44ZZ": {"description": "Resection of Gallbladder, Percutaneous Endoscopic Approach", "is_or_procedure": true, "is_non_or_procedure": false}
+    },
+
+    "RESPIRATORY_PROCEDURES": {
+      "0B110Z4": {"description": "Bypass Trachea to Cutaneous with Tracheostomy Device, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0B113Z4": {"description": "Bypass Trachea to Cutaneous with Tracheostomy Device, Percutaneous Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0B114Z4": {"description": "Bypass Trachea to Cutaneous with Tracheostomy Device, Percutaneous Endoscopic Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0BB73ZX": {"description": "Excision of Left Main Bronchus, Percutaneous Approach, Diagnostic", "is_or_procedure": false, "is_non_or_procedure": true},
+      "0BB74ZX": {"description": "Excision of Left Main Bronchus, Percutaneous Endoscopic Approach, Diagnostic", "is_or_procedure": false, "is_non_or_procedure": true},
+      "0BB78ZX": {"description": "Excision of Left Main Bronchus, Via Natural or Artificial Opening Endoscopic, Diagnostic", "is_or_procedure": false, "is_non_or_procedure": true}
+    },
+
+    "NEUROSURGERY": {
+      "00B00ZX": {"description": "Excision of Brain, Open Approach, Diagnostic", "is_or_procedure": true, "is_non_or_procedure": false},
+      "00B03ZX": {"description": "Excision of Brain, Percutaneous Approach, Diagnostic", "is_or_procedure": true, "is_non_or_procedure": false},
+      "00B04ZX": {"description": "Excision of Brain, Percutaneous Endoscopic Approach, Diagnostic", "is_or_procedure": true, "is_non_or_procedure": false},
+      "00T00ZZ": {"description": "Resection of Brain, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "00T03ZZ": {"description": "Resection of Brain, Percutaneous Approach", "is_or_procedure": true, "is_non_or_procedure": false}
+    },
+
+    "RENAL_PROCEDURES": {
+      "0T500ZZ": {"description": "Destruction of Right Kidney, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0T503ZZ": {"description": "Destruction of Right Kidney, Percutaneous Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0T504ZZ": {"description": "Destruction of Right Kidney, Percutaneous Endoscopic Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0TT00ZZ": {"description": "Resection of Right Kidney, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0TT04ZZ": {"description": "Resection of Right Kidney, Percutaneous Endoscopic Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0TT10ZZ": {"description": "Resection of Left Kidney, Open Approach", "is_or_procedure": true, "is_non_or_procedure": false},
+      "0TT14ZZ": {"description": "Resection of Left Kidney, Percutaneous Endoscopic Approach", "is_or_procedure": true, "is_non_or_procedure": false}
+    }
+  }
+}

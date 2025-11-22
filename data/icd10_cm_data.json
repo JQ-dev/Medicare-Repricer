@@ -1,0 +1,127 @@
+{
+  "version": "FY2026_v43",
+  "description": "ICD-10-CM diagnosis codes with MDC assignments and CC/MCC classifications",
+  "codes": {
+    "_comment": "Common inpatient diagnoses organized by MDC",
+
+    "MDC_00_PRE_MDC": {
+      "T86.10": {"description": "Unspecified complication of kidney transplant", "mdc": "00", "is_cc": false, "is_mcc": true},
+      "T86.11": {"description": "Kidney transplant rejection", "mdc": "00", "is_cc": false, "is_mcc": true},
+      "T86.12": {"description": "Kidney transplant failure", "mdc": "00", "is_cc": false, "is_mcc": true},
+      "T86.13": {"description": "Kidney transplant infection", "mdc": "00", "is_cc": false, "is_mcc": true},
+      "T86.19": {"description": "Other complication of kidney transplant", "mdc": "00", "is_cc": false, "is_mcc": true}
+    },
+
+    "MDC_01_NERVOUS_SYSTEM": {
+      "I60.00": {"description": "Nontraumatic subarachnoid hemorrhage from unspecified carotid siphon and bifurcation", "mdc": "01", "is_cc": false, "is_mcc": true},
+      "I61.0": {"description": "Nontraumatic intracerebral hemorrhage in hemisphere, subcortical", "mdc": "01", "is_cc": false, "is_mcc": true},
+      "I61.1": {"description": "Nontraumatic intracerebral hemorrhage in hemisphere, cortical", "mdc": "01", "is_cc": false, "is_mcc": true},
+      "I63.00": {"description": "Cerebral infarction due to thrombosis of unspecified precerebral artery", "mdc": "01", "is_cc": true, "is_mcc": false},
+      "I63.10": {"description": "Cerebral infarction due to embolism of unspecified precerebral artery", "mdc": "01", "is_cc": true, "is_mcc": false},
+      "G40.001": {"description": "Localization-related (focal) (partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset, not intractable, with status epilepticus", "mdc": "01", "is_cc": false, "is_mcc": true},
+      "G40.009": {"description": "Localization-related (focal) (partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset, not intractable, without status epilepticus", "mdc": "01", "is_cc": false, "is_mcc": false},
+      "G20": {"description": "Parkinson's disease", "mdc": "01", "is_cc": true, "is_mcc": false}
+    },
+
+    "MDC_04_RESPIRATORY_SYSTEM": {
+      "J96.00": {"description": "Acute respiratory failure, unspecified whether with hypoxia or hypercapnia", "mdc": "04", "is_cc": false, "is_mcc": true},
+      "J96.01": {"description": "Acute respiratory failure with hypoxia", "mdc": "04", "is_cc": false, "is_mcc": true},
+      "J96.02": {"description": "Acute respiratory failure with hypercapnia", "mdc": "04", "is_cc": false, "is_mcc": true},
+      "J96.20": {"description": "Acute and chronic respiratory failure, unspecified whether with hypoxia or hypercapnia", "mdc": "04", "is_cc": false, "is_mcc": true},
+      "J18.9": {"description": "Pneumonia, unspecified organism", "mdc": "04", "is_cc": true, "is_mcc": false},
+      "J44.0": {"description": "Chronic obstructive pulmonary disease with acute lower respiratory infection", "mdc": "04", "is_cc": true, "is_mcc": false},
+      "J44.1": {"description": "Chronic obstructive pulmonary disease with (acute) exacerbation", "mdc": "04", "is_cc": true, "is_mcc": false},
+      "J45.22": {"description": "Mild intermittent asthma with status asthmaticus", "mdc": "04", "is_cc": false, "is_mcc": false}
+    },
+
+    "MDC_05_CIRCULATORY_SYSTEM": {
+      "I21.01": {"description": "ST elevation (STEMI) myocardial infarction involving left main coronary artery", "mdc": "05", "is_cc": false, "is_mcc": true},
+      "I21.02": {"description": "ST elevation (STEMI) myocardial infarction involving left anterior descending coronary artery", "mdc": "05", "is_cc": false, "is_mcc": true},
+      "I21.09": {"description": "ST elevation (STEMI) myocardial infarction involving other coronary artery of anterior wall", "mdc": "05", "is_cc": false, "is_mcc": true},
+      "I21.11": {"description": "ST elevation (STEMI) myocardial infarction involving right coronary artery", "mdc": "05", "is_cc": false, "is_mcc": true},
+      "I21.19": {"description": "ST elevation (STEMI) myocardial infarction involving other coronary artery of inferior wall", "mdc": "05", "is_cc": false, "is_mcc": true},
+      "I21.21": {"description": "ST elevation (STEMI) myocardial infarction involving left circumflex coronary artery", "mdc": "05", "is_cc": false, "is_mcc": true},
+      "I21.29": {"description": "ST elevation (STEMI) myocardial infarction involving other sites", "mdc": "05", "is_cc": false, "is_mcc": true},
+      "I21.3": {"description": "ST elevation (STEMI) myocardial infarction of unspecified site", "mdc": "05", "is_cc": false, "is_mcc": true},
+      "I21.4": {"description": "Non-ST elevation (NSTEMI) myocardial infarction", "mdc": "05", "is_cc": false, "is_mcc": true},
+      "I50.21": {"description": "Acute systolic (congestive) heart failure", "mdc": "05", "is_cc": true, "is_mcc": false},
+      "I50.23": {"description": "Acute on chronic systolic (congestive) heart failure", "mdc": "05", "is_cc": true, "is_mcc": false},
+      "I50.31": {"description": "Acute diastolic (congestive) heart failure", "mdc": "05", "is_cc": true, "is_mcc": false},
+      "I50.33": {"description": "Acute on chronic diastolic (congestive) heart failure", "mdc": "05", "is_cc": true, "is_mcc": false},
+      "I50.41": {"description": "Acute combined systolic (congestive) and diastolic (congestive) heart failure", "mdc": "05", "is_cc": true, "is_mcc": false},
+      "I50.43": {"description": "Acute on chronic combined systolic (congestive) and diastolic (congestive) heart failure", "mdc": "05", "is_cc": true, "is_mcc": false},
+      "I50.9": {"description": "Heart failure, unspecified", "mdc": "05", "is_cc": true, "is_mcc": false},
+      "I10": {"description": "Essential (primary) hypertension", "mdc": "05", "is_cc": false, "is_mcc": false}
+    },
+
+    "MDC_06_DIGESTIVE_SYSTEM": {
+      "K55.011": {"description": "Focal (segmental) acute (reversible) ischemia of small intestine", "mdc": "06", "is_cc": false, "is_mcc": true},
+      "K55.012": {"description": "Diffuse acute (reversible) ischemia of small intestine", "mdc": "06", "is_cc": false, "is_mcc": true},
+      "K55.021": {"description": "Focal (segmental) acute infarction of small intestine", "mdc": "06", "is_cc": false, "is_mcc": true},
+      "K55.022": {"description": "Diffuse acute infarction of small intestine", "mdc": "06", "is_cc": false, "is_mcc": true},
+      "K72.00": {"description": "Acute and subacute hepatic failure without coma", "mdc": "06", "is_cc": false, "is_mcc": true},
+      "K72.01": {"description": "Acute and subacute hepatic failure with coma", "mdc": "06", "is_cc": false, "is_mcc": true},
+      "K65.0": {"description": "Generalized (acute) peritonitis", "mdc": "06", "is_cc": false, "is_mcc": true},
+      "K65.1": {"description": "Peritoneal abscess", "mdc": "06", "is_cc": false, "is_mcc": true},
+      "K57.00": {"description": "Diverticulitis of small intestine with perforation and abscess without bleeding", "mdc": "06", "is_cc": true, "is_mcc": false},
+      "K57.12": {"description": "Diverticulitis of large intestine without perforation or abscess without bleeding", "mdc": "06", "is_cc": false, "is_mcc": false}
+    },
+
+    "MDC_08_MUSCULOSKELETAL_SYSTEM": {
+      "M16.11": {"description": "Unilateral primary osteoarthritis, right hip", "mdc": "08", "is_cc": false, "is_mcc": false},
+      "M16.12": {"description": "Unilateral primary osteoarthritis, left hip", "mdc": "08", "is_cc": false, "is_mcc": false},
+      "M17.11": {"description": "Unilateral primary osteoarthritis, right knee", "mdc": "08", "is_cc": false, "is_mcc": false},
+      "M17.12": {"description": "Unilateral primary osteoarthritis, left knee", "mdc": "08", "is_cc": false, "is_mcc": false},
+      "M80.00XA": {"description": "Age-related osteoporosis with current pathological fracture, unspecified site, initial encounter", "mdc": "08", "is_cc": true, "is_mcc": false},
+      "M84.40XA": {"description": "Pathological fracture, unspecified site, initial encounter", "mdc": "08", "is_cc": true, "is_mcc": false}
+    },
+
+    "MDC_10_ENDOCRINE": {
+      "E10.10": {"description": "Type 1 diabetes mellitus with ketoacidosis without coma", "mdc": "10", "is_cc": false, "is_mcc": true},
+      "E10.11": {"description": "Type 1 diabetes mellitus with ketoacidosis with coma", "mdc": "10", "is_cc": false, "is_mcc": true},
+      "E11.00": {"description": "Type 2 diabetes mellitus with hyperosmolarity without nonketotic hyperglycemic-hyperosmolar coma (NKHHC)", "mdc": "10", "is_cc": false, "is_mcc": true},
+      "E11.01": {"description": "Type 2 diabetes mellitus with hyperosmolarity with coma", "mdc": "10", "is_cc": false, "is_mcc": true},
+      "E11.65": {"description": "Type 2 diabetes mellitus with hyperglycemia", "mdc": "10", "is_cc": false, "is_mcc": false},
+      "E11.9": {"description": "Type 2 diabetes mellitus without complications", "mdc": "10", "is_cc": false, "is_mcc": false},
+      "E86.0": {"description": "Dehydration", "mdc": "10", "is_cc": false, "is_mcc": false}
+    },
+
+    "MDC_11_KIDNEY_URINARY": {
+      "N17.0": {"description": "Acute kidney failure with tubular necrosis", "mdc": "11", "is_cc": false, "is_mcc": true},
+      "N17.1": {"description": "Acute kidney failure with acute cortical necrosis", "mdc": "11", "is_cc": false, "is_mcc": true},
+      "N17.2": {"description": "Acute kidney failure with medullary necrosis", "mdc": "11", "is_cc": false, "is_mcc": true},
+      "N17.8": {"description": "Other acute kidney failure", "mdc": "11", "is_cc": false, "is_mcc": true},
+      "N17.9": {"description": "Acute kidney failure, unspecified", "mdc": "11", "is_cc": false, "is_mcc": true},
+      "N18.3": {"description": "Chronic kidney disease, stage 3 (moderate)", "mdc": "11", "is_cc": true, "is_mcc": false},
+      "N18.4": {"description": "Chronic kidney disease, stage 4 (severe)", "mdc": "11", "is_cc": true, "is_mcc": false},
+      "N18.5": {"description": "Chronic kidney disease, stage 5", "mdc": "11", "is_cc": false, "is_mcc": true},
+      "N18.6": {"description": "End stage renal disease", "mdc": "11", "is_cc": false, "is_mcc": true},
+      "N39.0": {"description": "Urinary tract infection, site not specified", "mdc": "11", "is_cc": false, "is_mcc": false}
+    },
+
+    "MDC_18_INFECTIOUS_DISEASE": {
+      "A41.9": {"description": "Sepsis, unspecified organism", "mdc": "18", "is_cc": false, "is_mcc": true},
+      "A41.89": {"description": "Other specified sepsis", "mdc": "18", "is_cc": false, "is_mcc": true},
+      "A41.50": {"description": "Gram-negative sepsis, unspecified", "mdc": "18", "is_cc": false, "is_mcc": true},
+      "A41.51": {"description": "Sepsis due to Escherichia coli [E. coli]", "mdc": "18", "is_cc": false, "is_mcc": true},
+      "A41.52": {"description": "Sepsis due to Pseudomonas", "mdc": "18", "is_cc": false, "is_mcc": true},
+      "A41.01": {"description": "Sepsis due to Methicillin susceptible Staphylococcus aureus", "mdc": "18", "is_cc": false, "is_mcc": true},
+      "A41.02": {"description": "Sepsis due to Methicillin resistant Staphylococcus aureus", "mdc": "18", "is_cc": false, "is_mcc": true},
+      "R65.20": {"description": "Severe sepsis without septic shock", "mdc": "18", "is_cc": false, "is_mcc": true},
+      "R65.21": {"description": "Severe sepsis with septic shock", "mdc": "18", "is_cc": false, "is_mcc": true}
+    },
+
+    "COMMON_CC_MCC_CODES": {
+      "I63.9": {"description": "Cerebral infarction, unspecified", "mdc": "01", "is_cc": true, "is_mcc": false},
+      "J96.90": {"description": "Respiratory failure, unspecified, unspecified whether with hypoxia or hypercapnia", "mdc": "04", "is_cc": false, "is_mcc": true},
+      "J96.91": {"description": "Respiratory failure, unspecified with hypoxia", "mdc": "04", "is_cc": false, "is_mcc": true},
+      "J96.92": {"description": "Respiratory failure, unspecified with hypercapnia", "mdc": "04", "is_cc": false, "is_mcc": true},
+      "E87.1": {"description": "Hypo-osmolality and hyponatremia", "mdc": "10", "is_cc": true, "is_mcc": false},
+      "E87.2": {"description": "Acidosis", "mdc": "10", "is_cc": false, "is_mcc": true},
+      "E87.5": {"description": "Hyperkalemia", "mdc": "10", "is_cc": true, "is_mcc": false},
+      "E87.6": {"description": "Hypokalemia", "mdc": "10", "is_cc": false, "is_mcc": false},
+      "D62": {"description": "Acute posthemorrhagic anemia", "mdc": "16", "is_cc": true, "is_mcc": false},
+      "D64.9": {"description": "Anemia, unspecified", "mdc": "16", "is_cc": false, "is_mcc": false}
+    }
+  }
+}

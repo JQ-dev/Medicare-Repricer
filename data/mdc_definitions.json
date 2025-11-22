@@ -1,0 +1,165 @@
+{
+  "version": "FY2026_v43",
+  "description": "Major Diagnostic Categories for MS-DRG grouping",
+  "mdcs": {
+    "00": {
+      "code": "00",
+      "name": "PRE-MDC",
+      "description": "Pre-MDC (Certain transplant, tracheostomy, and ECMO procedures)",
+      "body_system": "Multiple",
+      "special_logic": "PRE_MDC"
+    },
+    "01": {
+      "code": "01",
+      "name": "Nervous System",
+      "description": "Diseases and Disorders of the Nervous System",
+      "body_system": "Nervous System"
+    },
+    "02": {
+      "code": "02",
+      "name": "Eye",
+      "description": "Diseases and Disorders of the Eye",
+      "body_system": "Eye"
+    },
+    "03": {
+      "code": "03",
+      "name": "Ear, Nose, Mouth and Throat",
+      "description": "Diseases and Disorders of the Ear, Nose, Mouth and Throat",
+      "body_system": "ENT"
+    },
+    "04": {
+      "code": "04",
+      "name": "Respiratory System",
+      "description": "Diseases and Disorders of the Respiratory System",
+      "body_system": "Respiratory System"
+    },
+    "05": {
+      "code": "05",
+      "name": "Circulatory System",
+      "description": "Diseases and Disorders of the Circulatory System",
+      "body_system": "Circulatory System"
+    },
+    "06": {
+      "code": "06",
+      "name": "Digestive System",
+      "description": "Diseases and Disorders of the Digestive System",
+      "body_system": "Digestive System"
+    },
+    "07": {
+      "code": "07",
+      "name": "Hepatobiliary System and Pancreas",
+      "description": "Diseases and Disorders of the Hepatobiliary System and Pancreas",
+      "body_system": "Hepatobiliary System"
+    },
+    "08": {
+      "code": "08",
+      "name": "Musculoskeletal System and Connective Tissue",
+      "description": "Diseases and Disorders of the Musculoskeletal System and Connective Tissue",
+      "body_system": "Musculoskeletal System"
+    },
+    "09": {
+      "code": "09",
+      "name": "Skin, Subcutaneous Tissue and Breast",
+      "description": "Diseases and Disorders of the Skin, Subcutaneous Tissue and Breast",
+      "body_system": "Skin and Breast"
+    },
+    "10": {
+      "code": "10",
+      "name": "Endocrine, Nutritional and Metabolic",
+      "description": "Endocrine, Nutritional and Metabolic Diseases and Disorders",
+      "body_system": "Endocrine System"
+    },
+    "11": {
+      "code": "11",
+      "name": "Kidney and Urinary Tract",
+      "description": "Diseases and Disorders of the Kidney and Urinary Tract",
+      "body_system": "Kidney and Urinary Tract"
+    },
+    "12": {
+      "code": "12",
+      "name": "Male Reproductive System",
+      "description": "Diseases and Disorders of the Male Reproductive System",
+      "body_system": "Male Reproductive System"
+    },
+    "13": {
+      "code": "13",
+      "name": "Female Reproductive System",
+      "description": "Diseases and Disorders of the Female Reproductive System",
+      "body_system": "Female Reproductive System"
+    },
+    "14": {
+      "code": "14",
+      "name": "Pregnancy, Childbirth and Puerperium",
+      "description": "Pregnancy, Childbirth and the Puerperium",
+      "body_system": "Obstetrics"
+    },
+    "15": {
+      "code": "15",
+      "name": "Newborns and Neonates",
+      "description": "Newborns and Other Neonates with Conditions Originating in the Perinatal Period",
+      "body_system": "Neonatal"
+    },
+    "16": {
+      "code": "16",
+      "name": "Blood and Blood Forming Organs",
+      "description": "Diseases and Disorders of Blood, Blood Forming Organs and Immunological Disorders",
+      "body_system": "Blood and Immune System"
+    },
+    "17": {
+      "code": "17",
+      "name": "Myeloproliferative Diseases",
+      "description": "Myeloproliferative Diseases and Disorders, and Poorly Differentiated Neoplasms",
+      "body_system": "Oncology"
+    },
+    "18": {
+      "code": "18",
+      "name": "Infectious and Parasitic Diseases",
+      "description": "Infectious and Parasitic Diseases, Systemic or Unspecified Sites",
+      "body_system": "Infectious Disease"
+    },
+    "19": {
+      "code": "19",
+      "name": "Mental Diseases and Disorders",
+      "description": "Mental Diseases and Disorders",
+      "body_system": "Psychiatry"
+    },
+    "20": {
+      "code": "20",
+      "name": "Alcohol/Drug Use",
+      "description": "Alcohol/Drug Use and Alcohol/Drug Induced Organic Mental Disorders",
+      "body_system": "Substance Abuse"
+    },
+    "21": {
+      "code": "21",
+      "name": "Injuries, Poisonings and Toxic Effects",
+      "description": "Injuries, Poisonings and Toxic Effects of Drugs",
+      "body_system": "Trauma"
+    },
+    "22": {
+      "code": "22",
+      "name": "Burns",
+      "description": "Burns",
+      "body_system": "Burns"
+    },
+    "23": {
+      "code": "23",
+      "name": "Factors Influencing Health Status",
+      "description": "Factors Influencing Health Status and Other Contacts with Health Services",
+      "body_system": "Other"
+    },
+    "24": {
+      "code": "24",
+      "name": "Multiple Significant Trauma",
+      "description": "Multiple Significant Trauma",
+      "body_system": "Multiple Trauma",
+      "special_logic": "MULTIPLE_TRAUMA"
+    },
+    "25": {
+      "code": "25",
+      "name": "Human Immunodeficiency Virus Infections",
+      "description": "Human Immunodeficiency Virus Infections",
+      "body_system": "HIV/AIDS",
+      "special_logic": "HIV"
+    }
+  }
+}

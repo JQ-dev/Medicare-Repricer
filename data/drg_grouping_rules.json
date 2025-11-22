@@ -1,0 +1,327 @@
+{
+  "version": "FY2026_v43",
+  "description": "MS-DRG grouping rules by MDC and procedure/diagnosis",
+  "grouping_rules": {
+    "_comment": "Rules for assigning MS-DRGs within each MDC",
+
+    "MDC_05_CIRCULATORY": {
+      "surgical_drgs": {
+        "coronary_bypass": {
+          "procedure_pattern": "021.*",
+          "description": "Coronary bypass (CABG) procedures",
+          "drgs": {
+            "with_mcc": "231",
+            "with_cc": "232",
+            "without_cc_mcc": "233"
+          }
+        },
+        "cardiac_valve": {
+          "procedure_codes": ["02RF.*", "02RG.*", "02RH.*"],
+          "description": "Cardiac valve procedures",
+          "drgs": {
+            "with_mcc": "216",
+            "with_cc": "217",
+            "without_cc_mcc": "218"
+          }
+        },
+        "pci": {
+          "procedure_pattern": "0270.*",
+          "description": "Percutaneous Coronary Intervention (PCI)",
+          "drgs": {
+            "with_mcc": "246",
+            "with_cc": "247",
+            "without_cc_mcc": "248"
+          }
+        }
+      },
+      "medical_drgs": {
+        "ami": {
+          "principal_diagnosis_pattern": "I21\\..*",
+          "description": "Acute Myocardial Infarction (AMI)",
+          "drgs": {
+            "with_mcc": "280",
+            "with_cc": "281",
+            "without_cc_mcc": "282"
+          }
+        },
+        "heart_failure": {
+          "principal_diagnosis_pattern": "I50\\..*",
+          "description": "Heart failure and shock",
+          "drgs": {
+            "with_mcc": "291",
+            "with_cc": "292",
+            "without_cc_mcc": "293"
+          }
+        }
+      }
+    },
+
+    "MDC_08_MUSCULOSKELETAL": {
+      "surgical_drgs": {
+        "major_joint_replacement": {
+          "procedure_codes": ["0SR9.*", "0SRB.*", "0SRC.*", "0SRD.*"],
+          "description": "Major joint replacement or reattachment of lower extremity",
+          "drgs": {
+            "with_mcc": "469",
+            "without_mcc": "470"
+          }
+        },
+        "hip_femur_procedures": {
+          "procedure_pattern": "0Q[BS][6789].*",
+          "principal_diagnosis_pattern": "S72\\..*",
+          "description": "Hip and femur procedures",
+          "drgs": {
+            "with_mcc": "480",
+            "with_cc": "481",
+            "without_cc_mcc": "482"
+          }
+        },
+        "spinal_fusion": {
+          "procedure_pattern": "0SG.*",
+          "description": "Spinal fusion procedures",
+          "drgs": {
+            "with_mcc": "453",
+            "with_cc": "454",
+            "without_cc_mcc": "455"
+          }
+        },
+        "knee_procedures": {
+          "procedure_codes": ["0SPC.*", "0SPD.*"],
+          "description": "Knee procedures",
+          "drgs": {
+            "with_mcc": "485",
+            "with_cc": "486",
+            "without_cc_mcc": "487"
+          }
+        }
+      },
+      "medical_drgs": {
+        "septic_arthritis": {
+          "principal_diagnosis_pattern": "M00\\..*",
+          "description": "Septic arthritis",
+          "drgs": {
+            "with_mcc": "548",
+            "with_cc": "549",
+            "without_cc_mcc": "550"
+          }
+        }
+      }
+    },
+
+    "MDC_04_RESPIRATORY": {
+      "surgical_drgs": {
+        "tracheostomy": {
+          "procedure_pattern": "0B11.*",
+          "description": "Tracheostomy procedures",
+          "drgs": {
+            "with_mcc": "003",
+            "without_mcc": "004"
+          }
+        },
+        "major_chest_procedures": {
+          "procedure_pattern": "0B[BT].*",
+          "description": "Major chest procedures",
+          "drgs": {
+            "with_mcc": "163",
+            "with_cc": "164",
+            "without_cc_mcc": "165"
+          }
+        }
+      },
+      "medical_drgs": {
+        "pulmonary_edema_respiratory_failure": {
+          "principal_diagnosis_pattern": "J96\\..*",
+          "description": "Respiratory failure",
+          "drgs": {
+            "with_mcc": "189",
+            "with_cc": "190",
+            "without_cc_mcc": "191"
+          }
+        },
+        "pneumonia": {
+          "principal_diagnosis_pattern": "J1[2-8]\\..*",
+          "description": "Pneumonia and pleurisy",
+          "drgs": {
+            "with_mcc": "193",
+            "with_cc": "194",
+            "without_cc_mcc": "195"
+          }
+        },
+        "copd": {
+          "principal_diagnosis_pattern": "J44\\..*",
+          "description": "Chronic Obstructive Pulmonary Disease (COPD)",
+          "drgs": {
+            "with_mcc": "190",
+            "with_cc": "191",
+            "without_cc_mcc": "192"
+          }
+        }
+      }
+    },
+
+    "MDC_18_INFECTIOUS_DISEASE": {
+      "medical_drgs": {
+        "septicemia": {
+          "principal_diagnosis_pattern": "A41\\..*",
+          "description": "Septicemia or severe sepsis",
+          "drgs": {
+            "with_mv_96_hours": "870",
+            "with_mcc": "871",
+            "without_mcc": "872"
+          }
+        }
+      }
+    },
+
+    "MDC_06_DIGESTIVE": {
+      "surgical_drgs": {
+        "major_small_large_bowel": {
+          "procedure_pattern": "0DT[BE].*",
+          "description": "Major small and large bowel procedures",
+          "drgs": {
+            "with_mcc": "329",
+            "with_cc": "330",
+            "without_cc_mcc": "331"
+          }
+        },
+        "stomach_esophagus_duodenum": {
+          "procedure_pattern": "0DT6.*",
+          "description": "Stomach, esophageal and duodenal procedures",
+          "drgs": {
+            "with_mcc": "326",
+            "with_cc": "327",
+            "without_cc_mcc": "328"
+          }
+        },
+        "cholecystectomy": {
+          "procedure_pattern": "0FT4.*",
+          "description": "Cholecystectomy procedures",
+          "drgs": {
+            "with_mcc": "411",
+            "with_cc": "412",
+            "without_cc_mcc": "413"
+          }
+        }
+      },
+      "medical_drgs": {
+        "gi_hemorrhage": {
+          "principal_diagnosis_pattern": "K92\\..*",
+          "description": "GI hemorrhage",
+          "drgs": {
+            "with_mcc": "377",
+            "with_cc": "378",
+            "without_cc_mcc": "379"
+          }
+        },
+        "gi_obstruction": {
+          "principal_diagnosis_pattern": "K56\\..*",
+          "description": "GI obstruction",
+          "drgs": {
+            "with_mcc": "389",
+            "with_cc": "390",
+            "without_cc_mcc": "391"
+          }
+        }
+      }
+    },
+
+    "MDC_11_KIDNEY_URINARY": {
+      "surgical_drgs": {
+        "kidney_procedures": {
+          "procedure_pattern": "0T[T5][01].*",
+          "description": "Kidney procedures",
+          "drgs": {
+            "with_mcc": "652",
+            "with_cc": "653",
+            "without_cc_mcc": "654"
+          }
+        }
+      },
+      "medical_drgs": {
+        "kidney_urinary_infections": {
+          "principal_diagnosis_pattern": "N39\\..*",
+          "description": "Kidney and urinary tract infections",
+          "drgs": {
+            "with_mcc": "689",
+            "with_cc": "690",
+            "without_cc_mcc": "691"
+          }
+        },
+        "acute_renal_failure": {
+          "principal_diagnosis_pattern": "N17\\..*",
+          "description": "Acute kidney failure",
+          "drgs": {
+            "with_mcc": "682",
+            "with_cc": "683",
+            "without_cc_mcc": "684"
+          }
+        }
+      }
+    },
+
+    "MDC_10_ENDOCRINE": {
+      "medical_drgs": {
+        "diabetes": {
+          "principal_diagnosis_pattern": "E1[01]\\..*",
+          "description": "Diabetes",
+          "drgs": {
+            "with_mcc": "637",
+            "with_cc": "638",
+            "without_cc_mcc": "639"
+          }
+        },
+        "nutritional_misc_metabolic": {
+          "principal_diagnosis_pattern": "E8[67]\\..*",
+          "description": "Nutritional and miscellaneous metabolic disorders",
+          "drgs": {
+            "with_mcc": "640",
+            "with_cc": "641",
+            "without_cc_mcc": "642"
+          }
+        }
+      }
+    },
+
+    "MDC_01_NERVOUS": {
+      "surgical_drgs": {
+        "craniotomy": {
+          "procedure_pattern": "00[BT]0.*",
+          "description": "Craniotomy procedures",
+          "drgs": {
+            "with_mcc": "025",
+            "with_cc": "026",
+            "without_cc_mcc": "027"
+          }
+        },
+        "spinal_procedures": {
+          "procedure_pattern": "00[BT][UVWX].*",
+          "description": "Spinal procedures",
+          "drgs": {
+            "with_mcc": "028",
+            "with_cc": "029",
+            "without_cc_mcc": "030"
+          }
+        }
+      },
+      "medical_drgs": {
+        "stroke": {
+          "principal_diagnosis_pattern": "I6[0-34]\\..*",
+          "description": "Intracranial hemorrhage or cerebral infarction",
+          "drgs": {
+            "with_mcc": "064",
+            "with_cc": "065",
+            "without_cc_mcc": "066"
+          }
+        },
+        "seizures": {
+          "principal_diagnosis_pattern": "G40\\..*",
+          "description": "Seizures",
+          "drgs": {
+            "with_mcc": "100",
+            "without_cc_mcc": "101"
+          }
+        }
+      }
+    }
+  }
+}
