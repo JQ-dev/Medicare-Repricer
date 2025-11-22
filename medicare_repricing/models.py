@@ -21,6 +21,42 @@ class ClaimLine(BaseModel):
         description="Pointers to diagnosis codes (1-based index)"
     )
 
+    # Anesthesia-specific fields
+    anesthesia_time_minutes: Optional[int] = Field(
+        None,
+        description="Total anesthesia time in minutes (for calculating time units)",
+        ge=0
+    )
+    physical_status_modifier: Optional[str] = Field(
+        None,
+        description="Physical status modifier (P1-P6) for anesthesia complexity"
+    )
+    anesthesia_modifying_units: Optional[int] = Field(
+        None,
+        description="Additional modifying units (e.g., for qualifying circumstances, age extremes)",
+        ge=0
+    )
+
+    # IPPS (Inpatient) specific fields
+    ms_drg_code: Optional[str] = Field(
+        None,
+        description="MS-DRG code for inpatient stays (e.g., '470', '871')"
+    )
+    provider_number: Optional[str] = Field(
+        None,
+        description="Medicare provider number for hospital lookup (6-digit)"
+    )
+    total_charges: Optional[float] = Field(
+        None,
+        description="Total charges for the stay (for outlier calculation)",
+        ge=0
+    )
+    covered_days: Optional[int] = Field(
+        None,
+        description="Number of covered days/length of stay",
+        ge=1
+    )
+
     @field_validator('procedure_code')
     @classmethod
     def validate_procedure_code(cls, v: str) -> str:
@@ -75,16 +111,41 @@ class RepricedClaimLine(BaseModel):
     # Original billed amount (if provided)
     billed_amount: Optional[float] = None
 
-    # Medicare pricing components
-    work_rvu: float = Field(..., description="Work Relative Value Unit")
-    pe_rvu: float = Field(..., description="Practice Expense RVU")
-    mp_rvu: float = Field(..., description="Malpractice RVU")
+    # Service type
+    service_type: str = Field(default="PFS", description="Service type: PFS, ANESTHESIA, or OPPS")
 
-    work_gpci: float = Field(..., description="Work GPCI")
-    pe_gpci: float = Field(..., description="Practice Expense GPCI")
-    mp_gpci: float = Field(..., description="Malpractice GPCI")
+    # Standard Medicare pricing components (for PFS/OPPS)
+    work_rvu: Optional[float] = Field(None, description="Work Relative Value Unit")
+    pe_rvu: Optional[float] = Field(None, description="Practice Expense RVU")
+    mp_rvu: Optional[float] = Field(None, description="Malpractice RVU")
+
+    work_gpci: Optional[float] = Field(None, description="Work GPCI")
+    pe_gpci: Optional[float] = Field(None, description="Practice Expense GPCI")
+    mp_gpci: Optional[float] = Field(None, description="Malpractice GPCI")
 
     conversion_factor: float = Field(..., description="Medicare conversion factor")
+
+    # Anesthesia-specific pricing components
+    anesthesia_base_units: Optional[int] = Field(None, description="Anesthesia base units")
+    anesthesia_time_units: Optional[float] = Field(None, description="Anesthesia time units")
+    anesthesia_modifying_units: Optional[int] = Field(None, description="Anesthesia modifying units")
+    anesthesia_total_units: Optional[float] = Field(None, description="Total anesthesia units")
+
+    # IPPS (Inpatient) pricing components
+    ms_drg_code: Optional[str] = Field(None, description="MS-DRG code")
+    drg_relative_weight: Optional[float] = Field(None, description="DRG relative weight")
+    drg_description: Optional[str] = Field(None, description="DRG description")
+    provider_number: Optional[str] = Field(None, description="Hospital provider number")
+    hospital_name: Optional[str] = Field(None, description="Hospital name")
+    wage_index_value: Optional[float] = Field(None, description="Hospital wage index")
+    base_drg_payment: Optional[float] = Field(None, description="Base DRG payment before adjustments")
+    operating_payment: Optional[float] = Field(None, description="Operating payment component")
+    capital_payment: Optional[float] = Field(None, description="Capital payment component")
+    ime_adjustment: Optional[float] = Field(None, description="IME (teaching hospital) adjustment")
+    dsh_adjustment: Optional[float] = Field(None, description="DSH (disproportionate share) adjustment")
+    outlier_payment: Optional[float] = Field(None, description="Outlier payment for high-cost cases")
+    geometric_mean_los: Optional[float] = Field(None, description="Geometric mean length of stay for DRG")
+    covered_days: Optional[int] = Field(None, description="Actual covered days")
 
     # Calculated amounts
     medicare_allowed: float = Field(..., description="Total Medicare allowed amount")
