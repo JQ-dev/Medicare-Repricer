@@ -10,7 +10,7 @@ from pathlib import Path
 
 from .models import Claim, RepricedClaim, RepricedClaimLine
 from .fee_schedule import MedicareFeeSchedule, create_default_fee_schedule
-from .calculator import MedicareCalculator, AnesthesiaCalculator
+from .calculator import MedicareCalculator, AnesthesiaCalculator, IPPSCalculator
 
 
 class MedicareRepricer:
@@ -55,6 +55,7 @@ class MedicareRepricer:
 
         self.calculator = MedicareCalculator(self.fee_schedule)
         self.anesthesia_calculator = AnesthesiaCalculator(self.fee_schedule)
+        self.ipps_calculator = IPPSCalculator(self.fee_schedule)
 
     def reprice_claim(self, claim: Claim) -> RepricedClaim:
         """
@@ -92,8 +93,47 @@ class MedicareRepricer:
                 # Determine locality (from locality field or zip code)
                 locality = self._get_locality(line)
 
+                # Check if this is an IPPS (inpatient) claim
+                if line.ms_drg_code and line.provider_number:
+                    # Route to IPPS calculator
+                    allowed_amount, details = self.ipps_calculator.calculate_allowed_amount(
+                        ms_drg=line.ms_drg_code,
+                        provider_number=line.provider_number,
+                        total_charges=line.total_charges,
+                        covered_days=line.covered_days
+                    )
+
+                    # Create repriced line for IPPS
+                    repriced_line = RepricedClaimLine(
+                        line_number=line.line_number,
+                        procedure_code=line.procedure_code,
+                        modifiers=line.modifiers,
+                        place_of_service=line.place_of_service,
+                        locality=locality,
+                        zip_code=line.zip_code,
+                        units=line.units,
+                        service_type="IPPS",
+                        ms_drg_code=details["ms_drg"],
+                        drg_relative_weight=details["drg_relative_weight"],
+                        drg_description=details["drg_description"],
+                        provider_number=details["provider_number"],
+                        hospital_name=details["hospital_name"],
+                        wage_index_value=details["wage_index"],
+                        base_drg_payment=details["base_drg_payment"],
+                        operating_payment=details["operating_payment"],
+                        capital_payment=details["capital_payment"],
+                        ime_adjustment=details["ime_adjustment"],
+                        dsh_adjustment=details["dsh_adjustment"],
+                        outlier_payment=details["outlier_payment"],
+                        geometric_mean_los=details["geometric_mean_los"],
+                        covered_days=details.get("covered_days"),
+                        conversion_factor=0.0,  # Not used for IPPS
+                        medicare_allowed=allowed_amount,
+                        adjustment_reason="; ".join(details["notes"]) if details["notes"] else None
+                    )
+
                 # Check if this is an anesthesia code
-                if self._is_anesthesia_code(line.procedure_code):
+                elif self._is_anesthesia_code(line.procedure_code):
                     # Route to anesthesia calculator
                     contractor = self._get_contractor_from_locality(locality)
 
@@ -178,7 +218,12 @@ class MedicareRepricer:
                 locality = self._get_locality(line) if hasattr(line, 'locality') or hasattr(line, 'zip_code') else "00"
 
                 # Determine service type for error reporting
-                service_type = "ANESTHESIA" if self._is_anesthesia_code(line.procedure_code) else "PFS"
+                if line.ms_drg_code and line.provider_number:
+                    service_type = "IPPS"
+                elif self._is_anesthesia_code(line.procedure_code):
+                    service_type = "ANESTHESIA"
+                else:
+                    service_type = "PFS"
 
                 repriced_line = RepricedClaimLine(
                     line_number=line.line_number,
@@ -195,7 +240,7 @@ class MedicareRepricer:
                     work_gpci=0.0 if service_type == "PFS" else None,
                     pe_gpci=0.0 if service_type == "PFS" else None,
                     mp_gpci=0.0 if service_type == "PFS" else None,
-                    conversion_factor=self.fee_schedule.conversion_factor,
+                    conversion_factor=self.fee_schedule.conversion_factor if service_type != "IPPS" else 0.0,
                     medicare_allowed=0.0,
                     adjustment_reason=f"ERROR: {str(e)}"
                 )

@@ -1,0 +1,338 @@
+[
+  {
+    "ms_drg": "001",
+    "description": "Heart Transplant or Implant of Heart Assist System with MCC",
+    "relative_weight": 26.1234,
+    "geometric_mean_los": 29.8,
+    "arithmetic_mean_los": 37.2
+  },
+  {
+    "ms_drg": "002",
+    "description": "Heart Transplant or Implant of Heart Assist System without MCC",
+    "relative_weight": 16.5432,
+    "geometric_mean_los": 18.5,
+    "arithmetic_mean_los": 22.1
+  },
+  {
+    "ms_drg": "020",
+    "description": "Intracranial Vascular Procedures with Principal Diagnosis of Hemorrhage with MCC",
+    "relative_weight": 9.8765,
+    "geometric_mean_los": 12.4,
+    "arithmetic_mean_los": 15.8
+  },
+  {
+    "ms_drg": "023",
+    "description": "Craniotomy with Major Device Implant or Acute Complex CNS Principal Diagnosis with MCC",
+    "relative_weight": 7.2145,
+    "geometric_mean_los": 9.8,
+    "arithmetic_mean_los": 12.3
+  },
+  {
+    "ms_drg": "064",
+    "description": "Intracranial Hemorrhage or Cerebral Infarction with MCC",
+    "relative_weight": 1.4532,
+    "geometric_mean_los": 4.5,
+    "arithmetic_mean_los": 5.8
+  },
+  {
+    "ms_drg": "065",
+    "description": "Intracranial Hemorrhage or Cerebral Infarction with CC or tPA in 24 Hours",
+    "relative_weight": 0.9876,
+    "geometric_mean_los": 3.2,
+    "arithmetic_mean_los": 4.1
+  },
+  {
+    "ms_drg": "066",
+    "description": "Intracranial Hemorrhage or Cerebral Infarction without CC/MCC",
+    "relative_weight": 0.7123,
+    "geometric_mean_los": 2.3,
+    "arithmetic_mean_los": 2.9
+  },
+  {
+    "ms_drg": "189",
+    "description": "Pulmonary Edema and Respiratory Failure",
+    "relative_weight": 1.2456,
+    "geometric_mean_los": 3.8,
+    "arithmetic_mean_los": 4.9
+  },
+  {
+    "ms_drg": "190",
+    "description": "Chronic Obstructive Pulmonary Disease with MCC",
+    "relative_weight": 1.1234,
+    "geometric_mean_los": 4.2,
+    "arithmetic_mean_los": 5.3
+  },
+  {
+    "ms_drg": "191",
+    "description": "Chronic Obstructive Pulmonary Disease with CC",
+    "relative_weight": 0.8765,
+    "geometric_mean_los": 3.5,
+    "arithmetic_mean_los": 4.2
+  },
+  {
+    "ms_drg": "192",
+    "description": "Chronic Obstructive Pulmonary Disease without CC/MCC",
+    "relative_weight": 0.7234,
+    "geometric_mean_los": 2.8,
+    "arithmetic_mean_los": 3.4
+  },
+  {
+    "ms_drg": "280",
+    "description": "Acute Myocardial Infarction, Discharged Alive with MCC",
+    "relative_weight": 1.4567,
+    "geometric_mean_los": 4.1,
+    "arithmetic_mean_los": 5.2
+  },
+  {
+    "ms_drg": "281",
+    "description": "Acute Myocardial Infarction, Discharged Alive with CC",
+    "relative_weight": 0.9543,
+    "geometric_mean_los": 2.9,
+    "arithmetic_mean_los": 3.6
+  },
+  {
+    "ms_drg": "282",
+    "description": "Acute Myocardial Infarction, Discharged Alive without CC/MCC",
+    "relative_weight": 0.7321,
+    "geometric_mean_los": 2.1,
+    "arithmetic_mean_los": 2.7
+  },
+  {
+    "ms_drg": "291",
+    "description": "Heart Failure and Shock with MCC",
+    "relative_weight": 1.3456,
+    "geometric_mean_los": 4.5,
+    "arithmetic_mean_los": 5.7
+  },
+  {
+    "ms_drg": "292",
+    "description": "Heart Failure and Shock with CC",
+    "relative_weight": 0.9234,
+    "geometric_mean_los": 3.4,
+    "arithmetic_mean_los": 4.2
+  },
+  {
+    "ms_drg": "293",
+    "description": "Heart Failure and Shock without CC/MCC",
+    "relative_weight": 0.6987,
+    "geometric_mean_los": 2.5,
+    "arithmetic_mean_los": 3.1
+  },
+  {
+    "ms_drg": "377",
+    "description": "Gastrointestinal Hemorrhage with MCC",
+    "relative_weight": 1.4123,
+    "geometric_mean_los": 4.3,
+    "arithmetic_mean_los": 5.5
+  },
+  {
+    "ms_drg": "378",
+    "description": "Gastrointestinal Hemorrhage with CC",
+    "relative_weight": 0.8765,
+    "geometric_mean_los": 3.1,
+    "arithmetic_mean_los": 3.9
+  },
+  {
+    "ms_drg": "379",
+    "description": "Gastrointestinal Hemorrhage without CC/MCC",
+    "relative_weight": 0.6543,
+    "geometric_mean_los": 2.3,
+    "arithmetic_mean_los": 2.8
+  },
+  {
+    "ms_drg": "469",
+    "description": "Major Joint Replacement or Reattachment of Lower Extremity with MCC",
+    "relative_weight": 2.1456,
+    "geometric_mean_los": 3.8,
+    "arithmetic_mean_los": 4.9
+  },
+  {
+    "ms_drg": "470",
+    "description": "Major Joint Replacement or Reattachment of Lower Extremity without MCC",
+    "relative_weight": 1.7845,
+    "geometric_mean_los": 2.1,
+    "arithmetic_mean_los": 2.7
+  },
+  {
+    "ms_drg": "480",
+    "description": "Hip and Femur Procedures Except Major Joint with MCC",
+    "relative_weight": 1.9234,
+    "geometric_mean_los": 5.2,
+    "arithmetic_mean_los": 6.5
+  },
+  {
+    "ms_drg": "481",
+    "description": "Hip and Femur Procedures Except Major Joint with CC",
+    "relative_weight": 1.3456,
+    "geometric_mean_los": 3.8,
+    "arithmetic_mean_los": 4.7
+  },
+  {
+    "ms_drg": "482",
+    "description": "Hip and Femur Procedures Except Major Joint without CC/MCC",
+    "relative_weight": 1.0987,
+    "geometric_mean_los": 2.9,
+    "arithmetic_mean_los": 3.6
+  },
+  {
+    "ms_drg": "552",
+    "description": "Medical Back Problems with MCC",
+    "relative_weight": 1.2345,
+    "geometric_mean_los": 4.1,
+    "arithmetic_mean_los": 5.3
+  },
+  {
+    "ms_drg": "553",
+    "description": "Medical Back Problems without MCC",
+    "relative_weight": 0.7654,
+    "geometric_mean_los": 2.8,
+    "arithmetic_mean_los": 3.5
+  },
+  {
+    "ms_drg": "638",
+    "description": "Diabetes with MCC",
+    "relative_weight": 1.2876,
+    "geometric_mean_los": 4.3,
+    "arithmetic_mean_los": 5.4
+  },
+  {
+    "ms_drg": "639",
+    "description": "Diabetes with CC",
+    "relative_weight": 0.8432,
+    "geometric_mean_los": 3.2,
+    "arithmetic_mean_los": 4.0
+  },
+  {
+    "ms_drg": "640",
+    "description": "Diabetes without CC/MCC",
+    "relative_weight": 0.6234,
+    "geometric_mean_los": 2.4,
+    "arithmetic_mean_los": 3.0
+  },
+  {
+    "ms_drg": "689",
+    "description": "Kidney and Urinary Tract Infections with MCC",
+    "relative_weight": 1.1543,
+    "geometric_mean_los": 4.4,
+    "arithmetic_mean_los": 5.6
+  },
+  {
+    "ms_drg": "690",
+    "description": "Kidney and Urinary Tract Infections without MCC",
+    "relative_weight": 0.7876,
+    "geometric_mean_los": 3.2,
+    "arithmetic_mean_los": 4.0
+  },
+  {
+    "ms_drg": "765",
+    "description": "Cesarean Section with CC/MCC",
+    "relative_weight": 1.1234,
+    "geometric_mean_los": 3.5,
+    "arithmetic_mean_los": 4.2
+  },
+  {
+    "ms_drg": "766",
+    "description": "Cesarean Section without CC/MCC",
+    "relative_weight": 0.8765,
+    "geometric_mean_los": 2.6,
+    "arithmetic_mean_los": 3.1
+  },
+  {
+    "ms_drg": "775",
+    "description": "Vaginal Delivery with Complicating Diagnoses",
+    "relative_weight": 0.7543,
+    "geometric_mean_los": 2.4,
+    "arithmetic_mean_los": 2.9
+  },
+  {
+    "ms_drg": "776",
+    "description": "Vaginal Delivery without Complicating Diagnoses",
+    "relative_weight": 0.5987,
+    "geometric_mean_los": 1.9,
+    "arithmetic_mean_los": 2.3
+  },
+  {
+    "ms_drg": "853",
+    "description": "Infectious and Parasitic Diseases with OR Procedure with MCC",
+    "relative_weight": 4.5678,
+    "geometric_mean_los": 11.5,
+    "arithmetic_mean_los": 14.8
+  },
+  {
+    "ms_drg": "854",
+    "description": "Infectious and Parasitic Diseases with OR Procedure with CC",
+    "relative_weight": 2.3456,
+    "geometric_mean_los": 7.2,
+    "arithmetic_mean_los": 9.1
+  },
+  {
+    "ms_drg": "871",
+    "description": "Septicemia or Severe Sepsis without Mechanical Ventilation >96 Hours with MCC",
+    "relative_weight": 1.7654,
+    "geometric_mean_los": 5.4,
+    "arithmetic_mean_los": 6.9
+  },
+  {
+    "ms_drg": "872",
+    "description": "Septicemia or Severe Sepsis without Mechanical Ventilation >96 Hours without MCC",
+    "relative_weight": 1.0234,
+    "geometric_mean_los": 3.8,
+    "arithmetic_mean_los": 4.7
+  },
+  {
+    "ms_drg": "885",
+    "description": "Psychoses",
+    "relative_weight": 0.9876,
+    "geometric_mean_los": 7.8,
+    "arithmetic_mean_los": 9.5
+  },
+  {
+    "ms_drg": "897",
+    "description": "Alcohol, Drug Abuse or Dependence without Rehabilitation Therapy without MCC",
+    "relative_weight": 0.6543,
+    "geometric_mean_los": 3.5,
+    "arithmetic_mean_los": 4.3
+  },
+  {
+    "ms_drg": "945",
+    "description": "Rehabilitation with CC/MCC",
+    "relative_weight": 1.5678,
+    "geometric_mean_los": 12.3,
+    "arithmetic_mean_los": 15.2
+  },
+  {
+    "ms_drg": "946",
+    "description": "Rehabilitation without CC/MCC",
+    "relative_weight": 1.1234,
+    "geometric_mean_los": 9.8,
+    "arithmetic_mean_los": 11.7
+  },
+  {
+    "ms_drg": "947",
+    "description": "Signs and Symptoms with MCC",
+    "relative_weight": 1.0987,
+    "geometric_mean_los": 3.5,
+    "arithmetic_mean_los": 4.5
+  },
+  {
+    "ms_drg": "948",
+    "description": "Signs and Symptoms without MCC",
+    "relative_weight": 0.7321,
+    "geometric_mean_los": 2.6,
+    "arithmetic_mean_los": 3.2
+  },
+  {
+    "ms_drg": "949",
+    "description": "Aftercare with CC/MCC",
+    "relative_weight": 1.2345,
+    "geometric_mean_los": 3.8,
+    "arithmetic_mean_los": 4.8
+  },
+  {
+    "ms_drg": "950",
+    "description": "Aftercare without CC/MCC",
+    "relative_weight": 0.8765,
+    "geometric_mean_los": 2.9,
+    "arithmetic_mean_los": 3.6
+  }
+]

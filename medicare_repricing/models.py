@@ -37,6 +37,26 @@ class ClaimLine(BaseModel):
         ge=0
     )
 
+    # IPPS (Inpatient) specific fields
+    ms_drg_code: Optional[str] = Field(
+        None,
+        description="MS-DRG code for inpatient stays (e.g., '470', '871')"
+    )
+    provider_number: Optional[str] = Field(
+        None,
+        description="Medicare provider number for hospital lookup (6-digit)"
+    )
+    total_charges: Optional[float] = Field(
+        None,
+        description="Total charges for the stay (for outlier calculation)",
+        ge=0
+    )
+    covered_days: Optional[int] = Field(
+        None,
+        description="Number of covered days/length of stay",
+        ge=1
+    )
+
     @field_validator('procedure_code')
     @classmethod
     def validate_procedure_code(cls, v: str) -> str:
@@ -110,6 +130,22 @@ class RepricedClaimLine(BaseModel):
     anesthesia_time_units: Optional[float] = Field(None, description="Anesthesia time units")
     anesthesia_modifying_units: Optional[int] = Field(None, description="Anesthesia modifying units")
     anesthesia_total_units: Optional[float] = Field(None, description="Total anesthesia units")
+
+    # IPPS (Inpatient) pricing components
+    ms_drg_code: Optional[str] = Field(None, description="MS-DRG code")
+    drg_relative_weight: Optional[float] = Field(None, description="DRG relative weight")
+    drg_description: Optional[str] = Field(None, description="DRG description")
+    provider_number: Optional[str] = Field(None, description="Hospital provider number")
+    hospital_name: Optional[str] = Field(None, description="Hospital name")
+    wage_index_value: Optional[float] = Field(None, description="Hospital wage index")
+    base_drg_payment: Optional[float] = Field(None, description="Base DRG payment before adjustments")
+    operating_payment: Optional[float] = Field(None, description="Operating payment component")
+    capital_payment: Optional[float] = Field(None, description="Capital payment component")
+    ime_adjustment: Optional[float] = Field(None, description="IME (teaching hospital) adjustment")
+    dsh_adjustment: Optional[float] = Field(None, description="DSH (disproportionate share) adjustment")
+    outlier_payment: Optional[float] = Field(None, description="Outlier payment for high-cost cases")
+    geometric_mean_los: Optional[float] = Field(None, description="Geometric mean length of stay for DRG")
+    covered_days: Optional[int] = Field(None, description="Actual covered days")
 
     # Calculated amounts
     medicare_allowed: float = Field(..., description="Total Medicare allowed amount")

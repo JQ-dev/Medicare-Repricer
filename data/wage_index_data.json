@@ -1,0 +1,338 @@
+[
+  {
+    "cbsa_code": "11260",
+    "area_name": "Anchorage, AK",
+    "wage_index": 1.3456,
+    "capital_wage_index": 1.2345
+  },
+  {
+    "cbsa_code": "12060",
+    "area_name": "Atlanta-Sandy Springs-Roswell, GA",
+    "wage_index": 0.9876,
+    "capital_wage_index": 0.9654
+  },
+  {
+    "cbsa_code": "12420",
+    "area_name": "Austin-Round Rock, TX",
+    "wage_index": 0.9543,
+    "capital_wage_index": 0.9421
+  },
+  {
+    "cbsa_code": "12580",
+    "area_name": "Baltimore-Columbia-Towson, MD",
+    "wage_index": 1.0876,
+    "capital_wage_index": 1.0654
+  },
+  {
+    "cbsa_code": "14460",
+    "area_name": "Boston-Cambridge-Newton, MA-NH",
+    "wage_index": 1.2543,
+    "capital_wage_index": 1.2234
+  },
+  {
+    "cbsa_code": "15380",
+    "area_name": "Buffalo-Cheektowaga-Niagara Falls, NY",
+    "wage_index": 0.9234,
+    "capital_wage_index": 0.9112
+  },
+  {
+    "cbsa_code": "16740",
+    "area_name": "Charlotte-Concord-Gastonia, NC-SC",
+    "wage_index": 0.9654,
+    "capital_wage_index": 0.9532
+  },
+  {
+    "cbsa_code": "16980",
+    "area_name": "Chicago-Naperville-Elgin, IL-IN-WI",
+    "wage_index": 1.0987,
+    "capital_wage_index": 1.0765
+  },
+  {
+    "cbsa_code": "17140",
+    "area_name": "Cincinnati, OH-KY-IN",
+    "wage_index": 0.9345,
+    "capital_wage_index": 0.9223
+  },
+  {
+    "cbsa_code": "17460",
+    "area_name": "Cleveland-Elyria, OH",
+    "wage_index": 0.9765,
+    "capital_wage_index": 0.9643
+  },
+  {
+    "cbsa_code": "18140",
+    "area_name": "Columbus, OH",
+    "wage_index": 0.9876,
+    "capital_wage_index": 0.9754
+  },
+  {
+    "cbsa_code": "19100",
+    "area_name": "Dallas-Fort Worth-Arlington, TX",
+    "wage_index": 0.9654,
+    "capital_wage_index": 0.9532
+  },
+  {
+    "cbsa_code": "19740",
+    "area_name": "Denver-Aurora-Lakewood, CO",
+    "wage_index": 1.0543,
+    "capital_wage_index": 1.0421
+  },
+  {
+    "cbsa_code": "19820",
+    "area_name": "Detroit-Warren-Dearborn, MI",
+    "wage_index": 1.0234,
+    "capital_wage_index": 1.0112
+  },
+  {
+    "cbsa_code": "26420",
+    "area_name": "Houston-The Woodlands-Sugar Land, TX",
+    "wage_index": 1.0123,
+    "capital_wage_index": 1.0001
+  },
+  {
+    "cbsa_code": "26900",
+    "area_name": "Indianapolis-Carmel-Anderson, IN",
+    "wage_index": 0.9543,
+    "capital_wage_index": 0.9421
+  },
+  {
+    "cbsa_code": "27260",
+    "area_name": "Jacksonville, FL",
+    "wage_index": 0.9234,
+    "capital_wage_index": 0.9112
+  },
+  {
+    "cbsa_code": "28140",
+    "area_name": "Kansas City, MO-KS",
+    "wage_index": 0.9654,
+    "capital_wage_index": 0.9532
+  },
+  {
+    "cbsa_code": "29820",
+    "area_name": "Las Vegas-Henderson-Paradise, NV",
+    "wage_index": 1.0876,
+    "capital_wage_index": 1.0754
+  },
+  {
+    "cbsa_code": "31080",
+    "area_name": "Los Angeles-Long Beach-Anaheim, CA",
+    "wage_index": 1.1987,
+    "capital_wage_index": 1.1765
+  },
+  {
+    "cbsa_code": "32820",
+    "area_name": "Memphis, TN-MS-AR",
+    "wage_index": 0.8765,
+    "capital_wage_index": 0.8643
+  },
+  {
+    "cbsa_code": "33100",
+    "area_name": "Miami-Fort Lauderdale-West Palm Beach, FL",
+    "wage_index": 1.0234,
+    "capital_wage_index": 1.0112
+  },
+  {
+    "cbsa_code": "33340",
+    "area_name": "Milwaukee-Waukesha-West Allis, WI",
+    "wage_index": 0.9876,
+    "capital_wage_index": 0.9754
+  },
+  {
+    "cbsa_code": "33460",
+    "area_name": "Minneapolis-St. Paul-Bloomington, MN-WI",
+    "wage_index": 1.0543,
+    "capital_wage_index": 1.0421
+  },
+  {
+    "cbsa_code": "34980",
+    "area_name": "Nashville-Davidson--Murfreesboro--Franklin, TN",
+    "wage_index": 0.9765,
+    "capital_wage_index": 0.9643
+  },
+  {
+    "cbsa_code": "35380",
+    "area_name": "New Orleans-Metairie, LA",
+    "wage_index": 0.9234,
+    "capital_wage_index": 0.9112
+  },
+  {
+    "cbsa_code": "35620",
+    "area_name": "New York-Newark-Jersey City, NY-NJ-PA",
+    "wage_index": 1.4567,
+    "capital_wage_index": 1.4234
+  },
+  {
+    "cbsa_code": "36420",
+    "area_name": "Oklahoma City, OK",
+    "wage_index": 0.8654,
+    "capital_wage_index": 0.8532
+  },
+  {
+    "cbsa_code": "36740",
+    "area_name": "Orlando-Kissimmee-Sanford, FL",
+    "wage_index": 0.9654,
+    "capital_wage_index": 0.9532
+  },
+  {
+    "cbsa_code": "37980",
+    "area_name": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+    "wage_index": 1.1234,
+    "capital_wage_index": 1.1012
+  },
+  {
+    "cbsa_code": "38060",
+    "area_name": "Phoenix-Mesa-Scottsdale, AZ",
+    "wage_index": 1.0123,
+    "capital_wage_index": 1.0001
+  },
+  {
+    "cbsa_code": "38300",
+    "area_name": "Pittsburgh, PA",
+    "wage_index": 0.9876,
+    "capital_wage_index": 0.9754
+  },
+  {
+    "cbsa_code": "38900",
+    "area_name": "Portland-Vancouver-Hillsboro, OR-WA",
+    "wage_index": 1.1543,
+    "capital_wage_index": 1.1321
+  },
+  {
+    "cbsa_code": "39580",
+    "area_name": "Raleigh, NC",
+    "wage_index": 0.9765,
+    "capital_wage_index": 0.9643
+  },
+  {
+    "cbsa_code": "40060",
+    "area_name": "Richmond, VA",
+    "wage_index": 0.9543,
+    "capital_wage_index": 0.9421
+  },
+  {
+    "cbsa_code": "40140",
+    "area_name": "Riverside-San Bernardino-Ontario, CA",
+    "wage_index": 1.1234,
+    "capital_wage_index": 1.1012
+  },
+  {
+    "cbsa_code": "40900",
+    "area_name": "Sacramento--Roseville--Arden-Arcade, CA",
+    "wage_index": 1.1876,
+    "capital_wage_index": 1.1654
+  },
+  {
+    "cbsa_code": "41180",
+    "area_name": "St. Louis, MO-IL",
+    "wage_index": 0.9543,
+    "capital_wage_index": 0.9421
+  },
+  {
+    "cbsa_code": "41620",
+    "area_name": "Salt Lake City, UT",
+    "wage_index": 0.9876,
+    "capital_wage_index": 0.9754
+  },
+  {
+    "cbsa_code": "41740",
+    "area_name": "San Diego-Carlsbad, CA",
+    "wage_index": 1.2345,
+    "capital_wage_index": 1.2123
+  },
+  {
+    "cbsa_code": "41860",
+    "area_name": "San Francisco-Oakland-Hayward, CA",
+    "wage_index": 1.5234,
+    "capital_wage_index": 1.4876
+  },
+  {
+    "cbsa_code": "41940",
+    "area_name": "San Jose-Sunnyvale-Santa Clara, CA",
+    "wage_index": 1.6543,
+    "capital_wage_index": 1.6123
+  },
+  {
+    "cbsa_code": "42660",
+    "area_name": "Seattle-Tacoma-Bellevue, WA",
+    "wage_index": 1.2876,
+    "capital_wage_index": 1.2543
+  },
+  {
+    "cbsa_code": "45300",
+    "area_name": "Tampa-St. Petersburg-Clearwater, FL",
+    "wage_index": 0.9765,
+    "capital_wage_index": 0.9643
+  },
+  {
+    "cbsa_code": "47900",
+    "area_name": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+    "wage_index": 1.1765,
+    "capital_wage_index": 1.1543
+  },
+  {
+    "cbsa_code": "RURAL_AL",
+    "area_name": "Rural Alabama",
+    "wage_index": 0.7654,
+    "capital_wage_index": 0.7543
+  },
+  {
+    "cbsa_code": "RURAL_AR",
+    "area_name": "Rural Arkansas",
+    "wage_index": 0.7432,
+    "capital_wage_index": 0.7321
+  },
+  {
+    "cbsa_code": "RURAL_IA",
+    "area_name": "Rural Iowa",
+    "wage_index": 0.8234,
+    "capital_wage_index": 0.8123
+  },
+  {
+    "cbsa_code": "RURAL_KS",
+    "area_name": "Rural Kansas",
+    "wage_index": 0.7876,
+    "capital_wage_index": 0.7765
+  },
+  {
+    "cbsa_code": "RURAL_MS",
+    "area_name": "Rural Mississippi",
+    "wage_index": 0.7123,
+    "capital_wage_index": 0.7012
+  },
+  {
+    "cbsa_code": "RURAL_MT",
+    "area_name": "Rural Montana",
+    "wage_index": 0.8543,
+    "capital_wage_index": 0.8432
+  },
+  {
+    "cbsa_code": "RURAL_NE",
+    "area_name": "Rural Nebraska",
+    "wage_index": 0.8012,
+    "capital_wage_index": 0.7901
+  },
+  {
+    "cbsa_code": "RURAL_ND",
+    "area_name": "Rural North Dakota",
+    "wage_index": 0.8765,
+    "capital_wage_index": 0.8654
+  },
+  {
+    "cbsa_code": "RURAL_OK",
+    "area_name": "Rural Oklahoma",
+    "wage_index": 0.7543,
+    "capital_wage_index": 0.7432
+  },
+  {
+    "cbsa_code": "RURAL_SD",
+    "area_name": "Rural South Dakota",
+    "wage_index": 0.8234,
+    "capital_wage_index": 0.8123
+  },
+  {
+    "cbsa_code": "RURAL_WV",
+    "area_name": "Rural West Virginia",
+    "wage_index": 0.7876,
+    "capital_wage_index": 0.7765
+  }
+]
